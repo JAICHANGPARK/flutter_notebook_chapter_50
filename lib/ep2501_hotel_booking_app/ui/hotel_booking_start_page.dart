@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class HotelBookingStartPage extends StatefulWidget {
   const HotelBookingStartPage({super.key});
@@ -41,6 +42,15 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                     color: Colors.white
                   ),
                 ),
+                Gap(32),
+                Container(decoration: ShapeDecoration(shape: StadiumBorder()),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: Colors.blue,
+                    ),
+                  ],
+                ),),
               ],
             ),
           ),
