@@ -44,7 +44,7 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                   height: 62,
                   decoration: ShapeDecoration(shape: StadiumBorder(),
                   color: Colors.black87),
-                  child: Row(
+                  child: Stack(
                     children: [
                       CircleAvatar(
                         backgroundColor: Colors.blue,
