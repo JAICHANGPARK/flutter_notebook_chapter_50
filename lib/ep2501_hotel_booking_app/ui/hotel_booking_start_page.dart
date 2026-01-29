@@ -19,7 +19,11 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
               fit: BoxFit.cover,
             ),
           ),
-          Positioned(child: Column(children: [])),
+          Positioned(
+              bottom: 24,
+              left: 16,
+              right: 16,
+              child: Column(children: [])),
         ],
       ),
     );
