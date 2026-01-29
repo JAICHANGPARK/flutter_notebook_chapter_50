@@ -29,13 +29,17 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                 Text(
                   "Explore new\nplasces without fear",
                   style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 28,
                     color: Colors.white,
                     fontWeight: .bold,
                   ),
                 ),
                 Text(
                   "Explore place apps mobile applications to help users navigate various destinations",
+                  style: TextStyle(
+                    fontSize: 10,
+                    color: Colors.white
+                  ),
                 ),
               ],
             ),
