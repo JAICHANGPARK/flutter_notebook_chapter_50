@@ -20,10 +20,18 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             ),
           ),
           Positioned(
-              bottom: 24,
-              left: 16,
-              right: 16,
-              child: Column(children: [])),
+            bottom: 24,
+            left: 16,
+            right: 16,
+            child: Column(
+              children: [
+                Text("Explore new\nplasces without fear"),
+                Text(
+                  "Explore place apps mobile applications to help users navigate various destinations",
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
