@@ -2,7 +2,7 @@
 
 ## EP2501
 - Bookly - Hotel Booking Mobile App
-- Ronas IT | UI/UX Team
+- Fanka for Korsa
 - https://dribbble.com/shots/26849539-E-commerce-Mobile-App-Design-Onboarding-Flow
 
 <img src="https://cdn.dribbble.com/userupload/45951798/file/f4b7f02c0a0936b21520462b25e95f0a.png?resize=2048x1536&vertical=center" alt=""/>
