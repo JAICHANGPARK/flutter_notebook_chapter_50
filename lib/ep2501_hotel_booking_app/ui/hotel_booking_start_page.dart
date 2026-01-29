@@ -46,12 +46,19 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                   color: Colors.black87),
                   child: Stack(
                     children: [
-                      CircleAvatar(
-                        backgroundColor: Colors.blue,
-                        radius: 24,
-                        child: Icon(Icons.explore_outlined),
-                        foregroundColor: Colors.white,
+                      Positioned(
+                        left: 8,
+                        bottom: 2,
+                        top: 2,
+                        child: CircleAvatar(
+                          backgroundColor: Colors.blue,
+                          radius: 24,
+                          child: Icon(Icons.explore_outlined),
+                          foregroundColor: Colors.white,
+                        ),
                       ),
+                      Positioned(child: Center(child: Text("Swipe to Explore"),),),
+                      
 
                     ],
                   ),
