@@ -1,7 +1,7 @@
 # flutter_notebook_chapter_50
 
 ## EP2501
-- E-commerce Mobile App Design Onboarding Flow
+- Bookly - Hotel Booking Mobile App
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/26849539-E-commerce-Mobile-App-Design-Onboarding-Flow
 
