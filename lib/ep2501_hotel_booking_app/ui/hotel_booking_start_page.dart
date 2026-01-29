@@ -37,20 +37,22 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                 ),
                 Text(
                   "Explore place apps mobile applications to help users navigate various destinations",
-                  style: TextStyle(
-                    fontSize: 10,
-                    color: Colors.white
-                  ),
+                  style: TextStyle(fontSize: 10, color: Colors.white),
                 ),
                 Gap(32),
-                Container(decoration: ShapeDecoration(shape: StadiumBorder()),
-                child: Row(
-                  children: [
-                    CircleAvatar(
-                      backgroundColor: Colors.blue,
-                    ),
-                  ],
-                ),),
+                Container(
+                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  child: Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundColor: Colors.blue,
+                        radius: 24,
+                        child: Icon(Icons.explore_outlined),
+                        foregroundColor: Colors.white,
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
