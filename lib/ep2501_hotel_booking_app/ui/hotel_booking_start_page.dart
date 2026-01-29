@@ -11,6 +11,12 @@ class HotelBookingStartPage extends StatefulWidget {
 class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
