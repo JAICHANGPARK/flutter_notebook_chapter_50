@@ -24,7 +24,14 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(decoration: BoxDecoration()),
+            top: 0,
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Colors.black12, Colors.transparent],
+                ),
+              ),
+            ),
           ),
           Positioned(
             bottom: 52,
