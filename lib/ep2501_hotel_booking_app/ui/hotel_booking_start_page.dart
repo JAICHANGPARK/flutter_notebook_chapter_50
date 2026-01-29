@@ -42,8 +42,10 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                 Gap(32),
                 Container(
                   height: 62,
-                  decoration: ShapeDecoration(shape: StadiumBorder(),
-                  color: Colors.black87),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Color.fromRGBO(46, 49, 48, 1),
+                  ),
                   child: Stack(
                     children: [
                       Positioned(
@@ -57,9 +59,14 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                           foregroundColor: Colors.white,
                         ),
                       ),
-                      Positioned(child: Center(child: Text("Swipe to Explore"),),),
-                      
-
+                      Positioned(
+                        child: Center(
+                          child: Text(
+                            "Swipe to Explore",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
