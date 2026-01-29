@@ -21,6 +21,12 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             ),
           ),
           Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(decoration: BoxDecoration()),
+          ),
+          Positioned(
             bottom: 52,
             left: 16,
             right: 16,
