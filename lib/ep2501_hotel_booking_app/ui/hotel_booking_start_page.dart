@@ -49,12 +49,12 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                   child: Stack(
                     children: [
                       Positioned(
-                        left: 8,
-                        bottom: 2,
-                        top: 2,
+                        left: 6,
+                        bottom: 0,
+                        top: 0,
                         child: CircleAvatar(
-                          backgroundColor: Colors.blue,
-                          radius: 24,
+                          backgroundColor: Colors.blueAccent,
+                          radius: 26,
                           child: Icon(Icons.explore_outlined),
                           foregroundColor: Colors.white,
                         ),
@@ -73,12 +73,18 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                         top: 0,
                         child: Row(
                           children: [
-                            Icon(Icons.keyboard_arrow_right,
-                            color: Colors.grey,),
-                            Icon(Icons.keyboard_arrow_right,
-                            color: Colors.white,),
-                            Icon(Icons.keyboard_arrow_right,
-                            color: Colors.white,),
+                            Icon(
+                              Icons.keyboard_arrow_right,
+                              color: Colors.grey,
+                            ),
+                            Icon(
+                              Icons.keyboard_arrow_right,
+                              color: Colors.white,
+                            ),
+                            Icon(
+                              Icons.keyboard_arrow_right,
+                              color: Colors.white,
+                            ),
                           ],
                         ),
                       ),
