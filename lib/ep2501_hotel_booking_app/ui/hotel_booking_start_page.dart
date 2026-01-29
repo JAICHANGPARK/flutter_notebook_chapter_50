@@ -24,8 +24,16 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             left: 16,
             right: 16,
             child: Column(
+              crossAxisAlignment: .start,
               children: [
-                Text("Explore new\nplasces without fear"),
+                Text(
+                  "Explore new\nplasces without fear",
+                  style: TextStyle(
+                    fontSize: 24,
+                    color: Colors.white,
+                    fontWeight: .bold,
+                  ),
+                ),
                 Text(
                   "Explore place apps mobile applications to help users navigate various destinations",
                 ),
