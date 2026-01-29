@@ -41,7 +41,9 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                 ),
                 Gap(32),
                 Container(
-                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  height: 42,
+                  decoration: ShapeDecoration(shape: StadiumBorder(),
+                  color: Colors.black26),
                   child: Row(
                     children: [
                       CircleAvatar(
@@ -50,6 +52,7 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                         child: Icon(Icons.explore_outlined),
                         foregroundColor: Colors.white,
                       ),
+
                     ],
                   ),
                 ),
