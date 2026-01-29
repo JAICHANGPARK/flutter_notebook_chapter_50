@@ -28,6 +28,7 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
+                  begin: .bottomCenter,
                   colors: [Colors.black45, Colors.transparent],
                 ),
               ),
