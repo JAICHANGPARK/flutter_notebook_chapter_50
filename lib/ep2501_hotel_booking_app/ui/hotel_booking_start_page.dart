@@ -21,7 +21,7 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
             ),
           ),
           Positioned(
-            bottom: 24,
+            bottom: 52,
             left: 16,
             right: 16,
             child: Column(
@@ -30,7 +30,7 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                 Text(
                   "Explore new\nplasces without fear",
                   style: TextStyle(
-                    fontSize: 28,
+                    fontSize: 32,
                     color: Colors.white,
                     fontWeight: .bold,
                   ),
