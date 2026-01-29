@@ -72,11 +72,13 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                         bottom: 0,
                         top: 0,
                         child: Row(
-                      
                           children: [
-                            Icon(Icons.keyboard_arrow_right),
-                            Icon(Icons.keyboard_arrow_right),
-                            Icon(Icons.keyboard_arrow_right),
+                            Icon(Icons.keyboard_arrow_right,
+                            color: Colors.grey,),
+                            Icon(Icons.keyboard_arrow_right,
+                            color: Colors.white,),
+                            Icon(Icons.keyboard_arrow_right,
+                            color: Colors.white,),
                           ],
                         ),
                       ),
