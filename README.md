@@ -5,6 +5,6 @@
 - Fanka for Korsa
 - https://dribbble.com/shots/27026804-Bookly-Hotel-Booking-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/45951798/file/f4b7f02c0a0936b21520462b25e95f0a.png?resize=2048x1536&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46534667/file/0216178ab2dec99df86bb38ff8ba6a42.png?resize=1905x1429&vertical=center" alt=""/>
 
 A new Flutter project.
