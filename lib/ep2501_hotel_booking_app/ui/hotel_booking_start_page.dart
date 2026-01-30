@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2501_hotel_booking_app/ui/hotel_booking_home_page.dart';
 import 'package:gap/gap.dart';
 
 class HotelBookingStartPage extends StatefulWidget {
@@ -56,55 +57,60 @@ class _HotelBookingStartPageState extends State<HotelBookingStartPage> {
                   style: TextStyle(fontSize: 10, color: Colors.white),
                 ),
                 Gap(32),
-                Container(
-                  height: 62,
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Color.fromRGBO(46, 49, 48, 1),
-                  ),
-                  child: Stack(
-                    children: [
-                      Positioned(
-                        left: 6,
-                        bottom: 0,
-                        top: 0,
-                        child: CircleAvatar(
-                          backgroundColor: Colors.blueAccent,
-                          radius: 26,
-                          child: Icon(Icons.explore_outlined),
-                          foregroundColor: Colors.white,
-                        ),
-                      ),
-                      Positioned(
-                        child: Center(
-                          child: Text(
-                            "Swipe to Explore",
-                            style: TextStyle(color: Colors.white),
+                GestureDetector(
+                  onTap: (){
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context)=> HotelBookingHomePage()));
+                  },
+                  child: Container(
+                    height: 62,
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(46, 49, 48, 1),
+                    ),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 6,
+                          bottom: 0,
+                          top: 0,
+                          child: CircleAvatar(
+                            backgroundColor: Colors.blueAccent,
+                            radius: 26,
+                            child: Icon(Icons.explore_outlined),
+                            foregroundColor: Colors.white,
                           ),
                         ),
-                      ),
-                      Positioned(
-                        right: 16,
-                        bottom: 0,
-                        top: 0,
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.keyboard_arrow_right,
-                              color: Colors.grey,
+                        Positioned(
+                          child: Center(
+                            child: Text(
+                              "Swipe to Explore",
+                              style: TextStyle(color: Colors.white),
                             ),
-                            Icon(
-                              Icons.keyboard_arrow_right,
-                              color: Colors.white,
-                            ),
-                            Icon(
-                              Icons.keyboard_arrow_right,
-                              color: Colors.white,
-                            ),
-                          ],
+                          ),
                         ),
-                      ),
-                    ],
+                        Positioned(
+                          right: 16,
+                          bottom: 0,
+                          top: 0,
+                          child: Row(
+                            children: [
+                              Icon(
+                                Icons.keyboard_arrow_right,
+                                color: Colors.grey,
+                              ),
+                              Icon(
+                                Icons.keyboard_arrow_right,
+                                color: Colors.white,
+                              ),
+                              Icon(
+                                Icons.keyboard_arrow_right,
+                                color: Colors.white,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ],
