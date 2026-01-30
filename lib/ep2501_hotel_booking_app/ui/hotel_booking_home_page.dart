@@ -33,13 +33,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           ],
                         ),
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.grey[200]!,
-                        child: HugeIcon(
-                          icon: HugeIcons.strokeRoundedNotification01,
-                        ),
-                      ),
+
                     ],
+                  ),
+                ),
+                CircleAvatar(
+                  backgroundColor: Colors.grey[200]!,
+                  child: HugeIcon(
+                    icon: HugeIcons.strokeRoundedNotification01,
                   ),
                 ),
               ],
