@@ -71,7 +71,16 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             ),
             Container(
               height: 320,
-            )
+              child: Placeholder(),
+            ),
+          ],
+        ),
+      ),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        child: Row(
+          children: [
+
           ],
         ),
       ),
