@@ -15,6 +15,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
+          spacing: 16,
           crossAxisAlignment: .start,
           children: [
             Row(
@@ -48,6 +49,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             ),
             Container(
               height: 52,
+              child: Placeholder(),
+            ),
+            Container(
+              height: 320,
               child: Placeholder(),
             ),
           ],
