@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class HotelBookingHomePage extends StatefulWidget {
   const HotelBookingHomePage({super.key});
@@ -34,9 +35,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ),
                       CircleAvatar(
                         backgroundColor: Colors.grey[200]!,
-                        child: ,
+                        child: HugeIcon(
+                          icon: HugeIcons.strokeRoundedNotification01,
+                        ),
                       ),
-
                     ],
                   ),
                 ),
