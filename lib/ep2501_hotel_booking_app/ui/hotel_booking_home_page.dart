@@ -18,35 +18,40 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           spacing: 16,
           crossAxisAlignment: .start,
           children: [
-            Row(
+            Column(
               children: [
-                CircleAvatar(),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Welcome, Dream"),
-                      Row(
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Icon(Icons.location_on),
-                          Text("Seoul, South Korea"),
+                          Text("Welcome, Dream"),
+                          Row(
+                            children: [
+                              Icon(Icons.location_on),
+                              Text("Seoul, South Korea"),
+                            ],
+                          ),
                         ],
                       ),
-                    ],
-                  ),
+                    ),
+                    CircleAvatar(
+                      backgroundColor: Colors.grey[200]!,
+                      child: HugeIcon(
+                        icon: HugeIcons.strokeRoundedNotification01,
+                      ),
+                    ),
+                  ],
                 ),
-                CircleAvatar(
-                  backgroundColor: Colors.grey[200]!,
-                  child: HugeIcon(
-                    icon: HugeIcons.strokeRoundedNotification01,
-                  ),
+                Container(
+                  height: 62,
+                  child: Placeholder(),
                 ),
               ],
             ),
-            Container(
-              height: 62,
-              child: Placeholder(),
-            ),
+
             Container(
               height: 52,
               child: Placeholder(),
