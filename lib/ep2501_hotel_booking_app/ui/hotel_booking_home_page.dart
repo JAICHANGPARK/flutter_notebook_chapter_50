@@ -65,6 +65,13 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                 Icon(Icons.keyboard_arrow_right),
               ],
             ),
+            Container(
+              height: 62,
+              child: Placeholder(),
+            ),
+            Container(
+              height: 320,
+            )
           ],
         ),
       ),
