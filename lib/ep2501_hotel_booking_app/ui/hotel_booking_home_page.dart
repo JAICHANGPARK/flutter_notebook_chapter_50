@@ -24,12 +24,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Welcome, Dream"),
-                      Row(
-                        children: [
-                          Icon(Icons.location_on),
-                          Text("Seoul, South Korea"),
-                        ],
+                      Expanded(
+                        child: Row(
+                          children: [
+                            Icon(Icons.location_on),
+                            Text("Seoul, South Korea"),
+                          ],
+                        ),
                       ),
+                      CircleAvatar(
+                        backgroundColor: Colors.grey[200]!,
+                        child: Huge,
+                      ),
+
                     ],
                   ),
                 ),
