@@ -50,21 +50,20 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ),
                     ],
                   ),
-                  Container(
-                    height: 62,
-                    child: Placeholder(),
-                  ),
+                  Container(height: 62, child: Placeholder()),
                 ],
               ),
             ),
 
-            Container(
-              height: 52,
-              child: Placeholder(),
-            ),
-            Container(
-              height: 320,
-              child: Placeholder(),
+            Container(height: 52, child: Placeholder()),
+            Container(height: 320, child: Placeholder()),
+            Row(
+              children: [
+                Text("Group tours"),
+                Spacer(),
+                Text("See more"),
+                Icon(Icons.keyboard_arrow_right),
+              ],
             ),
           ],
         ),
