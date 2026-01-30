@@ -25,6 +25,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                 spacing: 16,
                 children: [
                   Row(
+                    spacing: 12,
                     children: [
                       CircleAvatar(),
                       Expanded(
