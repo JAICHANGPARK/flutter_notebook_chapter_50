@@ -12,10 +12,31 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-
-        ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: .start,
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Welcome, Dream"),
+                      Row(
+                        children: [
+                          Icon(Icons.location_on),
+                          Text("Seoul, South Korea"),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
