@@ -19,6 +19,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           crossAxisAlignment: .start,
           children: [
             Column(
+              crossAxisAlignment: .start,
+              spacing: 16,
               children: [
                 Row(
                   children: [
