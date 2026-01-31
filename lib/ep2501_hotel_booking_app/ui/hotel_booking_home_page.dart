@@ -88,7 +88,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   spacing: 16,
                   children: [
                     Container(
-                      padding: EdgeInsets.only(left: 16),
+                      padding: EdgeInsets.only(left: 0, right: 0),
+                      margin: EdgeInsets.symmetric(horizontal: 16),
                       height: 42,
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
