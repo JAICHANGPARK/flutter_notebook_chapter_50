@@ -87,11 +87,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
-            IconButton(onPressed: (){}, icon: Icon(Icons.map_sharp)),
-            IconButton(onPressed: (){}, icon: Icon(Icons.bookmark_border)),
-            IconButton(onPressed: (){}, icon: Icon(Icons.list_alt)),
-            IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined)),
+            IconButton(onPressed: (){}, icon: Icon(Icons.home_filled),
+            iconSize: 32,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.map_sharp),iconSize: 32,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.bookmark_border),iconSize: 32,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.list_alt),iconSize: 32,),
+            IconButton(onPressed: (){}, icon: Icon(Icons.person_2_outlined),iconSize: 32,),
           ],
         ),
       ),
