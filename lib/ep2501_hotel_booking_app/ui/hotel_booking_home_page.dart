@@ -80,6 +80,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
         color: Colors.white,
         child: Row(
           children: [
+            IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
+            
 
           ],
         ),
