@@ -56,7 +56,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(248, 250, 251, 1),
                     ),
-                    child: Row(children: []),
+                    child: Row(children: [
+                      HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                    ]),
                   ),
                 ],
               ),
