@@ -52,7 +52,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   ),
                   Container(
                     height: 62,
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(248, 250, 251, 1),
+                    ),
                     child: Row(children: []),
                   ),
                 ],
