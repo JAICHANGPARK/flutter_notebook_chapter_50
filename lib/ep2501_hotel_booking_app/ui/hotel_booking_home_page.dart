@@ -86,7 +86,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                 child: Column(
                   children: [
                     Container(
-                      height: 52,
+                      height: 48,
                       child: ListView(
                         scrollDirection: .horizontal,
                         children: [
