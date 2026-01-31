@@ -59,6 +59,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     padding: EdgeInsets.symmetric(horizontal: 16,
                     ),
                     child: Row(
+                      spacing: 12,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                         Expanded(child: TextField(
