@@ -15,7 +15,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          spacing: 16,
+          spacing: 0,
           crossAxisAlignment: .start,
           children: [
             Padding(
@@ -83,14 +83,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             ),
             Expanded(
               child: SingleChildScrollView(
+                padding: .zero,
                 child: Column(
+
+                  spacing: 16,
                   children: [
                     Container(
+                      padding: EdgeInsets.only(left: 16),
                       height: 48,
                       child: ListView(
                         scrollDirection: .horizontal,
                         children: [
                           Container(
+                            padding: EdgeInsets.symmetric(horizontal: 16),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.blue,
