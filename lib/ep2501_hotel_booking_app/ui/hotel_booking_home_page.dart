@@ -85,14 +85,15 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
               child: SingleChildScrollView(
                 padding: .zero,
                 child: Column(
-
                   spacing: 16,
                   children: [
                     Container(
                       padding: EdgeInsets.only(left: 16),
                       height: 42,
-                      decoration: ShapeDecoration(shape: StadiumBorder(),
-                        color: Color.fromRGBO(248, 250, 251, 1),),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(248, 250, 251, 1),
+                      ),
                       child: ListView(
                         scrollDirection: .horizontal,
                         children: [
@@ -118,7 +119,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Center(
                               child: Text(
                                 "Hotel",
-                                style: TextStyle(color: Colors.grey),
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontWeight: .bold,
+                                ),
                               ),
                             ),
                           ),
@@ -131,7 +135,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Center(
                               child: Text(
                                 "Mountain",
-                                style: TextStyle(color: Colors.grey),
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontWeight: .bold,
+                                ),
                               ),
                             ),
                           ),
@@ -144,7 +151,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Center(
                               child: Text(
                                 "Beach",
-                                style: TextStyle(color: Colors.grey),
+                                style: TextStyle(
+                                  color: Colors.grey,
+                                  fontWeight: .bold,
+                                ),
                               ),
                             ),
                           ),
