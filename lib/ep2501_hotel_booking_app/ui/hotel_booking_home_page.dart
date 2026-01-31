@@ -27,9 +27,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   Row(
                     spacing: 12,
                     children: [
-                      CircleAvatar(
-                        radius: 26,
-                      ),
+                      CircleAvatar(radius: 26),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -87,7 +85,23 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
-                    Container(height: 52, child: Placeholder()),
+                    Container(
+                      height: 52,
+                      child: ListView(
+                        children: [
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.blue,
+                            ),
+                            child: Text(
+                              "Homestay",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                     Container(height: 320, child: Placeholder()),
                     Row(
                       children: [
