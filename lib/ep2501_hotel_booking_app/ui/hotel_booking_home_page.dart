@@ -130,7 +130,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             ),
                             child: Center(
                               child: Text(
-                                "Montain",
+                                "Mountain",
                                 style: TextStyle(color: Colors.grey),
                               ),
                             ),
