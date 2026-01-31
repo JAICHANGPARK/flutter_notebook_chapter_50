@@ -15,7 +15,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          spacing: 0,
+          spacing: 8,
           crossAxisAlignment: .start,
           children: [
             Padding(
