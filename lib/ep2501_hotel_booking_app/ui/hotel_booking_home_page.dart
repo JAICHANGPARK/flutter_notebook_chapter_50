@@ -28,7 +28,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     spacing: 12,
                     children: [
                       CircleAvatar(
-                        radius: 24,
+                        radius: 26,
                       ),
                       Expanded(
                         child: Column(
@@ -48,6 +48,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         ),
                       ),
                       CircleAvatar(
+                        radius: 26,
                         backgroundColor: Colors.grey[200]!,
                         child: HugeIcon(
                           icon: HugeIcons.strokeRoundedNotification01,
