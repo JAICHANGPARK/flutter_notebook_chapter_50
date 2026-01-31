@@ -81,6 +81,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
         child: Row(
           children: [
             IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
+            IconButton(onPressed: (){}, icon: Icon(Icons.map_sharp)),
             
 
           ],
