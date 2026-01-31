@@ -27,12 +27,17 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   Row(
                     spacing: 12,
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 24,
+                      ),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Welcome, Dream"),
+                            Text(
+                              "Welcome, Dream",
+                              style: TextStyle(fontSize: 20, fontWeight: .bold),
+                            ),
                             Row(
                               children: [
                                 Icon(Icons.location_on),
@@ -56,18 +61,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(248, 250, 251, 1),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 16,
-                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       spacing: 12,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                        Expanded(child: TextField(
-                          decoration: InputDecoration(
-                            border: .none,
-                            hintText: "Search..."
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              border: .none,
+                              hintText: "Search...",
+                            ),
                           ),
-                        )),
+                        ),
                         IconButton(onPressed: () {}, icon: Icon(Icons.tune)),
                       ],
                     ),
