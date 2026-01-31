@@ -59,7 +59,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     child: Row(
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                        Expanded(child: TextField()),
+                        Expanded(child: TextField(
+                          decoration: InputDecoration(
+                            border: .none,
+                            hintText: "Search..."
+                          ),
+                        )),
                         IconButton(onPressed: () {}, icon: Icon(Icons.tune)),
                       ],
                     ),
