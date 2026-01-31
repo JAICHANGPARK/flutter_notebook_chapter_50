@@ -122,6 +122,32 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               ),
                             ),
                           ),
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 20),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              // color: Colors.blue,
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Montain",
+                                style: TextStyle(color: Colors.grey),
+                              ),
+                            ),
+                          ),
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 20),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              // color: Colors.blue,
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Beach",
+                                style: TextStyle(color: Colors.grey),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     ),
