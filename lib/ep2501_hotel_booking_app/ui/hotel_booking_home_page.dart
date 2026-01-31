@@ -89,7 +89,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
             IconButton(onPressed: (){}, icon: Icon(Icons.map_sharp)),
             IconButton(onPressed: (){}, icon: Icon(Icons.bookmark_border)),
-
+            IconButton(onPressed: (){}, icon: Icon(Icons.list_alt)),
           ],
         ),
       ),
