@@ -49,7 +49,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ),
                       CircleAvatar(
                         radius: 26,
-                        backgroundColor: Colors.grey[200]!,
+                        backgroundColor: Colors.grey[100]!,
                         child: HugeIcon(
                           icon: HugeIcons.strokeRoundedNotification01,
                         ),
