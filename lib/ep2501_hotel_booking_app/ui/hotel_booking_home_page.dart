@@ -88,15 +88,18 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     Container(
                       height: 52,
                       child: ListView(
+                        scrollDirection: .horizontal,
                         children: [
                           Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.blue,
                             ),
-                            child: Text(
-                              "Homestay",
-                              style: TextStyle(color: Colors.white),
+                            child: Center(
+                              child: Text(
+                                "Homestay",
+                                style: TextStyle(color: Colors.white),
+                              ),
                             ),
                           ),
                         ],
