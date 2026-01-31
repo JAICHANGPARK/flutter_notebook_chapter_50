@@ -91,9 +91,23 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     Container(
                       padding: EdgeInsets.only(left: 16),
                       height: 42,
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
                       child: ListView(
                         scrollDirection: .horizontal,
                         children: [
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 20),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.blue,
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Homestay",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ),
+                          ),
                           Container(
                             padding: EdgeInsets.symmetric(horizontal: 20),
                             decoration: ShapeDecoration(
