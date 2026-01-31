@@ -54,7 +54,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                 ],
               ),
             ),
-
+            Expanded(child: SingleChildScrollView()),
             Container(height: 52, child: Placeholder()),
             Container(height: 320, child: Placeholder()),
             Row(
@@ -82,7 +82,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           children: [
             IconButton(onPressed: (){}, icon: Icon(Icons.home_filled)),
             IconButton(onPressed: (){}, icon: Icon(Icons.map_sharp)),
-            
+            IconButton(onPressed: (){}, icon: Icon(Icons.bookmark_border)),
 
           ],
         ),
