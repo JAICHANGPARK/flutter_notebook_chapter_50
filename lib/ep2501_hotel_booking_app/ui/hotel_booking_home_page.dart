@@ -186,6 +186,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                   ),
                                 ),
+                                Expanded(child: Column(children: [
+                                  Row(
+                                    children: [
+                                      Text("Homestay Pollos"),
+                                      Text("")
+                                    ],
+                                  )
+                                ],))
                               ],
                             ),
                           );
