@@ -248,8 +248,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             style: TextStyle(fontSize: 20, fontWeight: .bold),
                           ),
                           Spacer(),
-                          Text("See more"),
-                          Icon(Icons.keyboard_arrow_right),
+                          Text(
+                            "See more",
+                            style: TextStyle(
+                              fontWeight: .bold,
+                              color: Colors.blue,
+                            ),
+                          ),
+                          Icon(Icons.keyboard_arrow_right, color: Colors.blue),
                         ],
                       ),
                     ),
