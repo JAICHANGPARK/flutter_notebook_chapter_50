@@ -206,6 +206,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       ],
                                     ),
                                     Row(
+                                      spacing: 4,
                                       children: [
                                         Icon(
                                           Icons.location_on,
@@ -222,7 +223,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.blue,
-                                            fontSize: 20,
+                                            fontSize: 18,
                                           ),
                                         ),
                                         Text("/Days"),
