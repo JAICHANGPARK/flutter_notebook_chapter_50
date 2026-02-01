@@ -197,12 +197,16 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                           Icon(Icons.star),
                                         ],
                                       ),
-                                      Icon(
-                                        Icons.location_on,
-                                        size: 16,
-                                        color: Colors.green,
+                                      Row(
+                                        children: [
+                                          Icon(
+                                            Icons.location_on,
+                                            size: 16,
+                                            color: Colors.green,
+                                          ),
+                                          Text("Bali, Indonesia"),
+                                        ],
                                       ),
-                                      
                                     ],
                                   ),
                                 ),
