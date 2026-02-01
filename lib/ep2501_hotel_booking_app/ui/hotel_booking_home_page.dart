@@ -217,9 +217,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                     Row(
                                       children: [
-                                        
+                                        Text("\$100k"),
+                                        Text("/Days"),
+                                        Spacer(),
+                                        Icon(Icons.keyboard_arrow_right),
                                       ],
-                                    )
+                                    ),
                                   ],
                                 ),
                               ],
