@@ -215,6 +215,11 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                         Text("Bali, Indonesia"),
                                       ],
                                     ),
+                                    Row(
+                                      children: [
+                                        
+                                      ],
+                                    )
                                   ],
                                 ),
                               ],
