@@ -186,16 +186,26 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                   ),
                                 ),
-                                Expanded(child: Column(children: [
-                                  Row(
+                                Expanded(
+                                  child: Column(
                                     children: [
-                                      Text("Homestay Pollos"),
-                                      Spacer(),
-                                      Text("4.8"),
-                                      Icon(Icons.star)
+                                      Row(
+                                        children: [
+                                          Text("Homestay Pollos"),
+                                          Spacer(),
+                                          Text("4.8"),
+                                          Icon(Icons.star),
+                                        ],
+                                      ),
+                                      Icon(
+                                        Icons.location_on,
+                                        size: 16,
+                                        color: Colors.green,
+                                      ),
+                                      
                                     ],
                                   ),
-                                ],))
+                                ),
                               ],
                             ),
                           );
