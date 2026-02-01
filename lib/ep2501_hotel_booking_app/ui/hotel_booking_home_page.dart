@@ -239,16 +239,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         },
                       ),
                     ),
-                    Row(
-                      children: [
-                        Text(
-                          "Group tours",
-                          style: TextStyle(fontSize: 20, fontWeight: .bold),
-                        ),
-                        Spacer(),
-                        Text("See more"),
-                        Icon(Icons.keyboard_arrow_right),
-                      ],
+                    Padding(
+                      padding: const .symmetric(horizontal: 16),
+                      child: Row(
+                        children: [
+                          Text(
+                            "Group tours",
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          ),
+                          Spacer(),
+                          Text("See more"),
+                          Icon(Icons.keyboard_arrow_right),
+                        ],
+                      ),
                     ),
                     Container(height: 62, child: Placeholder()),
                     Container(height: 320, child: Placeholder()),
