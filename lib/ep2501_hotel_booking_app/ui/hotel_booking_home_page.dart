@@ -173,9 +173,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
                               border: Border.all(color: Colors.grey[100]!),
+                              color: Colors.grey[300],
                             ),
                             width: 240,
-                            child: Placeholder(),
+                            child: Column(children: []),
                           );
                         },
                       ),
