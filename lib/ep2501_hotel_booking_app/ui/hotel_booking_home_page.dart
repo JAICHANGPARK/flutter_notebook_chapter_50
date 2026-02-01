@@ -162,7 +162,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         ],
                       ),
                     ),
-                    Container(height: 320, child: Placeholder()),
+                    Container(
+                      height: 320,
+                      child: ListView.builder(itemBuilder: (context, index) {
+                        return Container(
+                          width: 200,
+                        );
+                      }),
+                    ),
                     Row(
                       children: [
                         Text("Group tours"),
