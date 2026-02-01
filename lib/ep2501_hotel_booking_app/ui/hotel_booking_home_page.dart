@@ -170,7 +170,13 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             margin: .only(right: 16),
-                            width: 240, child: Placeholder(),);
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(color: Colors.grey[100]!),
+                            ),
+                            width: 240,
+                            child: Placeholder(),
+                          );
                         },
                       ),
                     ),
