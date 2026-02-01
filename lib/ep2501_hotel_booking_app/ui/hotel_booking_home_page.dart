@@ -163,11 +163,11 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ),
                     ),
                     Container(
-                      height: 320,
+                      height: 280,
                       child: ListView.builder(
                         scrollDirection: .horizontal,
                         itemBuilder: (context, index) {
-                          return Container(width: 200);
+                          return Container(width: 200, child: Placeholder(),);
                         },
                       ),
                     ),
