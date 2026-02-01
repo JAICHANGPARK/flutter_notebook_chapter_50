@@ -187,34 +187,32 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                   ),
                                 ),
-                                Expanded(
-                                  child: Column(
-                                    spacing: 12,
-                                    children: [
-                                      Row(
-                                        children: [
-                                          Text(
-                                            "Homestay Pollos",
-                                            style: TextStyle(fontWeight: .bold,
-                                            fontSize: 16,),
-                                          ),
-                                          Spacer(),
-                                          Text("4.8"),
-                                          Icon(Icons.star, size: 16),
-                                        ],
-                                      ),
-                                      Row(
-                                        children: [
-                                          Icon(
-                                            Icons.location_on,
-                                            size: 16,
-                                            color: Colors.green,
-                                          ),
-                                          Text("Bali, Indonesia"),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
+                                Column(
+                                  spacing: 8,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text(
+                                          "Homestay Pollos",
+                                          style: TextStyle(fontWeight: .bold,
+                                          fontSize: 16,),
+                                        ),
+                                        Spacer(),
+                                        Text("4.8"),
+                                        Icon(Icons.star, size: 16),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.location_on,
+                                          size: 16,
+                                          color: Colors.green,
+                                        ),
+                                        Text("Bali, Indonesia"),
+                                      ],
+                                    ),
+                                  ],
                                 ),
                               ],
                             ),
