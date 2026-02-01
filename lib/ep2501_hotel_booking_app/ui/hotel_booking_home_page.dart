@@ -176,7 +176,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               color: Colors.grey[100],
                             ),
                             width: 220,
-                            padding: EdgeInsets.all(12),
+                            padding: EdgeInsets.all(8),
                             child: Column(
                               spacing: 12,
                               children: [
@@ -241,7 +241,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     ),
                     Row(
                       children: [
-                        Text("Group tours"),
+                        Text(
+                          "Group tours",
+                          style: TextStyle(fontSize: 20, fontWeight: .bold),
+                        ),
                         Spacer(),
                         Text("See more"),
                         Icon(Icons.keyboard_arrow_right),
