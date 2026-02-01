@@ -163,7 +163,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ),
                     ),
                     Container(
-                      height: 280,
+                      height: 260,
                       padding: EdgeInsets.only(left: 16),
                       child: ListView.builder(
                         scrollDirection: .horizontal,
@@ -172,11 +172,22 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             margin: .only(right: 16),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
-                              border: Border.all(color: Colors.grey[100]!),
-                              color: Colors.grey[300],
+                              border: Border.all(color: Colors.grey[200]!),
+                              color: Colors.grey[100],
                             ),
-                            width: 240,
-                            child: Column(children: []),
+                            width: 220,
+                            padding: EdgeInsets.all(12),
+                            child: Column(
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.teal,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
