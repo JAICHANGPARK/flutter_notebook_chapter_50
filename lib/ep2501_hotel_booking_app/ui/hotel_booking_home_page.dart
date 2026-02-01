@@ -190,9 +190,11 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   Row(
                                     children: [
                                       Text("Homestay Pollos"),
-                                      Text("")
+                                      Spacer(),
+                                      Text("4.8"),
+                                      Icon(Icons.star)
                                     ],
-                                  )
+                                  ),
                                 ],))
                               ],
                             ),
