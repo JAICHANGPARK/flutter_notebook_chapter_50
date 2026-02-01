@@ -184,6 +184,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   child: Container(
                                     decoration: BoxDecoration(
                                       color: Colors.teal,
+                                      borderRadius: .circular(12),
                                     ),
                                   ),
                                 ),
@@ -194,8 +195,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       children: [
                                         Text(
                                           "Homestay Pollos",
-                                          style: TextStyle(fontWeight: .bold,
-                                          fontSize: 16,),
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                         Spacer(),
                                         Text("4.8"),
