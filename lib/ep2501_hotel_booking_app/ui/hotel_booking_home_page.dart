@@ -259,7 +259,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         ],
                       ),
                     ),
-                    Container(height: 62, child: Placeholder()),
+                    Container(height: 140, child: Placeholder()),
                     Container(height: 320, child: Placeholder()),
                   ],
                 ),
