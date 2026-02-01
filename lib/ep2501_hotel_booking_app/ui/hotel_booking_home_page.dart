@@ -217,7 +217,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                     Row(
                                       children: [
-                                        Text("\$100k"),
+                                        Text(
+                                          "\$100k",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.blue,
+                                            fontSize: 20,
+                                          ),
+                                        ),
                                         Text("/Days"),
                                         Spacer(),
                                         Icon(Icons.keyboard_arrow_right),
