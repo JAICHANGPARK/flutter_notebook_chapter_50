@@ -178,6 +178,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             width: 220,
                             padding: EdgeInsets.all(12),
                             child: Column(
+                              spacing: 12,
                               children: [
                                 Expanded(
                                   child: Container(
@@ -188,12 +189,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                 ),
                                 Expanded(
                                   child: Column(
+                                    spacing: 12,
                                     children: [
                                       Row(
                                         children: [
                                           Text(
                                             "Homestay Pollos",
-                                            style: TextStyle(fontWeight: .bold),
+                                            style: TextStyle(fontWeight: .bold,
+                                            fontSize: 16,),
                                           ),
                                           Spacer(),
                                           Text("4.8"),
