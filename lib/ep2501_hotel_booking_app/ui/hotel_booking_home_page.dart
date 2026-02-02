@@ -269,7 +269,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     ),
                     Container(
                       decoration: BoxDecoration(color: Colors.grey[100]!),
-                      height: 140,
+                      // height: 140,
                       padding: EdgeInsets.all(12),
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
@@ -311,23 +311,29 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                 ),
                                 Row(
                                   children: [
-                                    // Stack(
-                                    //   children: List.generate(3, (idx) {
-                                    //     return Positioned(
-                                    //       left: 16.0 * idx,
-                                    //       bottom: 0,
-                                    //       top: 0,
-                                    //       child: CircleAvatar(
-                                    //         backgroundColor: Colors.blue,
-                                    //       ),
-                                    //     );
-                                    //   }),
-                                    // ),
+                                    SizedBox(
+                                      height: 42,
+                                      width: 100,
+                                      child: Stack(
+                                        children: List.generate(3, (idx) {
+                                          return Positioned(
+                                            left: 16.0 * idx,
+                                            bottom: 0,
+                                            top: 0,
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.blue,
+                                            ),
+                                          );
+                                        }),
+                                      ),
+                                    ),
                                     Text("+14"),
+                                    Spacer(),
+                                    Text("75%"),
                                   ],
                                 ),
 
-                                Text("75%"),
+
                               ],
                             ),
                           ),
