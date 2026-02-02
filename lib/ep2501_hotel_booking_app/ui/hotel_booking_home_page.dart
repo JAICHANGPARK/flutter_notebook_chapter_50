@@ -272,7 +272,16 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       height: 140,
                       padding: EdgeInsets.all(8),
                       margin: EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(children: []),
+                      child: Row(children: [
+                        Container(
+                          height: 140,
+                          width: 140,
+                          child: Placeholder(),
+                        ),
+                        Expanded(child: Column(children: [
+
+                        ],))
+                      ]),
                     ),
                     Container(height: 320, child: Placeholder()),
                   ],
