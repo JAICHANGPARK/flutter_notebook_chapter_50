@@ -277,13 +277,13 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         spacing: 12,
                         children: [
                           Container(
-                            height: 140,
+                            height: 120,
                             width: 120,
                             child: Placeholder(),
                           ),
                           Expanded(
                             child: Column(
-                              spacing: 12,
+                              spacing: 8,
                               children: [
                                 Row(
                                   children: [
@@ -342,6 +342,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   padding: .zero,
                                   progressColor: Color.fromRGBO(0, 97, 223, 1),
                                   linearStrokeCap: .round,
+                                  lineHeight: 8,
+                                  barRadius: .circular(12),
                                 ),
                               ],
                             ),
