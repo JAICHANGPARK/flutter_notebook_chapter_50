@@ -252,10 +252,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             "See more",
                             style: TextStyle(
                               fontWeight: .bold,
-                              color: Colors.blue,
+                              color: Color.fromRGBO(0, 97, 223, 1),
                             ),
                           ),
-                          Icon(Icons.keyboard_arrow_right, color: Colors.blue),
+                          Icon(Icons.keyboard_arrow_right,   color: Color.fromRGBO(0, 97, 223, 1),),
                         ],
                       ),
                     ),
