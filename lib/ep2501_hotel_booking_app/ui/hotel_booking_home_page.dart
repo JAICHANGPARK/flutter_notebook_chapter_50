@@ -285,7 +285,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               children: [
                                 Row(
                                   children: [
-                                    Text("SPA Homestay <5Starts>"),
+                                    Text(
+                                      "SPA Homestay <5Starts>",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     Spacer(),
                                     Text("4.8"),
                                     Icon(
