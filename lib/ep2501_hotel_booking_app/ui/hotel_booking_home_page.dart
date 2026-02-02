@@ -222,7 +222,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                           "\$100k",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
-                                            color: Colors.blue,
+                                            color: Color.fromRGBO(0, 97, 223, 1),
                                             fontSize: 18,
                                           ),
                                         ),
