@@ -102,7 +102,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             padding: EdgeInsets.symmetric(horizontal: 20),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
-                              color: Colors.blue,
+                              color: Color.fromRGBO(0, 97, 223, 1),
                             ),
                             child: Center(
                               child: Text(
