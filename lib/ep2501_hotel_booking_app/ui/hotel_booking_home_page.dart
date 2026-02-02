@@ -331,16 +331,18 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                     Text("+14"),
                                     Spacer(),
-                                    Text("75%"),
+                                    Text(
+                                      "75%",
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
                                   ],
                                 ),
                                 LinearPercentIndicator(
                                   percent: .7,
                                   padding: .zero,
-                                )
-
-
-
+                                  progressColor: Color.fromRGBO(0, 97, 223, 1),
+                                  linearStrokeCap: .round,
+                                ),
                               ],
                             ),
                           ),
