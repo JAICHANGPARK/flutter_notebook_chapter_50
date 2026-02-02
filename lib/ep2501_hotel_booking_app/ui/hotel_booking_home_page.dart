@@ -279,7 +279,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Container(
                             height: 120,
                             width: 120,
-                            child: Placeholder(),
+                            decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: .circular(12)
+                            ),
                           ),
                           Expanded(
                             child: Column(
