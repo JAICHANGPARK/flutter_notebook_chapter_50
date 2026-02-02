@@ -317,7 +317,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       child: Stack(
                                         children: List.generate(3, (idx) {
                                           return Positioned(
-                                            left: 16.0 * idx,
+                                            left: 20.0 * idx,
                                             bottom: 0,
                                             top: 0,
                                             child: CircleAvatar(
