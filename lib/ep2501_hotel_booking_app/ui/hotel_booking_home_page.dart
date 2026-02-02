@@ -289,6 +289,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       "SPA Homestay <5Starts>",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 18,
                                       ),
                                     ),
                                     Spacer(),
@@ -299,6 +300,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       color: Colors.orange,
                                     ),
                                   ],
+                                ),
+                                Row(
+                                  children: [Icon(Icons.location_on, size: 14)],
                                 ),
                               ],
                             ),
