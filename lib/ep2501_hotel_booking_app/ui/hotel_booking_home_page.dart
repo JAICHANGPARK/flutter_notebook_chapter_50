@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
+import 'package:percent_indicator/flutter_percent_indicator.dart';
 
 class HotelBookingHomePage extends StatefulWidget {
   const HotelBookingHomePage({super.key});
@@ -332,6 +333,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     Text("75%"),
                                   ],
                                 ),
+                                LinearPercentIndicator(
+                                  percent: .7,
+                                  padding: .zero,
+                                )
 
 
 
