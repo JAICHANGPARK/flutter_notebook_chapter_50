@@ -308,20 +308,29 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     Text("Papua, Indonesia"),
                                   ],
                                 ),
-                                Row(
-                                  children: [
-                                    Container(
-                                      height: 32,
-                                      child: Stack(
-                                        children: List.generate(3, (idx){
-                                          return Positioned(
+                                SizedBox(
+                                  height: 32,
+                                  child: Row(
+                                    children: [
+                                      Container(
+                                        height: 32,
+                                        child: Stack(
+                                          children: List.generate(3, (idx) {
+                                            return Positioned(
                                               left: 16.0 * idx,
-                                              child: CircleAvatar());
-                                        }),
+                                              bottom: 0,
+                                              top: 0,
+                                              child: CircleAvatar(
+
+                                                backgroundColor: Colors.blue,
+                                              ),
+                                            );
+                                          }),
+                                        ),
                                       ),
-                                    )
-                                  ],
-                                )
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           ),
