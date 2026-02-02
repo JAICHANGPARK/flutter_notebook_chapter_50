@@ -282,6 +282,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           ),
                           Expanded(
                             child: Column(
+                              spacing: 12,
                               children: [
                                 Row(
                                   children: [
@@ -308,25 +309,28 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     Text("Papua, Indonesia"),
                                   ],
                                 ),
-                                SizedBox(
-                                  height: 32,
-                                  child: Row(
-                                    children: [
-                                      Stack(
-                                        children: List.generate(3, (idx) {
-                                          return Positioned(
-                                            left: 16.0 * idx,
-                                            bottom: 0,
-                                            top: 0,
-                                            child: CircleAvatar(
-                                              backgroundColor: Colors.blue,
-                                            ),
-                                          );
-                                        }),
-                                      ),
-                                      Text("")
-                                    ],
-                                  ),
+                                Row(
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Stack(
+                                          children: List.generate(3, (idx) {
+                                            return Positioned(
+                                              left: 16.0 * idx,
+                                              bottom: 0,
+                                              top: 0,
+                                              child: CircleAvatar(
+                                                backgroundColor: Colors.blue,
+                                              ),
+                                            );
+                                          }),
+                                        ),
+                                        Text("+14"),
+                                      ],
+                                    )
+                                    
+                                    Text("75%"),
+                                  ],
                                 ),
                               ],
                             ),
