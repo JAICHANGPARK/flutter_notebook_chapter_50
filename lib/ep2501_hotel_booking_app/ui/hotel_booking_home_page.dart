@@ -314,7 +314,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   children: [
                                     SizedBox(
                                       height: 42,
-                                      width: 100,
+                                      width: 80,
                                       child: Stack(
                                         children: List.generate(3, (idx) {
                                           return Positioned(
@@ -322,6 +322,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                             bottom: 0,
                                             top: 0,
                                             child: CircleAvatar(
+                                              radius: 16,
                                               backgroundColor: Colors.blue,
                                             ),
                                           );
