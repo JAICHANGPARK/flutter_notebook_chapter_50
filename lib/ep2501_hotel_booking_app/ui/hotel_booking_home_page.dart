@@ -289,7 +289,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                       "SPA Homestay <5Starts>",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
-                                        fontSize: 18,
+                                        fontSize: 15,
                                       ),
                                     ),
                                     Spacer(),
@@ -301,9 +301,24 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     ),
                                   ],
                                 ),
+
                                 Row(
-                                  children: [Icon(Icons.location_on, size: 14)],
+                                  children: [
+                                    Icon(Icons.location_on, size: 16),
+                                    Text("Papua, Indonesia"),
+                                  ],
                                 ),
+                                Row(
+                                  children: [
+                                    Stack(
+                                      children: List.generate(3, (idx){
+                                        return Positioned(
+                                            left: 16 * idx,
+                                            child: CircleAvatar());
+                                      }),
+                                    )
+                                  ],
+                                )
                               ],
                             ),
                           ),
