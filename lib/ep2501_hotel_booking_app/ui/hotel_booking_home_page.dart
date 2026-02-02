@@ -310,12 +310,15 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                 ),
                                 Row(
                                   children: [
-                                    Stack(
-                                      children: List.generate(3, (idx){
-                                        return Positioned(
-                                            left: 16 * idx,
-                                            child: CircleAvatar());
-                                      }),
+                                    Container(
+                                      height: 32,
+                                      child: Stack(
+                                        children: List.generate(3, (idx){
+                                          return Positioned(
+                                              left: 16.0 * idx,
+                                              child: CircleAvatar());
+                                        }),
+                                      ),
                                     )
                                   ],
                                 )
