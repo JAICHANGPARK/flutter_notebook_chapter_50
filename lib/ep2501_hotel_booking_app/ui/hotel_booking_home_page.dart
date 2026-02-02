@@ -277,17 +277,27 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         children: [
                           Container(
                             height: 140,
-                            width: 140,
+                            width: 120,
                             child: Placeholder(),
                           ),
-                          Expanded(child: Column(children: [
-                            Row(
+                          Expanded(
+                            child: Column(
                               children: [
-                                Text("SPA Homestay <5Starts>"),
-                                Text("4.8")
+                                Row(
+                                  children: [
+                                    Text("SPA Homestay <5Starts>"),
+                                    Spacer(),
+                                    Text("4.8"),
+                                    Icon(
+                                      Icons.star,
+                                      size: 15,
+                                      color: Colors.orange,
+                                    ),
+                                  ],
+                                ),
                               ],
-                            )
-                          ])),
+                            ),
+                          ),
                         ],
                       ),
                     ),
