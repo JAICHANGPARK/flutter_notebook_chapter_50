@@ -18,10 +18,10 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
               children: [
                 Expanded(
                   child: Container(
-                    child: Image.network(
-                      "https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",
-                      fit: BoxFit.cover,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",),fit: BoxFit.cover,)
                     ),
+                    
                   ),
                 ),
                 Expanded(child: Container())
