@@ -177,7 +177,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               color: Colors.grey[100],
                             ),
                             width: 220,
-                            padding: EdgeInsets.all(8),
+                            padding: EdgeInsets.all(6),
                             child: Column(
                               spacing: 12,
                               children: [
