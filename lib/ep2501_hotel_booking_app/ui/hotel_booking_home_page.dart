@@ -354,7 +354,88 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         ],
                       ),
                     ),
-                    Container(height: 320, child: Placeholder()),
+                    Container(
+                      height: 260,
+                      padding: EdgeInsets.only(left: 16),
+                      child: ListView.builder(
+                        scrollDirection: .horizontal,
+                        itemBuilder: (context, index) {
+                          return Container(
+                            margin: .only(right: 16),
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(color: Colors.grey[200]!),
+                              color: Colors.grey[100],
+                            ),
+                            width: 220,
+                            padding: EdgeInsets.all(8),
+                            child: Column(
+                              spacing: 12,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.teal,
+                                      borderRadius: .circular(12),
+                                    ),
+                                  ),
+                                ),
+                                Column(
+                                  spacing: 8,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text(
+                                          "Homestay Pollos",
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
+                                        ),
+                                        Spacer(),
+                                        Text("4.8"),
+                                        Icon(Icons.star, size: 16),
+                                      ],
+                                    ),
+                                    Row(
+                                      spacing: 4,
+                                      children: [
+                                        Icon(
+                                          Icons.location_on,
+                                          size: 16,
+                                          color: Colors.green,
+                                        ),
+                                        Text("Bali, Indonesia"),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        Text(
+                                          "\$100k",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Color.fromRGBO(
+                                              0,
+                                              97,
+                                              223,
+                                              1,
+                                            ),
+                                            fontSize: 18,
+                                          ),
+                                        ),
+                                        Text("/Days"),
+                                        Spacer(),
+                                        Icon(Icons.keyboard_arrow_right),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+                    ),
                   ],
                 ),
               ),
