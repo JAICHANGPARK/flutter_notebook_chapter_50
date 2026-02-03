@@ -70,7 +70,18 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
               ],
             ),
           ),
-          Positioned(left: 0, right: 0, bottom: 0, child: Container()),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              height: MediaQuery.sizeOf(context).height * .55,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: .only(topRight: Radius.circular(24)),
+              ),
+            ),
+          ),
         ],
       ),
     );
