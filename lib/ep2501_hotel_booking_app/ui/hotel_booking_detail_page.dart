@@ -78,7 +78,10 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
               height: MediaQuery.sizeOf(context).height * .55,
               decoration: BoxDecoration(
                 color: Colors.white,
-                borderRadius: .only(topRight: Radius.circular(24)),
+                borderRadius: .only(
+                  topRight: Radius.circular(24),
+                  topLeft: Radius.circular(24),
+                ),
               ),
             ),
           ),
