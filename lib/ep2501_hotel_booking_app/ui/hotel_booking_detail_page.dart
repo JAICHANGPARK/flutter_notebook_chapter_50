@@ -29,17 +29,21 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                     child: SafeArea(
                       child: Column(
                         children: [
-                          Row(
-                            children: [
-                              Container(
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  border: .all(color: Colors.white),
+                          Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Row(
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: .all(color: Colors.white30),
+                                    color: Colors.white12
+                                  ),
+                                  padding: EdgeInsets.all(12),
+                                  child: Icon(Icons.keyboard_arrow_left,color: Colors.white,),
                                 ),
-                                padding: EdgeInsets.all(12),
-                                child: Icon(Icons.keyboard_arrow_left,color: Colors.white,),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ],
                       ),
