@@ -116,9 +116,24 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                         shape: StadiumBorder(),
                         color: Colors.white,
                       ),
+                      child: Center(
+                        child: Text("Chat",),
+                      ),
                     ),
                   ),
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                      ),
+                      child: Center(
+                        child: Text("Booking",style: TextStyle(
+                          color: Colors.
+                        ),),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
