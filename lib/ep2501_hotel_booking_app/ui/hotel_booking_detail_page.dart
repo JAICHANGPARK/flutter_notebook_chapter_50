@@ -13,9 +13,17 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
-            child: Image.network(
-              "https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",
+          Positioned.fill(
+            child: Column(
+              children: [
+                Expanded(
+                  child: Image.network(
+                    "https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                Expanded(child: Container())
+              ],
             ),
           ),
         ],
