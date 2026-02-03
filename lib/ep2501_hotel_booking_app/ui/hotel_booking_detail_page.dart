@@ -104,16 +104,24 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
           Positioned(
             left: 16,
             right: 16,
-            bottom: 24,
+            bottom: 32,
             child: SizedBox(
               height: 72,
               child: Row(
+                spacing: 8,
                 children: [
+                  Expanded(
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
                   Expanded(child: Placeholder()),
-                  Expanded(child: Placeholder())
                 ],
               ),
-            )
+            ),
           ),
         ],
       ),
