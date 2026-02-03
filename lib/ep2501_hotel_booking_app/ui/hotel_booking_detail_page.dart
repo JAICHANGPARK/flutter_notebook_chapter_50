@@ -22,7 +22,15 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",),fit: BoxFit.cover,)
 
                     ),
+                    child: Column(
+                      children: [
+Row(
+  children: [
 
+  ],
+)
+                      ],
+                    ),
                   ),
                 ),
                 Expanded(child: Container())
