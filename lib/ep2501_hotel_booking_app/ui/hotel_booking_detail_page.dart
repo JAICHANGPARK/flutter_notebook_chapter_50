@@ -90,7 +90,13 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
             right: 0,
             bottom: 0,
             child: Container(
-              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+              height: 82,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                gradient: LinearGradent(
+                  colors: [Colors.white, Colors.transparent],
+                ),
+              ),
             ),
           ),
         ],
