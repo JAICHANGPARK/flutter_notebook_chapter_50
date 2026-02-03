@@ -12,7 +12,11 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Stack(
+        children: [
+          
+        ],
+      ),
     );
   }
 }
