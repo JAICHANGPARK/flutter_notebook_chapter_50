@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2501_hotel_booking_app/ui/hotel_booking_detail_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:percent_indicator/flutter_percent_indicator.dart';
 
@@ -170,7 +171,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         scrollDirection: .horizontal,
                         itemBuilder: (context, index) {
                           return GestureDetector(
-                            
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      HotelBookingDetailPage(),
+                                ),
+                              );
+                            },
                             child: Container(
                               margin: .only(right: 16),
                               decoration: BoxDecoration(
@@ -284,7 +292,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             width: 120,
                             decoration: BoxDecoration(
                               color: Colors.blue,
-                              borderRadius: .circular(12)
+                              borderRadius: .circular(12),
                             ),
                           ),
                           Expanded(
