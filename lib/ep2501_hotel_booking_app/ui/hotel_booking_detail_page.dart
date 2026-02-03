@@ -102,11 +102,11 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
             ),
           ),
           Positioned(
-            left: 16,
-            right: 16,
+            left: 20,
+            right: 20,
             bottom: 32,
             child: SizedBox(
-              height: 72,
+              height: 52,
               child: Row(
                 spacing: 8,
                 children: [
@@ -116,21 +116,20 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                         shape: StadiumBorder(),
                         color: Colors.white,
                       ),
-                      child: Center(
-                        child: Text("Chat",),
-                      ),
+                      child: Center(child: Text("Chat")),
                     ),
                   ),
                   Expanded(
                     child: Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.white,
+                        color: Color.fromRGBO(0, 97, 223, 1),
                       ),
                       child: Center(
-                        child: Text("Booking",style: TextStyle(
-                          color: Colors.
-                        ),),
+                        child: Text(
+                          "Booking",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ),
                   ),
