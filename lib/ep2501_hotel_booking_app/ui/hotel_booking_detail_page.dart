@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class HotelBookingDetailPage extends StatefulWidget {
   const HotelBookingDetailPage({super.key});
 
@@ -14,7 +13,11 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          
+          Positioned(
+            child: Image.network(
+              "https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",
+            ),
+          ),
         ],
       ),
     );
