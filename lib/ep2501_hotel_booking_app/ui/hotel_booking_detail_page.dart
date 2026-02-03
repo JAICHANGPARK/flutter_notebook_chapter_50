@@ -85,7 +85,14 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
               ),
             ),
           ),
-          Positioned(child: Container()),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+            ),
+          ),
         ],
       ),
     );
