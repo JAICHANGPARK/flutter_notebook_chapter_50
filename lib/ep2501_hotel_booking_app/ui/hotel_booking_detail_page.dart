@@ -105,10 +105,14 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
             left: 0,
             right: 0,
             bottom: 0,
-            child: Row(
-              children: [
-                
-              ],
+            child: SizedBox(
+              height: 72,
+              child: Row(
+                children: [
+                  Expanded(child: Placeholder()),
+                  Expanded(child: Placeholder())
+                ],
+              ),
             )
           ),
         ],
