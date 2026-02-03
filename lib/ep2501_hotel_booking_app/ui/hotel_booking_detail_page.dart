@@ -30,7 +30,7 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       child: Column(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(16.0),
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Row(
                               children: [
                                 Container(
