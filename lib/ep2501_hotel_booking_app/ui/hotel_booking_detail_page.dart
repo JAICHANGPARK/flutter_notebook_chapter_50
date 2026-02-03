@@ -19,27 +19,37 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                 Expanded(
                   child: Container(
                     decoration: BoxDecoration(
-                      image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",),fit: BoxFit.cover,)
-
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2021/09/04/09/33/house-6597406_960_720.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                     child: SafeArea(
                       child: Column(
                         children: [
-                      Row(
-                        children: [
-                      
-                        ],
-                      )
+                          Row(
+                            children: [
+                              Container(
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  border: .all(color: Colors.white),
+                                ),
+                                padding: EdgeInsets.all(12),
+                                child: Icon(Icons.keyboard_arrow_left,color: Colors.white,),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                   ),
                 ),
-                Expanded(child: Container())
+                Expanded(child: Container()),
               ],
             ),
           ),
-
         ],
       ),
     );
