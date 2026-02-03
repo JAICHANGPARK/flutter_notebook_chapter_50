@@ -96,10 +96,20 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                 gradient: LinearGradient(
                   begin: .bottomCenter,
                   end: .topCenter,
-                  colors: [Colors.white, Colors.transparent],
+                  colors: [Colors.white, Colors.white12],
                 ),
               ),
             ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Row(
+              children: [
+                
+              ],
+            )
           ),
         ],
       ),
