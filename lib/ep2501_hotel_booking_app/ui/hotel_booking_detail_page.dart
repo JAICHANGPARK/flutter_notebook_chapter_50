@@ -142,8 +142,8 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.grey[300]!),
                               ),
-                              height: 52,
-                              width: 52,
+                              height: 80,
+                              width: 80,
                               child: Icon(Icons.wifi, color: Colors.blue),
                             ),
                             Text("Wi-fi")
