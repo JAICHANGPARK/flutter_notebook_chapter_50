@@ -107,7 +107,8 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                   Row(
                     spacing: 4,
                     children: [
-                      Icon(Icons.location_on,color: Colors.green,),
+                      Icon(Icons.location_on,color: Colors.green,
+                      size: 18,),
                       Text("Unknown, Earth",style: TextStyle(
                         color: Colors.grey,
                       ),),
