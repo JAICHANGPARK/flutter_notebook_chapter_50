@@ -88,9 +88,14 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                 children: [
                   Row(
                     children: [
-
+                      Text(
+                        "Homestay Pollos",
+                        style: TextStyle(fontWeight: .bold),
+                      ),
+                      Text("\$100k"),
+                      Text("/Day"),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
