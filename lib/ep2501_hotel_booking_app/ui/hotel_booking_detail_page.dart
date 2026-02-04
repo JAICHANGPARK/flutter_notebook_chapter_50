@@ -83,7 +83,9 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                   topLeft: Radius.circular(24),
                 ),
               ),
+              padding: EdgeInsets.all(16),
               child: Column(
+                
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
