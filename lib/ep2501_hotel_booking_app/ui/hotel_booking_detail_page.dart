@@ -144,9 +144,60 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                               ),
                               height: 80,
                               width: 80,
-                              child: Icon(Icons.wifi, color: Colors.blue),
+                              child: Icon(Icons.wifi, color: Colors.blue,size: 32,),
                             ),
-                            Text("Wi-fi")
+                            Text("Wi-fi"),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.grey[300]!),
+                              ),
+                              height: 80,
+                              width: 80,
+                              child: Icon(Icons.wifi, color: Colors.blue,size: 32,),
+                            ),
+                            Text("Wi-fi"),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.grey[300]!),
+                              ),
+                              height: 80,
+                              width: 80,
+                              child: Icon(Icons.wifi, color: Colors.blue,size: 32,),
+                            ),
+                            Text("Wi-fi"),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 4,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.grey[300]!),
+                              ),
+                              height: 80,
+                              width: 80,
+                              child: Icon(Icons.apps, color: Colors.blue,size: 32,),
+                            ),
+                            Text("Other"),
                           ],
                         ),
                       ),
