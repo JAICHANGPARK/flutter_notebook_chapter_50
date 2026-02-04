@@ -105,6 +105,7 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                     ],
                   ),
                   Row(
+                    spacing: 4,
                     children: [
                       Icon(Icons.location_on,color: Colors.green,),
                       Text("Unknown, Earth",style: TextStyle(
@@ -116,6 +117,14 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       ),)
                     ],
                   ),
+                  Row(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.star),
+                      Text("4.8"),
+                      Text("(1.2 Reviews)")
+                    ],
+                  )
                 ],
               ),
             ),
