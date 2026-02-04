@@ -85,7 +85,7 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
               ),
               padding: EdgeInsets.all(16),
               child: Column(
-                
+                spacing: 4,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
