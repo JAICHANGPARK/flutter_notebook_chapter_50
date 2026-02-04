@@ -124,9 +124,24 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                   Row(
                     spacing: 4,
                     children: [
-                      Icon(Icons.star, size: 18),
+                      Icon(Icons.star, size: 18, color: Colors.orange),
                       Text("4.8"),
                       Text("(1.2 Reviews)"),
+                    ],
+                  ),
+                  Text("Categories"),
+                  
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(shape: BoxShape.circle),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ],
