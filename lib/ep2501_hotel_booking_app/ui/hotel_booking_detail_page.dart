@@ -130,10 +130,11 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       Text("(1.2 Reviews)"),
                     ],
                   ),
-                  Gap(5),
+                  Gap(12),
                   Text(
                     "Categories",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold,
+                    fontSize: 18,),
                   ),
 
                   Row(
