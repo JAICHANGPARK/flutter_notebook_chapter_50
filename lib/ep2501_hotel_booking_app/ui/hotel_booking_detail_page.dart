@@ -135,14 +135,18 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 4,
                           children: [
                             Container(
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.grey[300]!),
                               ),
-                              child: Icon(Icons.wifi),
+                              height: 52,
+                              width: 52,
+                              child: Icon(Icons.wifi, color: Colors.blue),
                             ),
+                            Text("Wi-fi")
                           ],
                         ),
                       ),
