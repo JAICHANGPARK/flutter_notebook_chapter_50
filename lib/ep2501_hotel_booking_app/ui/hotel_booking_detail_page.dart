@@ -98,17 +98,22 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       Spacer(),
                       Text("\$100k",style: TextStyle(
                         fontSize: 20,
-                        color: 
+                        color:  Color.fromRGBO(0, 97, 223, 1),
+                        fontWeight: .bold,
                       ),),
                       Text("/Day"),
                     ],
                   ),
                   Row(
                     children: [
-                      Icon(Icons.location_on),
-                      Text("Unknown, Earth"),
+                      Icon(Icons.location_on,color: Colors.green,),
+                      Text("Unknown, Earth",style: TextStyle(
+                        color: Colors.grey,
+                      ),),
                       Spacer(),
-                      Text("Estimated Cost")
+                      Text("Estimated Cost",style: TextStyle(
+                        color: Colors.grey,
+                      ),)
                     ],
                   ),
                 ],
