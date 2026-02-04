@@ -92,10 +92,18 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                         "Homestay Pollos",
                         style: TextStyle(fontWeight: .bold),
                       ),
+                      Spacer(),
                       Text("\$100k"),
                       Text("/Day"),
                     ],
                   ),
+                  Row(
+                    children: [
+                      Icon(Icons.location_on),
+                      Text("Unknown, Earth"),
+                      Spacer(),
+                    ],
+                  )
                 ],
               ),
             ),
