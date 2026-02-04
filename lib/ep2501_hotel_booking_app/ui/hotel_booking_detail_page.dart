@@ -130,7 +130,7 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                     ],
                   ),
                   Text("Categories"),
-                  
+
                   Row(
                     children: [
                       Expanded(
