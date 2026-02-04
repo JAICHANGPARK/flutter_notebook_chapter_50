@@ -92,40 +92,43 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                     children: [
                       Text(
                         "Homestay Pollos",
-                        style: TextStyle(fontWeight: .bold,
-                        fontSize: 24),
+                        style: TextStyle(fontWeight: .bold, fontSize: 24),
                       ),
                       Spacer(),
-                      Text("\$100k",style: TextStyle(
-                        fontSize: 20,
-                        color:  Color.fromRGBO(0, 97, 223, 1),
-                        fontWeight: .bold,
-                      ),),
+                      Text(
+                        "\$100k",
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: Color.fromRGBO(0, 97, 223, 1),
+                          fontWeight: .bold,
+                        ),
+                      ),
                       Text("/Day"),
                     ],
                   ),
                   Row(
                     spacing: 4,
                     children: [
-                      Icon(Icons.location_on,color: Colors.green,
-                      size: 18,),
-                      Text("Unknown, Earth",style: TextStyle(
-                        color: Colors.grey,
-                      ),),
+                      Icon(Icons.location_on, color: Colors.green, size: 18),
+                      Text(
+                        "Unknown, Earth",
+                        style: TextStyle(color: Colors.grey),
+                      ),
                       Spacer(),
-                      Text("Estimated Cost",style: TextStyle(
-                        color: Colors.grey,
-                      ),)
+                      Text(
+                        "Estimated Cost",
+                        style: TextStyle(color: Colors.grey),
+                      ),
                     ],
                   ),
                   Row(
                     spacing: 4,
                     children: [
-                      Icon(Icons.star),
+                      Icon(Icons.star, size: 18),
                       Text("4.8"),
-                      Text("(1.2 Reviews)")
+                      Text("(1.2 Reviews)"),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
