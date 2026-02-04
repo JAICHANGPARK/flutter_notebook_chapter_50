@@ -102,8 +102,9 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                       Icon(Icons.location_on),
                       Text("Unknown, Earth"),
                       Spacer(),
+                      Text("Estimated Cost")
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
