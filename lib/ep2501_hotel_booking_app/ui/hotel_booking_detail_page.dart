@@ -242,7 +242,7 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
             right: 0,
             bottom: 0,
             child: Container(
-              height: 82,
+              height: 120,
               decoration: BoxDecoration(
                 color: Colors.white,
                 gradient: LinearGradient(
