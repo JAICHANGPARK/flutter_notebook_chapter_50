@@ -137,7 +137,11 @@ class _HotelBookingDetailPageState extends State<HotelBookingDetailPage> {
                         child: Column(
                           children: [
                             Container(
-                              decoration: BoxDecoration(shape: BoxShape.circle),
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.grey[300]!),
+                              ),
+                              child: Icon(Icons.wifi),
                             ),
                           ],
                         ),
