@@ -14,8 +14,10 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
       body: SafeArea(
         bottom: false,
         child: Column(
+          spacing: 16,
           children: [
             Row(
+              spacing: 9,
               children: [
                 Container(
                   height: 52,
@@ -31,6 +33,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   "Hello, Dream!",
                   style: TextStyle(fontSize: 24, fontWeight: .bold),
                 ),
+                
                 Container(
                   height: 52,
                   width: 52,
