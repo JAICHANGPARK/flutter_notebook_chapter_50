@@ -25,7 +25,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   decoration: ShapeDecoration(
                     color: Colors.green,
                     shape: RoundedSuperellipseBorder(
-                      borderRadius: .circular(24),
+                      borderRadius: .circular(12),
                     ),
                   ),
                 ),
