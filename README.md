@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_50
 
-## EP2501
+## EP2501-2507
 - Bookly - Hotel Booking Mobile App
 - Fanka for Korsa
 - https://dribbble.com/shots/27026804-Bookly-Hotel-Booking-Mobile-App
