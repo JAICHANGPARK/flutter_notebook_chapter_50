@@ -33,7 +33,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   "Hello, Dream!",
                   style: TextStyle(fontSize: 24, fontWeight: .bold),
                 ),
-                
+                Spacer(),
                 Container(
                   height: 52,
                   width: 52,
@@ -46,6 +46,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       )
                     ),
                   ),
+                  child: Icon(Icons.notifications,color: Colors.black,),
                 ),
               ],
             ),
