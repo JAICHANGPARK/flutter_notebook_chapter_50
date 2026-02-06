@@ -16,7 +16,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
         child: Padding(
           padding: const EdgeInsets.fromLTRB(16, 16, 16,0),
           child: Column(
-            spacing: 16,
+            spacing: 20,
             children: [
               Row(
                 spacing: 9,
@@ -50,14 +50,22 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 ],
               ),
               Container(height: 48, child: Placeholder()),
-              Container(height: 280, child: Placeholder()),
-              Row(
-                mainAxisAlignment: .spaceBetween,
-                children: [Text("Tracking history"), Text("See all")],
-              ),
-              ...List.generate(4, (index) {
-                return Container(height: 240, child: Placeholder());
-              }),
+
+              Expanded(child: SingleChildScrollView(
+                child: Column(
+                  spacing: 20,
+                  children: [
+                  Container(height: 280, child: Placeholder()),
+                  Row(
+                    mainAxisAlignment: .spaceBetween,
+                    children: [Text("Tracking history"), Text("See all")],
+                  ),
+                  ...List.generate(4, (index) {
+                    return Container(height: 240, child: Placeholder());
+                  }),
+                ],),
+              )),
+
             ],
           ),
         ),
