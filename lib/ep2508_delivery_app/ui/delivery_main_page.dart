@@ -33,7 +33,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   ),
                   Text(
                     "Hello, Dream!",
-                    style: TextStyle(fontSize: 24, fontWeight: .bold),
+                    style: TextStyle(fontSize: 22, fontWeight: .bold),
                   ),
                   Spacer(),
                   Container(
@@ -44,7 +44,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(12),
                         side: BorderSide(
-                          width: 2.4
+                          width: 2
                         )
                       ),
                     ),
