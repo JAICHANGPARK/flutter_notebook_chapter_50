@@ -35,9 +35,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   height: 52,
                   width: 52,
                   decoration: ShapeDecoration(
-                    color: Colors.green,
+
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(12),
+                      side: BorderSide(
+                        width: 2.4
+                      )
                     ),
                   ),
                 ),
