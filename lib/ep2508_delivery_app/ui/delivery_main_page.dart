@@ -40,41 +40,24 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                     height: 52,
                     width: 52,
                     decoration: ShapeDecoration(
-
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(12),
-                        side: BorderSide(
-                          width: 2
-                        )
+                        side: BorderSide(width: 2),
                       ),
                     ),
-                    child: Icon(Icons.notifications,color: Colors.black,),
+                    child: Icon(Icons.notifications, color: Colors.black),
                   ),
                 ],
               ),
-              Container(
-                height: 48,
-                child: Placeholder(),
-              ),
-              Container(
-                height: 280,
-                child: Placeholder(),
-              ),
+              Container(height: 48, child: Placeholder()),
+              Container(height: 280, child: Placeholder()),
               Row(
                 mainAxisAlignment: .spaceBetween,
-                children: [
-                  Text("Tracking history"),
-                  Text("See all")
-                ],
+                children: [Text("Tracking history"), Text("See all")],
               ),
-              List.generate(4, (index){
-                return Container(
-                  height: 240,
-                  child: Placeholder(),
-                );
+              ...List.generate(4, (index) {
+                return Container(height: 240, child: Placeholder());
               }),
-
-
             ],
           ),
         ),
