@@ -66,7 +66,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   Text("Tracking history"),
                   Text("See all")
                 ],
-              )
+              ),
+              List.generate(4, (index){
+                return Container(
+                  height: 240,
+                  child: Placeholder(),
+                );
+              }),
 
 
             ],
