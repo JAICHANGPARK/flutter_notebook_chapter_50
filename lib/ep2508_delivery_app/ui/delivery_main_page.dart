@@ -17,9 +17,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
           children: [
             Row(
               children: [
-
                 Container(
-
                   height: 52,
                   width: 52,
                   decoration: ShapeDecoration(
@@ -29,8 +27,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                     ),
                   ),
                 ),
-                Text("Hello, Dream!"),
-                
+                Text(
+                  "Hello, Dream!",
+                  style: TextStyle(fontSize: 24, fontWeight: .bold),
+                ),
+                Container(
+                  height: 52,
+                  width: 52,
+                  decoration: ShapeDecoration(
+                    color: Colors.green,
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(12),
+                    ),
+                  ),
+                ),
               ],
             ),
           ],
