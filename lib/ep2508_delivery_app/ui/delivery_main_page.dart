@@ -14,7 +14,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
       body: SafeArea(
         bottom: false,
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.fromLTRB(16, 16, 16,0),
           child: Column(
             spacing: 16,
             children: [
