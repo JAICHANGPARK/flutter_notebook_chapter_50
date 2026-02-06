@@ -53,13 +53,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 ],
               ),
               Container(
-                height: 42,
+                height: 48,
                 child: Placeholder(),
               ),
               Container(
                 height: 280,
                 child: Placeholder(),
               ),
+              Row(
+                mainAxisAlignment: .spaceBetween,
+                children: [
+                  Text("Tracking history"),
+                  Text("See all")
+                ],
+              )
 
 
             ],
