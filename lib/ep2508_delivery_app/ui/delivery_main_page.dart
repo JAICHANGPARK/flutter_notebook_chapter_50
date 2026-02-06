@@ -11,7 +11,29 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Column(children: []), bottom: false),
+      body: SafeArea(
+        bottom: false,
+        child: Column(
+          children: [
+            Row(
+              children: [
+
+                Container(
+
+                  height: 52,
+                  width: 52,
+                  decoration: ShapeDecoration(
+                    color: Colors.green,
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(24),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
