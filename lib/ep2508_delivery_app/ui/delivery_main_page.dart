@@ -52,6 +52,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   ),
                 ],
               ),
+              Container(
+                height: 42,
+                child: Placeholder(),
+              ),
+              Container(
+                height: 280,
+                child: Placeholder(),
+              ),
+
+
             ],
           ),
         ),
