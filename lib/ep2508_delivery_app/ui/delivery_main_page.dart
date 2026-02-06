@@ -13,44 +13,47 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
     return Scaffold(
       body: SafeArea(
         bottom: false,
-        child: Column(
-          spacing: 16,
-          children: [
-            Row(
-              spacing: 9,
-              children: [
-                Container(
-                  height: 52,
-                  width: 52,
-                  decoration: ShapeDecoration(
-                    color: Colors.green,
-                    shape: RoundedSuperellipseBorder(
-                      borderRadius: .circular(12),
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            spacing: 16,
+            children: [
+              Row(
+                spacing: 9,
+                children: [
+                  Container(
+                    height: 52,
+                    width: 52,
+                    decoration: ShapeDecoration(
+                      color: Colors.green,
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(12),
+                      ),
                     ),
                   ),
-                ),
-                Text(
-                  "Hello, Dream!",
-                  style: TextStyle(fontSize: 24, fontWeight: .bold),
-                ),
-                Spacer(),
-                Container(
-                  height: 52,
-                  width: 52,
-                  decoration: ShapeDecoration(
+                  Text(
+                    "Hello, Dream!",
+                    style: TextStyle(fontSize: 24, fontWeight: .bold),
+                  ),
+                  Spacer(),
+                  Container(
+                    height: 52,
+                    width: 52,
+                    decoration: ShapeDecoration(
 
-                    shape: RoundedSuperellipseBorder(
-                      borderRadius: .circular(12),
-                      side: BorderSide(
-                        width: 2.4
-                      )
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(12),
+                        side: BorderSide(
+                          width: 2.4
+                        )
+                      ),
                     ),
+                    child: Icon(Icons.notifications,color: Colors.black,),
                   ),
-                  child: Icon(Icons.notifications,color: Colors.black,),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
