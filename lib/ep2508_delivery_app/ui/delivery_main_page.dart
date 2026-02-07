@@ -128,6 +128,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   style: TextStyle(fontSize: 18),
                                 ),
                               ],
+                            ),
+
+                            Container(
+                              height: 52,
+                              decoration: BoxDecoration(
+
+                              ),
                             )
 
                           ],
