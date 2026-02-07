@@ -139,7 +139,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 border: .all(width: 2),
                                 borderRadius: .circular(16),
                               ),
+                              padding: .symmetric(horizontal: 16),
                               child: Row(
+
                                 children: [
                                   Container(
                                     height: 42,
