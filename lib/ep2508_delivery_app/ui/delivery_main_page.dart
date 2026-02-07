@@ -116,15 +116,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               ],
                             ),
                             Column(
+                              spacing: 6,
                               crossAxisAlignment: .start,
                               children: [
                                 Text(
                                   "Order Number",
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(fontSize: 18),
                                 ),
                                 Text(
                                   "ORD-ABCDEFG1234-HIJK3123",
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(fontSize: 18),
                                 ),
                               ],
                             )
