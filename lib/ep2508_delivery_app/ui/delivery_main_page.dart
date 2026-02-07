@@ -160,11 +160,17 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       children: [
                                         Text(
                                           "Track Current",
-                                          style: TextStyle(fontWeight: .bold),
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                         Text(
                                           "Location",
-                                          style: TextStyle(fontWeight: .bold),
+                                          style: TextStyle(
+                                            fontWeight: .bold,
+                                            fontSize: 16,
+                                          ),
                                         ),
                                       ],
                                     ),
