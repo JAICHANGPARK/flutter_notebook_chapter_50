@@ -92,8 +92,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         child: Column(
                           children: [
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("ON SHIPPING"),
+                                Text("ON SHIPPING",style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 30
+                                ),),
                                 Container(
                                   height: 52,
                                   width: 52,
