@@ -114,14 +114,19 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 ),
                               ],
                             ),
-                            Text(
-                              "Order Number",
-                              style: TextStyle(fontSize: 16),
-                            ),
-                            Text(
-                              "ORD-ABCDEFG1234-HIJK3123",
-                              style: TextStyle(fontSize: 16),
-                            ),
+                            Column(
+                              children: [
+                                Text(
+                                  "Order Number",
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                                Text(
+                                  "ORD-ABCDEFG1234-HIJK3123",
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                              ],
+                            )
+
                           ],
                         ),
                       ),
