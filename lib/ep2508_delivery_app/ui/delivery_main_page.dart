@@ -88,14 +88,15 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           ),
                           color: .fromRGBO(53, 223, 104, 1),
                         ),
+                        
                         child: Column(
                           children: [
                             Row(
                               children: [
                                 Text("ON SHIPPING"),
                                 Container(
-                                  height: 42,
-                                  width: 42,
+                                  height: 52,
+                                  width: 52,
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: .circular(16),
