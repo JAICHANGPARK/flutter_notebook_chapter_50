@@ -186,7 +186,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         children: [
                           Text(
                             "Tracking history",
-                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                            style: TextStyle(fontSize: 22, fontWeight: .bold),
                           ),
                           Text("See all"),
                         ],
