@@ -78,7 +78,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 child: SingleChildScrollView(
                   child: Column(
                     spacing: 20,
-                    mainAxisAlignment: .spaceBetween,
+
                     children: [
                       Container(
                         height: 280,
@@ -91,6 +91,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         ),
                         padding: .all(16),
                         child: Column(
+                          mainAxisAlignment: .spaceBetween,
                           crossAxisAlignment: .start,
                           spacing: 24,
                           children: [
