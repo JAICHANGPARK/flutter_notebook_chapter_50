@@ -141,7 +141,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               ),
                               padding: .symmetric(horizontal: 16),
                               child: Row(
-
+                                spacing: 8,
                                 children: [
                                   Container(
                                     height: 42,
@@ -149,16 +149,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     decoration: BoxDecoration(
                                       color: Colors.black,
                                       borderRadius: .circular(12),
-
                                     ),
-                                    child: Icon(Icons.map, color: Colors.white,),
+                                    child: Icon(Icons.map, color: Colors.white),
                                   ),
-                                  Expanded(child: Column(
-                                    crossAxisAlignment: .start,
-                                    children: [
-                                    Text("Track Current"),
-                                    Text("Location")
-                                  ],))
+                                  Expanded(
+                                    child: Column(
+                                      mainAxisAlignment: .center,
+                                      crossAxisAlignment: .start,
+
+                                      children: [
+                                        Text("Track Current"),
+                                        Text("Location"),
+                                      ],
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
