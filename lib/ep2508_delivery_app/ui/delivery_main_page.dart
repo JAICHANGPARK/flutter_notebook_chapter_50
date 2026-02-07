@@ -15,7 +15,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
       body: SafeArea(
         bottom: false,
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(16, 16, 16,0),
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
           child: Column(
             spacing: 20,
             children: [
@@ -50,35 +50,38 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   ),
                 ],
               ),
-              Container(height: 48,
-                  decoration: BoxDecoration(
-                    borderRadius: .circular(12),
-                    border: .all()
-                  ),
-                  child: Row(
-                children: [
-                  Icon(Icons.search),
-                  Expanded(child: TextField(decoration: InputDecoration(
-                    
-                  ),))
-                ],
-              )),
-
-              Expanded(child: SingleChildScrollView(
-                child: Column(
-                  spacing: 20,
+              Container(
+                height: 48,
+                decoration: BoxDecoration(
+                  borderRadius: .circular(12),
+                  border: .all(width: 2),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 12),
+                child: Row(
                   children: [
-                  Container(height: 280, child: Placeholder()),
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [Text("Tracking history"), Text("See all")],
-                  ),
-                  ...List.generate(4, (index) {
-                    return Container(height: 240, child: Placeholder());
-                  }),
-                ],),
-              )),
+                    Icon(Icons.search),
+                    Expanded(child: TextField(decoration: InputDecoration())),
+                  ],
+                ),
+              ),
 
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    spacing: 20,
+                    children: [
+                      Container(height: 280, child: Placeholder()),
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [Text("Tracking history"), Text("See all")],
+                      ),
+                      ...List.generate(4, (index) {
+                        return Container(height: 240, child: Placeholder());
+                      }),
+                    ],
+                  ),
+                ),
+              ),
             ],
           ),
         ),
