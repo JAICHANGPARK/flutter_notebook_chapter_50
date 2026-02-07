@@ -139,7 +139,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 border: .all(width: 2),
                                 borderRadius: .circular(16),
                               ),
-                              
+                              child: Row(
+                                children: [
+                                  Container(
+                                    height: 42,
+                                    width: 42,
+                                    decoration: BoxDecoration(
+                                      color: Colors.black,
+                                      borderRadius: .circular(12),
+
+                                    ),
+                                    child: Icon(Icons.map, color: Colors.white,),
+                                  ),
+                                ],
+                              ),
                             ),
                           ],
                         ),
