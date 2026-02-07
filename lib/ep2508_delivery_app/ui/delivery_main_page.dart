@@ -50,7 +50,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                   ),
                 ],
               ),
-              Container(height: 48, child: Placeholder()),
+              Container(height: 48, child: Row(
+                children: [
+                  Icon(Icons.search),
+                  Expanded(child: TextField(decoration: InputDecoration(
+                    
+                  ),))
+                ],
+              )),
 
               Expanded(child: SingleChildScrollView(
                 child: Column(
