@@ -94,10 +94,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             Row(
                               mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("ON SHIPPING",style: TextStyle(
-                                  fontWeight: .bold,
-                                  fontSize: 30
-                                ),),
+                                Text(
+                                  "ON SHIPPING",
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    fontSize: 30,
+                                  ),
+                                ),
                                 Container(
                                   height: 52,
                                   width: 52,
@@ -110,7 +113,8 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 ),
                               ],
                             ),
-
+                            Text("Order Number"),
+                            Text("ORD-ABCDEFG1234-HIJK3123"),
                           ],
                         ),
                       ),
