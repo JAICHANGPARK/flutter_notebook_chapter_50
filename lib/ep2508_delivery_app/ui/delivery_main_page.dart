@@ -188,7 +188,10 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             "Tracking history",
                             style: TextStyle(fontSize: 22, fontWeight: .bold),
                           ),
-                          Text("See all"),
+                          Text(
+                            "See all",
+                            style: TextStyle(fontSize: 18, fontWeight: .bold),
+                          ),
                         ],
                       ),
                       ...List.generate(4, (index) {
