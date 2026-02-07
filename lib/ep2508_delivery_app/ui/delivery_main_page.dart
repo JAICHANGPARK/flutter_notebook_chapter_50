@@ -65,6 +65,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         decoration: InputDecoration(
                           hintText: "Search package",
                           border: .none,
+                          hintStyle: TextStyle(fontSize: 16, fontWeight: .bold),
                         ),
                       ),
                     ),
