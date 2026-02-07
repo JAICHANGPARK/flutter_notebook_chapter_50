@@ -90,6 +90,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         ),
                         padding: .all(16),
                         child: Column(
+                          crossAxisAlignment: .start,
                           children: [
                             Row(
                               mainAxisAlignment: .spaceBetween,
@@ -113,7 +114,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 ),
                               ],
                             ),
-                            Text("Order Number"),
+                            Text("Order Number",style: TextStyle(
+                              fontSize: 16,
+                            ),),
                             Text("ORD-ABCDEFG1234-HIJK3123"),
                           ],
                         ),
