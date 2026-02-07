@@ -86,12 +86,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             borderRadius: .circular(24),
                             side: BorderSide(width: 2),
                           ),
+                          color: .fromRGBO(53, 223, 104, 1),
                         ),
-                        child: Column(
-                          children: [
-
-                          ],
-                        )
+                        child: Column(children: []),
                       ),
                       Row(
                         mainAxisAlignment: .spaceBetween,
