@@ -88,7 +88,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           ),
                           color: .fromRGBO(53, 223, 104, 1),
                         ),
-                        
+                        padding: .all(16),
                         child: Column(
                           children: [
                             Row(
