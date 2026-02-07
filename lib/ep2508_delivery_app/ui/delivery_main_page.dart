@@ -51,13 +51,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 ],
               ),
               Container(
-                height: 48,
+                // height: 48,
                 decoration: BoxDecoration(
                   borderRadius: .circular(12),
                   border: .all(width: 2),
                 ),
                 padding: EdgeInsets.symmetric(horizontal: 12),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Icon(Icons.search),
                     Expanded(
