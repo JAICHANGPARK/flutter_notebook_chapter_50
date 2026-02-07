@@ -78,6 +78,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 child: SingleChildScrollView(
                   child: Column(
                     spacing: 20,
+                    mainAxisAlignment: .spaceBetween,
                     children: [
                       Container(
                         height: 280,
@@ -131,14 +132,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             ),
 
                             Container(
-                              height: 52,
+                              height: 72,
                               decoration: BoxDecoration(
                                 color: Colors.grey,
-                                border: .all(width: 2)
-
+                                border: .all(width: 2),
+                                borderRadius: .circular(16),
                               ),
-                            )
-
+                            ),
                           ],
                         ),
                       ),
