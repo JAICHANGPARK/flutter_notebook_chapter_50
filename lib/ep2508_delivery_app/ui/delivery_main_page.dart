@@ -183,7 +183,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       ),
                       Row(
                         mainAxisAlignment: .spaceBetween,
-                        children: [Text("Tracking history"), Text("See all")],
+                        children: [
+                          Text(
+                            "Tracking history",
+                            style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          ),
+                          Text("See all"),
+                        ],
                       ),
                       ...List.generate(4, (index) {
                         return Container(height: 240, child: Placeholder());
