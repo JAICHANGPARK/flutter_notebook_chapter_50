@@ -158,8 +158,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       crossAxisAlignment: .start,
 
                                       children: [
-                                        Text("Track Current"),
-                                        Text("Location"),
+                                        Text(
+                                          "Track Current",
+                                          style: TextStyle(fontWeight: .bold),
+                                        ),
+                                        Text(
+                                          "Location",
+                                          style: TextStyle(fontWeight: .bold),
+                                        ),
                                       ],
                                     ),
                                   ),
