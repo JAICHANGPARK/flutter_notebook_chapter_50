@@ -91,6 +91,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         padding: .all(16),
                         child: Column(
                           crossAxisAlignment: .start,
+                          spacing: 16,
                           children: [
                             Row(
                               mainAxisAlignment: .spaceBetween,
@@ -115,6 +116,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               ],
                             ),
                             Column(
+                              crossAxisAlignment: .start,
                               children: [
                                 Text(
                                   "Order Number",
