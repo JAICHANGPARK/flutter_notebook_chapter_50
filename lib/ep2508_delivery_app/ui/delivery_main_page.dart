@@ -153,6 +153,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     ),
                                     child: Icon(Icons.map, color: Colors.white,),
                                   ),
+                                  Expanded(child: Column(
+                                    crossAxisAlignment: .start,
+                                    children: [
+                                    Text("Track Current"),
+                                    Text("Location")
+                                  ],))
                                 ],
                               ),
                             ),
