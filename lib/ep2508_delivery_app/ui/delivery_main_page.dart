@@ -60,7 +60,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                 child: Row(
                   children: [
                     Icon(Icons.search),
-                    Expanded(child: TextField(decoration: InputDecoration())),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Search package",
+                          border: .none,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
