@@ -81,7 +81,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
 
                     children: [
                       Container(
-                        height: 280,
+                        // height: 260,
                         decoration: ShapeDecoration(
                           shape: RoundedSuperellipseBorder(
                             borderRadius: .circular(24),
