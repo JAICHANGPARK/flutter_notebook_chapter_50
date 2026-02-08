@@ -101,8 +101,9 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 Text(
                                   "ON SHIPPING",
                                   style: TextStyle(
-                                    fontWeight: .bold,
+                                    fontWeight: .w900,
                                     fontSize: 30,
+                                      fontStyle: .italic
                                   ),
                                 ),
                                 Container(
