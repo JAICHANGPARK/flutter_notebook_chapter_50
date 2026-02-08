@@ -206,7 +206,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: .start,
-                            
+
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -214,8 +214,14 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   Column(
                                     crossAxisAlignment: .start,
                                     children: [
-                                      Text("Order Number"),
-                                      Text("ORD-12344ADV-QWER12341T${index}")
+                                      Text(
+                                        "Order Number",
+                                        style: TextStyle(fontWeight: .bold,
+                                        fontSize: 18),
+                                      ),
+                                      Text("ORD-12344ADV-QWER12341T${index}",
+                                        style: TextStyle(fontWeight: .bold,
+                                            fontSize: 18),),
                                     ],
                                   ),
                                   Container(
@@ -225,13 +231,15 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                       borderRadius: .circular(15),
                                       color: Colors.black,
                                     ),
-                                    child: Icon(Icons.arrow_forward_outlined, color: Colors.white,),
-                                  )
+                                    child: Icon(
+                                      Icons.arrow_forward_outlined,
+                                      color: Colors.white,
+                                    ),
+                                  ),
                                 ],
-                              )
-
+                              ),
                             ],
-                          )
+                          ),
                         );
                       }),
                     ],
