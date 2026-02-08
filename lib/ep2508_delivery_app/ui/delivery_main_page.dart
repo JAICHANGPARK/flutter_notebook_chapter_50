@@ -103,7 +103,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   style: TextStyle(
                                     fontWeight: .w900,
                                     fontSize: 30,
-                                      fontStyle: .italic
+                                    fontStyle: .italic,
                                   ),
                                 ),
                                 Container(
@@ -217,12 +217,18 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                     children: [
                                       Text(
                                         "Order Number",
-                                        style: TextStyle(fontWeight: .bold,
-                                        fontSize: 18),
+                                        style: TextStyle(
+                                          fontWeight: .bold,
+                                          fontSize: 18,
+                                        ),
                                       ),
-                                      Text("ORD-12344ADV-QWER12341T${index}",
-                                        style: TextStyle(fontWeight: .bold,
-                                            fontSize: 18),),
+                                      Text(
+                                        "ORD-12344ADV-QWER12341T${index}",
+                                        style: TextStyle(
+                                          fontWeight: .bold,
+                                          fontSize: 18,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                   Container(
@@ -239,14 +245,20 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ),
                                 ],
                               ),
-                              Text("Delivered",style: TextStyle(
-                                fontWeight: .w900,
-                                fontStyle: .italic
-                              ),),
-                              Text("at 01.08.2026",style: TextStyle(
+                              Text(
+                                "Delivered",
+                                style: TextStyle(
                                   fontWeight: .w900,
-                                  fontStyle: .italic
-                              ),)
+                                  fontStyle: .italic,
+                                ),
+                              ),
+                              Text(
+                                "at 01.08.2026",
+                                style: TextStyle(
+                                  fontWeight: .w900,
+                                  fontStyle: .italic,
+                                ),
+                              ),
                             ],
                           ),
                         );
