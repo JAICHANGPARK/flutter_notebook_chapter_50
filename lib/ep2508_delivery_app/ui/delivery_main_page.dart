@@ -203,8 +203,10 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               borderRadius: .circular(24),
                             ),
                           ),
+                          padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: .start,
+                            
                             children: [
                               Row(
                                 children: [
