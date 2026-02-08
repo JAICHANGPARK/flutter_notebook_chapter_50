@@ -218,7 +218,11 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   Container(
                                     height: 48,
                                     width: 48,
-                                    child: Icon(Icons.arrow_forward_outlined, color: Colors.white12,),
+                                    decoration: BoxDecoration(
+                                      borderRadius: .circular(15),
+                                      color: Colors.black,
+                                    ),
+                                    child: Icon(Icons.arrow_forward_outlined, color: Colors.white,),
                                   )
                                 ],
                               )
