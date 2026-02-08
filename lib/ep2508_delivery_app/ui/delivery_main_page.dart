@@ -238,6 +238,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ),
                                 ],
                               ),
+                              Text("Delivered")
                             ],
                           ),
                         );
