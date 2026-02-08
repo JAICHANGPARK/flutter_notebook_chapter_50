@@ -209,10 +209,16 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                               Row(
                                 children: [
                                   Column(
+                                    crossAxisAlignment: .start,
                                     children: [
                                       Text("Order Number"),
                                       Text("ORD-12344ADV-QWER12341T${index}")
                                     ],
+                                  ),
+                                  Container(
+                                    height: 48,
+                                    width: 48,
+                                    child: Icon(Icons.arrow_forward_outlined, color: Colors.white12,),
                                   )
                                 ],
                               )
