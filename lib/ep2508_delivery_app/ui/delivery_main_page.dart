@@ -207,7 +207,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: .start,
-spacing: 16,
+                            spacing: 16,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -266,8 +266,7 @@ spacing: 16,
                                     ),
                                   ),
                                 ],
-                              )
-
+                              ),
                             ],
                           ),
                         );
