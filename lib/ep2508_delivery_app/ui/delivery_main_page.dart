@@ -197,7 +197,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       ),
                       ...List.generate(4, (index) {
                         return Container(
-                          height: 200,
+                          // height: 200,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               side: BorderSide(width: 2),
@@ -213,6 +213,7 @@ spacing: 16,
                                 mainAxisAlignment: .spaceBetween,
                                 children: [
                                   Column(
+                                    spacing: 4,
                                     crossAxisAlignment: .start,
                                     children: [
                                       Text(
@@ -232,8 +233,8 @@ spacing: 16,
                                     ],
                                   ),
                                   Container(
-                                    height: 48,
-                                    width: 48,
+                                    height: 52,
+                                    width: 52,
                                     decoration: BoxDecoration(
                                       borderRadius: .circular(15),
                                       color: Colors.black,
