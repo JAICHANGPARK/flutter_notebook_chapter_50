@@ -207,7 +207,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           padding: EdgeInsets.all(16),
                           child: Column(
                             crossAxisAlignment: .start,
-
+spacing: 16,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -245,11 +245,13 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ),
                                 ],
                               ),
+                              
                               Text(
                                 "Delivered",
                                 style: TextStyle(
                                   fontWeight: .w900,
                                   fontStyle: .italic,
+                                  fontSize: 32,
                                 ),
                               ),
                               Text(
@@ -257,6 +259,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                 style: TextStyle(
                                   fontWeight: .w900,
                                   fontStyle: .italic,
+                                  fontSize: 32,
                                 ),
                               ),
                             ],
