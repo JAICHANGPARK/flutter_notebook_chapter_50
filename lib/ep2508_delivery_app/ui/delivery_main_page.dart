@@ -200,11 +200,24 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               side: BorderSide(width: 2),
-
                               borderRadius: .circular(24),
                             ),
                           ),
-                          child: Placeholder(),
+                          child: Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Column(
+                                    children: [
+                                      Text("Order Number"),
+                                      Text("ORD-12344ADV-QWER12341T${index}")
+                                    ],
+                                  )
+                                ],
+                              )
+
+                            ],
+                          )
                         );
                       }),
                     ],
