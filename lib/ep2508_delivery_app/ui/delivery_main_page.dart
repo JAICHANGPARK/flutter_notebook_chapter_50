@@ -196,7 +196,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                       ),
                       ...List.generate(4, (index) {
                         return Container(
-                          height: 240,
+                          height: 200,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               side: BorderSide(width: 2),
