@@ -91,7 +91,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         ),
                         padding: .all(16),
                         child: Column(
-                          mainAxisAlignment: .spaceBetween,
+                          // mainAxisAlignment: .spaceBetween,
                           crossAxisAlignment: .start,
                           spacing: 24,
                           children: [
