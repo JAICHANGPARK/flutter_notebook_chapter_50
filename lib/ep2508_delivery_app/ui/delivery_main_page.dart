@@ -209,6 +209,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                             
                             children: [
                               Row(
+                                mainAxisAlignment: .spaceBetween,
                                 children: [
                                   Column(
                                     crossAxisAlignment: .start,
