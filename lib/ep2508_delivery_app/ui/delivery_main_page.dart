@@ -195,11 +195,17 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                         ],
                       ),
                       ...List.generate(4, (index) {
-                        return Container(height: 240,
-                            decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder()
+                        return Container(
+                          height: 240,
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              side: BorderSide(width: 2),
+
+                              borderRadius: .circular(24),
                             ),
-                            child: Placeholder());
+                          ),
+                          child: Placeholder(),
+                        );
                       }),
                     ],
                   ),
