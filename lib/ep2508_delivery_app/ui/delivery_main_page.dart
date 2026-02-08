@@ -194,9 +194,7 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                           ),
                         ],
                       ),
-                      ...List.generate(4, (index)
-
-                      {
+                      ...List.generate(4, (index) {
                         return Container(height: 240, child: Placeholder());
                       }),
                     ],
