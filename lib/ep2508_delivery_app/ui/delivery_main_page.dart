@@ -238,8 +238,12 @@ class _DeliveryMainPageState extends State<DeliveryMainPage> {
                                   ),
                                 ],
                               ),
-                              Text("Delivered"),
-                              Text("at 01.08.2026")
+                              Text("Delivered",style: TextStyle(
+                                fontWeight: .w900
+                              ),),
+                              Text("at 01.08.2026",style: TextStyle(
+                                  fontWeight: .w900
+                              ),)
                             ],
                           ),
                         );
