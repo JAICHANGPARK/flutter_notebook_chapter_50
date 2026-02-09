@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class FurnitureHomePage extends StatefulWidget {
   const FurnitureHomePage({super.key});
@@ -18,6 +19,35 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
         decoration: BoxDecoration(
           color: Colors.teal,
           borderRadius: .only(topRight: .circular(32), topLeft: .circular(32)),
+        ),
+        child: Row(
+          children: [
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home"),
+              ],
+            ),
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home"),
+              ],
+            ),
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home"),
+              ],
+            ),
+            Column(
+              children: [
+                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                Text("Home"),
+              ],
+            ),
+
+          ],
         ),
       ),
     );
