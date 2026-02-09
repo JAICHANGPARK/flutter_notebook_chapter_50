@@ -25,31 +25,53 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
           mainAxisAlignment: .spaceEvenly,
           children: [
             Column(
+              spacing: 4,
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
-                Text("Home"),
+                HugeIcon(
+                  icon: HugeIcons.strokeRoundedHome01,
+                  color: Colors.white,
+                ),
+                Text("Home",
+                  style: TextStyle(fontWeight: .bold, color: Colors.white),),
               ],
             ),
             Column(
+              spacing: 4,
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedFavourite),
-                Text("Wishlist"),
+                HugeIcon(
+                  icon: HugeIcons.strokeRoundedFavourite,
+                  color: Colors.white,
+                ),
+                Text("Wishlist",
+                  style: TextStyle(fontWeight: .normal, color: Colors.white),),
               ],
             ),
             Column(
+              spacing: 4,
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHandBag01),
-                Text("Cart"),
+                HugeIcon(
+                  icon: HugeIcons.strokeRoundedHandBag01,
+                  color: Colors.white,
+                ),
+                Text("Cart",
+                  style: TextStyle(fontWeight: .normal, color: Colors.white),),
               ],
             ),
             Column(
+              spacing: 4,
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedUser),
-                Text("Profile"),
+                HugeIcon(
+                  icon: HugeIcons.strokeRoundedUser,
+                  color: Colors.white,
+                ),
+                Text(
+                  "Profile",
+                  style: TextStyle(fontWeight: .normal, color: Colors.white),
+                ),
               ],
             ),
           ],
