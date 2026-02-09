@@ -20,27 +20,30 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
           color: Colors.teal,
           borderRadius: .only(topRight: .circular(32), topLeft: .circular(32)),
         ),
+        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         child: Row(
+          mainAxisAlignment: .spaceEvenly,
           children: [
             Column(
+              mainAxisAlignment: .center,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home"),
               ],
             ),
-            Column(
+            Column(   mainAxisAlignment: .center,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home"),
               ],
             ),
-            Column(
+            Column(   mainAxisAlignment: .center,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home"),
               ],
             ),
-            Column(
+            Column(   mainAxisAlignment: .center,
               children: [
                 HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 Text("Home"),
