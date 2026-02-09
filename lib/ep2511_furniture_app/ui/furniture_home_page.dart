@@ -13,7 +13,23 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(children: []),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(children: []),
+            Container(height: 72, child: Placeholder()),
+            Container(height: 120, child: Placeholder()),
+
+            Container(height: 160, child: Placeholder()),
+            Row(
+              children: [
+                Text("Top Selling Products"),
+                TextButton(onPressed: () {}, child: Text("See all")),
+              ],
+            ),
+          ],
+        ),
+      ),
       bottomNavigationBar: Container(
         height: 100,
         decoration: BoxDecoration(
