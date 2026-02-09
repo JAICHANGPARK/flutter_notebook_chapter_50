@@ -15,18 +15,22 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
+          spacing: 24,
           children: [
             Row(children: []),
+            Container(height: 80, child: Placeholder()),
             Container(height: 72, child: Placeholder()),
             Container(height: 120, child: Placeholder()),
 
             Container(height: 160, child: Placeholder()),
             Row(
+              mainAxisAlignment: .spaceBetween,
               children: [
                 Text("Top Selling Products"),
                 TextButton(onPressed: () {}, child: Text("See all")),
               ],
             ),
+            Container(height: 240, child: Placeholder()),
           ],
         ),
       ),
