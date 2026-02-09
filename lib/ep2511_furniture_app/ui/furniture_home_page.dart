@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FurnitureHomePage extends StatefulWidget {
   const FurnitureHomePage({super.key});
 
@@ -13,10 +12,13 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-
-        ],
+      body: Column(children: []),
+      bottomNavigationBar: Container(
+        height: 100,
+        decoration: BoxDecoration(
+          color: Colors.teal,
+          borderRadius: .only(topRight: .circular(32), topLeft: .circular(32)),
+        ),
       ),
     );
   }
