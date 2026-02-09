@@ -34,21 +34,21 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
             Column(
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: ),
+                HugeIcon(icon: HugeIcons.strokeRoundedFavourite),
                 Text("Wishlist"),
               ],
             ),
             Column(
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                HugeIcon(icon: HugeIcons.strokeRoundedHandBag01),
                 Text("Cart"),
               ],
             ),
             Column(
               mainAxisAlignment: .center,
               children: [
-                HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                HugeIcon(icon: HugeIcons.strokeRoundedUser),
                 Text("Profile"),
               ],
             ),
