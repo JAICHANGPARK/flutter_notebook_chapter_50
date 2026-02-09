@@ -1,7 +1,7 @@
 # flutter_notebook_chapter_50
 
 ## EP2511
-- Delivery Mobile iOS App Design
+- Modern Furniture E-Commerce Mobile App UI
 - Purrweb UI/UX Agency
 - https://dribbble.com/shots/27055040-Delivery-Mobile-iOS-App-Design
 
