@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2511_furniture_app/ui/furniture_home_page.dart';
 
 class FurnitureApp extends StatelessWidget {
   const FurnitureApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(home: FurnitureHomePage());
   }
 }
