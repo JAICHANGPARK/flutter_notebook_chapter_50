@@ -17,7 +17,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
       bottomNavigationBar: Container(
         height: 100,
         decoration: BoxDecoration(
-          color: Colors.teal,
+          color: Color.fromRGBO(11, 66, 50, 1),
           borderRadius: .only(topRight: .circular(32), topLeft: .circular(32)),
         ),
         padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
@@ -32,8 +32,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                   icon: HugeIcons.strokeRoundedHome01,
                   color: Colors.white,
                 ),
-                Text("Home",
-                  style: TextStyle(fontWeight: .bold, color: Colors.white),),
+                Text(
+                  "Home",
+                  style: TextStyle(fontWeight: .bold, color: Colors.white),
+                ),
               ],
             ),
             Column(
@@ -44,8 +46,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                   icon: HugeIcons.strokeRoundedFavourite,
                   color: Colors.white,
                 ),
-                Text("Wishlist",
-                  style: TextStyle(fontWeight: .normal, color: Colors.white),),
+                Text(
+                  "Wishlist",
+                  style: TextStyle(fontWeight: .normal, color: Colors.white),
+                ),
               ],
             ),
             Column(
@@ -56,8 +60,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                   icon: HugeIcons.strokeRoundedHandBag01,
                   color: Colors.white,
                 ),
-                Text("Cart",
-                  style: TextStyle(fontWeight: .normal, color: Colors.white),),
+                Text(
+                  "Cart",
+                  style: TextStyle(fontWeight: .normal, color: Colors.white),
+                ),
               ],
             ),
             Column(
