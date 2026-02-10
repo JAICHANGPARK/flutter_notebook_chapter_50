@@ -124,7 +124,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     crossAxisAlignment: .start,
                     children: [
                       Container(
-                        height: 140,
+                        height: 160,
                         decoration: BoxDecoration(
                           color: Colors.blue,
                           borderRadius: .only(
@@ -137,12 +137,12 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                       ),
 
                       Container(
-                        height: 120,
+                        height: 110,
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              width: 80,
+                              width: 90,
                               margin: EdgeInsets.only(right: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
