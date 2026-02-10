@@ -84,12 +84,14 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           ],
                           color: Colors.white,
                         ),
+                        padding: .symmetric(horizontal: 12, vertical: 2),
                         child: TextField(
                           decoration: InputDecoration(
                             hintText: "Search...",
                             icon: HugeIcon(
                               icon: HugeIcons.strokeRoundedSearch01,
                             ),
+                            border: .none,
                           ),
                         ),
                       ),
