@@ -16,7 +16,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
       body: SafeArea(
         bottom: false,
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
           child: Column(
             spacing: 24,
             children: [
@@ -167,7 +167,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 crossAxisCount: 2,
                                 crossAxisSpacing: 16,
                                 mainAxisSpacing: 16,
-                                childAspectRatio: .8
+                                childAspectRatio: .8,
                               ),
                           itemBuilder: (context, index) {
                             return Placeholder();
