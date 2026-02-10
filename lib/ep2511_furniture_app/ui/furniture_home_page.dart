@@ -45,7 +45,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                 ),
               ],
             ),
-            Container(height: 80, child: Placeholder()),
+            
             Container(height: 72, child: Placeholder()),
             Container(height: 120, child: Placeholder()),
 
