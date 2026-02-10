@@ -17,7 +17,9 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
         child: Column(
           spacing: 24,
           children: [
-            Row(children: []),
+            Row(
+              children: [Expanded(child: Column(children: []))],
+            ),
             Container(height: 80, child: Placeholder()),
             Container(height: 72, child: Placeholder()),
             Container(height: 120, child: Placeholder()),
