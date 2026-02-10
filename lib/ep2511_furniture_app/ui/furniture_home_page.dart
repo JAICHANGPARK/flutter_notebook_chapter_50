@@ -48,19 +48,24 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
 
             Container(height: 72, child: Placeholder()),
             Expanded(
-              child: SingleChildScrollView(child: Column(children: [])),
-            ),
-            Container(height: 120, child: Placeholder()),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Container(height: 120, child: Placeholder()),
 
-            Container(height: 160, child: Placeholder()),
-            Row(
-              mainAxisAlignment: .spaceBetween,
-              children: [
-                Text("Top Selling Products"),
-                TextButton(onPressed: () {}, child: Text("See all")),
-              ],
+                    Container(height: 160, child: Placeholder()),
+                    Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [
+                        Text("Top Selling Products"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
+                    Container(height: 240, child: Placeholder()),
+                  ],
+                ),
+              ),
             ),
-            Container(height: 240, child: Placeholder()),
           ],
         ),
       ),
