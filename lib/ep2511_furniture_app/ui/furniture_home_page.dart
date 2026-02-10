@@ -26,6 +26,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     color: Colors.white,
                     boxShadow: [],
                   ),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
                 ),
               ],
             ),
