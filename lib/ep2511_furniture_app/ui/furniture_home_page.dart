@@ -164,8 +164,12 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           gridDelegate:
                               SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
+                                crossAxisSpacing: 12,
+                                mainAxisSpacing: 12,
                               ),
-                          itemBuilder: (context, index) {},
+                          itemBuilder: (context, index) {
+                            return Placeholder();
+                          },
                         ),
                       ),
                     ],
