@@ -25,7 +25,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Text("Bring Home the", style: TextStyle(fontSize: 20)),
+                        Text("Bring Home the", style: TextStyle(fontSize: 22)),
                         Text.rich(
                           TextSpan(
                             children: [
@@ -47,10 +47,18 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     ),
                   ),
                   Container(
+                    padding: EdgeInsets.all(12),
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.white,
-                      boxShadow: [],
+
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey[200]!,
+                          spreadRadius: 2,
+                          blurRadius: 10,
+                        ),
+                      ],
                     ),
                     child: HugeIcon(
                       icon: HugeIcons.strokeRoundedNotification02,
