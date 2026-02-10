@@ -19,12 +19,22 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
           children: [
             Row(
               children: [
-                Expanded(child: Column(
+                Expanded(
+                  child: Column(
                     crossAxisAlignment: .start,
                     children: [
                       Text("Bring Home the"),
-                      Text.rich(TextSpan(children: [],))
-                    ])),
+                      Text.rich(
+                        TextSpan(
+                          children: [
+                            TextSpan(text: "Perfect"),
+                            TextSpan(text: "Furniture!"),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
                 Container(
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
