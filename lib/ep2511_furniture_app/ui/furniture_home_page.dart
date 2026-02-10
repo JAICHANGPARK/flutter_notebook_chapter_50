@@ -120,7 +120,18 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
-                      Container(height: 120, child: Placeholder()),
+                      Container(
+                        height: 140,
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: .only(
+                            topLeft: Radius.circular(20),
+                            topRight: .circular(8),
+                            bottomRight: .circular(8),
+                            bottomLeft: .circular(20),
+                          ),
+                        ),
+                      ),
 
                       Container(height: 160, child: Placeholder()),
                       Row(
