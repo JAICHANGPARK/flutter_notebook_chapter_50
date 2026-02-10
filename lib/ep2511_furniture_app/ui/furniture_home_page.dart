@@ -18,7 +18,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
           spacing: 24,
           children: [
             Row(
-              children: [Expanded(child: Column(children: []))],
+              children: [
+                Expanded(child: Column(children: [])),
+                Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.white,
+                    boxShadow: [],
+                  ),
+                ),
+              ],
             ),
             Container(height: 80, child: Placeholder()),
             Container(height: 72, child: Placeholder()),
