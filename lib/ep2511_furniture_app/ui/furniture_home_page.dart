@@ -156,7 +156,13 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
-                          Text("Top Selling Products"),
+                          Text(
+                            "Top Selling Products",
+                            style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                           TextButton(onPressed: () {}, child: Text("See all")),
                         ],
                       ),
