@@ -67,15 +67,30 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
               ),
 
               Container(
-                height: 72,
+                // height: 52,
                 child: Row(
+                  spacing: 16,
                   children: [
                     Expanded(
                       child: Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
-                          shadows: [],
+                          shadows: [
+                            BoxShadow(
+                              color: Colors.grey[200]!,
+                              spreadRadius: 2,
+                              blurRadius: 10,
+                            ),
+                          ],
                           color: Colors.white,
+                        ),
+                        child: TextField(
+                          decoration: InputDecoration(
+                            hintText: "Search...",
+                            icon: HugeIcon(
+                              icon: HugeIcons.strokeRoundedSearch01,
+                            ),
+                          ),
                         ),
                       ),
                     ),
