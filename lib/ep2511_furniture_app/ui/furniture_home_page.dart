@@ -14,59 +14,62 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          spacing: 24,
-          children: [
-            Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: .start,
-                    children: [
-                      Text("Bring Home the"),
-                      Text.rich(
-                        TextSpan(
-                          children: [
-                            TextSpan(text: "Perfect"),
-                            TextSpan(text: "Furniture!"),
-                          ],
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            spacing: 24,
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Text("Bring Home the"),
+                        Text.rich(
+                          TextSpan(
+                            children: [
+                              TextSpan(text: "Perfect"),
+                              TextSpan(text: "Furniture!"),
+                            ],
+                          ),
                         ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white,
+                      boxShadow: [],
+                    ),
+                    child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
+                  ),
+                ],
+              ),
+
+              Container(height: 72, child: Placeholder()),
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      Container(height: 120, child: Placeholder()),
+
+                      Container(height: 160, child: Placeholder()),
+                      Row(
+                        mainAxisAlignment: .spaceBetween,
+                        children: [
+                          Text("Top Selling Products"),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
                       ),
+                      Container(height: 240, child: Placeholder()),
                     ],
                   ),
                 ),
-                Container(
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.white,
-                    boxShadow: [],
-                  ),
-                  child: HugeIcon(icon: HugeIcons.strokeRoundedNotification02),
-                ),
-              ],
-            ),
-
-            Container(height: 72, child: Placeholder()),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Container(height: 120, child: Placeholder()),
-
-                    Container(height: 160, child: Placeholder()),
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
-                      children: [
-                        Text("Top Selling Products"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
-                    ),
-                    Container(height: 240, child: Placeholder()),
-                  ],
-                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: Container(
