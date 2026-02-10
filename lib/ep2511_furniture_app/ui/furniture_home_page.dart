@@ -51,7 +51,6 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.white,
-
                       boxShadow: [
                         BoxShadow(
                           color: Colors.grey[200]!,
