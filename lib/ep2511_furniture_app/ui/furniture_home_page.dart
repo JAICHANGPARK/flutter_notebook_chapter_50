@@ -119,6 +119,8 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
               Expanded(
                 child: SingleChildScrollView(
                   child: Column(
+                    spacing: 20,
+                    crossAxisAlignment: .start,
                     children: [
                       Container(
                         height: 140,
@@ -134,7 +136,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                       ),
 
                       Container(
-                        height: 160,
+                        height: 120,
                         child: ListView.builder(
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
