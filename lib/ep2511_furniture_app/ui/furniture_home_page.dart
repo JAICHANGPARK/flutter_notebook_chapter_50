@@ -45,8 +45,11 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                 ),
               ],
             ),
-            
+
             Container(height: 72, child: Placeholder()),
+            Expanded(
+              child: SingleChildScrollView(child: Column(children: [])),
+            ),
             Container(height: 120, child: Placeholder()),
 
             Container(height: 160, child: Placeholder()),
