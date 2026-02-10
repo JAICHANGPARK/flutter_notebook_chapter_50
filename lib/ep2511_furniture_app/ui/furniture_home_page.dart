@@ -148,6 +148,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 color: Colors.white,
                                 borderRadius: .circular(12),
                               ),
+                              child: Placeholder(),
                             );
                           },
                         ),
