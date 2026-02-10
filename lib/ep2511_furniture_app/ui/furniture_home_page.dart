@@ -30,13 +30,13 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           TextSpan(
                             children: [
                               TextSpan(
-                                text: "Perfect",
-                                style: TextStyle(fontSize: 20),
+                                text: "Perfect ",
+                                style: TextStyle(fontSize: 22),
                               ),
                               TextSpan(
-                                text: "Furniture!",
+                                text: " Furniture!",
                                 style: TextStyle(
-                                  fontSize: 20,
+                                  fontSize: 22,
                                   fontWeight: .bold,
                                 ),
                               ),
