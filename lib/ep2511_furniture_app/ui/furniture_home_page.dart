@@ -136,7 +136,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                       Container(
                         height: 160,
                         child: ListView.builder(
-                          itemBuilder: (context, index) {},
+                          scrollDirection: .horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              width: 80,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(12),
+                              ),
+                            );
+                          },
                         ),
                       ),
                       Row(
