@@ -158,7 +158,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           TextButton(onPressed: () {}, child: Text("See all")),
                         ],
                       ),
-                      Container(height: 240, child: Placeholder()),
+                      Container(
+                        height: 240,
+                        child: GridView.builder(
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                              ),
+                          itemBuilder: (context, index) {},
+                        ),
+                      ),
                     ],
                   ),
                 ),
