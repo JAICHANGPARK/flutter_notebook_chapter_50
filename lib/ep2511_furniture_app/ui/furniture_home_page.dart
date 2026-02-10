@@ -79,6 +79,23 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                         ),
                       ),
                     ),
+                    Container(
+                      padding: EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey[200]!,
+                            spreadRadius: 2,
+                            blurRadius: 10,
+                          ),
+                        ],
+                      ),
+                      child: HugeIcon(
+                        icon: HugeIcons.strokeRoundedFilterHorizontal,
+                      ),
+                    ),
                   ],
                 ),
               ),
