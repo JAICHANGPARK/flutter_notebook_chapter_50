@@ -126,14 +126,19 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           color: Colors.blue,
                           borderRadius: .only(
                             topLeft: Radius.circular(20),
-                            topRight: .circular(8),
-                            bottomRight: .circular(8),
+                            topRight: .circular(12),
+                            bottomRight: .circular(12),
                             bottomLeft: .circular(20),
                           ),
                         ),
                       ),
 
-                      Container(height: 160, child: Placeholder()),
+                      Container(
+                        height: 160,
+                        child: ListView.builder(
+                          itemBuilder: (context, index) {},
+                        ),
+                      ),
                       Row(
                         mainAxisAlignment: .spaceBetween,
                         children: [
