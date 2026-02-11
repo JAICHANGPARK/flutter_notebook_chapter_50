@@ -180,7 +180,6 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: .circular(12),
-                                
                               ),
                               padding: EdgeInsets.all(6),
                               child: Column(
@@ -229,10 +228,23 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               ),
                           physics: NeverScrollableScrollPhysics(),
                           itemBuilder: (context, index) {
-                            return Container(decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: .circular(16),
-                            ),);
+                            return Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(16),
+                              ),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey[200],
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            );
                           },
                         ),
                       ),
