@@ -180,13 +180,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: .circular(12),
+                                
                               ),
                               padding: EdgeInsets.all(4),
                               child: Column(
+                                spacing: 6,
                                 children: [
                                   Expanded(
                                     child: Container(
                                       decoration: BoxDecoration(
+                                        borderRadius: .circular(12),
                                         color: Colors.grey,
                                       ),
                                     ),
