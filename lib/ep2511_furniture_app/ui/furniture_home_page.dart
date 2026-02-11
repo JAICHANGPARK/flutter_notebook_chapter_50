@@ -135,6 +135,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           ),
                         ),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
                               decoration: BoxDecoration(color: Colors.white12),
@@ -154,7 +155,6 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           ],
                         ),
                       ),
-
                       Container(
                         height: 110,
                         child: ListView.builder(
