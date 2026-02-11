@@ -134,6 +134,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                             bottomLeft: .circular(20),
                           ),
                         ),
+                        padding: EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
@@ -144,7 +145,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 style: TextStyle(color: Colors.white),
                               ),
                             ),
-                            Text("DreamLounge Sofa"),
+                            Text("DreamLounge Sofa",style: TextStyle(
+                              fontWeight: .bold,
+                              fontSize: 20,
+                            ),),
                             Container(
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
