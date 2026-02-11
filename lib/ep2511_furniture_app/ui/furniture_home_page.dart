@@ -175,7 +175,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           scrollDirection: .horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              width: 90,
+                              width: 82,
                               margin: EdgeInsets.only(right: 16),
                               decoration: BoxDecoration(
                                 color: Colors.white,
