@@ -150,6 +150,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               fontSize: 20,
                             ),),
                             Container(
+                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                                 color: Colors.white,
