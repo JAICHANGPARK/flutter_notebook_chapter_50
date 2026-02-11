@@ -240,6 +240,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Colors.grey[200],
+                                        borderRadius: .circular(12),
                                       ),
                                     ),
                                   ),
