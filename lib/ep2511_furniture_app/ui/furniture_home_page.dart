@@ -141,19 +141,25 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
-                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 4,
+                              ),
                               decoration: BoxDecoration(color: Colors.white12),
                               child: Text(
                                 "25% off",
                                 style: TextStyle(color: Colors.white),
                               ),
                             ),
-                            Text("DreamLounge Sofa",style: TextStyle(
-                              fontWeight: .bold,
-                              fontSize: 20,
-                            ),),
+                            Text(
+                              "DreamLounge Sofa",
+                              style: TextStyle(fontWeight: .bold, fontSize: 20),
+                            ),
                             Container(
-                              padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12,
+                                vertical: 8,
+                              ),
                               decoration: ShapeDecoration(
                                 shape: StadiumBorder(),
                                 color: Colors.white,
@@ -175,14 +181,20 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 color: Colors.white,
                                 borderRadius: .circular(12),
                               ),
-
-                              child:Column(
+                              padding: EdgeInsets.all(4),
+                              child: Column(
                                 children: [
-                                  Expanded(child: Container(decoration: BoxDecoration(
-                                    color: Colors.grey
-                                  ),)),
-                                  Text("Chair",style: TextStyle(
-                                  ),)
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                  ),
+                                  Text(
+                                    "Chair",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
                                 ],
                               ),
                             );
