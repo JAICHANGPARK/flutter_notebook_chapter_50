@@ -134,6 +134,18 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                             bottomLeft: .circular(20),
                           ),
                         ),
+                        child: Column(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(color: Colors.white12),
+                              child: Text(
+                                "25% off",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ),
+                            Text("DreamLounge Sofa"),
+                          ],
+                        ),
                       ),
 
                       Container(
