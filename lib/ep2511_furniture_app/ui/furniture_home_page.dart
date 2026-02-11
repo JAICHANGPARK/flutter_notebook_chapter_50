@@ -175,7 +175,16 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 color: Colors.white,
                                 borderRadius: .circular(12),
                               ),
-                              child: Placeholder(),
+
+                              child:Column(
+                                children: [
+                                  Expanded(child: Container(decoration: BoxDecoration(
+                                    color: Colors.grey
+                                  ),)),
+                                  Text("Chair",style: TextStyle(
+                                  ),)
+                                ],
+                              ),
                             );
                           },
                         ),
