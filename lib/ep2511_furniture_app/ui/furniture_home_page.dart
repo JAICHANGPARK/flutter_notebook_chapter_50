@@ -144,6 +144,13 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               ),
                             ),
                             Text("DreamLounge Sofa"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.white,
+                              ),
+                              child: Text("Buy now"),
+                            ),
                           ],
                         ),
                       ),
