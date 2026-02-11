@@ -230,6 +230,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           itemBuilder: (context, index) {
                             return Container(decoration: BoxDecoration(
                               color: Colors.white,
+                              borderRadius: .circular(16),
                             ),);
                           },
                         ),
