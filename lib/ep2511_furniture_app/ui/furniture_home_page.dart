@@ -228,7 +228,9 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 childAspectRatio: .8,
                               ),
                           itemBuilder: (context, index) {
-                            return Placeholder();
+                            return Container(decoration: BoxDecoration(
+                              color: Colors.white,
+                            ),);
                           },
                         ),
                       ),
