@@ -137,6 +137,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                         padding: EdgeInsets.all(16),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
