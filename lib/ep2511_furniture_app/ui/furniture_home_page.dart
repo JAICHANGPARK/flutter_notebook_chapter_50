@@ -139,6 +139,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Container(
+                              padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                               decoration: BoxDecoration(color: Colors.white12),
                               child: Text(
                                 "25% off",
