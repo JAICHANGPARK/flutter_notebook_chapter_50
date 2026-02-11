@@ -125,6 +125,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                     children: [
                       Container(
                         height: 160,
+                        width: double.infinity,
                         decoration: BoxDecoration(
                           color: Colors.blue,
                           borderRadius: .only(
