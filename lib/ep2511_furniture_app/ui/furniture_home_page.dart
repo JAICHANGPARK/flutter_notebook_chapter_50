@@ -253,6 +253,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                         ],
                                       ),
                                       Container(
+                                        padding: EdgeInsets.all(3),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
