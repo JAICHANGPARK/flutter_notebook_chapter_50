@@ -219,6 +219,8 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                       Container(
                         height: 240,
                         child: GridView.builder(
+                          itemCount: 10,
+                          shrinkWrap: true,
                           gridDelegate:
                               SliverGridDelegateWithFixedCrossAxisCount(
                                 crossAxisCount: 2,
