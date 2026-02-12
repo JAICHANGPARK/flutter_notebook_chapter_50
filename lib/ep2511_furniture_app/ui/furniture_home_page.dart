@@ -265,6 +265,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                             Icon(Icons.shopping_bag_outlined),
                                             CircleAvatar(
                                               backgroundColor: Colors.black,
+                                              child: Icon(Icons.arrow_forward),
                                             )
                                           ],
                                         ),
