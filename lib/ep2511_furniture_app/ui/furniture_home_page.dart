@@ -247,12 +247,15 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                   Row(
                                     spacing: 6,
                                     children: [
-                                      Column(
-                                        spacing: 4,
-                                        children: [
-                                          Text("Arm Chair"),
-                                          Text("\$500"),
-                                        ],
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 4,
+                                          crossAxisAlignment: .start,
+                                          children: [
+                                            Text("Arm Chair"),
+                                            Text("\$500"),
+                                          ],
+                                        ),
                                       ),
                                       Container(
                                         padding: EdgeInsets.all(3),
