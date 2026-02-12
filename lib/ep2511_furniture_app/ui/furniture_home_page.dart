@@ -246,7 +246,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                   ),
                                   Row(
                                     children: [
-                                      Column(children: [],)
+                                      Column(children: [
+                                        Text("Arm Chair"),
+                                        Text("\$500"),
+                                      ],)
                                     ],
                                   )
                                 ],
