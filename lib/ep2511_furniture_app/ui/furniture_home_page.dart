@@ -246,12 +246,20 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                   ),
                                   Row(
                                     children: [
-                                      Column(children: [
-                                        Text("Arm Chair"),
-                                        Text("\$500"),
-                                      ],)
+                                      Column(
+                                        children: [
+                                          Text("Arm Chair"),
+                                          Text("\$500"),
+                                        ],
+                                      ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.grey[200]!,
+                                        ),
+                                      ),
                                     ],
-                                  )
+                                  ),
                                 ],
                               ),
                             );
