@@ -244,6 +244,11 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                       ),
                                     ),
                                   ),
+                                  Row(
+                                    children: [
+                                      Column(children: [],)
+                                    ],
+                                  )
                                 ],
                               ),
                             );
