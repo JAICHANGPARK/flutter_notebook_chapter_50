@@ -245,8 +245,10 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                     ),
                                   ),
                                   Row(
+                                    spacing: 6,
                                     children: [
                                       Column(
+                                        spacing: 4,
                                         children: [
                                           Text("Arm Chair"),
                                           Text("\$500"),
