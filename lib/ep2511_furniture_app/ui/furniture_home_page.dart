@@ -235,6 +235,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               ),
                               padding: EdgeInsets.all(12),
                               child: Column(
+                                crossAxisAlignment: .start,
                                 spacing: 6,
                                 children: [
                                   Expanded(
@@ -250,6 +251,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                     children: [
                                       Expanded(
                                         child: Column(
+
                                           spacing: 4,
                                           crossAxisAlignment: .start,
                                           children: [
