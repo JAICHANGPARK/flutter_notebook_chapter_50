@@ -257,6 +257,14 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
                                         ),
+                                        child: Row(
+                                          children: [
+                                            Icon(Icons.shopping_bag_outlined),
+                                            CircleAvatar(
+                                              backgroundColor: Colors.black,
+                                            )
+                                          ],
+                                        ),
                                       ),
                                     ],
                                   ),
