@@ -251,17 +251,26 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                     children: [
                                       Expanded(
                                         child: Column(
-
                                           spacing: 4,
                                           crossAxisAlignment: .start,
                                           children: [
                                             Text("Arm Chair"),
-                                            Text("\$500"),
+                                            Text(
+                                              "\$500",
+                                              style: TextStyle(
+                                                fontWeight: .bold,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
                                       Container(
-                                        padding: EdgeInsets.only(left: 12, top: 2, bottom: 2, right: 2),
+                                        padding: EdgeInsets.only(
+                                          left: 12,
+                                          top: 2,
+                                          bottom: 2,
+                                          right: 2,
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
@@ -276,7 +285,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                               foregroundColor: Colors.white,
                                               backgroundColor: Colors.black,
                                               child: Icon(Icons.arrow_forward),
-                                            )
+                                            ),
                                           ],
                                         ),
                                       ),
