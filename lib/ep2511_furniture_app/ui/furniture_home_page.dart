@@ -259,6 +259,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                               "\$500",
                                               style: TextStyle(
                                                 fontWeight: .bold,
+                                                fontSize: 16,
                                               ),
                                             ),
                                           ],
