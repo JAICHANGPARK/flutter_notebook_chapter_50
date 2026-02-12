@@ -247,8 +247,8 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                       child: Stack(
                                         children: [
                                           Positioned(
-                                            left: 12,
-                                            top: 12,
+                                            right: 6,
+                                            top: 6,
                                             child: CircleAvatar(
                                               backgroundColor: Colors.white,
                                             ),
