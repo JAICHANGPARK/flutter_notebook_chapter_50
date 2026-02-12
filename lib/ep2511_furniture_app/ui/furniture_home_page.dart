@@ -244,6 +244,15 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                         color: Colors.grey[200],
                                         borderRadius: .circular(12),
                                       ),
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                     ),
                                   ),
                                   Row(
