@@ -228,7 +228,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                 mainAxisSpacing: 16,
                                 childAspectRatio: .8,
                               ),
-                          physics: NeverScrollableScrollPhysics(),
+                          // physics: NeverScrollableScrollPhysics(),
                           itemBuilder: (context, index) {
                             return Container(
                               decoration: BoxDecoration(
