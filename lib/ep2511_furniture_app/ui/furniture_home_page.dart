@@ -235,6 +235,7 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                               ),
                               padding: EdgeInsets.all(12),
                               child: Column(
+                                spacing: 6,
                                 children: [
                                   Expanded(
                                     child: Container(
