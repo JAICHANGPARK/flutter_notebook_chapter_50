@@ -261,15 +261,18 @@ class _FurnitureHomePageState extends State<FurnitureHomePage> {
                                         ),
                                       ),
                                       Container(
-                                        padding: EdgeInsets.all(3),
+                                        padding: EdgeInsets.only(left: 12, top: 2, bottom: 2, right: 2),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.grey[200]!,
                                         ),
+
                                         child: Row(
+                                          spacing: 6,
                                           children: [
                                             Icon(Icons.shopping_bag_outlined),
                                             CircleAvatar(
+                                              radius: 18,
                                               foregroundColor: Colors.white,
                                               backgroundColor: Colors.black,
                                               child: Icon(Icons.arrow_forward),
