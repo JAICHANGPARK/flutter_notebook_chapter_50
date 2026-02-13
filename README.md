@@ -3,9 +3,9 @@
 ## EP2515
 - Barber & Beauty Salon Mobile App
 - Md Uzzal Hossain
-- https://dribbble.com/shots/27064968-Modern-Furniture-E-Commerce-Mobile-App-UI
+- https://dribbble.com/shots/27073624-Barber-Beauty-Salon-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/46662676/file/df9cf4e4db3dde688078cc46c0f80dca.png?resize=2048x1536&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46691846/file/c638f86106276509a6f1f34d4985837a.png?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2511-2514
 - Modern Furniture E-Commerce Mobile App UI
