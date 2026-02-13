@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_50
 
 ## EP2515
-- Modern Furniture E-Commerce Mobile App UI
-- Koushik Sarkar
+- Barber & Beauty Salon Mobile App
+- Md Uzzal Hossain
 - https://dribbble.com/shots/27064968-Modern-Furniture-E-Commerce-Mobile-App-UI
 
 <img src="https://cdn.dribbble.com/userupload/46662676/file/df9cf4e4db3dde688078cc46c0f80dca.png?resize=2048x1536&vertical=center" alt=""/>
