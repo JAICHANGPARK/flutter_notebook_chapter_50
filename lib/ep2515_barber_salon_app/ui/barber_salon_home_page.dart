@@ -17,6 +17,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         ],
       ),
       bottomNavigationBar: BottomAppBar(),
+      floatingActionButtonLocation: .centerDocked,
       floatingActionButton: FloatingActionButton(onPressed: (){}),
     );
   }
