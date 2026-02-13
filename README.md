@@ -1,13 +1,13 @@
 # flutter_notebook_chapter_50
 
-## EP2511-2515
+## EP2515
 - Modern Furniture E-Commerce Mobile App UI
 - Koushik Sarkar
 - https://dribbble.com/shots/27064968-Modern-Furniture-E-Commerce-Mobile-App-UI
 
 <img src="https://cdn.dribbble.com/userupload/46662676/file/df9cf4e4db3dde688078cc46c0f80dca.png?resize=2048x1536&vertical=center" alt=""/>
 
-## EP2511-2515
+## EP2511-2514
 - Modern Furniture E-Commerce Mobile App UI
 - Koushik Sarkar
 - https://dribbble.com/shots/27064968-Modern-Furniture-E-Commerce-Mobile-App-UI
