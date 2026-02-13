@@ -16,9 +16,21 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
           
         ],
       ),
-      bottomNavigationBar: BottomAppBar(),
+      bottomNavigationBar: BottomAppBar(
+        color: Color(0xff1c1c1e),
+        shape: CircularNotchedRectangle(),
+        notchMargin: 8,
+        clipBehavior: .antiAlias,
+        height: 70,
+      ),
       floatingActionButtonLocation: .centerDocked,
-      floatingActionButton: FloatingActionButton(onPressed: (){}),
+      floatingActionButton: FloatingActionButton(
+        shape: CircleBorder(),
+          elevation: 6,
+          child: Icon(Icons.add),
+         foregroundColor: Colors.white,
+          backgroundColor: Color(0xff8b5cf6),
+          onPressed: (){}),
     );
   }
 }
