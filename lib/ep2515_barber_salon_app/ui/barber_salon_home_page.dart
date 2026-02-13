@@ -12,7 +12,14 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xff8b5cf6),
-      body: Column(children: []),
+      body: SafeArea(
+        child: Column(children: [
+          Container(
+            height: 80,
+          ),
+          Expanded(child: Container())
+        ]),
+      ),
       bottomNavigationBar: BottomAppBar(
         color: Color(0xff1c1c1e),
         shape: CircularNotchedRectangle(),
