@@ -13,11 +13,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
     return Scaffold(
       backgroundColor: Color(0xff8b5cf6),
       body: SafeArea(
-        child: Column(children: [
+        child: Column(
+            spacing: 16,
+            children: [
           Container(
             height: 80,
           ),
-          Expanded(child: Container())
+          Expanded(child: Container(
+            color: Colors.white,
+          ))
         ]),
       ),
       bottomNavigationBar: BottomAppBar(
