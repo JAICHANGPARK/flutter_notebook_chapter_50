@@ -11,6 +11,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff8b5cf6),
       body: Column(children: []),
       bottomNavigationBar: BottomAppBar(
         color: Color(0xff1c1c1e),
