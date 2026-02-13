@@ -12,8 +12,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-
+        children: [
+          
+        ],
       ),
+      bottomNavigationBar: BottomAppBar(),
+      floatingActionButton: FloatingActionButton(onPressed: (){}),
     );
   }
 }
