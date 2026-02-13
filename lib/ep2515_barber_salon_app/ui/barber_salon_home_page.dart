@@ -21,6 +21,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         child: Row(
           children: [
             IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
           ],
         ),
       ),
