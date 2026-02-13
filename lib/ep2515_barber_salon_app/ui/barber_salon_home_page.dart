@@ -19,8 +19,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         clipBehavior: .antiAlias,
         height: 70,
         child: Row(
+          mainAxisAlignment: .spaceBetween,
           children: [
             Row(
+              spacing: 32,
               children: [
                 IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
                 IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
@@ -28,12 +30,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
             ),
             SizedBox(width: 40,),
             Row(
+              spacing: 32,
               children: [
-
+                IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+                IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
               ],
             )
-            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
-            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+
           ],
         ),
       ),
