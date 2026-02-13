@@ -28,15 +28,18 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 IconButton(icon: Icon(Icons.search), onPressed: () {}),
               ],
             ),
-            SizedBox(width: 40,),
+            SizedBox(width: 40),
             Row(
               spacing: 32,
               children: [
                 IconButton(icon: Icon(Icons.list_alt), onPressed: () {}),
-                IconButton(icon: Icon(Icons.account_circle), onPressed: () {}),
+                IconButton(
+                  icon: Icon(Icons.account_circle_outlined),
+                  onPressed: () {},
+                  color: Colors.white,
+                ),
               ],
-            )
-
+            ),
           ],
         ),
       ),
