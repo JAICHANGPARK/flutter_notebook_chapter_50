@@ -20,8 +20,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         height: 70,
         child: Row(
           children: [
-            IconButton(Icons.home_filled),
-
+            IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
           ],
         ),
       ),
