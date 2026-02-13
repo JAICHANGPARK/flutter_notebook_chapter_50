@@ -25,15 +25,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               spacing: 32,
               children: [
                 IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
-                IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+                IconButton(icon: Icon(Icons.search), onPressed: () {}),
               ],
             ),
             SizedBox(width: 40,),
             Row(
               spacing: 32,
               children: [
-                IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
-                IconButton(icon: Icon(Icons.home_filled), onPressed: () {}),
+                IconButton(icon: Icon(Icons.list_alt), onPressed: () {}),
+                IconButton(icon: Icon(Icons.account_circle), onPressed: () {}),
               ],
             )
 
