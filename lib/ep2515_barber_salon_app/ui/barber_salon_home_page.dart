@@ -49,6 +49,19 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     shape: StadiumBorder(),
                     color: Colors.white,
                   ),
+                  child: Row(
+                    children: [
+                      HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                      Expanded(child: TextField()),
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.purple[200],
+                        ),
+                        
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
