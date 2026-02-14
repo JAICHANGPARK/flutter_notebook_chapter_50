@@ -89,6 +89,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           ),
                         ),
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 9),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.purple[200],
