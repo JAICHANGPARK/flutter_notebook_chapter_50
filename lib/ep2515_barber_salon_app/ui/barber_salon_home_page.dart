@@ -13,6 +13,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
     return Scaffold(
       backgroundColor: Color(0xff8b5cf6),
       body: SafeArea(
+        bottom: false,
         child: Column(
             spacing: 16,
             children: [
@@ -25,6 +26,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         ]),
       ),
       bottomNavigationBar: BottomAppBar(
+        surfaceTintColor: Colors.transparent,
         color: Color(0xff1c1c1e),
         shape: CircularNotchedRectangle(),
         notchMargin: 8,
