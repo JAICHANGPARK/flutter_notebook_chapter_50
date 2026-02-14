@@ -16,7 +16,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         spacing: 16,
         children: [
           Container(
-            padding: EdgeInsets.only(top:62,left: 16, right: 16),
+            padding: EdgeInsets.only(top: 62, left: 16, right: 16),
             decoration: BoxDecoration(color: Color(0xff8b5cf6)),
             child: Column(
               children: [
@@ -25,7 +25,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     CircleAvatar(),
                     Expanded(
                       child: Column(
+                        crossAxisAlignment: .start,
                         children: [Text("Dreamwalker"), Text("ID No. 1234")],
+                      ),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.white24),
+                        color: Colors.white12,
                       ),
                     ),
                   ],
