@@ -34,6 +34,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 spacing: 16,
                 children: [
                   Row(
+                    spacing: 8,
                     children: [
                       CircleAvatar(),
                       Expanded(
@@ -43,7 +44,6 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         ),
                       ),
                       Container(
-
                         padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           shape: .circle,
@@ -67,11 +67,14 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       spacing: 8,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                        Expanded(child: TextField(
-                          decoration: InputDecoration(
-                            hintText: "Search salon"
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search salon",
+                              border: .none,
+                            ),
                           ),
-                        )),
+                        ),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
