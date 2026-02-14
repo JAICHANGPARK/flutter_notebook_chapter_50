@@ -18,7 +18,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         // spacing: 16,
         children: [
           Positioned(
+            left: 0,
+            right: 0,
+            top: 0,
             child: Container(
+              height: 300,
               padding: EdgeInsets.only(top: 62, left: 16, right: 16, bottom: 24),
               decoration: BoxDecoration(color: Color(0xff8b5cf6)),
               child: Column(
@@ -72,13 +76,19 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               ),
             ),
           ),
-          Container(decoration: BoxDecoration(
-              color: Colors.white,
-            borderRadius: .only(
-              topLeft: .circular(24),
-              topRight: .circular(24)
-            )
-          ),),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            top: MediaQuery.sizeOf(context).height - 240,
+            child: Container(decoration: BoxDecoration(
+                color: Colors.white,
+              borderRadius: .only(
+                topLeft: .circular(24),
+                topRight: .circular(24)
+              )
+            ),),
+          ),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
