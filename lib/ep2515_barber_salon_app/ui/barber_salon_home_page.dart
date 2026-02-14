@@ -12,31 +12,29 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: Color(0xff8b5cf6),
-      body: SafeArea(
-        bottom: false,
-        child: Column(
-          spacing: 16,
-          children: [
-            Container(
-              decoration: BoxDecoration(color: Color(0xff8b5cf6)),
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      CircleAvatar(),
-                      Expanded(
-                        child: Column(
-                          children: [Text("Dreamwalker"), Text("ID No. 1234")],
-                        ),
+      body: Column(
+        spacing: 16,
+        children: [
+          Container(
+            padding: EdgeInsets.only(top: ),
+            decoration: BoxDecoration(color: Color(0xff8b5cf6)),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(
+                      child: Column(
+                        children: [Text("Dreamwalker"), Text("ID No. 1234")],
                       ),
-                    ],
-                  ),
-                ],
-              ),
+                    ),
+                  ],
+                ),
+              ],
             ),
-            Expanded(child: Container(color: Colors.white)),
-          ],
-        ),
+          ),
+          Expanded(child: Container(color: Colors.white)),
+        ],
       ),
       bottomNavigationBar: BottomAppBar(
         surfaceTintColor: Colors.transparent,
