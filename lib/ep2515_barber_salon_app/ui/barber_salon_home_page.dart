@@ -17,12 +17,17 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         child: Column(
           spacing: 16,
           children: [
-            Container(decoration: BoxDecoration(
-              color: Color(0xff8b5cf6),
-
+            Container(decoration: BoxDecoration(color: Color(0xff8b5cf6),
             ),
-
-            ),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    CircleAvatar()
+                  ],
+                )
+              ],
+            ),),
             Expanded(child: Container(color: Colors.white)),
           ],
         ),
