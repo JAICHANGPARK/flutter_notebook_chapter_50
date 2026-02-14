@@ -31,6 +31,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       ),
                     ),
                     Container(
+                      padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
                         shape: .circle,
                         border: .all(color: Colors.white24),
@@ -38,6 +39,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       ),
                       child: HugeIcon(
                         icon: HugeIcons.strokeRoundedNotification01,
+                        color: Colors.white,
                       ),
                     ),
                   ],
