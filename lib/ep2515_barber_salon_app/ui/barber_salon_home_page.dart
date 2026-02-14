@@ -15,15 +15,14 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
       body: SafeArea(
         bottom: false,
         child: Column(
-            spacing: 16,
-            children: [
-          Container(
-            height: 80,
-          ),
-          Expanded(child: Container(
-            color: Colors.white,
-          ))
-        ]),
+          spacing: 16,
+          children: [
+            Container(decoration: BoxDecoration(
+              color: Color(0xff8b5cf6),
+            ),),
+            Expanded(child: Container(color: Colors.white)),
+          ],
+        ),
       ),
       bottomNavigationBar: BottomAppBar(
         surfaceTintColor: Colors.transparent,
