@@ -44,6 +44,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     ),
                   ],
                 ),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white,
+                  ),
+                ),
               ],
             ),
           ),
