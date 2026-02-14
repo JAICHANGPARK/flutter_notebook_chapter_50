@@ -14,69 +14,71 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
     return Scaffold(
       // backgroundColor: Color(0xff8b5cf6),
       // backgroundColor: Colors.white,
-      body: Column(
+      body: Stack(
         // spacing: 16,
         children: [
-          Container(
-            padding: EdgeInsets.only(top: 62, left: 16, right: 16, bottom: 24),
-            decoration: BoxDecoration(color: Color(0xff8b5cf6)),
-            child: Column(
-              spacing: 16,
-              children: [
-                Row(
-                  children: [
-                    CircleAvatar(),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: .start,
-                        children: [Text("Dreamwalker"), Text("ID No. 1234")],
-                      ),
-                    ),
-                    Container(
-                      padding: EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        shape: .circle,
-                        border: .all(color: Colors.white24),
-                        color: Colors.white12,
-                      ),
-                      child: HugeIcon(
-                        icon: HugeIcons.strokeRoundedNotification01,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ],
-                ),
-                Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Colors.white,
-                  ),
-                  child: Row(
+          Positioned(
+            child: Container(
+              padding: EdgeInsets.only(top: 62, left: 16, right: 16, bottom: 24),
+              decoration: BoxDecoration(color: Color(0xff8b5cf6)),
+              child: Column(
+                spacing: 16,
+                children: [
+                  Row(
                     children: [
-                      HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                      Expanded(child: TextField(
-
-                      )),
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.purple[200],
+                      CircleAvatar(),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [Text("Dreamwalker"), Text("ID No. 1234")],
                         ),
-                        child: Text("Search"),
+                      ),
+                      Container(
+                        padding: EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          shape: .circle,
+                          border: .all(color: Colors.white24),
+                          color: Colors.white12,
+                        ),
+                        child: HugeIcon(
+                          icon: HugeIcons.strokeRoundedNotification01,
+                          color: Colors.white,
+                        ),
                       ),
                     ],
                   ),
-                ),
-              ],
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                    child: Row(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
+                        Expanded(child: TextField(
+            
+                        )),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.purple[200],
+                          ),
+                          child: Text("Search"),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
-          Expanded(child: Container(decoration: BoxDecoration(
-    color: Colors.white,
+          Container(decoration: BoxDecoration(
+              color: Colors.white,
             borderRadius: .only(
               topLeft: .circular(24),
               topRight: .circular(24)
             )
-          ),)),
+          ),),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
