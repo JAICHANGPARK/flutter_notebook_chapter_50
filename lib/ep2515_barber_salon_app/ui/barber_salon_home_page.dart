@@ -71,7 +71,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     ],
                   ),
                   Container(
-                    padding: EdgeInsets.only(left: 15, right: 8),
+                    padding: EdgeInsets.only(left: 15, right: 4),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.white,
@@ -89,10 +89,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           ),
                         ),
                         Container(
-                          padding: EdgeInsets.symmetric(horizontal: 24, vertical: 9),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 32,
+                            vertical: 9,
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
-                            color: Colors.purple[200],
+                            color: Color.fromRGBO(232, 221, 247, 1),
                           ),
                           child: Text("Search"),
                         ),
