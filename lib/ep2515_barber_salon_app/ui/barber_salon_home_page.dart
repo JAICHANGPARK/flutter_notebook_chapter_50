@@ -13,6 +13,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: Color(0xff8b5cf6),
+      backgroundColor: Colors.white,
       body: Column(
         spacing: 16,
         children: [
@@ -20,6 +21,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
             padding: EdgeInsets.only(top: 62, left: 16, right: 16),
             decoration: BoxDecoration(color: Color(0xff8b5cf6)),
             child: Column(
+              spacing: 16,
               children: [
                 Row(
                   children: [
@@ -53,7 +55,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     children: [
                       HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                       Expanded(child: TextField(
-                        
+
                       )),
                       Container(
                         decoration: ShapeDecoration(
