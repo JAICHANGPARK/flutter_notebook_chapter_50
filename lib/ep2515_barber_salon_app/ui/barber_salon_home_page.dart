@@ -43,6 +43,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         ),
                       ),
                       Container(
+
                         padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           shape: .circle,
@@ -57,11 +58,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     ],
                   ),
                   Container(
+                    padding: EdgeInsets.only(left: 15, right: 8),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
                     child: Row(
+                      spacing: 8,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
                         Expanded(child: TextField()),
