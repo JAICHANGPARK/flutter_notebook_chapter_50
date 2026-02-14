@@ -13,12 +13,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       // backgroundColor: Color(0xff8b5cf6),
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       body: Column(
-        spacing: 16,
+        // spacing: 16,
         children: [
           Container(
-            padding: EdgeInsets.only(top: 62, left: 16, right: 16),
+            padding: EdgeInsets.only(top: 62, left: 16, right: 16, bottom: 24),
             decoration: BoxDecoration(color: Color(0xff8b5cf6)),
             child: Column(
               spacing: 16,
