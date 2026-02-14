@@ -39,8 +39,22 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       CircleAvatar(),
                       Expanded(
                         child: Column(
+                          spacing: 4,
                           crossAxisAlignment: .start,
-                          children: [Text("Dreamwalker"), Text("ID No. 1234")],
+                          children: [
+                            Text(
+                              "Dreamwalker",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                              ),
+                            ),
+                            Text("ID No. 1234",
+                              style: TextStyle(
+                              color: Colors.white,
+
+                            ),),
+                          ],
                         ),
                       ),
                       Container(
