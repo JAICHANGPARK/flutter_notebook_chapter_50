@@ -39,7 +39,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       CircleAvatar(),
                       Expanded(
                         child: Column(
-                          spacing: 4,
+                          spacing: 2,
                           crossAxisAlignment: .start,
                           children: [
                             Text(
@@ -49,11 +49,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                 fontSize: 16,
                               ),
                             ),
-                            Text("ID No. 1234",
-                              style: TextStyle(
-                              color: Colors.white,
-
-                            ),),
+                            Text(
+                              "ID No. 1234",
+                              style: TextStyle(color: Colors.white),
+                            ),
                           ],
                         ),
                       ),
