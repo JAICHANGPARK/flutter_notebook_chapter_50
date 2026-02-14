@@ -52,13 +52,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                   child: Row(
                     children: [
                       HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                      Expanded(child: TextField()),
+                      Expanded(child: TextField(
+                        
+                      )),
                       Container(
                         decoration: ShapeDecoration(
                           shape: StadiumBorder(),
                           color: Colors.purple[200],
                         ),
-                        
+                        child: Text("Search"),
                       ),
                     ],
                   ),
