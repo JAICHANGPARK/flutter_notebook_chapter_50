@@ -16,7 +16,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
         spacing: 16,
         children: [
           Container(
-            padding: EdgeInsets.only(top: ),
+            padding: EdgeInsets.only(top:62,left: 16, right: 16),
             decoration: BoxDecoration(color: Color(0xff8b5cf6)),
             child: Column(
               children: [
