@@ -23,7 +23,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
             top: 0,
             child: Container(
               height: 300,
-              padding: EdgeInsets.only(top: 62, left: 16, right: 16, bottom: 24),
+              padding: EdgeInsets.only(
+                top: 62,
+                left: 16,
+                right: 16,
+                bottom: 24,
+              ),
               decoration: BoxDecoration(color: Color(0xff8b5cf6)),
               child: Column(
                 spacing: 16,
@@ -59,9 +64,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     child: Row(
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                        Expanded(child: TextField(
-            
-                        )),
+                        Expanded(child: TextField()),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -80,14 +83,17 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
             left: 0,
             right: 0,
             bottom: 0,
-            top: MediaQuery.sizeOf(context).height - 240,
-            child: Container(decoration: BoxDecoration(
+            top: 200,
+            child: Container(
+              decoration: BoxDecoration(
                 color: Colors.white,
-              borderRadius: .only(
-                topLeft: .circular(24),
-                topRight: .circular(24)
-              )
-            ),),
+                borderRadius: .only(
+                  topLeft: .circular(24),
+                  topRight: .circular(24),
+                ),
+              ),
+              child: Placeholder(),
+            ),
           ),
         ],
       ),
