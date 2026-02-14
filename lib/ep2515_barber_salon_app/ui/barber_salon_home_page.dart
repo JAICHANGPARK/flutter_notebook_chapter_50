@@ -70,7 +70,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               ],
             ),
           ),
-          Expanded(child: Container(color: Colors.white)),
+          Expanded(child: Container(decoration: BoxDecoration(
+    color: Colors.white,
+            borderRadius: .only(
+              topLeft: .circular(24),
+              topRight: .circular(24)
+            )
+          ),)),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
