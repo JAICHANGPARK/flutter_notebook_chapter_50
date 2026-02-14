@@ -67,7 +67,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       spacing: 8,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedSearch01),
-                        Expanded(child: TextField()),
+                        Expanded(child: TextField(
+                          decoration: InputDecoration(
+                            hintText: "Search salon"
+                          ),
+                        )),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
