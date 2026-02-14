@@ -19,7 +19,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
           children: [
             Container(decoration: BoxDecoration(
               color: Color(0xff8b5cf6),
-            ),),
+
+            ),
+
+            ),
             Expanded(child: Container(color: Colors.white)),
           ],
         ),
