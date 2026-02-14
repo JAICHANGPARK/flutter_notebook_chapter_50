@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class BarberSalonHomePage extends StatefulWidget {
   const BarberSalonHomePage({super.key});
@@ -34,6 +35,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         shape: .circle,
                         border: .all(color: Colors.white24),
                         color: Colors.white12,
+                      ),
+                      child: HugeIcon(
+                        icon: HugeIcons.strokeRoundedNotification01,
                       ),
                     ),
                   ],
