@@ -121,18 +121,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               ),
               child: Column(
                 children: [
-
-                  Container(height: 320,child: Placeholder(),),
+                  Container(height: 320, child: Placeholder()),
                   Row(
                     children: [
                       Text("Appointment Management"),
-                      Text("")
+                      TextButton(onPressed: () {}, child: Text("View all")),
                     ],
-                  )
-
-
+                  ),
                 ],
-              )
+              ),
             ),
           ),
         ],
