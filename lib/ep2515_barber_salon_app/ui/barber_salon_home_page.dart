@@ -123,15 +123,20 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 child: Column(
                   crossAxisAlignment: .start,
                   children: [
-                    Container(height: 320, child: Placeholder()),
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
+                    Container(height: 200, child: Placeholder()),
+                    Column(
                       children: [
-                        Text("Appointment Management"),
-                        TextButton(onPressed: () {}, child: Text("View all")),
+                        Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text("Appointment Management"),
+                            TextButton(onPressed: () {}, child: Text("View all")),
+                          ],
+                        ),
+                        Container(height: 100, child: Placeholder()),
                       ],
                     ),
-                    Container(height: 100, child: Placeholder()),
+
                     Row(
                       mainAxisAlignment: .spaceBetween,
                       children: [
