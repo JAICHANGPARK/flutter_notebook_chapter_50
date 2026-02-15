@@ -119,6 +119,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                   topRight: .circular(24),
                 ),
               ),
+              padding: EdgeInsets.only(top: 16),
               child: SingleChildScrollView(
                 child: Column(
                   crossAxisAlignment: .start,
@@ -136,29 +137,34 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         Container(height: 100, child: Placeholder()),
                       ],
                     ),
-
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
+                    Column(
                       children: [
-                        Text("Top Saloons"),
-                        TextButton(onPressed: () {}, child: Text("View all")),
+                        Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text("Top Saloons"),
+                            TextButton(onPressed: () {}, child: Text("View all")),
+                          ],
+                        ),
+                        GridView.builder(
+                          shrinkWrap: true,
+                          itemCount: 10,
+                          physics: NeverScrollableScrollPhysics(),
+                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            crossAxisSpacing: 8,
+                            mainAxisSpacing: 8,
+                          ),
+                          itemBuilder: (context, index) {
+                            return Container(
+                              decoration: BoxDecoration(color: Colors.blue),
+                            );
+                          },
+                        ),
                       ],
-                    ),
-                    GridView.builder(
-                      shrinkWrap: true,
-                      itemCount: 10,
-                      physics: NeverScrollableScrollPhysics(),
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 8,
-                        mainAxisSpacing: 8,
-                      ),
-                      itemBuilder: (context, index) {
-                        return Container(
-                          decoration: BoxDecoration(color: Colors.blue),
-                        );
-                      },
-                    ),
+                    )
+
+
                   ],
                 ),
               ),
