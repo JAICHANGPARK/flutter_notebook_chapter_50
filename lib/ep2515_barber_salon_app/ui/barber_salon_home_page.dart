@@ -119,20 +119,23 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                   topRight: .circular(24),
                 ),
               ),
-              child: Column(
-                children: [
-                  Container(height: 320, child: Placeholder()),
-                  Row(
-                    children: [
-                      Text("Appointment Management"),
-                      TextButton(onPressed: () {}, child: Text("View all")),
-                    ],
-                  ),
-                  Container(
-                    height: 100,
-                    child: Placeholder(),
-                  )
-                ],
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    Container(height: 320, child: Placeholder()),
+                    Row(
+                      children: [
+                        Text("Appointment Management"),
+                        TextButton(onPressed: () {}, child: Text("View all")),
+                      ],
+                    ),
+                    Container(
+                      height: 100,
+                      child: Placeholder(),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
