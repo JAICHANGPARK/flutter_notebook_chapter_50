@@ -119,7 +119,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                   topRight: .circular(24),
                 ),
               ),
-              child: Placeholder(),
+              child: Column(
+                children: [
+
+                ],
+              )
             ),
           ),
         ],
