@@ -145,12 +145,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         crossAxisSpacing: 8,
-                        mainAxisSpacing:,
+                        mainAxisSpacing:8,
                       ),
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
-                           color: Colors.blue,
+                            color: Colors.blue,
                           ),
                         );
                       },
