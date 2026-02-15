@@ -122,6 +122,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               child: Column(
                 children: [
 
+                  Container(height: 320,child: Placeholder(),),
+
+
                 ],
               )
             ),
