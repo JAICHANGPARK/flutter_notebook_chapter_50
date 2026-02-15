@@ -144,7 +144,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         crossAxisCount: 2,
                       ),
                       itemBuilder: (context, index) {
-                        return Container()
+                        return Container(
+                          decoration: BoxDecoration(
+                           color: Colors.blue
+                          ),
+                        );
                       },
                     ),
                   ],
