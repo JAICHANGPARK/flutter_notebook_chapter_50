@@ -123,6 +123,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 children: [
 
                   Container(height: 320,child: Placeholder(),),
+                  Row(
+                    children: [
+                      Text("Appointment Management"),
+                      Text("")
+                    ],
+                  )
 
 
                 ],
