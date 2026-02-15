@@ -141,6 +141,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     ),
                     GridView.builder(
                       shrinkWrap: true,
+                      itemCount: 10,
                       physics: NeverScrollableScrollPhysics(),
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
