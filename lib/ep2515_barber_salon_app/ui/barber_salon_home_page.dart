@@ -124,7 +124,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 child: Column(
                   crossAxisAlignment: .start,
                   children: [
-                    Container(height: 200, child: Placeholder()),
+                    Container(height: 180, child: Placeholder()),
                     Column(
                       children: [
                         Row(
