@@ -148,7 +148,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: BoxDecoration(
-                           color: Colors.blue
+                           color: Colors.blue,
                           ),
                         );
                       },
