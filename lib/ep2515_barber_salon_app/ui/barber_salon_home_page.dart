@@ -128,6 +128,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       TextButton(onPressed: () {}, child: Text("View all")),
                     ],
                   ),
+                  Container(
+                    height: 100,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
