@@ -143,7 +143,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                       ),
-                      itemBuilder: (context, index) {},
+                      itemBuilder: (context, index) {
+                        return Container()
+                      },
                     ),
                   ],
                 ),
