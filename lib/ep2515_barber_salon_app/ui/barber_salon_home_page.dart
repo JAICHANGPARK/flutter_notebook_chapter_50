@@ -144,6 +144,8 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       physics: NeverScrollableScrollPhysics(),
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
+                        crossAxisSpacing: 8,
+                        mainAxisSpacing:,
                       ),
                       itemBuilder: (context, index) {
                         return Container(
