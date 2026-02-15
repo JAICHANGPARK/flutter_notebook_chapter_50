@@ -125,15 +125,26 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                   children: [
                     Container(height: 320, child: Placeholder()),
                     Row(
+                      mainAxisAlignment: .spaceBetween,
                       children: [
                         Text("Appointment Management"),
                         TextButton(onPressed: () {}, child: Text("View all")),
                       ],
                     ),
-                    Container(
-                      height: 100,
-                      child: Placeholder(),
-                    )
+                    Container(height: 100, child: Placeholder()),
+                    Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [
+                        Text("Top Saloons"),
+                        TextButton(onPressed: () {}, child: Text("View all")),
+                      ],
+                    ),
+                    GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                      ),
+                      itemBuilder: (context, index) {},
+                    ),
                   ],
                 ),
               ),
