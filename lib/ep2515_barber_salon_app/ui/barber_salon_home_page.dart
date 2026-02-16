@@ -129,6 +129,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       child: Stack(
                         children: [
                           Positioned(
+                            left: 16,
                             child: Container(
                               decoration: BoxDecoration(
                                 borderRadius: .circular(16),
