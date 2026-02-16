@@ -176,6 +176,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                     top: 16,
                                     bottom: 16,
                                     child: Column(
+                                      mainAxisAlignment: .spaceBetween,
                                       crossAxisAlignment: .start,
                                       children: [
                                         Text(
