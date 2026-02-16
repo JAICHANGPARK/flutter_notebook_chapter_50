@@ -218,6 +218,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                               radius: 16,
                                               backgroundColor: Colors.white,
                                               foregroundColor: Colors.black,
+                                              child: Icon(Icons.arrow_forward),
                                             )
                                           ],
                                         ),
