@@ -146,7 +146,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           Positioned(
                             left: 32,
                             right: 32,
-                            top: 16,
+                            top: 14,
                             bottom: 0,
                             child: Container(
                               decoration: ShapeDecoration(
@@ -161,12 +161,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           Positioned(
                             left: 16,
                             right: 16,
-                            top: 32,
+                            top: 28,
                             bottom: 0,
                             child: Container(
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
-                                  borderRadius: .circular(16),
+                                  borderRadius: .circular(24),
                                 ),
                                 color: Color.fromRGBO(132, 60, 225, 1),
                               ),
