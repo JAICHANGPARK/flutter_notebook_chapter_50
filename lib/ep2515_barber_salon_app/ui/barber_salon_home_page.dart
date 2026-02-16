@@ -130,12 +130,16 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         children: [
                           Positioned(
                             left: 16,
+                            right: 16,
                             child: Container(
+
                               decoration: BoxDecoration(
+                                color: Colors.purple,
                                 borderRadius: .circular(16),
                               ),
                             ),
                           ),
+
                         ],
                       ),
                     ),
