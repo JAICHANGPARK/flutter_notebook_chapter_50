@@ -174,7 +174,14 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                     child: Column(
                                       children: [
                                         Text("Get Special\nDiscount"),
-                                        Text.rich(TextSpan(children: [])),
+                                        Text.rich(
+                                          TextSpan(
+                                            children: [
+                                              TextSpan(text: "Up to "),
+                                              TextSpan(text: "40%"),
+                                            ],
+                                          ),
+                                        ),
                                       ],
                                     ),
                                   ),
