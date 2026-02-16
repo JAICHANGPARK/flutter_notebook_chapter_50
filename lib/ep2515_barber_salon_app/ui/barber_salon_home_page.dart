@@ -193,17 +193,26 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                                 style: TextStyle(
                                                   color: Colors.white,
                                                 ),),
-                                              TextSpan(text: "40%"),
+                                              TextSpan(text: "40%",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.white,
+                                                  fontSize: 20,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
                                         Row(
                                           children: [
                                             Container(
+                                              padding: EdgeInsets.symmetric(horizontal: 16,
+                                              vertical: 4),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(),
                                                 color: Colors.white,
                                               ),
+                                              child: Text("Book now"),
                                             ),
                                           ],
                                         ),
