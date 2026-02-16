@@ -154,6 +154,37 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                 ),
                                 color: Color.fromRGBO(184, 142, 245, 1),
                               ),
+                              clipBehavior: .antiAlias,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    right: -42,
+                                    bottom: -42,
+                                    top: -62,
+                                    child: Container(
+                                      height: 200,
+                                      width: 190,
+                                      decoration: BoxDecoration(
+                                        shape: .circle,
+                                        border: .all(
+                                          color: Colors.white,
+                                          width: 2.5,
+                                        ),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
+                                          ),
+                                          fit: .cover,
+                                        ),
+                                      ),
+                                      child: Column(
+                                        mainAxisAlignment: .center,
+                                        children: [],
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                           Positioned(
