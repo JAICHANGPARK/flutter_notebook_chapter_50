@@ -176,6 +176,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                     top: 16,
                                     bottom: 16,
                                     child: Column(
+                                      crossAxisAlignment: .start,
                                       children: [
                                         Text("Get Special\nDiscount"),
                                         Text.rich(
@@ -186,10 +187,19 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                             ],
                                           ),
                                         ),
+                                        Row(
+                                          children: [
+                                            Container(
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(),
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ],
                                     ),
                                   ),
-
                                 ],
                               ),
                             ),
