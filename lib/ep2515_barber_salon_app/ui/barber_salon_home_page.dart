@@ -237,7 +237,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         width: 200,
                                         decoration: BoxDecoration(
                                     shape: .circle,
-                                    border: .all(color: Colors.white)
+                                    border: .all(color: Colors.white, width: 2.5)
                                   ),))
                                 ],
                               ),
