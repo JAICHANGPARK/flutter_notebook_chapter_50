@@ -213,7 +213,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                                 shape: StadiumBorder(),
                                                 color: Colors.white,
                                               ),
-                                              child: Text("Book now"),
+                                              child: Text("Book now",style: TextStyle(
+                                                fontSize: 13,
+                                              ),),
                                             ),
                                             CircleAvatar(
                                               radius: 16,
