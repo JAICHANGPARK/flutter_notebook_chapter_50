@@ -168,9 +168,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                 ),
                                 color: Color.fromRGBO(132, 60, 225, 1),
                               ),
+
                               child: Stack(
                                 children: [
                                   Positioned(
+                                    left: 16,
+                                    top: 16,
+                                    bottom: 16,
                                     child: Column(
                                       children: [
                                         Text("Get Special\nDiscount"),
@@ -185,7 +189,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                       ],
                                     ),
                                   ),
-                                  
+
                                 ],
                               ),
                             ),
