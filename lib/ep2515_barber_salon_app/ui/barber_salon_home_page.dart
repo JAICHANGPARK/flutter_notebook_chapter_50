@@ -147,7 +147,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             bottom: 0,
                             child: Container(
                               decoration: BoxDecoration(
-                                color: Colors.red,
+                                color: Color.fromRGBO(184, 142, 245, 1),
                                 borderRadius: .circular(16),
                               ),
                             ),
@@ -159,12 +159,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             bottom: 0,
                             child: Container(
                               decoration: BoxDecoration(
-                                color: Colors.purple,
+                                color: Color.fromRGBO(132, 60, 225, 1),
                                 borderRadius: .circular(16),
                               ),
                             ),
                           ),
-
                         ],
                       ),
                     ),
