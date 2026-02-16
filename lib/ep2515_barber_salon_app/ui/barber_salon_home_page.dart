@@ -254,6 +254,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         //   fit: .cover
                                         // ),
                                       ),
+                                      child: ClipRRect(
+                                        borderRadius: .circular(32),
+                                        child: Image.network(
+                                          "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",fit: BoxFit.cover,
+                                        ),
+                                      ),
                                     ),
                                   ),
                                 ],
