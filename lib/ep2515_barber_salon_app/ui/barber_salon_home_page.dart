@@ -252,14 +252,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                           image: NetworkImage(
                                             "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
                                           ),
-                                          fit: .cover
+                                          fit: .cover,
                                         ),
                                       ),
                                       child: Column(
                                         mainAxisAlignment: .center,
-                                        children: [
-
-                                        ],
+                                        children: [],
                                       ),
                                     ),
                                   ),
