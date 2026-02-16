@@ -185,6 +185,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                       ],
                                     ),
                                   ),
+                                  
                                 ],
                               ),
                             ),
