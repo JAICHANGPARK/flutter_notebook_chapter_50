@@ -124,14 +124,21 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                 child: Column(
                   crossAxisAlignment: .start,
                   children: [
-                    Container(height: 180, child: Placeholder()),
+                    Container(height: 180, child: Stack(
+                      children: [
+                        
+                      ],
+                    )),
                     Column(
                       children: [
                         Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Appointment Management"),
-                            TextButton(onPressed: () {}, child: Text("View all")),
+                            Text("Appointment Management",),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("View all"),
+                            ),
                           ],
                         ),
                         Container(height: 100, child: Placeholder()),
@@ -143,18 +150,22 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           mainAxisAlignment: .spaceBetween,
                           children: [
                             Text("Top Saloons"),
-                            TextButton(onPressed: () {}, child: Text("View all")),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("View all"),
+                            ),
                           ],
                         ),
                         GridView.builder(
                           shrinkWrap: true,
                           itemCount: 10,
                           physics: NeverScrollableScrollPhysics(),
-                          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 2,
-                            crossAxisSpacing: 8,
-                            mainAxisSpacing: 8,
-                          ),
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                                crossAxisSpacing: 8,
+                                mainAxisSpacing: 8,
+                              ),
                           itemBuilder: (context, index) {
                             return Container(
                               decoration: BoxDecoration(color: Colors.blue),
@@ -162,9 +173,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           },
                         ),
                       ],
-                    )
-
-
+                    ),
                   ],
                 ),
               ),
