@@ -176,7 +176,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           Positioned(
                             left: 32,
                             right: 32,
-                            top: 14,
+                            top: 12,
                             bottom: 0,
                             child: Container(
                               decoration: ShapeDecoration(
