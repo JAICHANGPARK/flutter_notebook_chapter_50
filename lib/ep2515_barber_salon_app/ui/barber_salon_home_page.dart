@@ -158,7 +158,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               child: Stack(
                                 children: [
                                   Positioned(
-                                    right: -42,
+                                    right: -52,
                                     bottom: -42,
                                     top: -62,
                                     child: Container(
