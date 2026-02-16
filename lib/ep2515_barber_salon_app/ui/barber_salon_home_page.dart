@@ -134,6 +134,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             top: 0,
                             bottom: 0,
                             child: Container(
+                              clipBehavior: .antiAlias,
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: .circular(24),
