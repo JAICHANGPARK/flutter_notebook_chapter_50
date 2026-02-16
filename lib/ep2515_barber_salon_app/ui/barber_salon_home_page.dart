@@ -139,7 +139,6 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   borderRadius: .circular(24),
                                 ),
                                 color: Color.fromRGBO(206, 176, 239, 1),
-
                               ),
                             ),
                           ),
@@ -154,7 +153,6 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   borderRadius: .circular(24),
                                 ),
                                 color: Color.fromRGBO(184, 142, 245, 1),
-
                               ),
                             ),
                           ),
@@ -169,6 +167,18 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   borderRadius: .circular(24),
                                 ),
                                 color: Color.fromRGBO(132, 60, 225, 1),
+                              ),
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    child: Column(
+                                      children: [
+                                        Text("Get Special\nDiscount"),
+                                        Text.rich(TextSpan(children: [])),
+                                      ],
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ),
