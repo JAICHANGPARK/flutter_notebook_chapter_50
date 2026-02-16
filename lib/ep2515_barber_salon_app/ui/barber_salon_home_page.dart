@@ -184,7 +184,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white,
-                                            fontSize: 20,
+                                            fontSize: 23,
                                           ),
                                         ),
                                         Text.rich(
@@ -198,7 +198,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   color: Colors.white,
-                                                  fontSize: 20,
+                                                  fontSize: 16,
                                                 ),
                                               ),
                                             ],
