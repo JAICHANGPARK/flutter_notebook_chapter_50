@@ -247,11 +247,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                           color: Colors.white,
                                           width: 2.5,
                                         ),
-                                        image: DecorationImage(
-                                          image: NetworkImage(
-                                            "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
-                                          ),
-                                        ),
+                                        // image: DecorationImage(
+                                        //   image: NetworkImage(
+                                        //     "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
+                                        //   ),
+                                        //   fit: .cover
+                                        // ),
                                       ),
                                     ),
                                   ),
