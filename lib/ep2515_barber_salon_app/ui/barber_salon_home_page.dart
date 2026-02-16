@@ -189,7 +189,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         Text.rich(
                                           TextSpan(
                                             children: [
-                                              TextSpan(text: "Up to "),
+                                              TextSpan(text: "Up to ",
+                                                style: TextStyle(
+                                                  color: Colors.white,
+                                                ),),
                                               TextSpan(text: "40%"),
                                             ],
                                           ),
