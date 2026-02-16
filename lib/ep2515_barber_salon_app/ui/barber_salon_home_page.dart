@@ -162,6 +162,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             top: 28,
                             bottom: 0,
                             child: Container(
+                              clipBehavior: .antiAlias,
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: .circular(24),
@@ -247,22 +248,17 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                           color: Colors.white,
                                           width: 2.5,
                                         ),
-                                        // image: DecorationImage(
-                                        //   image: NetworkImage(
-                                        //     "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
-                                        //   ),
-                                        //   fit: .cover
-                                        // ),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
+                                          ),
+                                          fit: .cover
+                                        ),
                                       ),
                                       child: Column(
                                         mainAxisAlignment: .center,
                                         children: [
-                                          ClipRRect(
-                                            borderRadius: .circular(52),
-                                            child: Image.network(
-                                              "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",fit: BoxFit.cover,
-                                            ),
-                                          ),
+
                                         ],
                                       ),
                                     ),
