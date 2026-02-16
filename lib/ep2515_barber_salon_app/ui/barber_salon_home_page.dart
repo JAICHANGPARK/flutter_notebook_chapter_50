@@ -149,9 +149,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             top: 16,
                             bottom: 0,
                             child: Container(
-                              decoration: BoxDecoration(
+                              decoration: ShapeDecoration(
+                                shape: RoundedSuperellipseBorder(
+                                  borderRadius: .circular(24),
+                                ),
                                 color: Color.fromRGBO(184, 142, 245, 1),
-                                borderRadius: .circular(16),
+
                               ),
                             ),
                           ),
