@@ -190,11 +190,14 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         Text.rich(
                                           TextSpan(
                                             children: [
-                                              TextSpan(text: "Up to ",
+                                              TextSpan(
+                                                text: "Up to ",
                                                 style: TextStyle(
                                                   color: Colors.white,
-                                                ),),
-                                              TextSpan(text: "40%",
+                                                ),
+                                              ),
+                                              TextSpan(
+                                                text: "40%",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   color: Colors.white,
@@ -207,38 +210,51 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         Row(
                                           children: [
                                             Container(
-                                              padding: EdgeInsets.symmetric(horizontal: 16,
-                                              vertical: 4),
+                                              padding: EdgeInsets.symmetric(
+                                                horizontal: 16,
+                                                vertical: 4,
+                                              ),
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(),
                                                 color: Colors.white,
                                               ),
-                                              child: Text("Book now",style: TextStyle(
-                                                fontSize: 13,
-                                              ),),
+                                              child: Text(
+                                                "Book now",
+                                                style: TextStyle(fontSize: 13),
+                                              ),
                                             ),
                                             CircleAvatar(
                                               radius: 16,
                                               backgroundColor: Colors.white,
                                               foregroundColor: Colors.black,
                                               child: Icon(Icons.arrow_forward),
-                                            )
+                                            ),
                                           ],
                                         ),
                                       ],
                                     ),
                                   ),
                                   Positioned(
-                                      right: -42,
-                                      bottom: -42,
-                                      top: -42,
-                                      child: Container(
-                                        height: 200,
-                                        width: 200,
-                                        decoration: BoxDecoration(
-                                    shape: .circle,
-                                    border: .all(color: Colors.white, width: 2.5)
-                                  ),))
+                                    right: -42,
+                                    bottom: -42,
+                                    top: -42,
+                                    child: Container(
+                                      height: 200,
+                                      width: 200,
+                                      decoration: BoxDecoration(
+                                        shape: .circle,
+                                        border: .all(
+                                          color: Colors.white,
+                                          width: 2.5,
+                                        ),
+                                        image: DecorationImage(
+                                          image: NetworkImage(
+                                            "https://cdn.pixabay.com/photo/2021/11/15/11/50/electric-shaver-6797899_1280.jpg",
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ],
                               ),
                             ),
