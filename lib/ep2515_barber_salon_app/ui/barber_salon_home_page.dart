@@ -214,6 +214,11 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                               ),
                                               child: Text("Book now"),
                                             ),
+                                            CircleAvatar(
+                                              radius: 16,
+                                              backgroundColor: Colors.white,
+                                              foregroundColor: Colors.black,
+                                            )
                                           ],
                                         ),
                                       ],
