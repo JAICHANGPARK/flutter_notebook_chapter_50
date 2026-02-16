@@ -228,6 +228,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                       ],
                                     ),
                                   ),
+                                  Positioned(child: Container(decoration: BoxDecoration(
+                                    shape: .circle,
+                                    border: .all(color: Colors.white)
+                                  ),))
                                 ],
                               ),
                             ),
