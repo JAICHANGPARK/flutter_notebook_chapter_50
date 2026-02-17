@@ -344,10 +344,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               ),
                               TextButton(
                                 onPressed: () {},
-                                child: Text("View all"),
                                 style: TextButton.styleFrom(
                                   foregroundColor: Colors.purple
-                                )
+                                ),
+                                child: Text("View all")
                               ),
                             ],
                           ),
