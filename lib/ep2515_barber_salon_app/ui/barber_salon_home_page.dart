@@ -361,24 +361,27 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
                             itemBuilder: (context, index) {
-                              return Column(
-                                children: [
-                                  CircleAvatar(
-                                    radius: 32,
-                                    backgroundColor: Color.fromRGBO(
-                                      243,
-                                      235,
-                                      254,
-                                      1,
+                              return Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 32,
+                                      backgroundColor: Color.fromRGBO(
+                                        243,
+                                        235,
+                                        254,
+                                        1,
+                                      ),
+                                      foregroundColor: Color.fromRGBO(
+                                        130,
+                                        109,
+                                        167,
+                                        1,
+                                      ),
                                     ),
-                                    foregroundColor: Color.fromRGBO(
-                                      130,
-                                      109,
-                                      167,
-                                      1,
-                                    ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               );
                             },
                           ),
