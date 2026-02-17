@@ -450,10 +450,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   color: Color.fromRGBO(232, 236, 250, 1),
                                   borderRadius: .circular(12),
                                 ),
+                                clipBehavior: .antiAlias,
                                 child: Column(
                                   crossAxisAlignment: .start,
                                   children: [
-                                    Expanded(child: Container()),
+                                    Expanded(child: Container(
+                                      decoration: BoxDecoration(
+                                        color: Colors.blue
+                                      ),
+                                    )),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
                                       child: Column(
