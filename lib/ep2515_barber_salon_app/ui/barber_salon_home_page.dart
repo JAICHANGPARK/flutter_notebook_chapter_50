@@ -453,17 +453,21 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   crossAxisAlignment: .start,
                                   children: [
                                     Expanded(child: Container()),
-                                    Column(
-                                      children: [
-                                        Row(
-                                          mainAxisAlignment: .spaceBetween,
-                                          children: [
-                                            Text("DreamUp Studio"),
-                                            Text("\$10"),
-                                          ],
-                                        ),
-                                        Text("save up to 20%"),
-                                      ],
+                                    Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Column(
+                                        crossAxisAlignment: .start,
+                                        children: [
+                                          Row(
+                                            mainAxisAlignment: .spaceBetween,
+                                            children: [
+                                              Text("DreamUp Studio"),
+                                              Text("\$10"),
+                                            ],
+                                          ),
+                                          Text("save up to 20%"),
+                                        ],
+                                      ),
                                     )
 
                                   ],
