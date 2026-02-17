@@ -19,13 +19,14 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
           Container(
             height: 260,
             decoration: ShapeDecoration(
-                color: Colors.purple,
-                shape: RoundedSuperellipseBorder(
-              borderRadius: .only(
-                bottomLeft: .circular(32),
-                bottomRight: .circular(32),
-              )
-            )),
+              color: Colors.purple,
+              shape: RoundedSuperellipseBorder(
+                borderRadius: .only(
+                  bottomLeft: .circular(32),
+                  bottomRight: .circular(32),
+                ),
+              ),
+            ),
           ),
           Column(
             children: [
@@ -35,12 +36,12 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                   Icon(Icons.star),
                   Text("5(2k+)"),
                 ],
-              )
+              ),
+              Text("")
             ],
-          )
-
+          ),
         ],
-      )
+      ),
     );
   }
 }
