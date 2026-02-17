@@ -383,7 +383,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         167,
                                         1,
                                       ),
-                                      child: Icon(Icons.add_circle_outline,size: 24,),
+                                      child: Icon(Icons.add_circle_outline,size: 32,),
                                     ),
                                     Text(
                                       "Online\nAppointment",
