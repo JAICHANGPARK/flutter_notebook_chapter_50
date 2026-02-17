@@ -18,6 +18,12 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
         children: [
           Container(
             height: 180,
+            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+              borderRadius: .only(
+                bottomLeft: .circular(32),
+                bottomRight: .circular(32),
+              )
+            )),
           ),
           Column(
             children: [
