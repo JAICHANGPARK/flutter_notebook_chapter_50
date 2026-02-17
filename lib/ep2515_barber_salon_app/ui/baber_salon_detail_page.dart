@@ -13,10 +13,23 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
+        crossAxisAlignment: .start,
+        spacing: 24,
         children: [
           Container(
             height: 180,
           ),
+          Column(
+            children: [
+              Row(
+                children: [
+                  Text("Star Quality Cutz"),
+                  Icon(Icons.star),
+                  Text("5(2k+)"),
+                ],
+              )
+            ],
+          )
 
         ],
       )
