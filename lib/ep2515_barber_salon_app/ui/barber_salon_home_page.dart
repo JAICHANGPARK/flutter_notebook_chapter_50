@@ -273,18 +273,30 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         ),
                                         Row(
                                           children: [
-                                            Container(
-                                              padding: EdgeInsets.symmetric(
-                                                horizontal: 16,
-                                                vertical: 4,
-                                              ),
-                                              decoration: ShapeDecoration(
-                                                shape: StadiumBorder(),
-                                                color: Colors.white,
-                                              ),
-                                              child: Text(
-                                                "Book now",
-                                                style: TextStyle(fontSize: 13),
+                                            GestureDetector(
+                                              onTap: () {
+                                                Navigator.of(context).push(
+                                                  MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        BarberSalonHomePage(),
+                                                  ),
+                                                );
+                                              },
+                                              child: Container(
+                                                padding: EdgeInsets.symmetric(
+                                                  horizontal: 16,
+                                                  vertical: 4,
+                                                ),
+                                                decoration: ShapeDecoration(
+                                                  shape: StadiumBorder(),
+                                                  color: Colors.white,
+                                                ),
+                                                child: Text(
+                                                  "Book now",
+                                                  style: TextStyle(
+                                                    fontSize: 13,
+                                                  ),
+                                                ),
                                               ),
                                             ),
                                             CircleAvatar(
