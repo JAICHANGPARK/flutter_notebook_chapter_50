@@ -357,7 +357,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                           ),
                         ),
                         Container(
-                          height: 120,
+                          height: 128,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemCount: 10,
@@ -365,7 +365,8 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               return Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
-                                  spacing: 3,
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  spacing: 2,
                                   children: [
                                     CircleAvatar(
                                       radius: 32,
@@ -383,7 +384,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                       ),
                                     ),
                                     Text("Online\nAppointment"),
-                                    
+
                                   ],
                                 ),
                               );
