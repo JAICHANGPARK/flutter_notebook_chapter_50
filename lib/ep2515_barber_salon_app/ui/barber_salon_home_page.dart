@@ -280,7 +280,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                                 Navigator.of(context).push(
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                    BaberSalonDetailPage(),
+                                                        BaberSalonDetailPage(),
                                                   ),
                                                 );
                                               },
