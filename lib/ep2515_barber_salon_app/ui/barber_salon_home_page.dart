@@ -383,7 +383,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         167,
                                         1,
                                       ),
-                                      child: Icon(Icons.add_circle_outline,size: 32,),
+                                      child: Icon(
+                                        Icons.add_circle_outline,
+                                        size: 32,
+                                      ),
                                     ),
                                     Text(
                                       "Online\nAppointment",
@@ -402,7 +405,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Top Saloons"),
+                            Text(
+                              "Top Saloons",
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Text("View all"),
