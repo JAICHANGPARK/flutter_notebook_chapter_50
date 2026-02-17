@@ -448,6 +448,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               return Container(
                                 decoration: BoxDecoration(
                                   color: Color.fromRGBO(232, 236, 250, 1),
+                                  borderRadius: .circular(12),
                                 ),
                                 child: Column(
                                   crossAxisAlignment: .start,
