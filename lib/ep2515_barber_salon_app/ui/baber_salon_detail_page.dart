@@ -17,8 +17,10 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
         spacing: 24,
         children: [
           Container(
-            height: 180,
-            decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+            height: 260,
+            decoration: ShapeDecoration(
+                color: Colors.purple,
+                shape: RoundedSuperellipseBorder(
               borderRadius: .only(
                 bottomLeft: .circular(32),
                 bottomRight: .circular(32),
