@@ -455,11 +455,13 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   spacing: 4,
                                   crossAxisAlignment: .start,
                                   children: [
-                                    Expanded(child: Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.blue
+                                    Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.blue,
+                                        ),
                                       ),
-                                    )),
+                                    ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
                                       child: Column(
@@ -469,19 +471,25 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                           Row(
                                             mainAxisAlignment: .spaceBetween,
                                             children: [
-                                              Text("DreamUp Studio",style: TextStyle(
-                                                fontSize: 15,
-                                              ),),
-                                              Text("\$10",style: TextStyle(
-                                                fontWeight: .bold,
-                                              ),),
+                                              Text(
+                                                "DreamUp Studio",
+                                                style: TextStyle(fontSize: 15),
+                                              ),
+                                              Text(
+                                                "\$10",
+                                                style: TextStyle(
+                                                  fontWeight: .bold,
+                                                ),
+                                              ),
                                             ],
                                           ),
-                                          Text("save up to 20%"),
+                                          Text(
+                                            "save up to 20%",
+                                            style: TextStyle(fontSize: 12),
+                                          ),
                                         ],
                                       ),
-                                    )
-
+                                    ),
                                   ],
                                 ),
                               );
