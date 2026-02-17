@@ -335,7 +335,10 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Appointment Management"),
+                            Text(
+                              "Appointment Management",
+                              style: TextStyle(fontWeight: .bold, fontSize: 18),
+                            ),
                             TextButton(
                               onPressed: () {},
                               child: Text("View all"),
