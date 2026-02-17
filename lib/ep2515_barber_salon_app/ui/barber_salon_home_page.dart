@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'baber_salon_detail_page.dart';
+
 class BarberSalonHomePage extends StatefulWidget {
   const BarberSalonHomePage({super.key});
 
@@ -278,7 +280,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                                 Navigator.of(context).push(
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        BarberSalonHomePage(),
+                                                    BaberSalonDetailPage(),
                                                   ),
                                                 );
                                               },
