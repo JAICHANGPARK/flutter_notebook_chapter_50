@@ -452,6 +452,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                   children: [
                                     Expanded(child: Container()),
                                     Row(
+                                      mainAxisAlignment: .spaceBetween,
                                       children: [
                                         Text("DreamUp Studio"),
                                         Text("\$10"),
