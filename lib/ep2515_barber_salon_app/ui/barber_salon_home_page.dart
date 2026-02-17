@@ -332,7 +332,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       ),
                     ),
                     Column(
-                      
+
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -365,6 +365,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               return Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
+                                  spacing: 3,
                                   children: [
                                     CircleAvatar(
                                       radius: 32,
@@ -381,8 +382,8 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         1,
                                       ),
                                     ),
-                                    Text("Online"),
-                                    Text("Appointment")
+                                    Text("Online\nAppointment"),
+                                    
                                   ],
                                 ),
                               );
