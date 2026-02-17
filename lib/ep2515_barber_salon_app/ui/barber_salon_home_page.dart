@@ -348,7 +348,12 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                               TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom(
-                                  foregroundColor: Colors.purple,
+                                  foregroundColor:  Color.fromRGBO(
+                                    130,
+                                    109,
+                                    167,
+                                    1,
+                                  ),
                                 ),
                                 child: Text("View all"),
                               ),
