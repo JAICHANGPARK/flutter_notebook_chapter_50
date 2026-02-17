@@ -446,7 +446,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                 ),
                             itemBuilder: (context, index) {
                               return Container(
-                                decoration: BoxDecoration(color: Colors.blue),
+                                decoration: BoxDecoration(
+                                  color: Color.fromRGBO(232, 236, 250, 1),
+                                ),
                                 child: Column(
                                   crossAxisAlignment: .start,
                                   children: [
@@ -458,7 +460,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         Text("\$10"),
                                       ],
                                     ),
-                                    Text("save up to 20%")
+                                    Text("save up to 20%"),
                                   ],
                                 ),
                               );
