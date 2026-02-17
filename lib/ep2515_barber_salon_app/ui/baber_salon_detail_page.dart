@@ -29,6 +29,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
             ),
           ),
           Column(
+            crossAxisAlignment: .start,
             children: [
               Row(
                 children: [
