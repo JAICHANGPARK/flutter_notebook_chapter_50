@@ -363,9 +363,9 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             itemBuilder: (context, index) {
                               return Column(
                                 children: [
-                                  
+
                                 ],
-                              )
+                              );
                             },
                           ),
                         ),
