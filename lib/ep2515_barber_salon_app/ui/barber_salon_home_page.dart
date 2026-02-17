@@ -340,19 +340,27 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             children: [
                               Text(
                                 "Appointment Management",
-                                style: TextStyle(fontWeight: .bold, fontSize: 18),
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 18,
+                                ),
                               ),
                               TextButton(
                                 onPressed: () {},
                                 style: TextButton.styleFrom(
-                                  foregroundColor: Colors.purple
+                                  foregroundColor: Colors.purple,
                                 ),
-                                child: Text("View all")
+                                child: Text("View all"),
                               ),
                             ],
                           ),
                         ),
-                        Container(height: 100, child: Placeholder()),
+                        Container(
+                          height: 100,
+                          child: ListView.builder(
+                            itemBuilder: (context, index) {},
+                          ),
+                        ),
                       ],
                     ),
                     Column(
