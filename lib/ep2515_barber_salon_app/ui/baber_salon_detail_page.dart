@@ -10,6 +10,8 @@ class BaberSalonDetailPage extends StatefulWidget {
 class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: ,
+    );
   }
 }
