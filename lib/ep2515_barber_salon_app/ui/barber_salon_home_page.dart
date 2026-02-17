@@ -332,6 +332,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                       ),
                     ),
                     Column(
+                      
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
