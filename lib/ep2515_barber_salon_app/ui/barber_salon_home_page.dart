@@ -358,7 +358,15 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         Container(
                           height: 100,
                           child: ListView.builder(
-                            itemBuilder: (context, index) {},
+                            scrollDirection: Axis.horizontal,
+                            itemCount: 10,
+                            itemBuilder: (context, index) {
+                              return Column(
+                                children: [
+                                  
+                                ],
+                              )
+                            },
                           ),
                         ),
                       ],
