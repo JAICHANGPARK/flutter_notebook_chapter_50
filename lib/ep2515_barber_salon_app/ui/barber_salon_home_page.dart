@@ -380,6 +380,8 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         1,
                                       ),
                                     ),
+                                    Text("Online"),
+                                    Text("Appointment")
                                   ],
                                 ),
                               );
