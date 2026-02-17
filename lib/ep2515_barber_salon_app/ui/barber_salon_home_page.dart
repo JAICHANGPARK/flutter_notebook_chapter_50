@@ -457,6 +457,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                       padding: const EdgeInsets.all(8.0),
                                       child: Column(
                                         crossAxisAlignment: .start,
+                                        spacing: 2,
                                         children: [
                                           Row(
                                             mainAxisAlignment: .spaceBetween,
