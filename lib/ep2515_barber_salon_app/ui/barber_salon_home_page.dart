@@ -452,6 +452,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                 ),
                                 clipBehavior: .antiAlias,
                                 child: Column(
+                                  spacing: 4,
                                   crossAxisAlignment: .start,
                                   children: [
                                     Expanded(child: Container(
