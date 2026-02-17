@@ -382,6 +382,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                                         167,
                                         1,
                                       ),
+                                      child: Icon(Icons.add_circle_outline),
                                     ),
                                     Text(
                                       "Online\nAppointment",
