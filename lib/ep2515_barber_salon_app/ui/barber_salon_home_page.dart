@@ -447,6 +447,18 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             itemBuilder: (context, index) {
                               return Container(
                                 decoration: BoxDecoration(color: Colors.blue),
+                                child: Column(
+                                  children: [
+                                    Expanded(child: Container()),
+                                    Row(
+                                      children: [
+                                        Text("DreamUp Studio"),
+                                        Text("\$10"),
+                                      ],
+                                    ),
+                                    Text("save up to 20%")
+                                  ],
+                                ),
                               );
                             },
                           ),
