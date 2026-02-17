@@ -122,6 +122,7 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
               padding: EdgeInsets.only(top: 16),
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   crossAxisAlignment: .start,
                   children: [
                     Container(
