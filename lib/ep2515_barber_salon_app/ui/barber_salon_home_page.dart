@@ -400,38 +400,42 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                         ),
                       ],
                     ),
-                    Column(
-                      children: [
-                        Row(
-                          mainAxisAlignment: .spaceBetween,
-                          children: [
-                            Text(
-                              "Top Saloons",
-                              style: TextStyle(fontWeight: .bold, fontSize: 18),
-                            ),
-                            TextButton(
-                              onPressed: () {},
-                              child: Text("View all"),
-                            ),
-                          ],
-                        ),
-                        GridView.builder(
-                          shrinkWrap: true,
-                          itemCount: 10,
-                          physics: NeverScrollableScrollPhysics(),
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 2,
-                                crossAxisSpacing: 8,
-                                mainAxisSpacing: 8,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: .spaceBetween,
+                            children: [
+                              Text(
+                                "Top Saloons",
+                                style: TextStyle(fontWeight: .bold, fontSize: 18),
                               ),
-                          itemBuilder: (context, index) {
-                            return Container(
-                              decoration: BoxDecoration(color: Colors.blue),
-                            );
-                          },
-                        ),
-                      ],
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("View all"),
+                              ),
+                            ],
+                          ),
+                          GridView.builder(
+                            padding: .zero,
+                            shrinkWrap: true,
+                            itemCount: 10,
+                            physics: NeverScrollableScrollPhysics(),
+                            gridDelegate:
+                                SliverGridDelegateWithFixedCrossAxisCount(
+                                  crossAxisCount: 2,
+                                  crossAxisSpacing: 8,
+                                  mainAxisSpacing: 8,
+                                ),
+                            itemBuilder: (context, index) {
+                              return Container(
+                                decoration: BoxDecoration(color: Colors.blue),
+                              );
+                            },
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
