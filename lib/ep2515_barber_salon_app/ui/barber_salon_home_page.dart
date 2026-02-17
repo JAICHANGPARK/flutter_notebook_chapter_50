@@ -332,18 +332,24 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                     ),
                     Column(
                       children: [
-                        Row(
-                          mainAxisAlignment: .spaceBetween,
-                          children: [
-                            Text(
-                              "Appointment Management",
-                              style: TextStyle(fontWeight: .bold, fontSize: 18),
-                            ),
-                            TextButton(
-                              onPressed: () {},
-                              child: Text("View all"),
-                            ),
-                          ],
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
+                          child: Row(
+                            mainAxisAlignment: .spaceBetween,
+                            children: [
+                              Text(
+                                "Appointment Management",
+                                style: TextStyle(fontWeight: .bold, fontSize: 18),
+                              ),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("View all"),
+                                style: TextButton.styleFrom(
+                                  foregroundColor: Colors.purple
+                                )
+                              ),
+                            ],
+                          ),
                         ),
                         Container(height: 100, child: Placeholder()),
                       ],
