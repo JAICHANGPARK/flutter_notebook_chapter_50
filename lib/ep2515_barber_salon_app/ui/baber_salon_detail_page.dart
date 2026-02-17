@@ -11,8 +11,14 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 180,
+          ),
+
+        ],
       )
     );
   }
