@@ -47,14 +47,22 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                 children: [
                   Text("\$89.00"),
                   Text("save up to 20%"),
-                  CircleAvatar(child: Icon(Icons.chat),),
-                  CircleAvatar(child: Icon(Icons.phone),),
+                  CircleAvatar(child: Icon(Icons.chat)),
+                  CircleAvatar(child: Icon(Icons.phone)),
                 ],
               ),
-              Text("Choose Date"),
-              SizedBox(height: 80,
-              child: Placeholder(),)
-
+              Column(
+                children: [
+                  Text("Choose Date"),
+                  SizedBox(height: 80, child: Placeholder()),
+                ],
+              ),
+              Column(
+                children: [
+                  Text("Choose Time"),
+                  SizedBox(height: 42, child: Placeholder()),
+                ],
+              ),
             ],
           ),
         ],
