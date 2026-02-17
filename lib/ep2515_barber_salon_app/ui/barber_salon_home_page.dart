@@ -363,7 +363,21 @@ class _BarberSalonHomePageState extends State<BarberSalonHomePage> {
                             itemBuilder: (context, index) {
                               return Column(
                                 children: [
-
+                                  CircleAvatar(
+                                    radius: 32,
+                                    backgroundColor: Color.fromRGBO(
+                                      243,
+                                      235,
+                                      254,
+                                      1,
+                                    ),
+                                    foregroundColor: Color.fromRGBO(
+                                      130,
+                                      109,
+                                      167,
+                                      1,
+                                    ),
+                                  ),
                                 ],
                               );
                             },
