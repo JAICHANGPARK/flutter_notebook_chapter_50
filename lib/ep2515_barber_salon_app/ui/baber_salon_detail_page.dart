@@ -42,8 +42,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                       children: [
                         Text(
                           "Star Quality Cutz",
-                          style: TextStyle(fontWeight: .bold,
-                          fontSize: 20,),
+                          style: TextStyle(fontWeight: .bold, fontSize: 20),
                         ),
                         Spacer(),
                         Icon(Icons.star, size: 15),
@@ -56,6 +55,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                       overflow: .ellipsis,
                     ),
                     Row(
+                      spacing: 6,
                       children: [
                         Text("\$89.00"),
                         Text("save up to 20%"),
