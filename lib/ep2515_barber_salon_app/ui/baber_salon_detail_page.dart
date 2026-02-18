@@ -52,12 +52,14 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                 ],
               ),
               Column(
+                crossAxisAlignment: .start,
                 children: [
                   Text("Choose Date"),
                   SizedBox(height: 80, child: Placeholder()),
                 ],
               ),
               Column(
+                crossAxisAlignment: .start,
                 children: [
                   Text("Choose Time"),
                   SizedBox(height: 42, child: Placeholder()),
