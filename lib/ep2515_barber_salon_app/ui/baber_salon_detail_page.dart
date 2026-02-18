@@ -31,30 +31,35 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
           Column(
             crossAxisAlignment: .start,
             children: [
-              Column(
-                children: [
-                  Row(
-                    children: [
-                      Text("Star Quality Cutz"),
-                      Icon(Icons.star),
-                      Text("5(2k+)"),
-                    ],
-                  ),
-                  Text(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    maxLines: 3,
-                    overflow: .ellipsis,
-                  ),
-                  Row(
-                    children: [
-                      Text("\$89.00"),
-                      Text("save up to 20%"),
-                      Spacer(),
-                      CircleAvatar(child: Icon(Icons.chat)),
-                      CircleAvatar(child: Icon(Icons.phone)),
-                    ],
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  spacing: 16,
+                  crossAxisAlignment: .start,
+                  children: [
+                    Row(
+                      children: [
+                        Text("Star Quality Cutz"),
+                        Icon(Icons.star),
+                        Text("5(2k+)"),
+                      ],
+                    ),
+                    Text(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      maxLines: 3,
+                      overflow: .ellipsis,
+                    ),
+                    Row(
+                      children: [
+                        Text("\$89.00"),
+                        Text("save up to 20%"),
+                        Spacer(),
+                        CircleAvatar(child: Icon(Icons.chat)),
+                        CircleAvatar(child: Icon(Icons.phone)),
+                      ],
+                    ),
+                  ],
+                ),
               ),
 
               Column(
