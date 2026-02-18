@@ -68,12 +68,16 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                 ),
               ),
 
-              Column(
-                crossAxisAlignment: .start,
-                children: [
-                  Text("Choose Date"),
-                  SizedBox(height: 80, child: Placeholder()),
-                ],
+              Padding(
+                padding: const EdgeInsets.only(left: 16),
+                child: Column(
+                  spacing: 12,
+                  crossAxisAlignment: .start,
+                  children: [
+                    Text("Choose Date"),
+                    SizedBox(height: 80, child: Placeholder()),
+                  ],
+                ),
               ),
               Column(
                 crossAxisAlignment: .start,
