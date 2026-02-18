@@ -87,9 +87,15 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                   crossAxisAlignment: .start,
                   children: [
                     Text("Choose Time"),
-                    SizedBox(height: 42, child: Placeholder()),
+                    SizedBox(height: 52, child: Placeholder()),
                   ],
                 ),
+              ),
+              Row(
+                children: [
+                  Text("Customer Review"),
+                  TextButton(onPressed: () {}, child: Text("View all")),
+                ],
               ),
             ],
           ),
