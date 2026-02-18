@@ -30,6 +30,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
           ),
           Column(
             crossAxisAlignment: .start,
+            spacing: 20,
             children: [
               Padding(
                 padding: const EdgeInsets.all(16.0),
