@@ -34,15 +34,19 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
-                  spacing: 16,
+                  spacing: 20,
                   crossAxisAlignment: .start,
                   children: [
                     Row(
                       spacing: 4,
                       children: [
-                        Text("Star Quality Cutz"),
+                        Text(
+                          "Star Quality Cutz",
+                          style: TextStyle(fontWeight: .bold,
+                          fontSize: 20,),
+                        ),
                         Spacer(),
-                        Icon(Icons.star,size: 15,),
+                        Icon(Icons.star, size: 15),
                         Text("5(2k+)"),
                       ],
                     ),
