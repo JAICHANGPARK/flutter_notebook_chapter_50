@@ -91,11 +91,18 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                   ],
                 ),
               ),
-              Row(
-                children: [
-                  Text("Customer Review"),
-                  TextButton(onPressed: () {}, child: Text("View all")),
-                ],
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text("Customer Review"),
+                        TextButton(onPressed: () {}, child: Text("View all")),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
