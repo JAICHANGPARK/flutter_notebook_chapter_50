@@ -47,6 +47,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                 children: [
                   Text("\$89.00"),
                   Text("save up to 20%"),
+                  Spacer(),
                   CircleAvatar(child: Icon(Icons.chat)),
                   CircleAvatar(child: Icon(Icons.phone)),
                 ],
