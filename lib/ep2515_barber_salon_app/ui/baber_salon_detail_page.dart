@@ -105,7 +105,19 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                     Row(
                       children: [
                         CircleAvatar(),
-                        Expanded(child: Column(children: [Text("")])),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Text("Dream Walker"),
+                              Text("Seoul, South Korea"),
+                            ],
+                          ),
+                        ),
+                        Icon(Icons.star),
+                        Icon(Icons.star),
+                        Icon(Icons.star),
+                        Icon(Icons.star),
+                        Icon(Icons.star),
                       ],
                     ),
                   ],
