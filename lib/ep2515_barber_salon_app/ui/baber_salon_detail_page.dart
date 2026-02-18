@@ -33,7 +33,7 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
             spacing: 20,
             children: [
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 child: Column(
                   spacing: 20,
                   crossAxisAlignment: .start,
