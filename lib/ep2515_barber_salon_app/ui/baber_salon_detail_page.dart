@@ -96,9 +96,16 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                 child: Column(
                   children: [
                     Row(
+                      mainAxisAlignment: .spaceBetween,
                       children: [
                         Text("Customer Review"),
                         TextButton(onPressed: () {}, child: Text("View all")),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        CircleAvatar(),
+                        Expanded(child: Column(children: [Text("")])),
                       ],
                     ),
                   ],
