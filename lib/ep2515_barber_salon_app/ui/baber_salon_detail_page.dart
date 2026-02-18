@@ -103,10 +103,12 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                       ],
                     ),
                     Row(
+                      spacing: 4,
                       children: [
                         CircleAvatar(),
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: .start,
                             children: [
                               Text("Dream Walker"),
                               Text("Seoul, South Korea"),
@@ -122,6 +124,15 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                     ),
                   ],
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 16),
+                height: 52,
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.purple,
+                ),
+                child: Center(child: Text("Booking")),
               ),
             ],
           ),
