@@ -38,9 +38,11 @@ class _BaberSalonDetailPageState extends State<BaberSalonDetailPage> {
                   crossAxisAlignment: .start,
                   children: [
                     Row(
+                      spacing: 4,
                       children: [
                         Text("Star Quality Cutz"),
-                        Icon(Icons.star),
+                        Spacer(),
+                        Icon(Icons.star,size: 15,),
                         Text("5(2k+)"),
                       ],
                     ),
