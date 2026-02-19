@@ -16,7 +16,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       body: Stack(
         children: [
           Positioned(
-            bottom: 0,
+            bottom: 32,
             left: 32,
             right: 32,
             child: Container(
