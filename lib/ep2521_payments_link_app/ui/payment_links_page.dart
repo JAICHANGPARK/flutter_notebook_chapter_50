@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class PaymentLinksPage extends StatefulWidget {
   const PaymentLinksPage({super.key});
 
@@ -15,17 +14,24 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),color: Colors.white),
-          child: Column(
-            children: [
-              Container(
-                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),),
-              )
-            ],
-          ),),
-          )
+          Positioned(
+            child: Container(
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(),
+                color: Colors.white,
+              ),
+              child: Column(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
-
       ),
     );
   }
