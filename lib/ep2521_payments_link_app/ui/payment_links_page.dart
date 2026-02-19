@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PaymentLinksPage extends StatefulWidget {
@@ -25,6 +26,14 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(),
+                      color: Colors.grey[100]!,
+
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(CupertinoIcons.list_bullet_below_rectangle),
+                        Expanded(child: Center(child: Text("dreamwalker.com"),))
+                      ],
                     ),
                   ),
                 ],
