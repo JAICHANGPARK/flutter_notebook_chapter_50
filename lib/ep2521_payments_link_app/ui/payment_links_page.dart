@@ -16,6 +16,9 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       body: Stack(
         children: [
           Positioned(
+            bottom: 0,
+            left: 32,
+            right: 32,
             child: Container(
               decoration: ShapeDecoration(
                 shape: RoundedSuperellipseBorder(),
