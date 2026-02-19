@@ -32,7 +32,8 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: Row(
                       children: [
                         Icon(CupertinoIcons.list_bullet_below_rectangle),
-                        Expanded(child: Center(child: Text("dreamwalker.com"),))
+                        Expanded(child: Center(child: Text("dreamwalker."),)),
+                        Icon(CupertinoIcons.refresh)
                       ],
                     ),
                   ),
