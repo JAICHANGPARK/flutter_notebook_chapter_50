@@ -13,6 +13,7 @@ dependencies:
   gap: ^3.0.1
   hugeicons: ^1.1.5
   percent_indicator:
+  cupertino_icons:
 
 dev_dependencies:
   flutter_test:
