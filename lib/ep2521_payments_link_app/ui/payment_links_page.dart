@@ -44,7 +44,9 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     children: [
                       Icon(CupertinoIcons.back),
                       Icon(CupertinoIcons.forward),
-                      Icon(CupertinoIcons.forward),
+                      Icon(CupertinoIcons.share),
+                      Icon(CupertinoIcons.book),
+                      Icon(CupertinoIcons.doc_on_clipboard),
                     ],
                   )
                 ],
