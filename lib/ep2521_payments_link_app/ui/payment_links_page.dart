@@ -21,17 +21,22 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
             right: 32,
             child: Container(
               decoration: ShapeDecoration(
-                shape: RoundedSuperellipseBorder(),
+                shape: RoundedSuperellipseBorder(
+                  borderRadius: BorderRadius.circular(32),
+                ),
                 color: Colors.white,
               ),
               child: Column(
+                spacing: 12,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
-                      shape: RoundedSuperellipseBorder(),
-                      color: Colors.grey[100]!,
+                      shape: StadiumBorder(
 
+                      ),
+                      color: Colors.grey[100]!,
                     ),
+                    padding: EdgeInsets.all(8),
                     child: Row(
                       children: [
                         Icon(CupertinoIcons.list_bullet_below_rectangle),
