@@ -25,6 +25,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   borderRadius: BorderRadius.circular(32),
                 ),
                 color: Colors.white,
+                shadows: [
+                  BoxShadow(
+                    color: Colors.black12,
+                    blurRadius: 5,
+                    spreadRadius: 5
+                  )
+                ]
               ),
               child: Column(
                 spacing: 12,
@@ -46,6 +53,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     ),
                   ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Icon(CupertinoIcons.back),
                       Icon(CupertinoIcons.forward),
