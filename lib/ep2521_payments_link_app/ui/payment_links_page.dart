@@ -14,6 +14,17 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Stack(
+        children: [
+          Positioned(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),color: Colors.white),
+          child: Column(
+            children: [
+              Container(
+                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),),
+              )
+            ],
+          ),),
+          )
+        ],
 
       ),
     );
