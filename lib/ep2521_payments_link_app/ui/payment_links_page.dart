@@ -11,6 +11,11 @@ class PaymentLinksPage extends StatefulWidget {
 class _PaymentLinksPageState extends State<PaymentLinksPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Stack(
+
+      ),
+    );
   }
 }
