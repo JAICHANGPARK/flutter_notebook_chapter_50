@@ -20,6 +20,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
             left: 32,
             right: 32,
             child: Container(
+              padding: EdgeInsets.all(16),
               decoration: ShapeDecoration(
                 shape: RoundedSuperellipseBorder(
                   borderRadius: BorderRadius.circular(32),
@@ -34,7 +35,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                 ]
               ),
               child: Column(
-                spacing: 12,
+                spacing: 16,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
