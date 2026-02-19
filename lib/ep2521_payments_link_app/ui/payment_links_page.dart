@@ -40,6 +40,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       ],
                     ),
                   ),
+                  Row(
+                    children: [
+                      Icon(CupertinoIcons.back),
+                      Icon(CupertinoIcons.forward),
+                      Icon(CupertinoIcons.forward),
+                    ],
+                  )
                 ],
               ),
             ),
