@@ -1,6 +1,13 @@
 # flutter_notebook_chapter_50
 
-## EP2515
+## EP2515-2520
+- Barber & Beauty Salon Mobile App
+- Md Uzzal Hossain
+- https://dribbble.com/shots/27073624-Barber-Beauty-Salon-Mobile-App
+
+<img src="https://cdn.dribbble.com/userupload/46691846/file/c638f86106276509a6f1f34d4985837a.png?resize=1905x1429&vertical=center" alt=""/>
+
+## EP2515-2520
 - Barber & Beauty Salon Mobile App
 - Md Uzzal Hossain
 - https://dribbble.com/shots/27073624-Barber-Beauty-Salon-Mobile-App
