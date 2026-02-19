@@ -5,7 +5,7 @@
 - Jeremy Blaze for Never Before Seen
 - https://dribbble.com/shots/27059896-Manage-payment-links
 
-<img src="https://cdn.dribbble.com/userupload/46691846/file/c638f86106276509a6f1f34d4985837a.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46645216/file/4391b2ae2639095baf03e25f549766c7.jpg?resize=1905x1429&vertical=center" alt=""/>
 
 ## EP2515-2520
 - Barber & Beauty Salon Mobile App
