@@ -1,7 +1,7 @@
 # flutter_notebook_chapter_50
 
-## EP2515-2520
-- Barber & Beauty Salon Mobile App
+## EP2521
+- Manage payment links App
 - Md Uzzal Hossain
 - https://dribbble.com/shots/27073624-Barber-Beauty-Salon-Mobile-App
 
