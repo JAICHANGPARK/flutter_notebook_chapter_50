@@ -21,8 +21,10 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                 children: [
                   Positioned(
                     child: Container(
+                      padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
-                        shape: .circle
+                        shape: .circle,
+                        border: .all()
                       ),
                       child: Icon(Icons.menu),
                       
