@@ -45,10 +45,15 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       ),
                     ],
                   ),
-                  Text("Payment Links"),
-                  Text(
-                    "Create links to share with customer, manage and check how they are performing,",
+                  Column(
+                    children: [
+                      Text("Payment Links"),
+                      Text(
+                        "Create links to share with customer, manage and check how they are performing,",
+                      ),
+                    ],
                   ),
+
                   SizedBox(height: 42, child: Placeholder()),
                   Expanded(
                     child: ListView.builder(
