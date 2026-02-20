@@ -19,7 +19,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
             left: 16,
             right: 16,
             bottom: 0,
-            top: 0,
+            top: 12,
             child: SafeArea(
               child: Column(
                 spacing: 16,
@@ -40,7 +40,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       Center(
                         child: Text(
                           "Dreampay",
-                          style: TextStyle(fontSize: 20, fontWeight: .bold),
+                          style: TextStyle(fontSize: 24, fontWeight: .bold),
                         ),
                       ),
                     ],
@@ -48,7 +48,11 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   Column(
                     crossAxisAlignment: .start,
                     children: [
-                      Text("Payment Links"),
+                      Text(
+                        "Payment Links",
+                        style: TextStyle(fontWeight: FontWeight.bold,
+                        fontSize: 20,),
+                      ),
                       Text(
                         "Create links to share with customer, manage and check how they are performing,",
                       ),
