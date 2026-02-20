@@ -18,6 +18,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
           Positioned(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Stack(
                     children: [
