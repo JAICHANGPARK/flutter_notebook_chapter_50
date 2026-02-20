@@ -15,27 +15,42 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(child: SafeArea(
-            child: Column(children: [
-              Stack(
+          Positioned(
+            child: SafeArea(
+              child: Column(
                 children: [
-                  Positioned(
-                    child: Container(
-                      padding: EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        shape: .circle,
-                        border: .all(
-                          color: Colors.grey,
-                        )
+                  Stack(
+                    children: [
+                      Positioned(
+                        child: Container(
+                          padding: EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.grey),
+                          ),
+                          child: Icon(Icons.menu),
+                        ),
                       ),
-                      child: Icon(Icons.menu),
-                    ),
+                      Center(
+                        child: Text(
+                          "Dreampay",
+                          style: TextStyle(fontSize: 20, fontWeight: .bold),
+                        ),
+                      ),
+                    ],
                   ),
-                  Center(child: Text("Dreampay",),)
+                  Text("Payment Links"),
+                  Text(
+                    "Create links to share with customer, manage and check how they are performing,",
+                  ),
+                  SizedBox(
+                    height: 42,
+                    child: Placeholder(),
+                  )
                 ],
-              )
-            ]),
-          )),
+              ),
+            ),
+          ),
           Positioned(
             bottom: 42,
             left: 32,
