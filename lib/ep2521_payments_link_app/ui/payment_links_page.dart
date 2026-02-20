@@ -15,19 +15,21 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(child: Column(children: [
-            Row(
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    shape: .circle
-                  ),
-                  child: Icon(Icons.menu),
-                  
-                )
-              ],
-            )
-          ])),
+          Positioned(child: SafeArea(
+            child: Column(children: [
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: .circle
+                    ),
+                    child: Icon(Icons.menu),
+                    
+                  )
+                ],
+              )
+            ]),
+          )),
           Positioned(
             bottom: 42,
             left: 32,
