@@ -24,12 +24,14 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(
                         shape: .circle,
-                        border: .all()
+                        border: .all(
+                          color: Colors.grey,
+                        )
                       ),
                       child: Icon(Icons.menu),
-                      
                     ),
-                  )
+                  ),
+                  Center(child: Text("Dreampay",),)
                 ],
               )
             ]),
