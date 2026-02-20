@@ -17,14 +17,16 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
         children: [
           Positioned(child: SafeArea(
             child: Column(children: [
-              Row(
+              Stack(
                 children: [
-                  Container(
-                    decoration: BoxDecoration(
-                      shape: .circle
+                  Positioned(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        shape: .circle
+                      ),
+                      child: Icon(Icons.menu),
+                      
                     ),
-                    child: Icon(Icons.menu),
-                    
                   )
                 ],
               )
