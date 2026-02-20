@@ -46,6 +46,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     ],
                   ),
                   Column(
+                    crossAxisAlignment: .start,
                     children: [
                       Text("Payment Links"),
                       Text(
