@@ -15,6 +15,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
+          Positioned(child: Column(children: [])),
           Positioned(
             bottom: 42,
             left: 32,
@@ -30,26 +31,24 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   BoxShadow(
                     color: Colors.black12,
                     blurRadius: 5,
-                    spreadRadius: 5
-                  )
-                ]
+                    spreadRadius: 5,
+                  ),
+                ],
               ),
               child: Column(
                 spacing: 16,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
-                      shape: StadiumBorder(
-
-                      ),
+                      shape: StadiumBorder(),
                       color: Colors.grey[100]!,
                     ),
                     padding: EdgeInsets.all(8),
                     child: Row(
                       children: [
                         Icon(CupertinoIcons.list_bullet_below_rectangle),
-                        Expanded(child: Center(child: Text("dreamwalker."),)),
-                        Icon(CupertinoIcons.refresh)
+                        Expanded(child: Center(child: Text("dreamwalker."))),
+                        Icon(CupertinoIcons.refresh),
                       ],
                     ),
                   ),
@@ -62,7 +61,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       Icon(CupertinoIcons.book),
                       Icon(CupertinoIcons.doc_on_clipboard),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
