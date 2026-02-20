@@ -47,14 +47,18 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   ),
                   Column(
                     crossAxisAlignment: .start,
+                    spacing: 4,
                     children: [
                       Text(
                         "Payment Links",
-                        style: TextStyle(fontWeight: FontWeight.bold,
-                        fontSize: 20,),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        ),
                       ),
                       Text(
                         "Create links to share with customer, manage and check how they are performing,",
+                        style: TextStyle(color: Colors.grey),
                       ),
                     ],
                   ),
