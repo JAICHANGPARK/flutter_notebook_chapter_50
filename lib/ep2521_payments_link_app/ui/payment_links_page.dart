@@ -43,10 +43,18 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   Text(
                     "Create links to share with customer, manage and check how they are performing,",
                   ),
-                  SizedBox(
-                    height: 42,
-                    child: Placeholder(),
-                  )
+                  SizedBox(height: 42, child: Placeholder()),
+                  Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.grey),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
                 ],
               ),
             ),
