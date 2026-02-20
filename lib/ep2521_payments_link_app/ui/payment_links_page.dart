@@ -22,6 +22,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   decoration: BoxDecoration(
                     shape: .circle
                   ),
+                  child: Icon(Icons.menu),
                 )
               ],
             )
