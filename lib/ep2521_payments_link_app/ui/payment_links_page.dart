@@ -63,7 +63,11 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     ],
                   ),
 
-                  SizedBox(height: 42, child: Placeholder()),
+                  SizedBox(height: 42, child: Row(
+                    children: [
+                      
+                    ],
+                  )),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
