@@ -85,6 +85,8 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                         ),
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 12,
+                              vertical: 6),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.grey[400]!),
