@@ -155,6 +155,12 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                   Icon(Icons.more_horiz),
                                 ],
                               ),
+                              Text("Link paid by Dreamwalker"),
+                              Row(
+                                children: [
+                                  
+                                ],
+                              )
                             ],
                           ),
                         );
