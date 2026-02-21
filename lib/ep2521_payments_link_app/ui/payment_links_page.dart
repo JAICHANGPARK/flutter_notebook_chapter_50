@@ -72,6 +72,8 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(32, 88, 154, 1),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 12,
+                          vertical: 6),
                           child: Row(
                             children: [
                               Icon(Icons.add, color: Colors.white),
