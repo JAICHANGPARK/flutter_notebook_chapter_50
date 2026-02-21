@@ -124,6 +124,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           decoration: BoxDecoration(
                             border: .all(color: Colors.grey),
                           ),
+                          child: Column(children: [
+                            Row(
+                              children: [
+                                
+                              ],
+                            )
+                          ],),
                         );
                       },
                     ),
