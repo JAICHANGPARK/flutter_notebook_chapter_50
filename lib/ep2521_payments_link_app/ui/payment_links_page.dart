@@ -80,7 +80,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Icon(Icons.add, color: Colors.white),
+                              Icon(Icons.add, color: Colors.white, size: 18,),
                               Text(
                                 "Create a Link",
                                 style: TextStyle(color: Colors.white),
@@ -101,7 +101,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Icon(Icons.filter_list),
+                              Icon(Icons.filter_list , size: 18,),
                               Text("Filters"),
                             ],
                           ),
