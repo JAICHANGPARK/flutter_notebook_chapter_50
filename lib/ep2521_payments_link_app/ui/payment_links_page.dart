@@ -121,7 +121,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
-                          height: 100,
+                          // height: 100,
                           margin: EdgeInsets.only(bottom: 12),
                           padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
@@ -130,6 +130,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                           child: Column(
                             crossAxisAlignment: .start,
+                            spacing: 6,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -145,7 +146,6 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                     ),
 
                                     child: Row(
-
                                       spacing: 4,
                                       children: [
                                         Icon(Icons.check, size: 18),
@@ -159,9 +159,16 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                               Text("Link paid by Dreamwalker"),
                               Row(
                                 children: [
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.blueGrey[50],
+                                    ),
+                                    child: Text("ABC"),
+                                  ),
 
                                 ],
-                              )
+                              ),
                             ],
                           ),
                         );
