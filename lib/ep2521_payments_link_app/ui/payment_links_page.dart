@@ -98,6 +98,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                             ),
                           ),
                           child: Row(
+                            spacing: 4,
                             children: [
                               Icon(Icons.filter_list),
                               Text("Filters"),
@@ -127,7 +128,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Column(children: [
                             Row(
                               children: [
-                                
+
                               ],
                             )
                           ],),
