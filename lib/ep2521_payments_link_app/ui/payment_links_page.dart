@@ -130,7 +130,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                           child: Column(
                             crossAxisAlignment: .start,
-                            spacing: 6,
+                            spacing: 8,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -165,8 +165,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                       color: Colors.blueGrey[50],
                                     ),
                                     child: Text("ABC"),
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 8,
+                                      vertical: 3,
+                                    ),
                                   ),
-
+                                  VerticalDivider(),
+                                  Text("Feb 5, 2026 at 12:10 am"),
                                 ],
                               ),
                             ],
