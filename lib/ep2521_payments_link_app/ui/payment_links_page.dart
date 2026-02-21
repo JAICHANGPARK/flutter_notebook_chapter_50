@@ -129,6 +129,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                             borderRadius: .circular(12),
                           ),
                           child: Column(
+                            crossAxisAlignment: .start,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
@@ -158,7 +159,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                               Text("Link paid by Dreamwalker"),
                               Row(
                                 children: [
-                                  
+
                                 ],
                               )
                             ],
