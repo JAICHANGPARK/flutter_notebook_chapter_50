@@ -105,6 +105,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                         ),
                         Container(
+                          padding: .all(6),
                           decoration: BoxDecoration(
                             shape: .circle,
                             border: .all(color: Colors.grey[400]!),
