@@ -80,7 +80,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Icon(Icons.add, color: Colors.white, size: 18,),
+                              Icon(Icons.add, color: Colors.white, size: 18),
                               Text(
                                 "Create a Link",
                                 style: TextStyle(color: Colors.white),
@@ -101,7 +101,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Row(
                             spacing: 4,
                             children: [
-                              Icon(Icons.filter_list , size: 18,),
+                              Icon(Icons.filter_list, size: 18),
                               Text("Filters"),
                             ],
                           ),
@@ -126,13 +126,32 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           decoration: BoxDecoration(
                             border: .all(color: Colors.grey),
                           ),
-                          child: Column(children: [
-                            Row(
-                              children: [
+                          child: Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 4,
+                                    ),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Color.fromRGBO(241, 247, 240, 1),
+                                    ),
 
-                              ],
-                            )
-                          ],),
+                                    child: Row(
+                                      spacing: 4,
+                                      children: [
+                                        Icon(Icons.check, size: 18),
+                                        Text("Activated"),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         );
                       },
                     ),
