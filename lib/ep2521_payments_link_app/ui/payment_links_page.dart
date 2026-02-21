@@ -78,6 +78,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                             vertical: 6,
                           ),
                           child: Row(
+                            spacing: 4,
                             children: [
                               Icon(Icons.add, color: Colors.white),
                               Text(
