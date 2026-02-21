@@ -63,11 +63,19 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     ],
                   ),
 
-                  SizedBox(height: 42, child: Row(
-                    children: [
-                      
-                    ],
-                  )),
+                  SizedBox(
+                    height: 42,
+                    child: Row(
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(32, 88, 154, 1),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
