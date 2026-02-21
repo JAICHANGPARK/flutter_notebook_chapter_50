@@ -66,14 +66,17 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   SizedBox(
                     height: 42,
                     child: Row(
+                      spacing: 8,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(32, 88, 154, 1),
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 12,
-                          vertical: 6),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
                           child: Row(
                             children: [
                               Icon(Icons.add, color: Colors.white),
@@ -85,8 +88,10 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                         ),
                         Container(
-                          padding: EdgeInsets.symmetric(horizontal: 12,
-                              vertical: 6),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 6,
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.grey[400]!),
@@ -99,7 +104,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                             ],
                           ),
                         ),
-                        Container(decoration: BoxDecoration(shape: .circle)),
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all(color: Colors.grey[400]!),
+                          ),
+                          child: Icon(Icons.search),
+                        ),
                       ],
                     ),
                   ),
