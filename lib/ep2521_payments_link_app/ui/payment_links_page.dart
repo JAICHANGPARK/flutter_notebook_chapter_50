@@ -123,8 +123,10 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                         return Container(
                           height: 100,
                           margin: EdgeInsets.only(bottom: 12),
+                          padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
                             border: .all(color: Colors.grey),
+                            borderRadius: .circular(12),
                           ),
                           child: Column(
                             children: [
@@ -148,6 +150,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                       ],
                                     ),
                                   ),
+                                  Icon(Icons.more_horiz),
                                 ],
                               ),
                             ],
