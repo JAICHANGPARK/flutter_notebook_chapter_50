@@ -131,6 +131,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           child: Column(
                             children: [
                               Row(
+                                mainAxisAlignment: .spaceBetween,
                                 children: [
                                   Container(
                                     padding: EdgeInsets.symmetric(
@@ -143,6 +144,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                     ),
 
                                     child: Row(
+
                                       spacing: 4,
                                       children: [
                                         Icon(Icons.check, size: 18),
