@@ -88,7 +88,14 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                               side: BorderSide(color: Colors.grey[400]!),
                             ),
                           ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.filter_list),
+                              Text("Filters"),
+                            ],
+                          ),
                         ),
+                        Container(decoration: BoxDecoration(shape: .circle)),
                       ],
                     ),
                   ),
