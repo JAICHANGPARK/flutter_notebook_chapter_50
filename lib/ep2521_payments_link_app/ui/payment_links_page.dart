@@ -69,24 +69,27 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Color.fromRGBO(32, 88, 154, 1),
-                          ),
-                          padding: EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 6,
-                          ),
-                          child: Row(
-                            spacing: 4,
-                            children: [
-                              Icon(Icons.add, color: Colors.white, size: 18),
-                              Text(
-                                "Create a Link",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
+                        GestureDetector(
+                          onTap: ,
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Color.fromRGBO(32, 88, 154, 1),
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 12,
+                              vertical: 6,
+                            ),
+                            child: Row(
+                              spacing: 4,
+                              children: [
+                                Icon(Icons.add, color: Colors.white, size: 18),
+                                Text(
+                                  "Create a Link",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                         Container(
