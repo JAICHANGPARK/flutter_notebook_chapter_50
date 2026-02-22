@@ -22,6 +22,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      mainAxisAlignment: .spaceBetween,
                       children: [
                         Container(
                           padding: EdgeInsets.all(8),
