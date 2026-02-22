@@ -131,7 +131,6 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return Container(
-                          // height: 100,
                           margin: EdgeInsets.only(bottom: 12),
                           padding: EdgeInsets.all(12),
                           decoration: BoxDecoration(
