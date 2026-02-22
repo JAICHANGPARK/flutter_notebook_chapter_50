@@ -22,9 +22,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Row(
                     children: [
                       Container(
-                        padding: EdgeInsets.all(12),
+                        padding: EdgeInsets.all(8),
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
+                          shape: .circle,
                         ),
                         child: Icon(Icons.clear),
                       ),
@@ -35,7 +36,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ),
                       padding: EdgeInsets.symmetric(
                         horizontal: 12,
-                        vertical: 6,
+                        vertical: 8,
                       ),
                       child: Text("Continue",style: TextStyle(
                         color: Colors.white,
