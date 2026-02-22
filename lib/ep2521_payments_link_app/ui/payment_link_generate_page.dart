@@ -55,13 +55,13 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Container(height: 52, child: Placeholder()),
                   Column(
                     children: [
-                      
+                      Text("How would you like to create your link?"),
+                      Text(
+                        "You can choose to integrate with SAT or do the process manually:",
+                      ),
                     ],
-                  )
-                  Text("How would you like to create your link?"),
-                  Text(
-                    "You can choose to integrate with SAT or do the process manually:",
                   ),
+
 
                   Container(height: 180, child: Placeholder()),
                   Container(height: 180, child: Placeholder()),
