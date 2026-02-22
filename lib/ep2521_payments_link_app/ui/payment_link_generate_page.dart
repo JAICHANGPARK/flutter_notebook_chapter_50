@@ -54,6 +54,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Divider(height: 24),
                   Container(height: 52, child: Placeholder()),
                   Column(
+                    crossAxisAlignment: .start,
                     children: [
                       Text("How would you like to create your link?"),
                       Text(
@@ -61,7 +62,6 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ),
                     ],
                   ),
-
 
                   Container(height: 180, child: Placeholder()),
                   Container(height: 180, child: Placeholder()),
