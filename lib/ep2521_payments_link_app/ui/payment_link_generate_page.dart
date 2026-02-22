@@ -18,6 +18,8 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
           Positioned(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
