@@ -26,7 +26,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ),
                       child: Icon(Icons.clear),
                     ),
-                    
+
                   ],
                 ),
               ],
