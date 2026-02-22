@@ -70,7 +70,13 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                       spacing: 8,
                       children: [
                         GestureDetector(
-                          onTap: ,
+                          onTap: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => PaymentLinkGeneratePage(),
+                              ),
+                            );
+                          },
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
