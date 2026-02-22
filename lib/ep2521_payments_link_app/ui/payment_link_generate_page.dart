@@ -22,6 +22,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Row(
                     children: [
                       Container(
+                        padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
                         ),
