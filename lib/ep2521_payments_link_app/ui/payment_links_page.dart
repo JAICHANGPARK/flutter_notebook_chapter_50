@@ -120,70 +120,73 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Container(
-                          // height: 100,
-                          margin: EdgeInsets.only(bottom: 12),
-                          padding: EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            border: .all(color: Colors.grey),
-                            borderRadius: .circular(12),
-                          ),
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            spacing: 12,
-                            children: [
-                              Row(
-                                mainAxisAlignment: .spaceBetween,
-                                children: [
-                                  Container(
-                                    padding: EdgeInsets.symmetric(
-                                      horizontal: 12,
-                                      vertical: 4,
-                                    ),
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Color.fromRGBO(241, 247, 240, 1),
-                                    ),
+                        return GestureDetector(
+                          
+                          child: Container(
+                            // height: 100,
+                            margin: EdgeInsets.only(bottom: 12),
+                            padding: EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              border: .all(color: Colors.grey),
+                              borderRadius: .circular(12),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              spacing: 12,
+                              children: [
+                                Row(
+                                  mainAxisAlignment: .spaceBetween,
+                                  children: [
+                                    Container(
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 4,
+                                      ),
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Color.fromRGBO(241, 247, 240, 1),
+                                      ),
 
-                                    child: Row(
-                                      spacing: 4,
-                                      children: [
-                                        Icon(Icons.check, size: 18),
-                                        Text(
-                                          "Activated",
-                                          style: TextStyle(
-                                            fontWeight: .bold,
-                                            color: Colors.green,
+                                      child: Row(
+                                        spacing: 4,
+                                        children: [
+                                          Icon(Icons.check, size: 18),
+                                          Text(
+                                            "Activated",
+                                            style: TextStyle(
+                                              fontWeight: .bold,
+                                              color: Colors.green,
+                                            ),
                                           ),
-                                        ),
-                                      ],
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                  Icon(Icons.more_horiz),
-                                ],
-                              ),
-                              Text(
-                                "Link paid by Dreamwalker",
-                                style: TextStyle(fontWeight: .bold),
-                              ),
-                              Row(
-                                children: [
-                                  Container(
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Colors.blueGrey[50],
+                                    Icon(Icons.more_horiz),
+                                  ],
+                                ),
+                                Text(
+                                  "Link paid by Dreamwalker",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
+                                Row(
+                                  children: [
+                                    Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.blueGrey[50],
+                                      ),
+                                      child: Text("ABC"),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 8,
+                                        vertical: 3,
+                                      ),
                                     ),
-                                    child: Text("ABC"),
-                                    padding: EdgeInsets.symmetric(
-                                      horizontal: 8,
-                                      vertical: 3,
-                                    ),
-                                  ),
-                                  VerticalDivider(),
-                                  Text("Feb 5, 2026 at 12:10 am"),
-                                ],
-                              ),
-                            ],
+                                    VerticalDivider(),
+                                    Text("Feb 5, 2026 at 12:10 am"),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
                         );
                       },
