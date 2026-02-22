@@ -182,11 +182,11 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                         shape: StadiumBorder(),
                                         color: Colors.blueGrey[50],
                                       ),
-                                      child: Text("ABC"),
                                       padding: EdgeInsets.symmetric(
                                         horizontal: 8,
                                         vertical: 3,
                                       ),
+                                      child: Text("ABC"),
                                     ),
                                     VerticalDivider(),
                                     Text("Feb 5, 2026 at 12:10 am"),
