@@ -16,6 +16,23 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
       body: Stack(
         children: [
           Positioned(
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        border: .all(color: Colors.grey[300]!),
+                      ),
+                      child: Icon(Icons.clear),
+                    ),
+                    
+                  ],
+                ),
+              ],
+            ),
+          ),
+          Positioned(
             bottom: 42,
             left: 32,
             right: 32,
