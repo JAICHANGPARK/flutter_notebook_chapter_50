@@ -149,7 +149,10 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                                       spacing: 4,
                                       children: [
                                         Icon(Icons.check, size: 18),
-                                        Text("Activated"),
+                                        Text("Activated",style: TextStyle(
+                                          fontWeight: .bold,
+                                          color: Colors.green
+                                        ),),
                                       ],
                                     ),
                                   ),
