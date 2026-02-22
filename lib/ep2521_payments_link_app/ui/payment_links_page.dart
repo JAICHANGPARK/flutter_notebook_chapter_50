@@ -121,7 +121,9 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return GestureDetector(
-                          
+                          onTap: (){
+                            Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ))
+                          },
                           child: Container(
                             // height: 100,
                             margin: EdgeInsets.only(bottom: 12),
