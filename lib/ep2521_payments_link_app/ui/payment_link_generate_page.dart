@@ -19,30 +19,33 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      Container(
-                        padding: EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          border: .all(color: Colors.grey[300]!),
-                          shape: .circle,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.grey[300]!),
+                            shape: .circle,
+                          ),
+                          child: Icon(Icons.clear),
                         ),
-                        child: Icon(Icons.clear),
-                      ),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Color.fromRGBO(32, 88, 154, 1),
-                      ),
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 8,
-                      ),
-                      child: Text("Continue",style: TextStyle(
-                        color: Colors.white,
-                      ),),
-                    )
-                    ],
+                      Container(
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(32, 88, 154, 1),
+                        ),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 8,
+                        ),
+                        child: Text("Continue",style: TextStyle(
+                          color: Colors.white,
+                        ),),
+                      )
+                      ],
+                    ),
                   ),
                 ],
               ),
