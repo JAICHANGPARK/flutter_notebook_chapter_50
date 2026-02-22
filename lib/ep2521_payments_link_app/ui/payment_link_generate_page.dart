@@ -52,6 +52,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Divider(
                     height: 42,
                   ),
+                  Container(
+                    height: 52,
+                    child: Placeholder(),
+                  )
 
                 ],
               ),
