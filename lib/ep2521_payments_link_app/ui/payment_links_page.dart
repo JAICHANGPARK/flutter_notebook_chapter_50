@@ -130,7 +130,7 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                           ),
                           child: Column(
                             crossAxisAlignment: .start,
-                            spacing: 8,
+                            spacing: 12,
                             children: [
                               Row(
                                 mainAxisAlignment: .spaceBetween,
