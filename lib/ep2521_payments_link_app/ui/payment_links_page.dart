@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2521_payments_link_app/ui/payment_link_generate_page.dart';
 
 class PaymentLinksPage extends StatefulWidget {
   const PaymentLinksPage({super.key});
@@ -121,8 +122,12 @@ class _PaymentLinksPageState extends State<PaymentLinksPage> {
                     child: ListView.builder(
                       itemBuilder: (context, index) {
                         return GestureDetector(
-                          onTap: (){
-                            Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ))
+                          onTap: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => PaymentLinkGeneratePage(),
+                              ),
+                            );
                           },
                           child: Container(
                             // height: 100,
