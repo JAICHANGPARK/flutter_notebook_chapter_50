@@ -26,7 +26,19 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ),
                       child: Icon(Icons.clear),
                     ),
-
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(32, 88, 154, 1),
+                    ),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 6,
+                    ),
+                    child: Text("Continue",style: TextStyle(
+                      color: Colors.white,
+                    ),),
+                  )
                   ],
                 ),
               ],
