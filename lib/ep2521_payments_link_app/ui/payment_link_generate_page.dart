@@ -109,7 +109,15 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     ),
                   ),
 
-                  Container(height: 180, child: Placeholder()),
+                  Container(height: 180, child: Column(
+                    crossAxisAlignment: .start,
+                    children: [
+                      Checkbox(value: true, onChanged: (v){}),
+                      Text("Automated with AI"),
+                      Text("Retrieve products and customer's contact info through your Facturas.")
+
+                    ],
+                  )),
                   Container(height: 180, child: Placeholder()),
                 ],
               ),
