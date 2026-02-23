@@ -60,7 +60,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                         Container(
                           height: 24,
                           width: 24,
-                          decoration: BoxDecoration(shape: .circle),
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            color: Colors.blue[100]!,
+                          ),
                           child: Center(child: Text("1")),
                         ),
                         Text("Type"),
