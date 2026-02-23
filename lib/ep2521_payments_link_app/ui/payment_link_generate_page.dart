@@ -52,9 +52,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ],
                     ),
                   ),
-                  Divider(height: 24),
+                  Divider(),
                   Container(
                     height: 52,
+                    padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       spacing: 6,
                       children: [
@@ -69,7 +70,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                         ),
                         Text(
                           "Type",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
                         ),
                         Container(height: 2, width: 16, color: Colors.grey),
                         Container(
@@ -81,7 +85,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                           ),
                           child: Center(child: Text("2")),
                         ),
-                        Text("Products / Services")
+                        Text(
+                          "Products / Services",
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ],
                     ),
                   ),
