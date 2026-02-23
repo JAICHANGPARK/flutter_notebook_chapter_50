@@ -100,7 +100,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       children: [
                         Text(
                           "How would you like to create your link?",
-                          style: TextStyle(fontWeight: .bold, fontSize: 20,),
+                          style: TextStyle(fontWeight: .bold, fontSize: 20),
                         ),
                         Text(
                           "You can choose to integrate with SAT or do the process manually:",
@@ -109,15 +109,25 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     ),
                   ),
 
-                  Container(height: 180, child: Column(
-                    crossAxisAlignment: .start,
-                    children: [
-                      Checkbox(value: true, onChanged: (v){}),
-                      Text("Automated with AI"),
-                      Text("Retrieve products and customer's contact info through your Facturas.")
+                  Container(
+                    height: 180,
+                    decoration: BoxDecoration(
+                      border: .all(color: Color.fromRGBO(32, 88, 154, 1),
 
-                    ],
-                  )),
+                      ),
+                      borderRadius: .circular(15),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      children: [
+                        Checkbox(value: true, onChanged: (v) {}),
+                        Text("Automated with AI"),
+                        Text(
+                          "Retrieve products and customer's contact info through your Facturas.",
+                        ),
+                      ],
+                    ),
+                  ),
                   Container(height: 180, child: Placeholder()),
                 ],
               ),
