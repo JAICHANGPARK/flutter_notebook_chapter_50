@@ -114,7 +114,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       border: .all(color: Color.fromRGBO(32, 88, 154, 1)),
                       borderRadius: .circular(15),
                     ),
-                    padding: EdgeInsets.all(12),
+                    padding: EdgeInsets.all(16),
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       crossAxisAlignment: .start,
@@ -135,8 +135,8 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       border: .all(color: Color.fromRGBO(32, 88, 154, 1)),
                       borderRadius: .circular(15),
                     ),
-                    d
-                    padding: EdgeInsets.all(12),
+                    width: double.infinity,
+                    padding: EdgeInsets.all(16),
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       crossAxisAlignment: .start,
