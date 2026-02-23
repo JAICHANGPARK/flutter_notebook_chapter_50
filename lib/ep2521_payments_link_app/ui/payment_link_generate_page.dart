@@ -53,18 +53,21 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     ),
                   ),
                   Divider(height: 24),
-                  Container(height: 52, child: Row(
-                    children: [
-                      Container()
-                      CircleAvatar(radius: 16,child: Text("1"),),
-                      Text("Type"),
-                      Container(
-                        height: 2,width: 16,
-                      ),
-
-
-                    ],
-                  )),
+                  Container(
+                    height: 52,
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 24,
+                          width: 24,
+                          decoration: BoxDecoration(shape: .circle),
+                          child: Center(child: Text("1")),
+                        ),
+                        Text("Type"),
+                        Container(height: 2, width: 16),
+                      ],
+                    ),
+                  ),
                   Column(
                     crossAxisAlignment: .start,
                     children: [
