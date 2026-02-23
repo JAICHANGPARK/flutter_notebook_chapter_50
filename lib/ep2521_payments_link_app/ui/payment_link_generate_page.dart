@@ -135,6 +135,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       border: .all(color: Color.fromRGBO(32, 88, 154, 1)),
                       borderRadius: .circular(15),
                     ),
+                    d
                     padding: EdgeInsets.all(12),
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
@@ -142,11 +143,11 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       spacing: 4,
                       children: [
                         Checkbox(value: false, onChanged: (v) {}),
-                        Text("Automated with AI",style: TextStyle(
+                        Text("Manual Setup",style: TextStyle(
                           fontWeight: FontWeight.bold,
                         ),),
                         Text(
-                          "Retrieve products and customer's contact info through your Facturas.",
+                          "You create the products and the customers listings",
                         ),
                       ],
                     ),
