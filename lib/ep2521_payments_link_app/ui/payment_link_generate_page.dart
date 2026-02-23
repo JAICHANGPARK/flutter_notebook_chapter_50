@@ -68,6 +68,15 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                         ),
                         Text("Type"),
                         Container(height: 2, width: 16),
+                        Container(
+                          height: 24,
+                          width: 24,
+                          decoration: BoxDecoration(
+                            shape: .circle,
+                            border: .all()
+                          ),
+                          child: Center(child: Text("2")),
+                        ),
                       ],
                     ),
                   ),
