@@ -56,6 +56,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Container(
                     height: 52,
                     child: Row(
+                      spacing: 6,
                       children: [
                         Container(
                           height: 24,
@@ -66,14 +67,17 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                           ),
                           child: Center(child: Text("1")),
                         ),
-                        Text("Type"),
-                        Container(height: 2, width: 16),
+                        Text(
+                          "Type",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        Container(height: 2, width: 16, color: Colors.grey),
                         Container(
                           height: 24,
                           width: 24,
                           decoration: BoxDecoration(
                             shape: .circle,
-                            border: .all()
+                            border: .all(),
                           ),
                           child: Center(child: Text("2")),
                         ),
