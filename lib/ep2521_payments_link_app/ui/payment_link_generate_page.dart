@@ -81,6 +81,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                           ),
                           child: Center(child: Text("2")),
                         ),
+                        Text("Products / Services")
                       ],
                     ),
                   ),
