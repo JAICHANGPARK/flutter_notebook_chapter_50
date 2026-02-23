@@ -95,7 +95,10 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Column(
                     crossAxisAlignment: .start,
                     children: [
-                      Text("How would you like to create your link?"),
+                      Text(
+                        "How would you like to create your link?",
+                        style: TextStyle(fontWeight: .bold, fontSize: 16),
+                      ),
                       Text(
                         "You can choose to integrate with SAT or do the process manually:",
                       ),
