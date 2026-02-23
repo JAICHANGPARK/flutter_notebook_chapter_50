@@ -109,6 +109,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     ),
                   ),
 
+
                   Container(
                     height: 180,
                     decoration: BoxDecoration(
@@ -117,6 +118,8 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                       ),
                       borderRadius: .circular(15),
                     ),
+                    padding: EdgeInsets.all(12),
+                    margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
