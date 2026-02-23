@@ -111,7 +111,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
 
 
                   Container(
-                    height: 180,
+                    
                     decoration: BoxDecoration(
                       border: .all(color: Color.fromRGBO(32, 88, 154, 1),
 
@@ -123,7 +123,9 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Checkbox(value: true, onChanged: (v) {}),
+                        Checkbox(
+
+                            value: true, onChanged: (v) {}),
                         Text("Automated with AI"),
                         Text(
                           "Retrieve products and customer's contact info through your Facturas.",
