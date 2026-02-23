@@ -13,6 +13,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned(
