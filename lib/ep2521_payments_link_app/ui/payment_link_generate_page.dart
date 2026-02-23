@@ -95,11 +95,12 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
+                      spacing: 8,
                       crossAxisAlignment: .start,
                       children: [
                         Text(
                           "How would you like to create your link?",
-                          style: TextStyle(fontWeight: .bold, fontSize: 16,),
+                          style: TextStyle(fontWeight: .bold, fontSize: 20,),
                         ),
                         Text(
                           "You can choose to integrate with SAT or do the process manually:",
