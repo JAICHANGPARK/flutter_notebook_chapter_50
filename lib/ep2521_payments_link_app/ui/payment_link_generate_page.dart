@@ -109,24 +109,21 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                     ),
                   ),
 
-
                   Container(
-                    
                     decoration: BoxDecoration(
-                      border: .all(color: Color.fromRGBO(32, 88, 154, 1),
-
-                      ),
+                      border: .all(color: Color.fromRGBO(32, 88, 154, 1)),
                       borderRadius: .circular(15),
                     ),
                     padding: EdgeInsets.all(12),
                     margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       crossAxisAlignment: .start,
+                      spacing: 4,
                       children: [
-                        Checkbox(
-
-                            value: true, onChanged: (v) {}),
-                        Text("Automated with AI"),
+                        Checkbox(value: true, onChanged: (v) {}),
+                        Text("Automated with AI",style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),),
                         Text(
                           "Retrieve products and customer's contact info through your Facturas.",
                         ),
