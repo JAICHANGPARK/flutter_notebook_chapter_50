@@ -14,15 +14,6 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: IndexedStack(
-              index: pageNum,
-              children: [
-            Placeholder(),
-            Placeholder(),
-            Container(),
-            Placeholder(),
-            Placeholder(),
-          ])),
           Positioned(
             bottom: 0,
             left: 0,
@@ -37,7 +28,6 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 ),
               ),
               padding: EdgeInsets.symmetric(horizontal: 16),
-
               child: Row(
                 mainAxisAlignment: .spaceAround,
                 children: [
@@ -116,6 +106,18 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               ),
             ),
           ),
+          Positioned.fill(child: IndexedStack(
+              index: pageNum,
+              children: [
+            Container(),
+                Container(),
+            Container(
+              child: Center(child: TextButton(onPressed: (){}, child: Text("$pageNum"))),
+            ),
+                Container(),
+                Container(),
+          ])),
+
         ],
       ),
     );
