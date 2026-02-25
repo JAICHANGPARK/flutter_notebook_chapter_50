@@ -19,7 +19,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               children: [
             Placeholder(),
             Placeholder(),
-            Placeholder(),
+            Container(),
             Placeholder(),
             Placeholder(),
           ])),
