@@ -14,7 +14,11 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
       body: Stack(
         children: [
           Positioned.fill(child: IndexedStack(children: [])),
-          Positioned(child: Container()),
+          Positioned(
+            child: Container(
+              decoration: BoxDecoration(border: .all(color: Colors.grey)),
+            ),
+          ),
         ],
       ),
     );
