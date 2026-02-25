@@ -34,34 +34,35 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 children: [
                   Column(
                     spacing: 4,
+                    mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
                       Text("Home")
                     ],
                   ),
                   Column(
-                    spacing: 4,
+                    spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
                       Text("Home")
                     ],
                   ),
                   Column(
-                    spacing: 4,
+                    spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
                       Text("Home")
                     ],
                   ),
                   Column(
-                    spacing: 4,
+                    spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
                       Text("Home")
                     ],
                   ),
                   Column(
-                    spacing: 4,
+                    spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
                       Text("Home")
