@@ -127,7 +127,7 @@ class _PaymentLinkGeneratePageState extends State<PaymentLinkGeneratePage> {
                         Text(
                           "Retrieve products and customer's contact info through your Facturas.",
                         ),
-                      ],
+                      ]
                     ),
                   ),
                   Container(
