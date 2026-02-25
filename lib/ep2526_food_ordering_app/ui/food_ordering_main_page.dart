@@ -20,11 +20,24 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
             right: 0,
             child: Container(
               height: 80,
-              decoration: BoxDecoration(border: .all(color: Colors.grey),
-              borderRadius: .only(
-                topRight: .circular(24),
-                topLeft: .circular(24),
-              )),
+              decoration: BoxDecoration(
+                border: .all(color: Colors.grey),
+                borderRadius: .only(
+                  topRight: .circular(24),
+                  topLeft: .circular(24),
+                ),
+              ),
+              child: Row(
+                children: [
+                  Column(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  )
+                ],
+              ),
             ),
           ),
         ],
