@@ -57,7 +57,11 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                     ),
                   ),
                   GestureDetector(
-                    
+                    onTap: (){
+                      setState(() {
+                        pageNum = 1;
+                      });
+                    },
                     child: Column(
                       spacing: 4,  mainAxisAlignment: .center,
                       children: [
@@ -66,12 +70,19 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    spacing: 4,  mainAxisAlignment: .center,
-                    children: [
-                      Icon(Icons.shopping_bag),
-                      Text("History")
-                    ],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 2;
+                      });
+                    },
+                    child: Column(
+                      spacing: 4,  mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.shopping_bag),
+                        Text("History")
+                      ],
+                    ),
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
