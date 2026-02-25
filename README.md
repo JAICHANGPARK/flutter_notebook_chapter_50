@@ -5,7 +5,7 @@
 - Farhana Sharmin
 - https://dribbble.com/shots/27124017--Online-Food-Ordering-Mobile-App-UI-UX-Design
 
-<img src="https://cdn.dribbble.com/userupload/46645216/file/4391b2ae2639095baf03e25f549766c7.jpg?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46863278/file/97c664d1cd8b7fbce64a83ccbb75291f.png?resize=1905x1707&vertical=center" alt=""/>
 
 
 ## EP2521-2525
