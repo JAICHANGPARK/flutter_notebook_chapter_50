@@ -56,12 +56,15 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    spacing: 4,  mainAxisAlignment: .center,
-                    children: [
-                      Icon(Icons.shopping_cart),
-                      Text("Cart")
-                    ],
+                  GestureDetector(
+                    
+                    child: Column(
+                      spacing: 4,  mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.shopping_cart),
+                        Text("Cart")
+                      ],
+                    ),
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
