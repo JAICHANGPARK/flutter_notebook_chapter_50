@@ -44,28 +44,28 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                     spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
-                      Text("Home")
+                      Text("Cart")
                     ],
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
-                      Text("Home")
+                      Text("History")
                     ],
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
                     children: [
                       Icon(Icons.home_filled),
-                      Text("Home")
+                      Text("Location")
                     ],
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
                     children: [
-                      Icon(Icons.home_filled),
-                      Text("Home")
+                      Icon(Icons.account_circle),
+                      Text("Profile")
                     ],
                   )
                 ],
