@@ -22,7 +22,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               height: 80,
               decoration: BoxDecoration(border: .all(color: Colors.grey),
               borderRadius: .only(
-                topRight: .circular(24)
+                topRight: .circular(24),
+                topLeft: .circular(24),
               )),
             ),
           ),
