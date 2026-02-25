@@ -13,10 +13,12 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
     return Scaffold(
       body: Stack(
         children: [
-          IndexedStack(
-            children: [
+          Positioned.fill(
+            child: IndexedStack(
+              children: [
 
-            ],
+              ],
+            ),
           ),
         ],
       ),
