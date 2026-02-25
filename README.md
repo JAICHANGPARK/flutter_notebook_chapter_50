@@ -2,7 +2,7 @@
 
 ## EP2526
 - Online Food Ordering Mobile App UI UX Design.
-- Jeremy Blaze for Never Before Seen
+- Farhana Sharmin
 - https://dribbble.com/shots/27124017--Online-Food-Ordering-Mobile-App-UI-UX-Design
 
 <img src="https://cdn.dribbble.com/userupload/46645216/file/4391b2ae2639095baf03e25f549766c7.jpg?resize=1905x1429&vertical=center" alt=""/>
