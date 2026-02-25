@@ -27,8 +27,39 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                   topLeft: .circular(24),
                 ),
               ),
+              padding: EdgeInsets.symmetric(horizontal: 16),
+
               child: Row(
+                mainAxisAlignment: .spaceAround,
                 children: [
+                  Column(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  ),
+                  Column(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  ),
+                  Column(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  ),
+                  Column(
+                    spacing: 4,
+                    children: [
+                      Icon(Icons.home_filled),
+                      Text("Home")
+                    ],
+                  ),
                   Column(
                     spacing: 4,
                     children: [
