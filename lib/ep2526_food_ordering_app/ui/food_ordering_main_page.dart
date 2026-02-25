@@ -15,6 +15,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
         children: [
           Positioned.fill(child: IndexedStack(children: [])),
           Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
             child: Container(
               decoration: BoxDecoration(border: .all(color: Colors.grey)),
             ),
