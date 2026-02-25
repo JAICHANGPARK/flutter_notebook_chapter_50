@@ -41,13 +41,20 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               child: Row(
                 mainAxisAlignment: .spaceAround,
                 children: [
-                  Column(
-                    spacing: 4,
-                    mainAxisAlignment: .center,
-                    children: [
-                      Icon(Icons.home_filled),
-                      Text("Home")
-                    ],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 0;
+                      });
+                    },
+                    child: Column(
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.home_filled),
+                        Text("Home")
+                      ],
+                    ),
                   ),
                   Column(
                     spacing: 4,  mainAxisAlignment: .center,
