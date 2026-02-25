@@ -84,19 +84,33 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       ],
                     ),
                   ),
-                  Column(
-                    spacing: 4,  mainAxisAlignment: .center,
-                    children: [
-                      Icon(Icons.my_location),
-                      Text("Location")
-                    ],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 3;
+                      });
+                    },
+                    child: Column(
+                      spacing: 4,  mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.my_location),
+                        Text("Location")
+                      ],
+                    ),
                   ),
-                  Column(
-                    spacing: 4,  mainAxisAlignment: .center,
-                    children: [
-                      Icon(Icons.account_circle),
-                      Text("Profile")
-                    ],
+                  GestureDetector(
+                    onTap: (){
+                      setState(() {
+                        pageNum = 4;
+                      });
+                    },
+                    child: Column(
+                      spacing: 4,  mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.account_circle),
+                        Text("Profile")
+                      ],
+                    ),
                   )
                 ],
               ),
