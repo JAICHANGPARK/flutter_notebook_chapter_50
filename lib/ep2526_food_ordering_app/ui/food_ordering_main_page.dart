@@ -9,6 +9,7 @@ class FoodOrderingMainPage extends StatefulWidget {
 
 class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +33,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 mainAxisAlignment: .spaceAround,
                 children: [
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 0;
                       });
@@ -40,84 +41,80 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                     child: Column(
                       spacing: 4,
                       mainAxisAlignment: .center,
-                      children: [
-                        Icon(Icons.home_filled),
-                        Text("Home")
-                      ],
+                      children: [Icon(Icons.home_filled), Text("Home")],
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 1;
                       });
                     },
                     child: Column(
-                      spacing: 4,  mainAxisAlignment: .center,
-                      children: [
-                        Icon(Icons.shopping_cart),
-                        Text("Cart")
-                      ],
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [Icon(Icons.shopping_cart), Text("Cart")],
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 2;
                       });
                     },
                     child: Column(
-                      spacing: 4,  mainAxisAlignment: .center,
-                      children: [
-                        Icon(Icons.shopping_bag),
-                        Text("History")
-                      ],
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [Icon(Icons.shopping_bag), Text("History")],
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 3;
                       });
                     },
                     child: Column(
-                      spacing: 4,  mainAxisAlignment: .center,
-                      children: [
-                        Icon(Icons.my_location),
-                        Text("Location")
-                      ],
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [Icon(Icons.my_location), Text("Location")],
                     ),
                   ),
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       setState(() {
                         pageNum = 4;
                       });
                     },
                     child: Column(
-                      spacing: 4,  mainAxisAlignment: .center,
-                      children: [
-                        Icon(Icons.account_circle),
-                        Text("Profile")
-                      ],
+                      spacing: 4,
+                      mainAxisAlignment: .center,
+                      children: [Icon(Icons.account_circle), Text("Profile")],
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
           ),
-          Positioned.fill(child: IndexedStack(
+          Positioned.fill(
+            child: IndexedStack(
               index: pageNum,
               children: [
-            Container(),
                 Container(),
-            Container(
-              child: Center(child: TextButton(onPressed: (){}, child: Text("$pageNum"))),
+                Container(),
+                Container(
+                  child: Center(
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Text("$pageNum"),
+                    ),
+                  ),
+                ),
+                Container(),
+                Container(),
+              ],
             ),
-                Container(),
-                Container(),
-          ])),
-
+          ),
         ],
       ),
     );
