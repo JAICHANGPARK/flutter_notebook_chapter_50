@@ -119,7 +119,11 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                     crossAxisAlignment: .start,
                     spacing: 16,
                     children: [
-                      Container(height: 140, child: Placeholder()),
+                      Container(height: 140,
+                          decoration: BoxDecoration(
+                            color: Colors.orange
+                          ),
+                          child: Placeholder()),
                       SizedBox(height: 80, child: Placeholder()),
                       Expanded(
                         child: ListView.builder(
