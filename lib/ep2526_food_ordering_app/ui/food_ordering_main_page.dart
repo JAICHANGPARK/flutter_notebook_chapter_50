@@ -46,52 +46,60 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        pageNum = 1;
-                      });
-                    },
-                    child: Column(
-                      spacing: 4,
-                      mainAxisAlignment: .center,
-                      children: [Icon(Icons.shopping_cart), Text("Cart")],
+                  Expanded(
+                    child: GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 1;
+                        });
+                      },
+                      child: Column(
+                        spacing: 4,
+                        mainAxisAlignment: .center,
+                        children: [Icon(Icons.shopping_cart), Text("Cart")],
+                      ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        pageNum = 2;
-                      });
-                    },
-                    child: Column(
-                      spacing: 4,
-                      mainAxisAlignment: .center,
-                      children: [Icon(Icons.shopping_bag), Text("History")],
+                  Expanded(
+                    child: GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 2;
+                        });
+                      },
+                      child: Column(
+                        spacing: 4,
+                        mainAxisAlignment: .center,
+                        children: [Icon(Icons.shopping_bag), Text("History")],
+                      ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        pageNum = 3;
-                      });
-                    },
-                    child: Column(
-                      spacing: 4,
-                      mainAxisAlignment: .center,
-                      children: [Icon(Icons.my_location), Text("Location")],
+                  Expanded(
+                    child: GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 3;
+                        });
+                      },
+                      child: Column(
+                        spacing: 4,
+                        mainAxisAlignment: .center,
+                        children: [Icon(Icons.my_location), Text("Location")],
+                      ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        pageNum = 4;
-                      });
-                    },
-                    child: Column(
-                      spacing: 4,
-                      mainAxisAlignment: .center,
-                      children: [Icon(Icons.account_circle), Text("Profile")],
+                  Expanded(
+                    child: GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 4;
+                        });
+                      },
+                      child: Column(
+                        spacing: 4,
+                        mainAxisAlignment: .center,
+                        children: [Icon(Icons.account_circle), Text("Profile")],
+                      ),
                     ),
                   ),
                 ],
