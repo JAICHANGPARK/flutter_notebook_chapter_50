@@ -115,15 +115,15 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 Container(
                   child: Column(
                     children: [
-                      Container(
-                        height: 140,
-                        child: Placeholder(),
+                      Container(height: 140, child: Placeholder()),
+                      SizedBox(height: 80, child: Placeholder()),
+                      Expanded(
+                        child: ListView.builder(
+                          itemBuilder: (context, index) {},
+                        ),
                       ),
-                      SizedBox(height: 80,
-                      child: Placeholder(),)
-
                     ],
-                  )
+                  ),
                 ),
                 Container(),
                 Container(),
