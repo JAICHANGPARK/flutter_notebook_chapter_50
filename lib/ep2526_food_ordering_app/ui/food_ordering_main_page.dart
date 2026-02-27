@@ -125,21 +125,24 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         child: Placeholder(),
                       ),
                       Expanded(
-                        child: Column(
-                          crossAxisAlignment: .start,
-                          children: [
-                            SizedBox(height: 80, child: Placeholder()),
-                            Expanded(
-                              child: ListView.builder(
-                                padding: .zero,
-                                itemBuilder: (context, index) {
-                                  return Container(height: 150, color: Colors.white,
-                                    margin: EdgeInsets.only(bottom: 16),
-                                  );
-                                },
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [
+                              SizedBox(height: 80, child: Placeholder()),
+                              Expanded(
+                                child: ListView.builder(
+                                  padding: .zero,
+                                  itemBuilder: (context, index) {
+                                    return Container(height: 150, color: Colors.white,
+                                      margin: EdgeInsets.only(bottom: 16),
+                                    );
+                                  },
+                                ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       )
 
