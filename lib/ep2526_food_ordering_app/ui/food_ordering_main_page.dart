@@ -124,17 +124,22 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         decoration: BoxDecoration(color: Colors.orange),
                         child: Placeholder(),
                       ),
-                      SizedBox(height: 80, child: Placeholder()),
-                      Expanded(
-                        child: ListView.builder(
-                          padding: .zero,
-                          itemBuilder: (context, index) {
-                            return Container(height: 150, color: Colors.white,
-                            margin: EdgeInsets.only(bottom: 16),
-                            );
-                          },
-                        ),
-                      ),
+                      Column(
+                        children: [
+                          SizedBox(height: 80, child: Placeholder()),
+                          Expanded(
+                            child: ListView.builder(
+                              padding: .zero,
+                              itemBuilder: (context, index) {
+                                return Container(height: 150, color: Colors.white,
+                                  margin: EdgeInsets.only(bottom: 16),
+                                );
+                              },
+                            ),
+                          ),
+                        ],
+                      )
+
                     ],
                   ),
                 ),
