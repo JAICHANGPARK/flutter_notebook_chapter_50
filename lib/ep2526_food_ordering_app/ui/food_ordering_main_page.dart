@@ -129,7 +129,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         child: ListView.builder(
                           padding: .zero,
                           itemBuilder: (context, index) {
-                            return Container(height: 100, color: Colors.white,
+                            return Container(height: 150, color: Colors.white,
                             margin: EdgeInsets.only(bottom: 16),
                             );
                           },
