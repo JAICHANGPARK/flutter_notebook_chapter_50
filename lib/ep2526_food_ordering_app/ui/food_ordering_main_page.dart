@@ -129,6 +129,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                           padding: const EdgeInsets.all(16.0),
                           child: Column(
                             crossAxisAlignment: .start,
+                            spacing: 16,
                             children: [
                               SizedBox(height: 80, child: Placeholder()),
                               Expanded(
