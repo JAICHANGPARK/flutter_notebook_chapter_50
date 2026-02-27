@@ -13,6 +13,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(243, 241, 239, 1),
       body: Stack(
         children: [
           Positioned(
@@ -22,6 +23,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
             child: Container(
               height: 90,
               decoration: BoxDecoration(
+                color: Colors.white,
                 border: .all(color: Colors.grey),
                 borderRadius: .only(
                   topRight: .circular(24),
@@ -120,10 +122,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       Expanded(
                         child: ListView.builder(
                           itemBuilder: (context, index) {
-                            return Container(
-                              height: 100,
-                              color: Colors.white,
-                            );
+                            return Container(height: 100, color: Colors.white);
                           },
                         ),
                       ),
