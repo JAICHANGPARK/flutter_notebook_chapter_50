@@ -123,6 +123,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       SizedBox(height: 80, child: Placeholder()),
                       Expanded(
                         child: ListView.builder(
+                          padding: .zero,
                           itemBuilder: (context, index) {
                             return Container(height: 100, color: Colors.white);
                           },
