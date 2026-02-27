@@ -113,12 +113,17 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 Container(),
                 Container(),
                 Container(
-                  child: Center(
-                    child: TextButton(
-                      onPressed: () {},
-                      child: Text("$pageNum"),
-                    ),
-                  ),
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 140,
+                        child: Placeholder(),
+                      ),
+                      SizedBox(height: 80,
+                      child: Placeholder(),)
+
+                    ],
+                  )
                 ),
                 Container(),
                 Container(),
