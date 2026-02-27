@@ -16,6 +16,53 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
       backgroundColor: Color.fromRGBO(243, 241, 239, 1),
       body: Stack(
         children: [
+          Positioned.fill(
+            child: IndexedStack(
+              index: pageNum,
+              children: [
+                Container(),
+                Container(),
+                Container(
+                  child: Column(
+                    crossAxisAlignment: .start,
+                    spacing: 16,
+                    children: [
+                      Container(
+                        height: 140,
+                        decoration: BoxDecoration(color: Colors.orange),
+                        child: Placeholder(),
+                      ),
+                      Expanded(
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            spacing: 16,
+                            children: [
+                              SizedBox(height: 80, child: Placeholder()),
+                              Expanded(
+                                child: ListView.builder(
+                                  padding: .zero,
+                                  itemBuilder: (context, index) {
+                                    return Container(height: 160, color: Colors.white,
+                                      margin: EdgeInsets.only(bottom: 16),
+                                    );
+                                  },
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      )
+
+                    ],
+                  ),
+                ),
+                Container(),
+                Container(),
+              ],
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -108,53 +155,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               ),
             ),
           ),
-          Positioned.fill(
-            child: IndexedStack(
-              index: pageNum,
-              children: [
-                Container(),
-                Container(),
-                Container(
-                  child: Column(
-                    crossAxisAlignment: .start,
-                    spacing: 16,
-                    children: [
-                      Container(
-                        height: 140,
-                        decoration: BoxDecoration(color: Colors.orange),
-                        child: Placeholder(),
-                      ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            spacing: 16,
-                            children: [
-                              SizedBox(height: 80, child: Placeholder()),
-                              Expanded(
-                                child: ListView.builder(
-                                  padding: .zero,
-                                  itemBuilder: (context, index) {
-                                    return Container(height: 160, color: Colors.white,
-                                      margin: EdgeInsets.only(bottom: 16),
-                                    );
-                                  },
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      )
 
-                    ],
-                  ),
-                ),
-                Container(),
-                Container(),
-              ],
-            ),
-          ),
         ],
       ),
     );
