@@ -116,6 +116,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                 Container(),
                 Container(
                   child: Column(
+                    crossAxisAlignment: .start,
+                    spacing: 16,
                     children: [
                       Container(height: 140, child: Placeholder()),
                       SizedBox(height: 80, child: Placeholder()),
