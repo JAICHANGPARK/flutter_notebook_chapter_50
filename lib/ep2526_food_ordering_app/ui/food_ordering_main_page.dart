@@ -31,9 +31,10 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         height: 140,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
-                            begin: .topRight,
-                            end: .centerRight,
+                            begin: .centerLeft,
+                            end: .bottomRight,
                             colors: [
+                              Color.fromRGBO(232, 95, 16, 1),
                               Color.fromRGBO(232, 95, 16, 1),
                               Color.fromRGBO(142, 59, 9, 1),
                             ],
