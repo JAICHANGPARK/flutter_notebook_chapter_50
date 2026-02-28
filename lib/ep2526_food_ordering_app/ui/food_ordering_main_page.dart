@@ -92,7 +92,18 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
                                         color: Colors.grey[300]!,
-                                        
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Expanded(child: Container()),
+                                          Expanded(
+                                            child: Container(
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
                                       ),
                                     ),
                                   ],
