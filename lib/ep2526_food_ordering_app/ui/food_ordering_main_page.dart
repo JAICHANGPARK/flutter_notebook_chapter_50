@@ -69,15 +69,21 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                     Row(
                                       children: [
                                         Expanded(
-                                          child: Center(child: Text("Processing")),
+                                          child: Center(
+                                            child: Text("Processing"),
+                                          ),
                                         ),
                                         Expanded(
                                           child: Center(child: Text("Past")),
                                         ),
                                       ],
                                     ),
-
-                                    
+                                    Container(
+                                      height: 12,
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey[200]!,
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
