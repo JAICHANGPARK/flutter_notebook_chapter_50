@@ -63,7 +63,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                             spacing: 16,
                             children: [
                               SizedBox(
-                                height: 80,
+                                // height: 80,
                                 child: Column(
                                   spacing: 12,
                                   children: [
