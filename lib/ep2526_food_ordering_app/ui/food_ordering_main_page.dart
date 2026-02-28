@@ -30,7 +30,17 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                       Container(
                         height: 140,
                         decoration: BoxDecoration(color: Colors.orange),
-                        child: Placeholder(),
+                        child: Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text("Orders"),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              foregroundColor: Colors.black,
+                              child: Icon(Icons.more_vert),
+                            ),
+                          ],
+                        ),
                       ),
                       Expanded(
                         child: Padding(
@@ -44,7 +54,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                 child: ListView.builder(
                                   padding: .zero,
                                   itemBuilder: (context, index) {
-                                    return Container(height: 160, color: Colors.white,
+                                    return Container(
+                                      height: 160,
+                                      color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
                                     );
                                   },
@@ -53,8 +65,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                             ],
                           ),
                         ),
-                      )
-
+                      ),
                     ],
                   ),
                 ),
@@ -155,7 +166,6 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
               ),
             ),
           ),
-
         ],
       ),
     );
