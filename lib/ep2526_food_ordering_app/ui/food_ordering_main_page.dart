@@ -65,6 +65,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                               SizedBox(
                                 height: 80,
                                 child: Column(
+                                  spacing: 12,
                                   children: [
                                     Row(
                                       children: [
@@ -81,7 +82,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                     Container(
                                       height: 12,
                                       decoration: BoxDecoration(
-                                        color: Colors.grey[200]!,
+                                        color: Colors.grey[300]!,
                                       ),
                                     ),
                                   ],
