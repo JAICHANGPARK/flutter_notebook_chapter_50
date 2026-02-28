@@ -62,7 +62,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                             crossAxisAlignment: .start,
                             spacing: 16,
                             children: [
-                              SizedBox(height: 80, child: Placeholder()),
+                              SizedBox(
+                                height: 80,
+                                child: Column(
+                                  children: [
+                                    Expanded(
+                                      child: Center(child: Text("Processing")),
+                                    ),
+                                  ],
+                                ),
+                              ),
                               Expanded(
                                 child: ListView.builder(
                                   padding: .zero,
