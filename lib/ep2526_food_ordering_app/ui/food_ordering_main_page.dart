@@ -100,6 +100,12 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                             child: Container(
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(),
+                                                color: Color.fromRGBO(
+                                                  237,
+                                                  118,
+                                                  42,
+                                                  1,
+                                                ),
                                               ),
                                             ),
                                           ),
