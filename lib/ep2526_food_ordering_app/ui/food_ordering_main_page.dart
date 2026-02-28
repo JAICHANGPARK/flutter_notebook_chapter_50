@@ -120,7 +120,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                   padding: .zero,
                                   itemBuilder: (context, index) {
                                     return Container(
-                                      height: 160,
+                                      height: 180,
                                       padding: EdgeInsets.all(16),
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
@@ -150,6 +150,14 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         94,
                                                         16,
                                                         1,
+                                                      ),
+                                                    ),
+                                                    child: Center(
+                                                      child: Text(
+                                                        "Checkout",
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                        ),
                                                       ),
                                                     ),
                                                   ),
