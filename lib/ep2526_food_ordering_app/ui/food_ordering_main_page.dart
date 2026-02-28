@@ -121,21 +121,39 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                   itemBuilder: (context, index) {
                                     return Container(
                                       height: 160,
+                                      padding: EdgeInsets.all(16),
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
                                       child: Column(
                                         children: [
-                                          Expanded(child: Row(
-                                            children: [
-
-                                            ],
-                                          )),
+                                          Expanded(child: Row(children: [])),
                                           Container(
-                                            height: 42,
-                                            child: Placeholder(),
-                                          )
-                                        ],
+                                            height: 52,
+                                            child: Row(
+                                              children: [
+                                                Expanded(
+                                                  child: Container(
+                                                    decoration: ShapeDecoration(
+                                                      shape: StadiumBorder(
+                                                        side: BorderSide(),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Expanded(
+                                                  child: Container(
+                                                    decoration: ShapeDecoration(
+                                                      shape: StadiumBorder(
+                                                        side: BorderSide(),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
 
+                                              ],
+                                            ),
+                                          ),
+                                        ],
                                       ),
                                     );
                                   },
