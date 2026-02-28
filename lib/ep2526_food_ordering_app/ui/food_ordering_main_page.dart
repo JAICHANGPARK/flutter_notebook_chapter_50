@@ -126,7 +126,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       margin: EdgeInsets.only(bottom: 16),
                                       child: Column(
                                         children: [
-                                          Expanded(child: Row(children: [])),
+                                          Expanded(child: Row(
+                                            children: [
+                                              Container(
+                                                height: 62,
+                                                width:62,
+                                                child: Placeholder(),
+                                              ),
+                                              Expanded(child: Placeholder())
+                                            ],
+                                          ),),
                                           Container(
                                             height: 42,
                                             child: Row(
@@ -139,6 +148,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         side: BorderSide(),
                                                       ),
                                                     ),
+
                                                   ),
                                                 ),
                                                 Expanded(
