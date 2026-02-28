@@ -80,7 +80,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       ],
                                     ),
                                     Container(
-                                      height: 12,
+                                      height: 8,
                                       decoration: BoxDecoration(
                                         color: Colors.grey[300]!,
                                       ),
