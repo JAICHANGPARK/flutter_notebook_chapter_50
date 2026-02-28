@@ -71,13 +71,19 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       children: [
                                         Expanded(
                                           child: Center(
-                                            child: Text("Processing",style: TextStyle(
-                                              fontSize: 18,
-                                            ),),
+                                            child: Text(
+                                              "Processing",
+                                              style: TextStyle(fontSize: 16),
+                                            ),
                                           ),
                                         ),
                                         Expanded(
-                                          child: Center(child: Text("Past")),
+                                          child: Center(
+                                            child: Text(
+                                              "Past",
+                                              style: TextStyle(fontSize: 16),
+                                            ),
+                                          ),
                                         ),
                                       ],
                                     ),
