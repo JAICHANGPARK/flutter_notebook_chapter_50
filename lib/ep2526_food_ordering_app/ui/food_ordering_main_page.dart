@@ -128,8 +128,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                         children: [
                                           Expanded(child: Row(children: [])),
                                           Container(
-                                            height: 52,
+                                            height: 42,
                                             child: Row(
+                                              spacing: 16,
                                               children: [
                                                 Expanded(
                                                   child: Container(
@@ -143,13 +144,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                 Expanded(
                                                   child: Container(
                                                     decoration: ShapeDecoration(
-                                                      shape: StadiumBorder(
-                                                        side: BorderSide(),
+                                                      shape: StadiumBorder(),
+                                                      color: Color.fromRGBO(
+                                                        227,
+                                                        94,
+                                                        16,
+                                                        1,
                                                       ),
                                                     ),
                                                   ),
                                                 ),
-
                                               ],
                                             ),
                                           ),
