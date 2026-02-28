@@ -29,7 +29,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                     children: [
                       Container(
                         height: 140,
-                        decoration: BoxDecoration(color: Colors.orange),
+                        decoration: BoxDecoration(
+                          gradient: LinearGradient(colors: []),
+                        ),
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
