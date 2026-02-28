@@ -123,6 +123,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       height: 160,
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
+                                      child: Column(
+
+                                      ),
                                     );
                                   },
                                 ),
