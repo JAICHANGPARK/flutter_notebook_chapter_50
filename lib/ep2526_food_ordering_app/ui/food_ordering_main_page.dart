@@ -88,7 +88,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       ],
                                     ),
                                     Container(
-                                      height: 8,
+                                      height: 6,
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
                                         color: Colors.grey[300]!,
