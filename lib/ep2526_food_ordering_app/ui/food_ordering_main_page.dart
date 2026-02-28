@@ -129,8 +129,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                           Expanded(child: Row(
                                             children: [
                                               Container(
-                                                height: 62,
-                                                width:62,
+                                                height: 140,
+                                                width:120,
                                                 child: Placeholder(),
                                               ),
                                               Expanded(child: Placeholder())
