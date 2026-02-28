@@ -66,8 +66,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                 height: 80,
                                 child: Column(
                                   children: [
+                                    Row(
+                                      children: [
+                                        
+                                      ],
+                                    )
                                     Expanded(
                                       child: Center(child: Text("Processing")),
+                                    ),
+                                    Expanded(
+                                      child: Center(child: Text("Past")),
                                     ),
                                   ],
                                 ),
