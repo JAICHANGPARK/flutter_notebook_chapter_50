@@ -68,15 +68,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                   children: [
                                     Row(
                                       children: [
-                                        
+                                        Expanded(
+                                          child: Center(child: Text("Processing")),
+                                        ),
+                                        Expanded(
+                                          child: Center(child: Text("Past")),
+                                        ),
                                       ],
-                                    )
-                                    Expanded(
-                                      child: Center(child: Text("Processing")),
                                     ),
-                                    Expanded(
-                                      child: Center(child: Text("Past")),
-                                    ),
+
+                                    
                                   ],
                                 ),
                               ),
