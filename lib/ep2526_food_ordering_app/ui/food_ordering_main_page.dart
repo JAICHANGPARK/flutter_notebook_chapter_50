@@ -31,6 +31,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         height: 140,
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
+                            begin: .topRight,
+                            end:.centerRight,
                             colors: [
                               Color.fromRGBO(232, 95, 16, 1),
                               Color.fromRGBO(142, 59, 9, 1),
@@ -40,7 +42,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
-                            Text("Orders"),
+                            Text("Orders",),
                             CircleAvatar(
                               backgroundColor: Colors.white,
                               foregroundColor: Colors.black,
