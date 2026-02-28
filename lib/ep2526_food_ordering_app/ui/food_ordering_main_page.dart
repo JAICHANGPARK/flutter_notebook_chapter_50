@@ -120,7 +120,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                   padding: .zero,
                                   itemBuilder: (context, index) {
                                     return Container(
-                                      height: 180,
+                                      height: 200,
                                       padding: EdgeInsets.all(16),
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
@@ -132,7 +132,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                             children: [
                                               Container(
                                                 height: 140,
-                                                width:120,
+                                                width:100,
                                                 child: Placeholder(),
                                               ),
                                               Expanded(child: Placeholder())
