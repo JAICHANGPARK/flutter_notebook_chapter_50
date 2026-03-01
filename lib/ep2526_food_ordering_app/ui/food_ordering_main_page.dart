@@ -40,13 +40,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                             ],
                           ),
                         ),
+                        padding: .only(
+                          top: 32,
+                        ),
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
                             Text(
                               "Orders",
                               style: TextStyle(color: Colors.white,
-                              fontSize: 20,),
+                              fontSize: 26,),
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.white,
