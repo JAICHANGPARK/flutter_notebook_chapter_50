@@ -206,6 +206,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                       child: Text(
                                                         "Rate",
                                                         style: TextStyle(
+                                                          fontSize: 18,
                                                           fontWeight: .bold,
                                                         ),
                                                       ),
@@ -227,6 +228,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                       child: Text(
                                                         "Checkout",
                                                         style: TextStyle(
+                                                          fontSize: 18,
                                                           color: Colors.white,
                                                         ),
                                                       ),
