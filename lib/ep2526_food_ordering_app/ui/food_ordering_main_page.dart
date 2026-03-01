@@ -198,13 +198,17 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                     decoration: ShapeDecoration(
                                                       shape: StadiumBorder(
                                                         side: BorderSide(
-                                                          color: Colors.orange
+                                                          color: Colors.orange,
                                                         ),
-
                                                       ),
                                                     ),
                                                     child: Center(
-                                                      child: Text("Rate"),
+                                                      child: Text(
+                                                        "Rate",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                        ),
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
