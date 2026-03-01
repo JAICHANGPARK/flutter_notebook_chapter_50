@@ -129,7 +129,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
                                       child: Column(
-                                        spacing: 12,
+                                        spacing: 16,
                                         children: [
                                           Row(
                                             spacing: 12,
@@ -144,6 +144,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                               ),
                                               Expanded(
                                                 child: Column(
+                                                  spacing: 4,
                                                   crossAxisAlignment:
                                                       CrossAxisAlignment.start,
                                                   mainAxisAlignment:
