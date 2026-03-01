@@ -148,7 +148,13 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                 Expanded(child: Column(
                                                   crossAxisAlignment: CrossAxisAlignment.start,
                                                   children: [
-                                                    Text("Chicken Barger")
+                                                    Text("Chicken Barger"),
+                                                    Text("Chicken, rice, oil, bead and tasty salt..."),
+                                                    Row(
+                                                      children: [
+                                                        Text("Delivered: 18-02-26")
+                                                      ],
+                                                    )
                                                   ],
                                                 )),
                                               ],
