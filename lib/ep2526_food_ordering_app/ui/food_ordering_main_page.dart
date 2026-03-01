@@ -148,6 +148,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                     crossAxisAlignment:
                                                         CrossAxisAlignment
                                                             .start,
+                                                    mainAxisAlignment: .spaceBetween,
                                                     children: [
                                                       Text(
                                                         "Chicken Barger",
@@ -163,6 +164,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         ),
                                                       ),
                                                       Row(
+                                                        mainAxisAlignment: .spaceBetween,
                                                         children: [
                                                           Text(
                                                             "Delivered: 18-02-26",
