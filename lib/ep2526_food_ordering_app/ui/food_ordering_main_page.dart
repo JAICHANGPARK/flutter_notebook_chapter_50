@@ -45,7 +45,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                           children: [
                             Text(
                               "Orders",
-                              style: TextStyle(color: Colors.white),
+                              style: TextStyle(color: Colors.white,
+                              fontSize: 20,),
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.white,
