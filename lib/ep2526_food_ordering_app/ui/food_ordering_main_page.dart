@@ -40,18 +40,16 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                             ],
                           ),
                         ),
-                        padding: .only(
-                          top: 32,
-                          left: 16,
-                          right: 16
-                        ),
+                        padding: .only(top: 32, left: 16, right: 16),
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
                           children: [
                             Text(
                               "Orders",
-                              style: TextStyle(color: Colors.white,
-                              fontSize: 26,),
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 26,
+                              ),
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.white,
@@ -133,17 +131,19 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       child: Column(
                                         spacing: 12,
                                         children: [
-                                          Expanded(child: Row(
-                                            spacing: 12,
-                                            children: [
-                                              Container(
-                                                height: 140,
-                                                width:100,
-                                                child: Placeholder(),
-                                              ),
-                                              Expanded(child: Placeholder())
-                                            ],
-                                          ),),
+                                          Expanded(
+                                            child: Row(
+                                              spacing: 12,
+                                              children: [
+                                                Container(
+                                                  height: 140,
+                                                  width: 100,
+                                                  child: Placeholder(),
+                                                ),
+                                                Expanded(child: Placeholder()),
+                                              ],
+                                            ),
+                                          ),
                                           Container(
                                             height: 42,
                                             child: Row(
@@ -156,7 +156,6 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         side: BorderSide(),
                                                       ),
                                                     ),
-
                                                   ),
                                                 ),
                                                 Expanded(
