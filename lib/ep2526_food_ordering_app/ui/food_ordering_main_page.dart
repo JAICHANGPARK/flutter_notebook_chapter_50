@@ -99,7 +99,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       ),
                                       child: Row(
                                         children: [
-                                          Expanded(child: Container()),
+                                          Expanded(child: Container(
+                                            
+                                          )),
                                           Expanded(
                                             child: Container(
                                               decoration: ShapeDecoration(
@@ -138,9 +140,12 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                 Container(
                                                   height: 140,
                                                   width: 100,
-                                                  child: Placeholder(),
+                                                  decoration: BoxDecoration(
+                                                    borderRadius: .circular(12),
+                                                    color: Colors.brown
+                                                  ),
                                                 ),
-                                                Expanded(child: Placeholder()),
+                                                Expanded(child: Column()),
                                               ],
                                             ),
                                           ),
