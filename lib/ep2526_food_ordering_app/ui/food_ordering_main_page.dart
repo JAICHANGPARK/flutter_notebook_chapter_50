@@ -99,9 +99,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                       ),
                                       child: Row(
                                         children: [
-                                          Expanded(child: Container(
-                                            
-                                          )),
+                                          Expanded(child: Container()),
                                           Expanded(
                                             child: Container(
                                               decoration: ShapeDecoration(
@@ -142,21 +140,35 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                   width: 100,
                                                   decoration: BoxDecoration(
                                                     borderRadius: .circular(12),
-                                                    color: Colors.brown
+                                                    color: Colors.brown,
                                                   ),
                                                 ),
-                                                Expanded(child: Column(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                                  children: [
-                                                    Text("Chicken Barger"),
-                                                    Text("Chicken, rice, oil, bead and tasty salt..."),
-                                                    Row(
-                                                      children: [
-                                                        Text("Delivered: 18-02-26")
-                                                      ],
-                                                    )
-                                                  ],
-                                                )),
+                                                Expanded(
+                                                  child: Column(
+                                                    crossAxisAlignment:
+                                                        CrossAxisAlignment
+                                                            .start,
+                                                    children: [
+                                                      Text(
+                                                        "Chicken Barger",
+                                                        style: TextStyle(
+                                                          fontWeight: .bold,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "Chicken, rice, oil, bead and tasty salt...",
+                                                      ),
+                                                      Row(
+                                                        children: [
+                                                          Text(
+                                                            "Delivered: 18-02-26",
+                                                          ),
+                                                          Text("Total: \$60"),
+                                                        ],
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ),
