@@ -124,67 +124,65 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                   padding: .zero,
                                   itemBuilder: (context, index) {
                                     return Container(
-                                      height: 200,
+                                      // height: 200,
                                       padding: EdgeInsets.all(16),
                                       color: Colors.white,
                                       margin: EdgeInsets.only(bottom: 16),
                                       child: Column(
                                         spacing: 12,
                                         children: [
-                                          Expanded(
-                                            child: Row(
-                                              spacing: 12,
-                                              children: [
-                                                Container(
-                                                  height: 140,
-                                                  width: 100,
-                                                  decoration: BoxDecoration(
-                                                    borderRadius: .circular(12),
-                                                    color: Colors.brown,
-                                                  ),
+                                          Row(
+                                            spacing: 12,
+                                            children: [
+                                              Container(
+                                                height: 110,
+                                                width: 100,
+                                                decoration: BoxDecoration(
+                                                  borderRadius: .circular(12),
+                                                  color: Colors.brown,
                                                 ),
-                                                Expanded(
-                                                  child: Column(
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .start,
-                                                    mainAxisAlignment: .spaceBetween,
-                                                    children: [
-                                                      Text(
-                                                        "Chicken Barger",
-                                                        style: TextStyle(
-                                                          fontWeight: .bold,
-                                                          fontSize: 20,
-                                                        ),
+                                              ),
+                                              Expanded(
+                                                child: Column(
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment
+                                                          .start,
+                                                  mainAxisAlignment: .spaceBetween,
+                                                  children: [
+                                                    Text(
+                                                      "Chicken Barger",
+                                                      style: TextStyle(
+                                                        fontWeight: .bold,
+                                                        fontSize: 20,
                                                       ),
-                                                      Text(
-                                                        "Chicken, rice, oil, bead and tasty salt...",
-                                                        style: TextStyle(
-                                                          color: Colors.grey,
-                                                        ),
+                                                    ),
+                                                    Text(
+                                                      "Chicken, rice, oil, bead and tasty salt...",
+                                                      style: TextStyle(
+                                                        color: Colors.grey,
                                                       ),
-                                                      Row(
-                                                        mainAxisAlignment: .spaceBetween,
-                                                        children: [
-                                                          Text(
-                                                            "Delivered: 18-02-26",
-                                                            style: TextStyle(
-                                                              fontWeight: .bold,
-                                                              color: Colors.green,
-                                                              fontSize: 15,
-                                                            ),
-                                                          ),
-                                                          Text("Total: \$60",style: TextStyle(
+                                                    ),
+                                                    Row(
+                                                      mainAxisAlignment: .spaceBetween,
+                                                      children: [
+                                                        Text(
+                                                          "Delivered: 18-02-26",
+                                                          style: TextStyle(
                                                             fontWeight: .bold,
-                                                            fontSize: 16,
-                                                          ),),
-                                                        ],
-                                                      ),
-                                                    ],
-                                                  ),
+                                                            color: Colors.green,
+                                                            fontSize: 15,
+                                                          ),
+                                                        ),
+                                                        Text("Total: \$60",style: TextStyle(
+                                                          fontWeight: .bold,
+                                                          fontSize: 16,
+                                                        ),),
+                                                      ],
+                                                    ),
+                                                  ],
                                                 ),
-                                              ],
-                                            ),
+                                              ),
+                                            ],
                                           ),
                                           Container(
                                             height: 42,
