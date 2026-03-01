@@ -166,6 +166,11 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         children: [
                                                           Text(
                                                             "Delivered: 18-02-26",
+                                                            style: TextStyle(
+                                                              fontWeight: .bold,
+                                                              color: Colors.green,
+                                                              fontSize: 15,
+                                                            ),
                                                           ),
                                                           Text("Total: \$60"),
                                                         ],
