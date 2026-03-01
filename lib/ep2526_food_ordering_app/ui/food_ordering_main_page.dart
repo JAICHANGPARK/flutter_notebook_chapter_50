@@ -153,10 +153,14 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                         "Chicken Barger",
                                                         style: TextStyle(
                                                           fontWeight: .bold,
+                                                          fontSize: 20,
                                                         ),
                                                       ),
                                                       Text(
                                                         "Chicken, rice, oil, bead and tasty salt...",
+                                                        style: TextStyle(
+                                                          color: Colors.grey,
+                                                        ),
                                                       ),
                                                       Row(
                                                         children: [
