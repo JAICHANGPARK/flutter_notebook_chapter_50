@@ -172,7 +172,10 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                               fontSize: 15,
                                                             ),
                                                           ),
-                                                          Text("Total: \$60"),
+                                                          Text("Total: \$60",style: TextStyle(
+                                                            fontWeight: .bold,
+                                                            fontSize: 16,
+                                                          ),),
                                                         ],
                                                       ),
                                                     ],
