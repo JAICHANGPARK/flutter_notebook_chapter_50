@@ -195,6 +195,11 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                       shape: StadiumBorder(
                                                         side: BorderSide(),
                                                       ),
+
+                                                    ),
+                                                    child: Center(
+                                                      child:
+                                                      Text(""),
                                                     ),
                                                   ),
                                                 ),
