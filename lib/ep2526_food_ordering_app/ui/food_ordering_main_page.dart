@@ -126,8 +126,12 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                     return Container(
                                       // height: 200,
                                       padding: EdgeInsets.all(16),
-                                      color: Colors.white,
+
                                       margin: EdgeInsets.only(bottom: 16),
+                                      decoration: BoxDecoration(
+                                        color: Colors.white,
+                                        borderRadius: BorderRadius.circular(12),
+                                      ),
                                       child: Column(
                                         spacing: 16,
                                         children: [
