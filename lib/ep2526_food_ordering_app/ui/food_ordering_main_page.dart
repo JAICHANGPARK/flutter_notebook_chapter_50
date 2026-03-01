@@ -42,6 +42,7 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                         ),
                         padding: .only(
                           top: 32,
+                          left: 16,
                         ),
                         child: Row(
                           mainAxisAlignment: .spaceBetween,
