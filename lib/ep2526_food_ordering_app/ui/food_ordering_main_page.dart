@@ -145,7 +145,12 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                     color: Colors.brown
                                                   ),
                                                 ),
-                                                Expanded(child: Column()),
+                                                Expanded(child: Column(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Text("Chicken Barger")
+                                                  ],
+                                                )),
                                               ],
                                             ),
                                           ),
