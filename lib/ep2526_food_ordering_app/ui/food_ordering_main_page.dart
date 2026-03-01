@@ -145,9 +145,9 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
-                                                      CrossAxisAlignment
-                                                          .start,
-                                                  mainAxisAlignment: .spaceBetween,
+                                                      CrossAxisAlignment.start,
+                                                  mainAxisAlignment:
+                                                      .spaceBetween,
                                                   children: [
                                                     Text(
                                                       "Chicken Barger",
@@ -163,7 +163,8 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                       ),
                                                     ),
                                                     Row(
-                                                      mainAxisAlignment: .spaceBetween,
+                                                      mainAxisAlignment:
+                                                          .spaceBetween,
                                                       children: [
                                                         Text(
                                                           "Delivered: 18-02-26",
@@ -173,10 +174,13 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                             fontSize: 15,
                                                           ),
                                                         ),
-                                                        Text("Total: \$60",style: TextStyle(
-                                                          fontWeight: .bold,
-                                                          fontSize: 16,
-                                                        ),),
+                                                        Text(
+                                                          "Total: \$60",
+                                                          style: TextStyle(
+                                                            fontWeight: .bold,
+                                                            fontSize: 16,
+                                                          ),
+                                                        ),
                                                       ],
                                                     ),
                                                   ],
@@ -193,13 +197,14 @@ class _FoodOrderingMainPageState extends State<FoodOrderingMainPage> {
                                                   child: Container(
                                                     decoration: ShapeDecoration(
                                                       shape: StadiumBorder(
-                                                        side: BorderSide(),
-                                                      ),
+                                                        side: BorderSide(
+                                                          color: Colors.orange
+                                                        ),
 
+                                                      ),
                                                     ),
                                                     child: Center(
-                                                      child:
-                                                      Text(""),
+                                                      child: Text("Rate"),
                                                     ),
                                                   ),
                                                 ),
