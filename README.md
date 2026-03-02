@@ -7,7 +7,7 @@
 - Sheikh Attabur
 - https://dribbble.com/shots/27136116-Wellness-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/46863278/file/97c664d1cd8b7fbce64a83ccbb75291f.png?resize=1905x1707&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/46904323/file/1c0e97a52d00edd89e2502db9945f7ce.png?resize=2048x1536&vertical=center" alt=""/>
 
 ## EP2526-2529
 
