@@ -17,6 +17,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
           Positioned.fill(
             top: 16,
             child: SafeArea(
+              bottom: false,
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
@@ -66,6 +67,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                         ),
                       ],
                     ),
+                  ),
+                  SizedBox(height: 52, child: Placeholder()),
+                  Expanded(
+                    child: ListView.builder(itemBuilder: (context, index) {}),
                   ),
                 ],
               ),
