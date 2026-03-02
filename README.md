@@ -3,7 +3,7 @@
 
 ## EP2530
 
-- Online Food Ordering Mobile App UI UX Design.
+- Wellness Mobile App
 - Farhana Sharmin
 - https://dribbble.com/shots/27124017--Online-Food-Ordering-Mobile-App-UI-UX-Design
 
