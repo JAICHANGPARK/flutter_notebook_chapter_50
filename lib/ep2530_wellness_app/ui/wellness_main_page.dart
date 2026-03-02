@@ -24,7 +24,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: .start,
-                          children: [Text("Start Your"), Text("Healthy Journey")],
+                          children: [
+                            Text("Start Your"),
+                            Text("Healthy Journey"),
+                          ],
                         ),
                       ),
                       Container(
