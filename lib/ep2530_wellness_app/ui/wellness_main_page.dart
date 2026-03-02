@@ -75,7 +75,9 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: ListView.builder(
                         itemBuilder: (context, index) {
-                          return Container(height: 260, child: Placeholder());
+                          return Container(
+                              margin: .only(bottom: 16),
+                              height: 260, child: Placeholder());
                         },
                       ),
                     ),
