@@ -19,6 +19,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             child: SafeArea(
               bottom: false,
               child: Column(
+                spacing: 20,
                 crossAxisAlignment: .start,
                 children: [
                   Padding(
@@ -70,13 +71,14 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                   ),
                   SizedBox(height: 52, child: Placeholder()),
                   Expanded(
-                    child: ListView.builder(itemBuilder: (context, index) {
-
-                      return Container(
-                        height: 240,
-                        child: Placeholder(),
-                      );
-                    }),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container(height: 260, child: Placeholder());
+                        },
+                      ),
+                    ),
                   ),
                 ],
               ),
