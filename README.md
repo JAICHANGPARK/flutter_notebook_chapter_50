@@ -1,6 +1,5 @@
 # flutter_notebook_chapter_50
 
-
 ## EP2530
 
 - Wellness Mobile App
