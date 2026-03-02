@@ -25,7 +25,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                         child: Column(
                           crossAxisAlignment: .start,
                           children: [
-                            Text("Start Your"),
+                            Text("Start Your",style: TextStyle(
+                              fontSize: 20,
+
+                            ),),
                             Text("Healthy Journey"),
                           ],
                         ),
@@ -35,7 +38,11 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                           vertical: 24,
                           horizontal: 14,
                         ),
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(
+                            side: BorderSide(color: Colors.grey[400]!),
+                          ),
+                        ),
                         child: Icon(Icons.menu),
                       ),
                     ],
