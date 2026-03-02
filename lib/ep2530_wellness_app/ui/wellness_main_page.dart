@@ -12,25 +12,23 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(children: [
-        Row(
-          children: [
-            Expanded(
-              child: Column(
-                children: [
-                  Text("Start Your"),
-                  Text("Healthy Journey"),
-                ],
+      body: Column(
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Column(
+                  children: [Text("Start Your"), Text("Healthy Journey")],
+                ),
               ),
-            ),
-            Container(
-
-              decoration: ShapeDecoration(shape: StadiumBorder())
-
-            )
-          ],
-        )
-      ]),
+              Container(
+                decoration: ShapeDecoration(shape: StadiumBorder()),
+                child: Icon(Icons.menu),
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
