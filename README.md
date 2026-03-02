@@ -4,7 +4,7 @@
 ## EP2530
 
 - Wellness Mobile App
-- Farhana Sharmin
+- Sheikh Attabur
 - https://dribbble.com/shots/27124017--Online-Food-Ordering-Mobile-App-UI-UX-Design
 
 <img src="https://cdn.dribbble.com/userupload/46863278/file/97c664d1cd8b7fbce64a83ccbb75291f.png?resize=1905x1707&vertical=center" alt=""/>
