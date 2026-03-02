@@ -5,7 +5,7 @@
 
 - Wellness Mobile App
 - Sheikh Attabur
-- https://dribbble.com/shots/27124017--Online-Food-Ordering-Mobile-App-UI-UX-Design
+- https://dribbble.com/shots/27136116-Wellness-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/46863278/file/97c664d1cd8b7fbce64a83ccbb75291f.png?resize=1905x1707&vertical=center" alt=""/>
 
