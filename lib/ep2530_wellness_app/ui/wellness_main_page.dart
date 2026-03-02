@@ -17,11 +17,13 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Row(
                     children: [
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: .start,
                           children: [Text("Start Your"), Text("Healthy Journey")],
                         ),
                       ),
