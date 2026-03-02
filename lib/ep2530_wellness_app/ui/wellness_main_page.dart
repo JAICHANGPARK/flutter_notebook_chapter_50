@@ -19,33 +19,36 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
               child: Column(
                 crossAxisAlignment: .start,
                 children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: .start,
-                          children: [
-                            Text("Start Your",style: TextStyle(
-                              fontSize: 20,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [
+                              Text("Start Your",style: TextStyle(
+                                fontSize: 30,
 
-                            ),),
-                            Text("Healthy Journey"),
-                          ],
-                        ),
-                      ),
-                      Container(
-                        padding: EdgeInsets.symmetric(
-                          vertical: 24,
-                          horizontal: 14,
-                        ),
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(
-                            side: BorderSide(color: Colors.grey[400]!),
+                              ),),
+                              Text("Healthy Journey"),
+                            ],
                           ),
                         ),
-                        child: Icon(Icons.menu),
-                      ),
-                    ],
+                        Container(
+                          padding: EdgeInsets.symmetric(
+                            vertical: 24,
+                            horizontal: 14,
+                          ),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey[400]!),
+                            ),
+                          ),
+                          child: Icon(Icons.menu),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
