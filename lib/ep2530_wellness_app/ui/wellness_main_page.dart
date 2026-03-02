@@ -70,7 +70,13 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                   ),
                   SizedBox(height: 52, child: Placeholder()),
                   Expanded(
-                    child: ListView.builder(itemBuilder: (context, index) {}),
+                    child: ListView.builder(itemBuilder: (context, index) {
+
+                      return Container(
+                        height: 240,
+                        child: Placeholder(),
+                      );
+                    }),
                   ),
                 ],
               ),
