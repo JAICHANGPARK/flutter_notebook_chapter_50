@@ -31,7 +31,20 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                 "Start Your",
                                 style: TextStyle(fontSize: 30),
                               ),
-                              Text("Healthy Journey"),
+                              Text.rich(
+                                TextSpan(
+                                  children: [
+                                    TextSpan(
+                                      text: "Healthy ",
+                                      style: TextStyle(fontSize: 30),
+                                    ),
+                                    TextSpan(
+                                      text: "Journey",
+                                      style: TextStyle(fontSize: 30),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
