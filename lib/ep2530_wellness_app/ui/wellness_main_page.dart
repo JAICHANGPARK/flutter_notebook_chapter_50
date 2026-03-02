@@ -76,8 +76,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       child: ListView.builder(
                         itemBuilder: (context, index) {
                           return Container(
-                              margin: .only(bottom: 16),
-                              height: 260, child: Placeholder());
+                            margin: .only(bottom: 16),
+                            height: 260,
+                            child: Placeholder(),
+                          );
                         },
                       ),
                     ),
