@@ -15,26 +15,28 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        children: [Text("Start Your"), Text("Healthy Journey")],
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [Text("Start Your"), Text("Healthy Journey")],
+                        ),
                       ),
-                    ),
-                    Container(
-                      padding: EdgeInsets.symmetric(
-                        vertical: 24,
-                        horizontal: 14,
+                      Container(
+                        padding: EdgeInsets.symmetric(
+                          vertical: 24,
+                          horizontal: 14,
+                        ),
+                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        child: Icon(Icons.menu),
                       ),
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Icon(Icons.menu),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ],
