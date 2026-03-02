@@ -15,6 +15,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 16,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
@@ -36,7 +37,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                   children: [
                                     TextSpan(
                                       text: "Healthy ",
-                                      style: TextStyle(fontSize: 30),
+                                      style: TextStyle(
+                                        fontSize: 30,
+                                        fontWeight: .bold,
+                                      ),
                                     ),
                                     TextSpan(
                                       text: "Journey",
