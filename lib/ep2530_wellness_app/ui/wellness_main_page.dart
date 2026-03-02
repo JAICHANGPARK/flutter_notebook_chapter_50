@@ -18,10 +18,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             children: [
               Expanded(
                 child: Column(
-                  children: [Text("Start Your"), Text("Healthy Journey")],
+                  children: [Text("Start Your"), Text("Healthy Journey"),],
                 ),
               ),
               Container(
+
+                padding: EdgeInsets.symmetric(vertical: 24, horizontal: 14),
                 decoration: ShapeDecoration(shape: StadiumBorder()),
                 child: Icon(Icons.menu),
               ),
