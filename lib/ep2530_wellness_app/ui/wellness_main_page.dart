@@ -11,6 +11,13 @@ class WellnessMainPage extends StatefulWidget {
 class _WellnessMainPageState extends State<WellnessMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
