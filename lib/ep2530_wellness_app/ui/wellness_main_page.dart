@@ -27,10 +27,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                           child: Column(
                             crossAxisAlignment: .start,
                             children: [
-                              Text("Start Your",style: TextStyle(
-                                fontSize: 30,
-
-                              ),),
+                              Text(
+                                "Start Your",
+                                style: TextStyle(fontSize: 30),
+                              ),
                               Text("Healthy Journey"),
                             ],
                           ),
