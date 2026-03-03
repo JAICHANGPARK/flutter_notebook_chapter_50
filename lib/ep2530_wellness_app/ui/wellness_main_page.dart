@@ -69,7 +69,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  Container(
                     height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
@@ -93,7 +93,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                             shape: StadiumBorder(),
                             color: Colors.grey[300]!,
                           ),
-                          child: Center(child: Text("Wellness")),
+                          child: Center(child: Text("Healthy")),
                         ),
                       ],
                     ),
