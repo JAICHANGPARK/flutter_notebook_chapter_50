@@ -165,6 +165,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                           fontWeight: .bold,
                                         ),
                                       ),
+                                      Text("95%\nHydrate with a\nslice of lemon."),
                                     ],
                                   ),
                                 ),
