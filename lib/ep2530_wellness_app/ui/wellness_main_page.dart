@@ -76,7 +76,8 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
-                          padding: EdgeInsets.symmetric(horizontal: 32),
+                          margin: EdgeInsets.only(right: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.black,
