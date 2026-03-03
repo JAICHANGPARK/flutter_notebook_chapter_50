@@ -165,7 +165,15 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                           fontWeight: .bold,
                                         ),
                                       ),
-                                      Text("95%\nHydrate with a\nslice of lemon."),
+                                      Text(
+                                        "95%\nHydrate with a\nslice of lemon.",
+                                      ),
+                                      Container(
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                        ),
+                                        child: Center(child: Text("Book Now")),
+                                      ),
                                     ],
                                   ),
                                 ),
