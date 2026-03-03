@@ -132,7 +132,20 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                               color: Color.fromRGBO(229, 255, 208, 1),
                             ),
 
-                            child: Placeholder(),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  right: 16,
+                                  top: 16,
+                                  child: CircleAvatar(
+                                    radius: 23,
+                                    backgroundColor: Colors.white,
+                                    foregroundColor: Colors.black,
+                                    child: Icon(Icons.bookmark_border),
+                                  ),
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
