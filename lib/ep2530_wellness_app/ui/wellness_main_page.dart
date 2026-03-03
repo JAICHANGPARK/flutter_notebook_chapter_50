@@ -69,18 +69,35 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 52, child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    children: [
-                      Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.black),
-                        child: Center(
-                          child: Text("All"),
+                  SizedBox(
+                    height: 52,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.black,
+                          ),
+                          child: Center(child: Text("All")),
                         ),
-                      )
-
-                    ],
-                  )),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.grey[300]!,
+                          ),
+                          child: Center(child: Text("Wellness")),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.black,
+                          ),
+                          child: Center(child: Text("All")),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
