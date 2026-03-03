@@ -82,9 +82,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                             shape: StadiumBorder(),
                             color: Colors.black,
                           ),
-                          child: Center(child: Text("All",style: TextStyle(
-                            color: Colors.white,
-                          ),)),
+                          child: Center(
+                            child: Text(
+                              "All",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ),
                         ),
                         Container(
                           margin: EdgeInsets.only(right: 16),
@@ -124,6 +127,11 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                           return Container(
                             margin: .only(bottom: 16),
                             height: 260,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),
+                              color: Colors.lightGreenAccent,
+                            ),
+
                             child: Placeholder(),
                           );
                         },
