@@ -141,15 +141,30 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                     radius: 30,
                                     backgroundColor: Colors.white,
                                     foregroundColor: Colors.black,
-                                    child: Icon(Icons.bookmark_border,size: 32,),
+                                    child: Icon(
+                                      Icons.bookmark_border,
+                                      size: 32,
+                                    ),
                                   ),
                                 ),
-                                Positioned(child: Column(
-
-                                  crossAxisAlignment: .start,
-                                  children: [
-
-                                ],))
+                                Positioned(
+                                  left: 16,
+                                  top: 16,
+                                  bottom: 16,
+                                  child: Column(
+                                    crossAxisAlignment: .start,
+                                    children: [
+                                      Text(
+                                        "Lemon Fresh",
+                                        style: TextStyle(fontSize: 32),
+                                      ),
+                                      Text(
+                                        "Hydration",
+                                        style: TextStyle(fontSize: 32),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           );
