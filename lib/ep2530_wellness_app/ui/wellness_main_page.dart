@@ -138,12 +138,18 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                   right: 16,
                                   top: 16,
                                   child: CircleAvatar(
-                                    radius: 26,
+                                    radius: 30,
                                     backgroundColor: Colors.white,
                                     foregroundColor: Colors.black,
-                                    child: Icon(Icons.bookmark_border,size: 24,),
+                                    child: Icon(Icons.bookmark_border,size: 32,),
                                   ),
                                 ),
+                                Positioned(child: Column(
+
+                                  crossAxisAlignment: .start,
+                                  children: [
+
+                                ],))
                               ],
                             ),
                           );
