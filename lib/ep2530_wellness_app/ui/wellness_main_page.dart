@@ -69,7 +69,11 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 52, child: Placeholder()),
+                  SizedBox(height: 52, child: ListView(
+                    children: [
+
+                    ],
+                  )),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
