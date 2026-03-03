@@ -71,10 +71,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                   ),
                   Container(
                     height: 52,
+                    padding: EdgeInsets.only(left: 16),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
+                          padding: EdgeInsets.symmetric(horizontal: 16),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.black,
