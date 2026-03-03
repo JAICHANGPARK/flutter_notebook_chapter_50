@@ -74,6 +74,9 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                     children: [
                       Container(
                         decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.black),
+                        child: Center(
+                          child: Text("All"),
+                        ),
                       )
 
                     ],
