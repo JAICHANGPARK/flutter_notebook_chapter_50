@@ -160,7 +160,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                       ),
                                       Text(
                                         "Hydration",
-                                        style: TextStyle(fontSize: 32),
+                                        style: TextStyle(
+                                          fontSize: 32,
+                                          fontWeight: .bold,
+                                        ),
                                       ),
                                     ],
                                   ),
