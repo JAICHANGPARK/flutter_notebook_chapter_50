@@ -70,7 +70,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                     ),
                   ),
                   Container(
-                    height: 52,
+                    height: 56,
                     padding: EdgeInsets.only(left: 16),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
