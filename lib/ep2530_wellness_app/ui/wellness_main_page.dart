@@ -87,6 +87,8 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                           ),)),
                         ),
                         Container(
+                          margin: EdgeInsets.only(right: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.grey[300]!,
@@ -94,6 +96,8 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                           child: Center(child: Text("Wellness")),
                         ),
                         Container(
+                          margin: EdgeInsets.only(right: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.grey[300]!,
