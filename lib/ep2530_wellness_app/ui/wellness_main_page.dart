@@ -129,7 +129,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                             height: 260,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
-                              color: Colors.lightGreenAccent,
+                              color: Color.fromRGBO(229, 255, 208, 1),
                             ),
 
                             child: Placeholder(),
