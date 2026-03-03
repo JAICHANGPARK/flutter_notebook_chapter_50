@@ -91,9 +91,9 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
-                            color: Colors.black,
+                            color: Colors.grey[300]!,
                           ),
-                          child: Center(child: Text("All")),
+                          child: Center(child: Text("Wellness")),
                         ),
                       ],
                     ),
