@@ -216,18 +216,22 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             bottom: 32,
             left: 0,
             right: 0,
-            child: Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.white,
-              ),
-              child: Row(
-                children: [
-                  CircleAvatar(),
-                  CircleAvatar(),
-                  CircleAvatar(),
-                  CircleAvatar(),
-                ],
+            child: Align(
+              alignment: .center,
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  mainAxisSize: .min,
+                  children: [
+                    CircleAvatar(),
+                    CircleAvatar(),
+                    CircleAvatar(),
+                    CircleAvatar(),
+                  ],
+                ),
               ),
             ),
           ),
