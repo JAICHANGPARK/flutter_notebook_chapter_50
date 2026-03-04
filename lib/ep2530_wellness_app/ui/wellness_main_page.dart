@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class WellnessMainPage extends StatefulWidget {
   const WellnessMainPage({super.key});
@@ -126,7 +127,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                         itemBuilder: (context, index) {
                           return Container(
                             margin: .only(bottom: 16),
-                            height: 260,
+                            height: 300,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(16),
                               color: Color.fromRGBO(229, 255, 208, 1),
@@ -175,8 +176,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                       Text(
                                         "95%\nHydrate with a\nslice of lemon.",
                                       ),
+                                      Gap(24),
                                       Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 24,
+                                          vertical: 12,
+                                        ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Color.fromRGBO(
@@ -186,7 +191,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                             1,
                                           ),
                                         ),
-                                        child: Center(child: Text("Book Now")),
+                                        child: Center(
+                                          child: Text(
+                                            "Book Now",
+                                            style: TextStyle(fontWeight: .bold),
+                                          ),
+                                        ),
                                       ),
                                     ],
                                   ),
