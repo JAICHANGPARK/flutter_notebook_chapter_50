@@ -213,6 +213,20 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             ),
           ),
           Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+
+            child: Container(
+              height: 150,
+              decoration: BoxDecoration(gradient: LinearGradient(colors: [
+                Colors.white,
+                Colors.white38,
+                Colors.transparent,
+              ])),
+            ),
+          ),
+          Positioned(
             bottom: 32,
             left: 0,
             right: 0,
@@ -225,12 +239,25 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                   color: Colors.white,
                 ),
                 child: Row(
+                  spacing: 6,
                   mainAxisSize: .min,
                   children: [
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
-                    CircleAvatar(radius: 28),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Color.fromRGBO(254, 236, 138, 1),
+                    ),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Colors.grey[200]!,
+                    ),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Colors.grey[200]!,
+                    ),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Colors.grey[200]!,
+                    ),
                   ],
                 ),
               ),
