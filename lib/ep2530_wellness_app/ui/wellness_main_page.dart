@@ -151,6 +151,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                   top: 16,
                                   bottom: 16,
                                   child: Column(
+                                    mainAxisAlignment: .spaceBetween,
                                     spacing: 12,
                                     crossAxisAlignment: .start,
                                     children: [
@@ -175,7 +176,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                         "95%\nHydrate with a\nslice of lemon.",
                                       ),
                                       Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+                                        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Color.fromRGBO(
