@@ -222,7 +222,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                 color: Colors.white,
               ),
               child: Row(
-                children: [CircleAvatar(),],
+                children: [
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+                ],
               ),
             ),
           ),
