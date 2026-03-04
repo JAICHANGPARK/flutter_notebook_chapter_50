@@ -219,11 +219,13 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
 
             child: Container(
               height: 150,
-              decoration: BoxDecoration(gradient: LinearGradient(colors: [
-                Colors.white,
-                Colors.white38,
-                Colors.transparent,
-              ])),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: .bottomCenter,
+                  end: .topCenter,
+                  colors: [Colors.white, Colors.white38, Colors.white10],
+                ),
+              ),
             ),
           ),
           Positioned(
