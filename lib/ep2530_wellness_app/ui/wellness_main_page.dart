@@ -131,7 +131,6 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                               borderRadius: BorderRadius.circular(16),
                               color: Color.fromRGBO(229, 255, 208, 1),
                             ),
-
                             child: Stack(
                               children: [
                                 Positioned(
@@ -152,19 +151,26 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                   top: 16,
                                   bottom: 16,
                                   child: Column(
+                                    spacing: 12,
                                     crossAxisAlignment: .start,
                                     children: [
-                                      Text(
-                                        "Lemon Fresh",
-                                        style: TextStyle(fontSize: 32),
+                                      Column(
+                                        crossAxisAlignment: .start,
+                                        children: [
+                                          Text(
+                                            "Lemon Fresh",
+                                            style: TextStyle(fontSize: 32),
+                                          ),
+                                          Text(
+                                            "Hydration",
+                                            style: TextStyle(
+                                              fontSize: 32,
+                                              fontWeight: .bold,
+                                            ),
+                                          ),
+                                        ],
                                       ),
-                                      Text(
-                                        "Hydration",
-                                        style: TextStyle(
-                                          fontSize: 32,
-                                          fontWeight: .bold,
-                                        ),
-                                      ),
+
                                       Text(
                                         "95%\nHydrate with a\nslice of lemon.",
                                       ),
