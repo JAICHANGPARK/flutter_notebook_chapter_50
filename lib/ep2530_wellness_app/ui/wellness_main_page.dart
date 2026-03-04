@@ -177,6 +177,12 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                                       Container(
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
+                                          color: Color.fromRGBO(
+                                            254,
+                                            236,
+                                            138,
+                                            1,
+                                          ),
                                         ),
                                         child: Center(child: Text("Book Now")),
                                       ),
