@@ -213,10 +213,16 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             ),
           ),
           Positioned(
+            bottom: 32,
+            left: 0,
+            right: 0,
             child: Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.white,
+              ),
+              child: Row(
+                children: [CircleAvatar(),],
               ),
             ),
           ),
