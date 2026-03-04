@@ -219,6 +219,7 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
             child: Align(
               alignment: .center,
               child: Container(
+                padding: EdgeInsets.all(4),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
@@ -226,10 +227,10 @@ class _WellnessMainPageState extends State<WellnessMainPage> {
                 child: Row(
                   mainAxisSize: .min,
                   children: [
-                    CircleAvatar(),
-                    CircleAvatar(),
-                    CircleAvatar(),
-                    CircleAvatar(),
+                    CircleAvatar(radius: 28),
+                    CircleAvatar(radius: 28),
+                    CircleAvatar(radius: 28),
+                    CircleAvatar(radius: 28),
                   ],
                 ),
               ),
