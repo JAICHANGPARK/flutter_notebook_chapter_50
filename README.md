@@ -2,7 +2,7 @@
 
 ## EP2533
 
-- Wellness Mobile App
+- Fashion Ecommerce Mobile App UI — Clothing Shopping Experience
 - Sheikh Attabur
 - https://dribbble.com/shots/27136116-Wellness-Mobile-App
 
