@@ -16,6 +16,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
         children: [
           Positioned.fill(child: Column()),
           Positioned(
+            bottom: 16,
             child: Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
