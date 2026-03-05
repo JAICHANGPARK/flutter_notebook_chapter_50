@@ -49,6 +49,33 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       ),
                       child: Center(child: Icon(Icons.home_filled)),
                     ),
+                    Container(
+                      height: 64,
+                      width: 64,
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.white24),
+                      ),
+                      child: Center(child: Icon(Icons.home_filled)),
+                    ),
+                    Container(
+                      height: 64,
+                      width: 64,
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.white24),
+                      ),
+                      child: Center(child: Icon(Icons.home_filled)),
+                    ),
+                    Container(
+                      height: 64,
+                      width: 64,
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        border: .all(color: Colors.white24),
+                      ),
+                      child: Center(child: Icon(Icons.person_2_outlined,color: Colors.white,)),
+                    ),
                   ],
                 ),
               ),
