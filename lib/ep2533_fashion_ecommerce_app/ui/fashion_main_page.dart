@@ -54,9 +54,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       width: 64,
                       decoration: BoxDecoration(
                         shape: .circle,
-                        border: .all(color: Colors.white24),
+                        color: Colors.white,
+                        border: .all(color: Colors.white, width: 2),
                       ),
-                      child: Center(child: Icon(Icons.home_filled)),
+                  
                     ),
                     Container(
                       height: 64,
@@ -65,7 +66,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         shape: .circle,
                         border: .all(color: Colors.white24),
                       ),
-                      child: Center(child: Icon(Icons.home_filled)),
+                      child: Center(child: Icon(Icons.favorite_border)),
                     ),
                     Container(
                       height: 64,
@@ -74,7 +75,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         shape: .circle,
                         border: .all(color: Colors.white24),
                       ),
-                      child: Center(child: Icon(Icons.person_2_outlined,color: Colors.white,)),
+                      child: Center(
+                        child: Icon(
+                          Icons.person_2_outlined,
+                          color: Colors.white,
+                        ),
+                      ),
                     ),
                   ],
                 ),
