@@ -12,8 +12,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
-      body: Stack(),
+      backgroundColor: Colors.grey[200],
+      body: Stack(
+
+      ),
     );
   }
 }
