@@ -1,5 +1,14 @@
 # flutter_notebook_chapter_50
 
+## EP2533
+
+- Wellness Mobile App
+- Sheikh Attabur
+- https://dribbble.com/shots/27136116-Wellness-Mobile-App
+
+<img src="https://cdn.dribbble.com/userupload/46904323/file/1c0e97a52d00edd89e2502db9945f7ce.png?resize=2048x1536&vertical=center" alt=""/>
+
+
 ## EP2530-2532
 
 - Wellness Mobile App
