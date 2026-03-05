@@ -28,6 +28,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                 ),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
+                  spacing: 6,
                   children: [
                     Container(
                       height: 64,
