@@ -17,10 +17,25 @@ class _FashionMainPageState extends State<FashionMainPage> {
           Positioned.fill(child: Column()),
           Positioned(
             bottom: 16,
+            left: 16,
+            right: 16,
             child: Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.black,
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    height: 38,
+                    width: 38,
+                    decoration: BoxDecoration(
+                      shape: .circle,
+
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
