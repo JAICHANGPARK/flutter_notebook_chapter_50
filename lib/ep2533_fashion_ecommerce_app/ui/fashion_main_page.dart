@@ -32,8 +32,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   spacing: 6,
                   children: [
                     Container(
-                      height: 64,
-                      width: 64,
+                      height: 58,
+                      width: 58,
                       decoration: BoxDecoration(
                         shape: .circle,
                         color: Colors.white,
@@ -57,7 +57,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         color: Colors.white,
                         border: .all(color: Colors.white, width: 2),
                       ),
-                  
+
                     ),
                     Container(
                       height: 64,
