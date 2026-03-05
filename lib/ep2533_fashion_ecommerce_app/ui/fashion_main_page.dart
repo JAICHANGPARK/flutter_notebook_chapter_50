@@ -26,6 +26,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
+                padding: EdgeInsets.all(6),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   spacing: 6,
