@@ -41,8 +41,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       child: Center(child: Icon(Icons.home_filled)),
                     ),
                     Container(
-                      height: 64,
-                      width: 64,
+                      height: 58,
+                      width: 58,
                       decoration: BoxDecoration(
                         shape: .circle,
                         border: .all(color: Colors.white24),
@@ -50,8 +50,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       child: Center(child: Icon(Icons.home_filled)),
                     ),
                     Container(
-                      height: 64,
-                      width: 64,
+                      height: 58,
+                      width: 58,
                       decoration: BoxDecoration(
                         shape: .circle,
                         color: Colors.white,
