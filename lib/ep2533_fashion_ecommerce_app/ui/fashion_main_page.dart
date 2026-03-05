@@ -27,8 +27,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
               child: Row(
                 children: [
                   Container(
-                    height: 38,
-                    width: 38,
+                    height: 64,
+                    width: 64,
                     decoration: BoxDecoration(
                       shape: .circle,
 
