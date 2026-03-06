@@ -15,8 +15,22 @@ class _FashionMainPageState extends State<FashionMainPage> {
       body: Stack(
         children: [
           Positioned.fill(
+            left: 16,
+            top: 16,
+            right: 16,
             child: SafeArea(
-              child: Column(crossAxisAlignment: .start, children: []),
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(color: Colors.grey[600]!),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
           Positioned(
