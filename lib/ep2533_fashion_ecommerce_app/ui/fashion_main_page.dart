@@ -71,7 +71,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-          
+                  Container(
+                    height: 62,
+                    child: Placeholder(),
+                  ),
+
                   Container(
                     height: 280,
                     child: Placeholder(),
