@@ -14,7 +14,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
       backgroundColor: Colors.grey[200],
       body: Stack(
         children: [
-          Positioned.fill(child: Column()),
+          Positioned.fill(child: SafeArea(child: Column())),
           Positioned(
             bottom: 16,
             left: 16,
