@@ -36,8 +36,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                               decoration: BoxDecoration(color: Colors.white),
                             ),
                             Container(
-                              height: 52,
-                              width: 52,
+                              height: 48,
+                              width: 48,
                               decoration: BoxDecoration(color: Colors.white),
                             ),
                           ],
