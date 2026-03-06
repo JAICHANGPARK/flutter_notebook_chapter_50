@@ -66,6 +66,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     ),
                   ),
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
                       Text("Category"),
                       TextButton(onPressed: () {}, child: Text("See all")),
@@ -77,7 +78,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   ),
 
                   Container(
-                    height: 280,
+                    height: 240,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 180,
                     child: Placeholder(),
                   )
                 ],
