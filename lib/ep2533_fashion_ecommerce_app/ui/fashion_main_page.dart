@@ -59,12 +59,23 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   ),
 
                   Container(
-                    height: 52,
+                    height: 58,
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
                   ),
+                  Row(
+                    children: [
+                      Text("Category"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
+          
+                  Container(
+                    height: 280,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
