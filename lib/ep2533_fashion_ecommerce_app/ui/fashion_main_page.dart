@@ -63,6 +63,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           color: Colors.grey,
                           borderRadius: .circular(14),
                         ),
+                        child: Icon(Icons.notifications_active_outlined),
                       ),
                     ],
                   ),
