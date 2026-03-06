@@ -43,6 +43,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           ],
                         ),
                       ),
+                      Spacer(),
+                      Container(
+                        height: 52,
+                        width: 52,
+                        decoration: BoxDecoration(color: Colors.grey),
+                      ),
                     ],
                   ),
                 ],
