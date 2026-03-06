@@ -27,19 +27,28 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     children: [
                       Container(
                         padding: EdgeInsets.all(4),
-                        decoration: BoxDecoration(color: Colors.grey[600]!),
+                        decoration: BoxDecoration(
+                          color: Colors.grey[400]!,
+                          borderRadius: .circular(12),
+                        ),
                         child: Row(
                           spacing: 6,
                           children: [
                             Container(
                               height: 48,
                               width: 48,
-                              decoration: BoxDecoration(color: Colors.white),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(14),
+                              ),
                             ),
                             Container(
                               height: 48,
                               width: 48,
-                              decoration: BoxDecoration(color: Colors.white),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: .circular(14),
+                              ),
                             ),
                           ],
                         ),
@@ -48,7 +57,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       Container(
                         height: 52,
                         width: 52,
-                        decoration: BoxDecoration(color: Colors.grey),
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: .circular(14),
+                        ),
                       ),
                     ],
                   ),
@@ -72,19 +84,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-                  Container(
-                    height: 62,
-                    child: Placeholder(),
-                  ),
+                  Container(height: 62, child: Placeholder()),
 
-                  Container(
-                    height: 240,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 180,
-                    child: Placeholder(),
-                  )
+                  Container(height: 240, child: Placeholder()),
+                  Container(height: 180, child: Placeholder()),
                 ],
               ),
             ),
