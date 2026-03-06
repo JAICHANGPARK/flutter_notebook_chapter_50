@@ -31,13 +31,13 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           spacing: 6,
                           children: [
                             Container(
-                              height: 42,
-                              width: 42,
+                              height: 52,
+                              width: 52,
                               decoration: BoxDecoration(color: Colors.white),
                             ),
                             Container(
-                              height: 42,
-                              width: 42,
+                              height: 52,
+                              width: 52,
                               decoration: BoxDecoration(color: Colors.white),
                             ),
                           ],
