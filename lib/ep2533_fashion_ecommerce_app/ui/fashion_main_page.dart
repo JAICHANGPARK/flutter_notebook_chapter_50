@@ -51,6 +51,18 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       ),
                     ],
                   ),
+
+                  Column(
+                    children: [Text("Discover"), Text("Your Best Clothes")],
+                  ),
+
+                  Container(
+                    height: 52,
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.white,
+                    ),
+                  ),
                 ],
               ),
             ),
