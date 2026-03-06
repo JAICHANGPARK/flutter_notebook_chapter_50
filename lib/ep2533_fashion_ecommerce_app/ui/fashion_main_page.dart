@@ -72,7 +72,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         "Discover",
                         style: TextStyle(fontSize: 32, fontWeight: .bold),
                       ),
-                      Text("Your Best Clothes"),
+                      Text(
+                        "Your Best Clothes",
+                        style: TextStyle(fontSize: 28, fontWeight: .bold,
+                        color: Colors.grey),
+                      ),
                     ],
                   ),
 
