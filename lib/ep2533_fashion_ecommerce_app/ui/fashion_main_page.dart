@@ -25,7 +25,23 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   Row(
                     children: [
                       Container(
+                        padding: EdgeInsets.all(4),
                         decoration: BoxDecoration(color: Colors.grey[600]!),
+                        child: Row(
+                          spacing: 6,
+                          children: [
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(color: Colors.white),
+                            ),
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(color: Colors.white),
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
