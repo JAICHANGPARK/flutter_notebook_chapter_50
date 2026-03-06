@@ -48,7 +48,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: .circular(14),
+
                               ),
+                              child: Icon(Icons.apps),
                             ),
                           ],
                         ),
