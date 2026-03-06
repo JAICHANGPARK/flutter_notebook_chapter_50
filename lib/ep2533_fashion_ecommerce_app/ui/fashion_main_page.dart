@@ -21,6 +21,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: .start,
+                spacing: 16,
                 children: [
                   Row(
                     children: [
