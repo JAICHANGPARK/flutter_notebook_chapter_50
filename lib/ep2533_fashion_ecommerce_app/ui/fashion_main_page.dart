@@ -67,7 +67,13 @@ class _FashionMainPageState extends State<FashionMainPage> {
 
                   Column(
                     crossAxisAlignment: .start,
-                    children: [Text("Discover"), Text("Your Best Clothes")],
+                    children: [
+                      Text(
+                        "Discover",
+                        style: TextStyle(fontSize: 32, fontWeight: .bold),
+                      ),
+                      Text("Your Best Clothes"),
+                    ],
                   ),
 
                   Container(
