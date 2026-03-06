@@ -74,8 +74,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       ),
                       Text(
                         "Your Best Clothes",
-                        style: TextStyle(fontSize: 28, fontWeight: .bold,
-                        color: Colors.grey),
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: .bold,
+                          color: Colors.grey,
+                        ),
                       ),
                     ],
                   ),
@@ -90,7 +93,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Category"),
+                      Text("Category", style: TextStyle(fontSize: 18)),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
