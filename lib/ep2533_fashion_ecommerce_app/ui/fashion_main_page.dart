@@ -53,6 +53,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   ),
 
                   Column(
+                    crossAxisAlignment: .start,
                     children: [Text("Discover"), Text("Your Best Clothes")],
                   ),
 
