@@ -102,9 +102,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           child: TextField(
                             decoration: InputDecoration(
                               hintText: "Your Best Clothes",
-                              hintStyle: TextStyle(
-                                fontSize: 13,
-                              ),
+                              hintStyle: TextStyle(fontSize: 13),
                               border: .none,
                             ),
                           ),
@@ -128,12 +126,28 @@ class _FashionMainPageState extends State<FashionMainPage> {
                             ),
                           ],
                         ),
-                        Container(height: 62, child: ListView(
-                          scrollDirection: .horizontal,
-                          children: [
-  
-                          ],
-                        )),
+                        Container(
+                          height: 62,
+                          child: ListView(
+                            scrollDirection: .horizontal,
+                            children: [
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(
+
+                                  ),
+                                  color: Colors.black,
+                                ),
+                                child: Row(
+                                  spacing: 4,
+                                  children: [CircleAvatar(
+                                    backgroundColor: Colors.white,
+                                  ), Text("New in")],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                         Expanded(
                           child: SingleChildScrollView(
                             child: Column(
