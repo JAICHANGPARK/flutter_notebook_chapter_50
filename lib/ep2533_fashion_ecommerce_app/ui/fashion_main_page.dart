@@ -94,24 +94,32 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       color: Colors.white,
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [
-                      Text("Category", style: TextStyle(fontSize: 18)),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                  Container(height: 62, child: Placeholder()),
                   Expanded(
-                    child: SingleChildScrollView(
-                      child: Column(
-                        children: [
-                          Container(height: 240, child: Placeholder()),
-                          Container(height: 180, child: Placeholder()),
-                        ],
-                      ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text("Category", style: TextStyle(fontSize: 18)),
+                            TextButton(onPressed: () {}, child: Text("See all")),
+                          ],
+                        ),
+                        Container(height: 62, child: Placeholder()),
+                        Expanded(
+                          child: SingleChildScrollView(
+                            child: Column(
+                              children: [
+                                Container(height: 240, child: Placeholder()),
+                                Container(height: 180, child: Placeholder()),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  ),
+                  )
+
                 ],
               ),
             ),
