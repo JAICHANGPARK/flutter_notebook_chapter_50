@@ -102,6 +102,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           child: TextField(
                             decoration: InputDecoration(
                               hintText: "Your Best Clothes",
+                              hintStyle: TextStyle(
+                                fontSize: 13,
+                              ),
                               border: .none,
                             ),
                           ),
