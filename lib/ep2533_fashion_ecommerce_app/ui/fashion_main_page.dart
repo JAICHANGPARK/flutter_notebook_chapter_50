@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FashionMainPage extends StatefulWidget {
   const FashionMainPage({super.key});
@@ -67,7 +68,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       ),
                     ],
                   ),
-
+                  Gap(6),
                   Column(
                     crossAxisAlignment: .start,
                     children: [
@@ -101,6 +102,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     ],
                   ),
                   Container(height: 62, child: Placeholder()),
+                  Expanded(child: SingleChildScrollView(child:
+                    Column(
+
+                    ),)),
+
 
                   Container(height: 240, child: Placeholder()),
                   Container(height: 180, child: Placeholder()),
