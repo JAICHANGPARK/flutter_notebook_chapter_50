@@ -133,6 +133,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                             children: [
                               Container(
                                 padding: EdgeInsets.all(2),
+                                margin: EdgeInsets.only(right: 12),
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
                                   color: Colors.black,
@@ -155,6 +156,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                 ),
                               ),
                               Container(
+                                margin: EdgeInsets.only(right: 12),
                                 padding: EdgeInsets.all(2),
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
@@ -171,7 +173,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                       padding: const EdgeInsets.all(8.0),
                                       child: Text(
                                         "T-Shirts",
-                                        
+
                                       ),
                                     ),
                                   ],
