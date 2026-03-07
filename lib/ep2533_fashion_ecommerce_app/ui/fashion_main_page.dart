@@ -141,6 +141,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                 child: Row(
                                   spacing: 4,
                                   children: [CircleAvatar(
+                                    radius: 24,
                                     backgroundColor: Colors.white,
                                   ), Text("New in")],
                                 ),
