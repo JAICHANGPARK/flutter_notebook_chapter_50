@@ -96,6 +96,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   ),
                   Expanded(
                     child: Column(
+                      spacing: 12,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
