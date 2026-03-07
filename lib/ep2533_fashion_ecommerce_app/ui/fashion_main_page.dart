@@ -93,6 +93,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       children: [
                         IconButton(onPressed: (){}, icon: Icon(Icons.search)),
