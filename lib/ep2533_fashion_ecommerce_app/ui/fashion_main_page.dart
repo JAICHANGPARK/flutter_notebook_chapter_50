@@ -93,13 +93,19 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       shape: StadiumBorder(),
                       color: Colors.white,
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    padding: EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
+                      spacing: 4,
                       children: [
-                        IconButton(onPressed: (){}, icon: Icon(Icons.search)),
-                        Expanded(child: TextField()),
-                        IconButton(onPressed: (){}, icon: Icon(Icons.tune)),
-
+                        IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              helperText: "Your Best Clothes",
+                            ),
+                          ),
+                        ),
+                        IconButton(onPressed: () {}, icon: Icon(Icons.tune)),
                       ],
                     ),
                   ),
@@ -112,7 +118,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           mainAxisAlignment: .spaceBetween,
                           children: [
                             Text("Category", style: TextStyle(fontSize: 18)),
-                            TextButton(onPressed: () {}, child: Text("See all")),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
                           ],
                         ),
                         Container(height: 62, child: Placeholder()),
@@ -128,8 +137,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         ),
                       ],
                     ),
-                  )
-
+                  ),
                 ],
               ),
             ),
