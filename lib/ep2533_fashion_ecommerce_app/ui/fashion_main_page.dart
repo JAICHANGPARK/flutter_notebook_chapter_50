@@ -101,7 +101,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         Expanded(
                           child: TextField(
                             decoration: InputDecoration(
-                              helperText: "Your Best Clothes",
+                              hintText: "Your Best Clothes",
+                              border: .none,
                             ),
                           ),
                         ),
