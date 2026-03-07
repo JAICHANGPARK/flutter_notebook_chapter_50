@@ -128,7 +128,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                             ),
                           ],
                         ),
-                        Container(height: 62, child: Placeholder()),
+                        Container(height: 62, child: ListView(
+                          scrollDirection: .horizontal,
+                          children: [
+  
+                          ],
+                        )),
                         Expanded(
                           child: SingleChildScrollView(
                             child: Column(
