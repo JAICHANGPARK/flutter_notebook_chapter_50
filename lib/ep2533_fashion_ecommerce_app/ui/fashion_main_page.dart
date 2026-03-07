@@ -138,7 +138,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   color: Colors.black,
                                 ),
                                 child: Row(
-                                  
+
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
@@ -149,6 +149,29 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                       child: Text(
                                         "New in",
                                         style: TextStyle(color: Colors.white),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.all(2),
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white,
+                                ),
+                                child: Row(
+
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Colors.grey[300]!,
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Text(
+                                        "T-Shirts",
+                                        
                                       ),
                                     ),
                                   ],
