@@ -20,6 +20,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
             top: 16,
             right: 16,
             child: SafeArea(
+              bottom: false,
               child: Column(
                 crossAxisAlignment: .start,
                 spacing: 16,
