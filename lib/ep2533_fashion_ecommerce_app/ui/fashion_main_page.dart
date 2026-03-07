@@ -179,6 +179,30 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   ],
                                 ),
                               ),
+                              Container(
+                                margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.all(2),
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white,
+                                ),
+                                child: Row(
+
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Colors.grey[300]!,
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Text(
+                                        "Pants",
+
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
