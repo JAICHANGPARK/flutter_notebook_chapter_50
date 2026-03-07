@@ -49,7 +49,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: .circular(14),
-
                               ),
                               child: Icon(Icons.apps),
                             ),
@@ -102,14 +101,16 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     ],
                   ),
                   Container(height: 62, child: Placeholder()),
-                  Expanded(child: SingleChildScrollView(child:
-                    Column(
-
-                    ),)),
-
-
-                  Container(height: 240, child: Placeholder()),
-                  Container(height: 180, child: Placeholder()),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Container(height: 240, child: Placeholder()),
+                          Container(height: 180, child: Placeholder()),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
