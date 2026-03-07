@@ -127,23 +127,28 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           ],
                         ),
                         Container(
-                          height: 62,
+                          height: 54,
                           child: ListView(
                             scrollDirection: .horizontal,
                             children: [
                               Container(
+                                padding: EdgeInsets.all(2),
                                 decoration: ShapeDecoration(
-                                  shape: StadiumBorder(
-
-                                  ),
+                                  shape: StadiumBorder(),
                                   color: Colors.black,
                                 ),
                                 child: Row(
                                   spacing: 4,
-                                  children: [CircleAvatar(
-                                    radius: 24,
-                                    backgroundColor: Colors.white,
-                                  ), Text("New in")],
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 24,
+                                      backgroundColor: Colors.white,
+                                    ),
+                                    Text(
+                                      "New in",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ],
                                 ),
                               ),
                             ],
