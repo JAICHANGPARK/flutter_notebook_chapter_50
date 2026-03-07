@@ -138,15 +138,18 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   color: Colors.black,
                                 ),
                                 child: Row(
-                                  spacing: 4,
+                                  
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
                                       backgroundColor: Colors.white,
                                     ),
-                                    Text(
-                                      "New in",
-                                      style: TextStyle(color: Colors.white),
+                                    Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Text(
+                                        "New in",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
                                     ),
                                   ],
                                 ),
