@@ -227,6 +227,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 color: Colors.white,
                                               ),
                                               child: Row(
+                                                mainAxisAlignment: .center,
                                                 spacing: 5,
                                                 children: [
                                                   Text("Explore More"),
