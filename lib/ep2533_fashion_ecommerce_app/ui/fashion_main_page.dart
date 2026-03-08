@@ -209,9 +209,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                     children: [
                                       Expanded(
                                         child: Container(
-                                          decoration: BoxDecoration(
+                                          decoration: ShapeDecoration(
+                                            shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(24),
+                                            ),
                                             color: Colors.white,
-                                            borderRadius: .circular(24),
+
                                           ),
                                         ),
                                       ),
