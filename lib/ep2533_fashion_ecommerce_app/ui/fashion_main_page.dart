@@ -267,6 +267,8 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                           ),
                                                         ),
                                                         CircleAvatar(
+                                                          backgroundColor: Colors.white,
+                                                          foregroundColor: Colors.white,
                                                           child: Icon(
                                                             Icons
                                                                 .favorite_border,
@@ -296,6 +298,13 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                       ),
 
                                                   color: Colors.black,
+                                                ),
+                                                child: Column(
+                                                  children: [
+                                                    Text("Color Pop Set",style: TextStyle(
+                                                      color: Colors.white,
+                                                    ),)
+                                                  ],
                                                 ),
                                               ),
                                             ),
