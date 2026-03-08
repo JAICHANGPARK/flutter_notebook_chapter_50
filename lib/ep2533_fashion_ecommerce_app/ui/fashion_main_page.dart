@@ -201,14 +201,22 @@ class _FashionMainPageState extends State<FashionMainPage> {
                           child: SingleChildScrollView(
                             child: Column(
                               children: [
-                                Container(height: 240, child: Row(
-                                  children: [
-                                    Expanded(child: Container(decoration: BoxDecoration(
-                                      
-                                    ),)),
-                                    Expanded(child: Placeholder()),
-                                  ],
-                                )),
+                                Container(
+                                  height: 240,
+                                  child: Row(
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            color: Colors.white,
+                                            borderRadius: .circular(24),
+                                          ),
+                                        ),
+                                      ),
+                                      Expanded(child: Placeholder()),
+                                    ],
+                                  ),
+                                ),
                                 Container(height: 180, child: Placeholder()),
                               ],
                             ),
