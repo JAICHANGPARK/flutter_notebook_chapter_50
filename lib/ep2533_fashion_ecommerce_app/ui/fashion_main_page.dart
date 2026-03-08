@@ -303,7 +303,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
 
                                                   color: Colors.black,
                                                 ),
+                                                padding: EdgeInsets.all(16),
                                                 child: Column(
+                                                  crossAxisAlignment: .start,
                                                   children: [
                                                     Text(
                                                       "Color Pop Set",
