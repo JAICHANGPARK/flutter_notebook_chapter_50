@@ -230,7 +230,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                     Row(
                                                       children: [
                                                         Container(
-                                                          decoration: ShapeDecoration(shape: St),
+                                                          decoration: ShapeDecoration(shape: StadiumBorder(),
+                                                          color: Colors.white),
+                                                          child: Center(child: Text("Add to Cart"),),
                                                         )
                                                       ],
                                                     )
