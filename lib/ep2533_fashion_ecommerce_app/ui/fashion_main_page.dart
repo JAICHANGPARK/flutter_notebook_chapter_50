@@ -215,12 +215,19 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           ),
                                         ),
                                       ),
-                                      Expanded(child: Column(
-                                        children: [
-                                          Placeholder(),
-                                          Placeholder()
-                                        ],
-                                      )),
+                                      Expanded(
+                                        child: Column(
+                                          children: [
+                                            Expanded(child: Placeholder()),
+                                            Container(
+                                              decoration: ShapeDecoration(
+                                                shape: StadiumBorder(),
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
