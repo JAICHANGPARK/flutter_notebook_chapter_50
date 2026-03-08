@@ -214,7 +214,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                               borderRadius: .circular(24),
                                             ),
                                             color: Colors.white,
-
                                           ),
                                         ),
                                       ),
@@ -266,7 +265,15 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                     ],
                                   ),
                                 ),
-                                Container(height: 180, child: Placeholder()),
+                                Container(
+                                  height: 180,
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                    ),
+                                    color: Colors.white,
+                                  ),
+                                ),
                               ],
                             ),
                           ),
