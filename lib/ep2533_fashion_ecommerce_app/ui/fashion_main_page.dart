@@ -219,12 +219,20 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                         child: Column(
                                           spacing: 12,
                                           children: [
-                                            Expanded(child: Container(
-                                              decoration: BoxDecoration(
-                                                borderRadius: .circular(24),
-                                                color: Colors.black
+                                            Expanded(
+                                              child: Container(
+                                                decoration: ShapeDecoration(
+                                                  shape:
+                                                      RoundedSuperellipseBorder(
+                                                        borderRadius: .circular(
+                                                          24,
+                                                        ),
+                                                      ),
+
+                                                  color: Colors.black,
+                                                ),
                                               ),
-                                            )),
+                                            ),
                                             Container(
                                               height: 62,
                                               decoration: ShapeDecoration(
@@ -235,11 +243,17 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 mainAxisAlignment: .center,
                                                 spacing: 5,
                                                 children: [
-                                                  Text("Explore More",style: TextStyle(
-                                                    fontWeight: .bold,
-                                                    fontSize: 16,
-                                                  ),),
-                                                  Icon(Icons.arrow_forward_outlined),
+                                                  Text(
+                                                    "Explore More",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                      fontSize: 16,
+                                                    ),
+                                                  ),
+                                                  Icon(
+                                                    Icons
+                                                        .arrow_forward_outlined,
+                                                  ),
                                                 ],
                                               ),
                                             ),
