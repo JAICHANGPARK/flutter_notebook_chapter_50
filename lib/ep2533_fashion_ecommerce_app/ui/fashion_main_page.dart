@@ -224,19 +224,23 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 bottom: 16,
                                                 child: Column(
                                                   crossAxisAlignment: .start,
+                                                  spacing: 4,
                                                   children: [
                                                     Row(
+                                                      mainAxisAlignment: .spaceBetween,
                                                       children: [
                                                         Text(
                                                           "Knit Sweater",
                                                           style: TextStyle(
                                                             fontWeight: .bold,
+                                                            fontSize: 16
                                                           ),
                                                         ),
                                                         Text(
                                                           "\$250",
                                                           style: TextStyle(
                                                             fontWeight: .bold,
+                                                              fontSize: 16
                                                           ),
                                                         ),
                                                       ],
