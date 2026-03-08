@@ -230,7 +230,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 mainAxisAlignment: .center,
                                                 spacing: 5,
                                                 children: [
-                                                  Text("Explore More"),
+                                                  Text("Explore More",style: TextStyle(
+                                                    fontWeight: .bold,
+                                                    fontSize: 16,
+                                                  ),),
                                                   Icon(Icons.arrow_forward_outlined),
                                                 ],
                                               ),
