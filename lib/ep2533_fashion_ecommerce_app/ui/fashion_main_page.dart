@@ -232,6 +232,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                       ],
                                                     ),
                                                     Text("Sizes in Stock"),
+                                                    Spacer(),
                                                     Row(
                                                       spacing: 12,
                                                       children: [
