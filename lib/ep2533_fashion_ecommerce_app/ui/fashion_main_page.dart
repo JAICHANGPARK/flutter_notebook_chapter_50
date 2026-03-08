@@ -219,7 +219,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                         child: Column(
                                           spacing: 12,
                                           children: [
-                                            Expanded(child: Placeholder()),
+                                            Expanded(child: Container(
+                                              decoration: BoxDecoration(
+                                                borderRadius: .circular(24),
+                                                color: Colors.black
+                                              ),
+                                            )),
                                             Container(
                                               height: 62,
                                               decoration: ShapeDecoration(
