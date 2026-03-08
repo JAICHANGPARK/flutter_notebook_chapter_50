@@ -215,6 +215,30 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                             ),
                                             color: Colors.white,
                                           ),
+                                          child: Stack(
+                                            children: [
+                                              Positioned(
+                                                child: Column(
+                                                  children: [
+                                                    Row(
+                                                      children: [
+                                                        Text("Knit Sweater"),
+                                                        Text("\$250"),
+                                                      ],
+                                                    ),
+                                                    Text("Sizes in Stock"),
+                                                    Row(
+                                                      children: [
+                                                        Container(
+                                                          decoration: ShapeDecoration(shape: St),
+                                                        )
+                                                      ],
+                                                    )
+                                                  ],
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ),
                                       Expanded(
