@@ -139,7 +139,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   color: Colors.black,
                                 ),
                                 child: Row(
-
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
@@ -163,7 +162,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   color: Colors.white,
                                 ),
                                 child: Row(
-
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
@@ -171,10 +169,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
-                                      child: Text(
-                                        "T-Shirts",
-
-                                      ),
+                                      child: Text("T-Shirts"),
                                     ),
                                   ],
                                 ),
@@ -187,7 +182,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   color: Colors.white,
                                 ),
                                 child: Row(
-
                                   children: [
                                     CircleAvatar(
                                       radius: 24,
@@ -195,10 +189,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(8.0),
-                                      child: Text(
-                                        "Pants",
-
-                                      ),
+                                      child: Text("Pants"),
                                     ),
                                   ],
                                 ),
