@@ -227,20 +227,21 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                   spacing: 4,
                                                   children: [
                                                     Row(
-                                                      mainAxisAlignment: .spaceBetween,
+                                                      mainAxisAlignment:
+                                                          .spaceBetween,
                                                       children: [
                                                         Text(
                                                           "Knit Sweater",
                                                           style: TextStyle(
                                                             fontWeight: .bold,
-                                                            fontSize: 16
+                                                            fontSize: 16,
                                                           ),
                                                         ),
                                                         Text(
                                                           "\$250",
                                                           style: TextStyle(
                                                             fontWeight: .bold,
-                                                              fontSize: 16
+                                                            fontSize: 16,
                                                           ),
                                                         ),
                                                       ],
@@ -267,8 +268,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                           ),
                                                         ),
                                                         CircleAvatar(
-                                                          backgroundColor: Colors.white,
-                                                          foregroundColor: Colors.white,
+                                                          backgroundColor:
+                                                              Colors.white,
+                                                          foregroundColor:
+                                                              Colors.white,
                                                           child: Icon(
                                                             Icons
                                                                 .favorite_border,
@@ -289,6 +292,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           children: [
                                             Expanded(
                                               child: Container(
+                                                width: double.infinity,
                                                 decoration: ShapeDecoration(
                                                   shape:
                                                       RoundedSuperellipseBorder(
@@ -301,9 +305,27 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 ),
                                                 child: Column(
                                                   children: [
-                                                    Text("Color Pop Set",style: TextStyle(
-                                                      color: Colors.white,
-                                                    ),)
+                                                    Text(
+                                                      "Color Pop Set",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      "Sizes in Stock",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
+                                                    ),
+                                                    Container(
+                                                      decoration: BoxDecoration(
+                                                        color: Colors.white,
+                                                        borderRadius: .circular(
+                                                          4,
+                                                        ),
+                                                      ),
+                                                      child: Text("Shop Now"),
+                                                    ),
                                                   ],
                                                 ),
                                               ),
