@@ -217,6 +217,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                       ),
                                       Expanded(
                                         child: Column(
+                                          spacing: 12,
                                           children: [
                                             Expanded(child: Placeholder()),
                                             Container(
