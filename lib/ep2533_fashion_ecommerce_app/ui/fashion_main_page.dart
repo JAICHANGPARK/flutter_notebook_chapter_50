@@ -324,11 +324,13 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
                                                         borderRadius: .circular(
-                                                          4,
+                                                          8,
                                                         ),
                                                       ),
-                                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                                                      child: Text("Shop Now"),
+                                                      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                                                      child: Text("Shop Now",style: TextStyle(
+                                                        fontSize: 12,
+                                                      ),),
                                                     ),
                                                   ],
                                                 ),
