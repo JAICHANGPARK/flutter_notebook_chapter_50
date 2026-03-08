@@ -203,7 +203,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
                               children: [
                                 Container(height: 240, child: Row(
                                   children: [
-                                    Expanded(child: Placeholder()),
+                                    Expanded(child: Container(decoration: BoxDecoration(
+                                      
+                                    ),)),
                                     Expanded(child: Placeholder()),
                                   ],
                                 )),
