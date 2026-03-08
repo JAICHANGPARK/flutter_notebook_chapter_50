@@ -200,9 +200,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         Expanded(
                           child: SingleChildScrollView(
                             child: Column(
+                              spacing: 16,
                               children: [
                                 Container(
-                                  height: 240,
+                                  height: 220,
                                   child: Row(
                                     children: [
                                       Expanded(
