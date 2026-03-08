@@ -205,6 +205,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                 Container(
                                   height: 220,
                                   child: Row(
+                                    spacing: 12,
                                     children: [
                                       Expanded(
                                         child: Container(
@@ -214,7 +215,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           ),
                                         ),
                                       ),
-                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Column(
+                                        children: [
+                                          Placeholder(),
+                                          Placeholder()
+                                        ],
+                                      )),
                                     ],
                                   ),
                                 ),
