@@ -228,12 +228,16 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                     ),
                                                     Text("Sizes in Stock"),
                                                     Row(
+                                                      spacing: 12,
                                                       children: [
-                                                        Container(
-                                                          decoration: ShapeDecoration(shape: StadiumBorder(),
-                                                          color: Colors.white),
-                                                          child: Center(child: Text("Add to Cart"),),
-                                                        )
+                                                        Expanded(
+                                                          child: Container(
+                                                            decoration: ShapeDecoration(shape: StadiumBorder(),
+                                                            color: Colors.white),
+                                                            child: Center(child: Text("Add to Cart"),),
+                                                          ),
+                                                        ),
+                                                        CircleAvatar(child: Icon(Icons.favorite_border),)
                                                       ],
                                                     )
                                                   ],
