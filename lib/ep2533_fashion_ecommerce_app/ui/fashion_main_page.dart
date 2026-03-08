@@ -218,7 +218,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           child: Stack(
                                             children: [
                                               Positioned(
+                                                left: 16,
+                                                top: 16,
+                                                right: 16,
+                                                bottom: 16,
                                                 child: Column(
+                                                  crossAxisAlignment: .start,
                                                   children: [
                                                     Row(
                                                       children: [
