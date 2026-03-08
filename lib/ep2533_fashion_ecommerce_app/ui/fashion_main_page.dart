@@ -327,10 +327,18 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                           8,
                                                         ),
                                                       ),
-                                                      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                                                      child: Text("Shop Now",style: TextStyle(
-                                                        fontSize: 12,
-                                                      ),),
+                                                      padding:
+                                                          EdgeInsets.symmetric(
+                                                            horizontal: 16,
+                                                            vertical: 8,
+                                                          ),
+                                                      child: Text(
+                                                        "Shop Now",
+                                                        style: TextStyle(
+                                                          fontSize: 12,
+                                                          fontWeight: .bold,
+                                                        ),
+                                                      ),
                                                     ),
                                                   ],
                                                 ),
