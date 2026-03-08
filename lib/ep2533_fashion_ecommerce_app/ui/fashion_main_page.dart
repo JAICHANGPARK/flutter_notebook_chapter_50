@@ -221,7 +221,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           children: [
                                             Expanded(child: Placeholder()),
                                             Container(
-                                              height: 42,
+                                              height: 62,
                                               decoration: ShapeDecoration(
                                                 shape: StadiumBorder(),
                                                 color: Colors.white,
