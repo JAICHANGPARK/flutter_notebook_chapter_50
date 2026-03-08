@@ -227,8 +227,18 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                   children: [
                                                     Row(
                                                       children: [
-                                                        Text("Knit Sweater"),
-                                                        Text("\$250"),
+                                                        Text(
+                                                          "Knit Sweater",
+                                                          style: TextStyle(
+                                                            fontWeight: .bold,
+                                                          ),
+                                                        ),
+                                                        Text(
+                                                          "\$250",
+                                                          style: TextStyle(
+                                                            fontWeight: .bold,
+                                                          ),
+                                                        ),
                                                       ],
                                                     ),
                                                     Text("Sizes in Stock"),
@@ -238,14 +248,28 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                       children: [
                                                         Expanded(
                                                           child: Container(
-                                                            decoration: ShapeDecoration(shape: StadiumBorder(),
-                                                            color: Colors.white),
-                                                            child: Center(child: Text("Add to Cart"),),
+                                                            decoration:
+                                                                ShapeDecoration(
+                                                                  shape:
+                                                                      StadiumBorder(),
+                                                                  color: Colors
+                                                                      .white,
+                                                                ),
+                                                            child: Center(
+                                                              child: Text(
+                                                                "Add to Cart",
+                                                              ),
+                                                            ),
                                                           ),
                                                         ),
-                                                        CircleAvatar(child: Icon(Icons.favorite_border),)
+                                                        CircleAvatar(
+                                                          child: Icon(
+                                                            Icons
+                                                                .favorite_border,
+                                                          ),
+                                                        ),
                                                       ],
-                                                    )
+                                                    ),
                                                   ],
                                                 ),
                                               ),
