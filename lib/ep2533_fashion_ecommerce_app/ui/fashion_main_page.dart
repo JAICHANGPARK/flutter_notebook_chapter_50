@@ -319,6 +319,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                         color: Colors.white,
                                                       ),
                                                     ),
+                                                    Spacer(),
                                                     Container(
                                                       decoration: BoxDecoration(
                                                         color: Colors.white,
@@ -326,6 +327,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                           4,
                                                         ),
                                                       ),
+                                                      padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                                                       child: Text("Shop Now"),
                                                     ),
                                                   ],
