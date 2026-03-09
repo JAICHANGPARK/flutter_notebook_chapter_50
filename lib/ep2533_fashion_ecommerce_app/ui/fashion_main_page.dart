@@ -271,7 +271,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                           backgroundColor:
                                                               Colors.white,
                                                           foregroundColor:
-                                                              Colors.white,
+                                                              Colors.black,
                                                           child: Icon(
                                                             Icons
                                                                 .favorite_border,
