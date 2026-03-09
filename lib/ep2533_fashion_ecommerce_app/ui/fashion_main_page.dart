@@ -405,6 +405,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                   color: Colors.white,
                                                 ),
                                                 child: Icon(Icons.favorite_border),
+                                                padding: EdgeInsets.all(12),
                                               ),
                                             ),
                                           ],
