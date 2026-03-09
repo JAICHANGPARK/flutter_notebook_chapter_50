@@ -382,6 +382,17 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                     ),
                                     color: Colors.white,
                                   ),
+                                  child: Row(
+                                    children: [
+                                      Container(
+                                        height: 180,
+                                        width: 180,
+                                        decoration: BoxDecoration(
+                                          color: Colors.grey,
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
