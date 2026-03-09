@@ -394,6 +394,21 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           ),
                                           color: Colors.grey,
                                         ),
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              top: 16,
+                                              right: 16,
+                                              child: Container(
+                                                decoration: BoxDecoration(
+                                                  borderRadius: .circular(16),
+                                                  color: Colors.white,
+                                                ),
+                                                child: Icon(Icons.favorite_border),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                       Expanded(
                                         child: Padding(
@@ -405,7 +420,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                                 "Gradient Style Hoodie",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
-                                                  fontSize: 16
+                                                  fontSize: 16,
                                                 ),
                                               ),
                                               Text("Sized in Stock"),
