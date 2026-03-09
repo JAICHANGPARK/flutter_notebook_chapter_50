@@ -401,10 +401,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                               right: 8,
                                               child: Container(
                                                 decoration: BoxDecoration(
-                                                  borderRadius: .circular(16),
+                                                  borderRadius: .circular(12),
                                                   color: Colors.white,
                                                 ),
-                                                child: Icon(Icons.favorite_border),
+                                                child: Icon(Icons.favorite_border,size: 16,),
                                                 padding: EdgeInsets.all(8),
                                               ),
                                             ),
