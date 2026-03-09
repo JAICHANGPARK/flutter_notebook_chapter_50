@@ -388,8 +388,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                       Container(
                                         height: 160,
                                         width: 160,
-                                        decoration: BoxDecoration(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(24)  
+                                          ),
                                           color: Colors.grey,
+                                          
                                         ),
                                       )
                                     ],
