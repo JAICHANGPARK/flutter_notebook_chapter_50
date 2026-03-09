@@ -16,9 +16,13 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
 
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
+          spacing: 20,
           children: [
             SizedBox(height: 80, child: Placeholder()),
             SizedBox(height: 80, child: Placeholder()),
+
+            SizedBox(height: 52, child: Placeholder()),
+            Expanded(child: ListView.builder(itemBuilder: (context,index){},)),
           ],
         ),
       ),
