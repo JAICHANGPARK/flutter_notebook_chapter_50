@@ -18,11 +18,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
         children: [
           Positioned.fill(child:
           IndexedStack(
+            index: 1,
             children: [
-              Positioned.fill(
-                left: 16,
-                top: 16,
-                right: 16,
+            Padding(
+                padding: EdgeInsets.only(left: 16, right: 16, top: 16),
                 child: SafeArea(
                   bottom: false,
                   child: Column(
