@@ -375,18 +375,19 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                   ),
                                 ),
                                 Container(
-                                  height: 180,
+                                  height: 160,
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: .circular(24),
                                     ),
                                     color: Colors.white,
                                   ),
+                                  padding: EdgeInsets.all(4),
                                   child: Row(
                                     children: [
                                       Container(
-                                        height: 180,
-                                        width: 180,
+                                        height: 160,
+                                        width: 160,
                                         decoration: BoxDecoration(
                                           color: Colors.grey,
                                         ),
