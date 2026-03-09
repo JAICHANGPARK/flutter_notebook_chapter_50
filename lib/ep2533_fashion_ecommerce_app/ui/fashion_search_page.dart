@@ -12,6 +12,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(children: [SizedBox(height: 80, child: Placeholder()),
+        SizedBox(height: 80, child: Placeholder()),
 
       ]),
     );
