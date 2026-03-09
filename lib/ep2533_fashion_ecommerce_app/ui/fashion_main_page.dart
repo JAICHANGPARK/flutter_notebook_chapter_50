@@ -396,12 +396,21 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                         ),
                                       ),
                                       Expanded(
-                                        child: Column(
-                                          crossAxisAlignment: .start,
-                                          children: [
-                                            Text("Gradient Style Hoodie",),
-                                            Text("Sized in Stock"),
-                                          ],
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(16.0),
+                                          child: Column(
+                                            crossAxisAlignment: .start,
+                                            children: [
+                                              Text(
+                                                "Gradient Style Hoodie",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16
+                                                ),
+                                              ),
+                                              Text("Sized in Stock"),
+                                            ],
+                                          ),
                                         ),
                                       ),
                                     ],
