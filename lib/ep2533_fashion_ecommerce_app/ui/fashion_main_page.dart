@@ -395,7 +395,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                           color: Colors.grey,
                                         ),
                                       ),
-                                      Expanded(child: Column(children: [])),
+                                      Expanded(child: Column(children: [
+                                        Text("Gradient Style Hoodie"),
+                                        Text("Sized in Stock"),
+                                        
+                                      ])),
                                     ],
                                   ),
                                 ),
