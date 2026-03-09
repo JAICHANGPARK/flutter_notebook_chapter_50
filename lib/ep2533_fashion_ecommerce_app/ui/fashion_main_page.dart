@@ -15,434 +15,440 @@ class _FashionMainPageState extends State<FashionMainPage> {
       backgroundColor: Colors.grey[200],
       body: Stack(
         children: [
-          Positioned.fill(
-            left: 16,
-            top: 16,
-            right: 16,
-            child: SafeArea(
-              bottom: false,
-              child: Column(
-                crossAxisAlignment: .start,
-                spacing: 16,
-                children: [
-                  Row(
-                    children: [
-                      Container(
-                        padding: EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          color: Colors.grey[400]!,
-                          borderRadius: .circular(12),
-                        ),
-                        child: Row(
-                          spacing: 6,
-                          children: [
-                            Container(
-                              height: 48,
-                              width: 48,
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: .circular(14),
-                              ),
-                            ),
-                            Container(
-                              height: 48,
-                              width: 48,
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: .circular(14),
-                              ),
-                              child: Icon(Icons.apps),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: 52,
-                        width: 52,
-                        decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: .circular(14),
-                        ),
-                        child: Icon(Icons.notifications_active_outlined),
-                      ),
-                    ],
-                  ),
-                  Gap(6),
-                  Column(
+          Positioned.fill(child:
+          IndexedStack(
+            children: [
+              Positioned.fill(
+                left: 16,
+                top: 16,
+                right: 16,
+                child: SafeArea(
+                  bottom: false,
+                  child: Column(
                     crossAxisAlignment: .start,
+                    spacing: 16,
                     children: [
-                      Text(
-                        "Discover",
-                        style: TextStyle(fontSize: 32, fontWeight: .bold),
-                      ),
-                      Text(
-                        "Your Best Clothes",
-                        style: TextStyle(
-                          fontSize: 28,
-                          fontWeight: .bold,
-                          color: Colors.grey,
-                        ),
-                      ),
-                    ],
-                  ),
-
-                  Container(
-                    height: 58,
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.white,
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 8),
-                    child: Row(
-                      spacing: 4,
-                      children: [
-                        IconButton(onPressed: () {}, icon: Icon(Icons.search)),
-                        Expanded(
-                          child: TextField(
-                            decoration: InputDecoration(
-                              hintText: "Your Best Clothes",
-                              hintStyle: TextStyle(fontSize: 13),
-                              border: .none,
+                      Row(
+                        children: [
+                          Container(
+                            padding: EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              color: Colors.grey[400]!,
+                              borderRadius: .circular(12),
                             ),
-                          ),
-                        ),
-                        IconButton(onPressed: () {}, icon: Icon(Icons.tune)),
-                      ],
-                    ),
-                  ),
-                  Expanded(
-                    child: Column(
-                      spacing: 12,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          mainAxisAlignment: .spaceBetween,
-                          children: [
-                            Text("Category", style: TextStyle(fontSize: 18)),
-                            TextButton(
-                              onPressed: () {},
-                              child: Text("See all"),
-                            ),
-                          ],
-                        ),
-                        Container(
-                          height: 54,
-                          child: ListView(
-                            scrollDirection: .horizontal,
-                            children: [
-                              Container(
-                                padding: EdgeInsets.all(2),
-                                margin: EdgeInsets.only(right: 12),
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.black,
-                                ),
-                                child: Row(
-                                  children: [
-                                    CircleAvatar(
-                                      radius: 24,
-                                      backgroundColor: Colors.white,
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Text(
-                                        "New in",
-                                        style: TextStyle(color: Colors.white),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Container(
-                                margin: EdgeInsets.only(right: 12),
-                                padding: EdgeInsets.all(2),
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.white,
-                                ),
-                                child: Row(
-                                  children: [
-                                    CircleAvatar(
-                                      radius: 24,
-                                      backgroundColor: Colors.grey[300]!,
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Text("T-Shirts"),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Container(
-                                margin: EdgeInsets.only(right: 12),
-                                padding: EdgeInsets.all(2),
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.white,
-                                ),
-                                child: Row(
-                                  children: [
-                                    CircleAvatar(
-                                      radius: 24,
-                                      backgroundColor: Colors.grey[300]!,
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Text("Pants"),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Expanded(
-                          child: SingleChildScrollView(
-                            child: Column(
-                              spacing: 16,
+                            child: Row(
+                              spacing: 6,
                               children: [
                                 Container(
-                                  height: 220,
-                                  child: Row(
-                                    spacing: 12,
-                                    children: [
-                                      Expanded(
-                                        child: Container(
-                                          decoration: ShapeDecoration(
-                                            shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(24),
-                                            ),
-                                            color: Colors.white,
+                                  height: 48,
+                                  width: 48,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: .circular(14),
+                                  ),
+                                ),
+                                Container(
+                                  height: 48,
+                                  width: 48,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: .circular(14),
+                                  ),
+                                  child: Icon(Icons.apps),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Spacer(),
+                          Container(
+                            height: 52,
+                            width: 52,
+                            decoration: BoxDecoration(
+                              color: Colors.grey,
+                              borderRadius: .circular(14),
+                            ),
+                            child: Icon(Icons.notifications_active_outlined),
+                          ),
+                        ],
+                      ),
+                      Gap(6),
+                      Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text(
+                            "Discover",
+                            style: TextStyle(fontSize: 32, fontWeight: .bold),
+                          ),
+                          Text(
+                            "Your Best Clothes",
+                            style: TextStyle(
+                              fontSize: 28,
+                              fontWeight: .bold,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+
+                      Container(
+                        height: 58,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 8),
+                        child: Row(
+                          spacing: 4,
+                          children: [
+                            IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                            Expanded(
+                              child: TextField(
+                                decoration: InputDecoration(
+                                  hintText: "Your Best Clothes",
+                                  hintStyle: TextStyle(fontSize: 13),
+                                  border: .none,
+                                ),
+                              ),
+                            ),
+                            IconButton(onPressed: () {}, icon: Icon(Icons.tune)),
+                          ],
+                        ),
+                      ),
+                      Expanded(
+                        child: Column(
+                          spacing: 12,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              mainAxisAlignment: .spaceBetween,
+                              children: [
+                                Text("Category", style: TextStyle(fontSize: 18)),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
+                            Container(
+                              height: 54,
+                              child: ListView(
+                                scrollDirection: .horizontal,
+                                children: [
+                                  Container(
+                                    padding: EdgeInsets.all(2),
+                                    margin: EdgeInsets.only(right: 12),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.black,
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.white,
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            "New in",
+                                            style: TextStyle(color: Colors.white),
                                           ),
-                                          child: Stack(
-                                            children: [
-                                              Positioned(
-                                                left: 16,
-                                                top: 16,
-                                                right: 16,
-                                                bottom: 16,
-                                                child: Column(
-                                                  crossAxisAlignment: .start,
-                                                  spacing: 4,
-                                                  children: [
-                                                    Row(
-                                                      mainAxisAlignment:
-                                                          .spaceBetween,
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    margin: EdgeInsets.only(right: 12),
+                                    padding: EdgeInsets.all(2),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.grey[300]!,
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text("T-Shirts"),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    margin: EdgeInsets.only(right: 12),
+                                    padding: EdgeInsets.all(2),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
+                                    ),
+                                    child: Row(
+                                      children: [
+                                        CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.grey[300]!,
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text("Pants"),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Expanded(
+                              child: SingleChildScrollView(
+                                child: Column(
+                                  spacing: 16,
+                                  children: [
+                                    Container(
+                                      height: 220,
+                                      child: Row(
+                                        spacing: 12,
+                                        children: [
+                                          Expanded(
+                                            child: Container(
+                                              decoration: ShapeDecoration(
+                                                shape: RoundedSuperellipseBorder(
+                                                  borderRadius: .circular(24),
+                                                ),
+                                                color: Colors.white,
+                                              ),
+                                              child: Stack(
+                                                children: [
+                                                  Positioned(
+                                                    left: 16,
+                                                    top: 16,
+                                                    right: 16,
+                                                    bottom: 16,
+                                                    child: Column(
+                                                      crossAxisAlignment: .start,
+                                                      spacing: 4,
                                                       children: [
-                                                        Text(
-                                                          "Knit Sweater",
-                                                          style: TextStyle(
-                                                            fontWeight: .bold,
-                                                            fontSize: 16,
-                                                          ),
+                                                        Row(
+                                                          mainAxisAlignment:
+                                                              .spaceBetween,
+                                                          children: [
+                                                            Text(
+                                                              "Knit Sweater",
+                                                              style: TextStyle(
+                                                                fontWeight: .bold,
+                                                                fontSize: 16,
+                                                              ),
+                                                            ),
+                                                            Text(
+                                                              "\$250",
+                                                              style: TextStyle(
+                                                                fontWeight: .bold,
+                                                                fontSize: 16,
+                                                              ),
+                                                            ),
+                                                          ],
                                                         ),
-                                                        Text(
-                                                          "\$250",
-                                                          style: TextStyle(
-                                                            fontWeight: .bold,
-                                                            fontSize: 16,
-                                                          ),
-                                                        ),
-                                                      ],
-                                                    ),
-                                                    Text("Sizes in Stock"),
-                                                    Spacer(),
-                                                    Row(
-                                                      spacing: 12,
-                                                      children: [
-                                                        Expanded(
-                                                          child: Container(
-                                                            decoration:
+                                                        Text("Sizes in Stock"),
+                                                        Spacer(),
+                                                        Row(
+                                                          spacing: 12,
+                                                          children: [
+                                                            Expanded(
+                                                              child: Container(
+                                                                decoration:
                                                                 ShapeDecoration(
                                                                   shape:
-                                                                      StadiumBorder(),
+                                                                  StadiumBorder(),
                                                                   color: Colors
                                                                       .white,
                                                                 ),
-                                                            child: Center(
-                                                              child: Text(
-                                                                "Add to Cart",
+                                                                child: Center(
+                                                                  child: Text(
+                                                                    "Add to Cart",
+                                                                  ),
+                                                                ),
                                                               ),
                                                             ),
-                                                          ),
-                                                        ),
-                                                        CircleAvatar(
-                                                          backgroundColor:
+                                                            CircleAvatar(
+                                                              backgroundColor:
                                                               Colors.white,
-                                                          foregroundColor:
+                                                              foregroundColor:
                                                               Colors.black,
-                                                          child: Icon(
-                                                            Icons
-                                                                .favorite_border,
-                                                          ),
+                                                              child: Icon(
+                                                                Icons
+                                                                    .favorite_border,
+                                                              ),
+                                                            ),
+                                                          ],
                                                         ),
                                                       ],
                                                     ),
-                                                  ],
-                                                ),
+                                                  ),
+                                                ],
                                               ),
-                                            ],
+                                            ),
                                           ),
-                                        ),
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          spacing: 12,
-                                          children: [
-                                            Expanded(
-                                              child: Container(
-                                                width: double.infinity,
-                                                decoration: ShapeDecoration(
-                                                  shape:
+                                          Expanded(
+                                            child: Column(
+                                              spacing: 12,
+                                              children: [
+                                                Expanded(
+                                                  child: Container(
+                                                    width: double.infinity,
+                                                    decoration: ShapeDecoration(
+                                                      shape:
                                                       RoundedSuperellipseBorder(
                                                         borderRadius: .circular(
                                                           24,
                                                         ),
                                                       ),
 
-                                                  color: Colors.black,
-                                                ),
-                                                padding: EdgeInsets.all(16),
-                                                child: Column(
-                                                  crossAxisAlignment: .start,
-                                                  children: [
-                                                    Text(
-                                                      "Color Pop Set",
-                                                      style: TextStyle(
-                                                        color: Colors.white,
-                                                      ),
+                                                      color: Colors.black,
                                                     ),
-                                                    Text(
-                                                      "Sizes in Stock",
-                                                      style: TextStyle(
-                                                        color: Colors.white,
-                                                      ),
-                                                    ),
-                                                    Spacer(),
-                                                    Container(
-                                                      decoration: BoxDecoration(
-                                                        color: Colors.white,
-                                                        borderRadius: .circular(
-                                                          8,
+                                                    padding: EdgeInsets.all(16),
+                                                    child: Column(
+                                                      crossAxisAlignment: .start,
+                                                      children: [
+                                                        Text(
+                                                          "Color Pop Set",
+                                                          style: TextStyle(
+                                                            color: Colors.white,
+                                                          ),
                                                         ),
-                                                      ),
-                                                      padding:
+                                                        Text(
+                                                          "Sizes in Stock",
+                                                          style: TextStyle(
+                                                            color: Colors.white,
+                                                          ),
+                                                        ),
+                                                        Spacer(),
+                                                        Container(
+                                                          decoration: BoxDecoration(
+                                                            color: Colors.white,
+                                                            borderRadius: .circular(
+                                                              8,
+                                                            ),
+                                                          ),
+                                                          padding:
                                                           EdgeInsets.symmetric(
                                                             horizontal: 16,
                                                             vertical: 8,
                                                           ),
-                                                      child: Text(
-                                                        "Shop Now",
+                                                          child: Text(
+                                                            "Shop Now",
+                                                            style: TextStyle(
+                                                              fontSize: 12,
+                                                              fontWeight: .bold,
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ],
+                                                    ),
+                                                  ),
+                                                ),
+                                                Container(
+                                                  height: 62,
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Colors.white,
+                                                  ),
+                                                  child: Row(
+                                                    mainAxisAlignment: .center,
+                                                    spacing: 5,
+                                                    children: [
+                                                      Text(
+                                                        "Explore More",
                                                         style: TextStyle(
-                                                          fontSize: 12,
                                                           fontWeight: .bold,
+                                                          fontSize: 16,
                                                         ),
                                                       ),
-                                                    ),
-                                                  ],
+                                                      Icon(
+                                                        Icons
+                                                            .arrow_forward_outlined,
+                                                      ),
+                                                    ],
+                                                  ),
                                                 ),
-                                              ),
+                                              ],
                                             ),
-                                            Container(
-                                              height: 62,
-                                              decoration: ShapeDecoration(
-                                                shape: StadiumBorder(),
-                                                color: Colors.white,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Container(
+                                      height: 160,
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(
+                                          borderRadius: .circular(24),
+                                        ),
+                                        color: Colors.white,
+                                      ),
+                                      padding: EdgeInsets.all(4),
+                                      child: Row(
+                                        children: [
+                                          Container(
+                                            height: 160,
+                                            width: 160,
+                                            decoration: ShapeDecoration(
+                                              shape: RoundedSuperellipseBorder(
+                                                borderRadius: .circular(24),
                                               ),
-                                              child: Row(
-                                                mainAxisAlignment: .center,
-                                                spacing: 5,
+                                              color: Colors.grey,
+                                            ),
+                                            child: Stack(
+                                              children: [
+                                                Positioned(
+                                                  top: 8,
+                                                  right: 8,
+                                                  child: Container(
+                                                    decoration: BoxDecoration(
+                                                      borderRadius: .circular(12),
+                                                      color: Colors.white,
+                                                    ),
+                                                    child: Icon(Icons.favorite_border,size: 16,),
+                                                    padding: EdgeInsets.all(8),
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                          Expanded(
+                                            child: Padding(
+                                              padding: const EdgeInsets.all(16.0),
+                                              child: Column(
+                                                crossAxisAlignment: .start,
                                                 children: [
                                                   Text(
-                                                    "Explore More",
+                                                    "Gradient Style Hoodie",
                                                     style: TextStyle(
-                                                      fontWeight: .bold,
+                                                      fontWeight: FontWeight.bold,
                                                       fontSize: 16,
                                                     ),
                                                   ),
-                                                  Icon(
-                                                    Icons
-                                                        .arrow_forward_outlined,
-                                                  ),
+                                                  Text("Sized in Stock"),
                                                 ],
                                               ),
                                             ),
-                                          ],
-                                        ),
+                                          ),
+                                        ],
                                       ),
-                                    ],
-                                  ),
-                                ),
-                                Container(
-                                  height: 160,
-                                  decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(
-                                      borderRadius: .circular(24),
                                     ),
-                                    color: Colors.white,
-                                  ),
-                                  padding: EdgeInsets.all(4),
-                                  child: Row(
-                                    children: [
-                                      Container(
-                                        height: 160,
-                                        width: 160,
-                                        decoration: ShapeDecoration(
-                                          shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(24),
-                                          ),
-                                          color: Colors.grey,
-                                        ),
-                                        child: Stack(
-                                          children: [
-                                            Positioned(
-                                              top: 8,
-                                              right: 8,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  borderRadius: .circular(12),
-                                                  color: Colors.white,
-                                                ),
-                                                child: Icon(Icons.favorite_border,size: 16,),
-                                                padding: EdgeInsets.all(8),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      Expanded(
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(16.0),
-                                          child: Column(
-                                            crossAxisAlignment: .start,
-                                            children: [
-                                              Text(
-                                                "Gradient Style Hoodie",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 16,
-                                                ),
-                                              ),
-                                              Text("Sized in Stock"),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
+                                  ],
                                 ),
-                              ],
+                              ),
                             ),
-                          ),
+                          ],
                         ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
-                ],
+                ),
               ),
-            ),
-          ),
+            ],
+          ),),
+
           Positioned(
             bottom: 16,
             left: 16,
