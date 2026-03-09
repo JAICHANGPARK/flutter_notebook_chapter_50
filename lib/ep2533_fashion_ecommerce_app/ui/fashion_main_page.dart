@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2533_fashion_ecommerce_app/ui/fashion_search_page.dart';
 import 'package:gap/gap.dart';
 
 class FashionMainPage extends StatefulWidget {
@@ -446,6 +447,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                   ),
                 ),
               ),
+              FashionSearchPage(),
             ],
           ),),
 
