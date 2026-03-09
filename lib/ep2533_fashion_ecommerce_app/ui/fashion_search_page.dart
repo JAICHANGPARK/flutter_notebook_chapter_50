@@ -11,10 +11,17 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-      child: Column(children: [SizedBox(height: 80, child: Placeholder()),
-        SizedBox(height: 80, child: Placeholder()),
+      bottom: false,
+      child: Padding(
 
-      ]),
+        padding: const EdgeInsets.symmetric(horizontal: 16),
+        child: Column(
+          children: [
+            SizedBox(height: 80, child: Placeholder()),
+            SizedBox(height: 80, child: Placeholder()),
+          ],
+        ),
+      ),
     );
   }
 }
