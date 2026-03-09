@@ -11,6 +11,13 @@ class FashionSearchPage extends StatefulWidget {
 class _FashionSearchPageState extends State<FashionSearchPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SafeArea(
+      child: Column(
+        children: [
+          SizedBox(height: 80
+            ,)
+        ],
+      ),
+    );
   }
 }
