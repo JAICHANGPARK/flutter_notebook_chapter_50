@@ -390,12 +390,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
                                         width: 160,
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(24)  
+                                            borderRadius: .circular(24),
                                           ),
                                           color: Colors.grey,
-                                          
                                         ),
-                                      )
+                                      ),
+                                      Expanded(child: Column(children: [])),
                                     ],
                                   ),
                                 ),
