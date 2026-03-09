@@ -13,7 +13,6 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
     return SafeArea(
       bottom: false,
       child: Padding(
-
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
           spacing: 20,
@@ -22,7 +21,9 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
             SizedBox(height: 80, child: Placeholder()),
 
             SizedBox(height: 52, child: Placeholder()),
-            Expanded(child: ListView.builder(itemBuilder: (context,index){},)),
+            Expanded(child: ListView.builder(itemBuilder: (context, index) {
+              return Placeholder();
+            })),
           ],
         ),
       ),
