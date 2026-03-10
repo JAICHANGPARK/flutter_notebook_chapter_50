@@ -54,7 +54,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
               ),
             ),
             SizedBox(
-              height: 72,
+              height: 68,
               child: Container(
                 padding: EdgeInsets.only(left: 16),
                 decoration: ShapeDecoration(
