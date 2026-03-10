@@ -34,9 +34,11 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       child: Icon(Icons.keyboard_arrow_left_rounded),
                     ),
                   ),
-                  Expanded(child: Center(child: Text("Search",style: TextStyle(
-                    fontSize: 19,
-                  ),))),
+                  Expanded(
+                    child: Center(
+                      child: Text("Search", style: TextStyle(fontSize: 19)),
+                    ),
+                  ),
                   Container(
                     height: 58,
                     width: 58,
@@ -46,14 +48,30 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       ),
                       color: Colors.grey[400]!,
                     ),
-                    child: Center(
-                      child: Icon(Icons.more_horiz),
-                    ),
+                    child: Center(child: Icon(Icons.more_horiz)),
                   ),
                 ],
               ),
             ),
-            SizedBox(height: 80, child: Placeholder()),
+            SizedBox(
+              height: 80,
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(onPressed: (){}, icon: Icon(Icons.search)),
+                    Expanded(child: TextField(
+                      decoration: InputDecoration(
+                        hintText: "Your Best Clothes"
+                      ),
+                    ))
+                  ],
+                ),
+              ),
+            ),
 
             SizedBox(height: 52, child: Placeholder()),
             Expanded(
