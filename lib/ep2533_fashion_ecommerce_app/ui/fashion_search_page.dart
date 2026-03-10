@@ -54,7 +54,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
               ),
             ),
             SizedBox(
-              height: 80,
+              height: 72,
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
@@ -67,7 +67,10 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       decoration: InputDecoration(
                         hintText: "Your Best Clothes"
                       ),
-                    ))
+                    )),
+                    CircleAvatar(
+                      radius: 32,
+                    )
                   ],
                 ),
               ),
