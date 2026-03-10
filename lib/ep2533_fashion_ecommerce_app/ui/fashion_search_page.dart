@@ -80,12 +80,13 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
             ),
 
             SizedBox(
-              height: 52,
+              height: 62,
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.grey[300]!,
                 ),
+                padding: .all(5),
                 child: Row(
                   spacing: 12,
                   children: [
