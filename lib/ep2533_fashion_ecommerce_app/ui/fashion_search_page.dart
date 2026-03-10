@@ -56,11 +56,13 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
             SizedBox(
               height: 72,
               child: Container(
+                padding: EdgeInsets.only(left: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
                 child: Row(
+                  spacing: 4,
                   children: [
                     IconButton(onPressed: (){}, icon: Icon(Icons.search)),
                     Expanded(child: TextField(
