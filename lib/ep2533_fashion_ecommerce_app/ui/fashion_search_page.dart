@@ -67,11 +67,13 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                     IconButton(onPressed: (){}, icon: Icon(Icons.search)),
                     Expanded(child: TextField(
                       decoration: InputDecoration(
-                        hintText: "Your Best Clothes"
+                        hintText: "Your Best Clothes",
+                        border: .none,
                       ),
                     )),
                     CircleAvatar(
                       radius: 32,
+                      child: Icon(Icons.mic_none),
                     )
                   ],
                 ),
