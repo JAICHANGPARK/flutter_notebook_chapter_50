@@ -28,7 +28,21 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(16),
                       ),
-                      color: Colors.grey
+                      color: Colors.grey,
+                    ),
+                    child: Center(
+                      child: Icon(Icons.keyboard_arrow_left_rounded),
+                    ),
+                  ),
+                  Expanded(child: Center(child: Text("Search"))),
+                  Container(
+                    height: 52,
+                    width: 52,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(16),
+                      ),
+                      color: Colors.grey,
                     ),
                     child: Center(
                       child: Icon(Icons.keyboard_arrow_left_rounded),
