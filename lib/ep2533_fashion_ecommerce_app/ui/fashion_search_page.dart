@@ -22,13 +22,13 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
               child: Row(
                 children: [
                   Container(
-                    height: 52,
-                    width: 52,
+                    height: 58,
+                    width: 58,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(16),
                       ),
-                      color: Colors.grey[500]!,
+                      color: Colors.grey[400]!,
                     ),
                     child: Center(
                       child: Icon(Icons.keyboard_arrow_left_rounded),
@@ -42,7 +42,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(16),
                       ),
-                      color: Colors.grey[500]!,
+                      color: Colors.grey[400]!,
                     ),
                     child: Center(
                       child: Icon(Icons.more_horiz),
