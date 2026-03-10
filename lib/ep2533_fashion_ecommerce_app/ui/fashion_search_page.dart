@@ -87,6 +87,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                   color: Colors.grey[300]!,
                 ),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Expanded(
                       child: Container(
