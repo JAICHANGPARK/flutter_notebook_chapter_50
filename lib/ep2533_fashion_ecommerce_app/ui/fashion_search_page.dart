@@ -17,7 +17,24 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
         child: Column(
           spacing: 20,
           children: [
-            SizedBox(height: 80, child: Placeholder()),
+            SizedBox(
+              height: 80,
+              child: Row(
+                children: [
+                  Container(
+                    height: 52,
+                    width: 52,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(16),
+
+                      ),
+                      color: Colors.grey
+                    ),
+                  ),
+                ],
+              ),
+            ),
             SizedBox(height: 80, child: Placeholder()),
 
             SizedBox(height: 52, child: Placeholder()),
