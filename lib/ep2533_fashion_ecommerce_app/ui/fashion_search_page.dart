@@ -119,7 +119,15 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
             Expanded(
               child: ListView.builder(
                 itemBuilder: (context, index) {
-                  return Placeholder();
+                  return Container(
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(24),
+
+                      ),
+                    color: Colors.white,
+                    ),
+                  );
                 },
               ),
             ),
