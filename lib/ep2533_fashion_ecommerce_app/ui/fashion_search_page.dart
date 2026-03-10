@@ -64,23 +64,39 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                 child: Row(
                   spacing: 4,
                   children: [
-                    IconButton(onPressed: (){}, icon: Icon(Icons.search)),
-                    Expanded(child: TextField(
-                      decoration: InputDecoration(
-                        hintText: "Your Best Clothes",
-                        border: .none,
+                    IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: "Your Best Clothes",
+                          border: .none,
+                        ),
                       ),
-                    )),
-                    CircleAvatar(
-                      radius: 32,
-                      child: Icon(Icons.mic_none),
-                    )
+                    ),
+                    CircleAvatar(radius: 32, child: Icon(Icons.mic_none)),
                   ],
                 ),
               ),
             ),
 
-            SizedBox(height: 52, child: Placeholder()),
+            SizedBox(
+              height: 52,
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.grey[300]!,
+                ),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
             Expanded(
               child: ListView.builder(
                 itemBuilder: (context, index) {
