@@ -120,6 +120,8 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
+                    height: 200,
+                    margin: EdgeInsets.only(bottom: 16),
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
