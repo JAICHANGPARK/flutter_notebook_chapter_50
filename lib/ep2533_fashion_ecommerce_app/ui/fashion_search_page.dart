@@ -34,10 +34,12 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       child: Icon(Icons.keyboard_arrow_left_rounded),
                     ),
                   ),
-                  Expanded(child: Center(child: Text("Search"))),
+                  Expanded(child: Center(child: Text("Search",style: TextStyle(
+                    fontSize: 19,
+                  ),))),
                   Container(
-                    height: 52,
-                    width: 52,
+                    height: 58,
+                    width: 58,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(16),
