@@ -140,7 +140,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
               child: ListView.builder(
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 200,
+                    height: 180,
                     margin: EdgeInsets.only(bottom: 16),
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
@@ -150,10 +150,11 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                     ),
                     padding: EdgeInsets.all(6),
                     child: Row(
+                      spacing: 12,
                       children: [
                         Container(
                           height: 200,
-                          width: 180,
+                          width: 160,
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
                               borderRadius: .circular(24),
@@ -163,17 +164,24 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         ),
                         Expanded(
                           child: Column(
+                            crossAxisAlignment: .start,
+                            mainAxisAlignment: .sp,
                             children: [
-                              Text("Gradient Style Hoodie"),
+                              Text(
+                                "Gradient Style Hoodie",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),
+                              ),
                               Text("Sized in Stock"),
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
                                   color: Colors.grey[300]!,
                                 ),
-                                child: Center(
-                                  child: Text("Shop Now"),
-                                ),
+                                padding: EdgeInsets.symmetric(vertical: 16),
+                                child: Center(child: Text("Shop Now")),
                               ),
                             ],
                           ),
