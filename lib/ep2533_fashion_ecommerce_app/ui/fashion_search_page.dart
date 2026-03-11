@@ -99,7 +99,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         child: Center(
                           child: Text(
                             "Men",
-                            style: TextStyle(color: Colors.white),
+                            style: TextStyle(color: Colors.white,   fontSize: 12),
                           ),
                         ),
                       ),
@@ -113,7 +113,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         child: Center(
                           child: Text(
                             "Both",
-                            style: TextStyle(),
+                            style: TextStyle(   fontSize: 12),
                           ),
                         ),
                       ),
