@@ -124,6 +124,14 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
+                        child: Center(
+                          child: Text(
+                            "Women",
+                            style: TextStyle(
+                              fontSize: 12
+                            ),
+                          ),
+                        ),
                       ),
                     ),
                   ],
