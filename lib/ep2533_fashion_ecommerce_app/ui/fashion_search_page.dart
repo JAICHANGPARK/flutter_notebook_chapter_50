@@ -164,6 +164,8 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           child: Stack(
                             children: [
                               Positioned(
+                                right: 12,
+                                top: 12,
                                 child: Container(
                                   decoration: BoxDecoration(
                                     color: Colors.white,
