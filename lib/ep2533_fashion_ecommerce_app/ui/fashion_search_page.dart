@@ -99,7 +99,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         child: Center(
                           child: Text(
                             "Men",
-                            style: TextStyle(color: Colors.white,   fontSize: 12),
+                            style: TextStyle(color: Colors.white, fontSize: 12),
                           ),
                         ),
                       ),
@@ -113,7 +113,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         child: Center(
                           child: Text(
                             "Both",
-                            style: TextStyle(   fontSize: 12),
+                            style: TextStyle(fontSize: 12, fontWeight: .bold),
                           ),
                         ),
                       ),
@@ -125,12 +125,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           color: Colors.white,
                         ),
                         child: Center(
-                          child: Text(
-                            "Women",
-                            style: TextStyle(
-                              fontSize: 12
-                            ),
-                          ),
+                          child: Text("Women", style: TextStyle(fontSize: 12)),
                         ),
                       ),
                     ),
