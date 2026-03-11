@@ -148,6 +148,15 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       ),
                       color: Colors.white,
                     ),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 200,
+                          width: 180,
+                          decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
+                        )
+                      ],
+                    ),
                   );
                 },
               ),
