@@ -167,6 +167,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                             padding: const EdgeInsets.all(12.0),
                             child: Column(
                               crossAxisAlignment: .start,
+                              mainAxisAlignment: .spaceBetween,
 
                               children: [
                                 Text(
