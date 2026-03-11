@@ -165,7 +165,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: .start,
-                            mainAxisAlignment: .sp,
+                            
                             children: [
                               Text(
                                 "Gradient Style Hoodie",
