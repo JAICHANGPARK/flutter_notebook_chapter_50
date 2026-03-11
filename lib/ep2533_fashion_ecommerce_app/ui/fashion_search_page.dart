@@ -125,7 +125,10 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           color: Colors.white,
                         ),
                         child: Center(
-                          child: Text("Women", style: TextStyle(fontSize: 12)),
+                          child: Text(
+                            "Women",
+                            style: TextStyle(fontSize: 12, fontWeight: .bold),
+                          ),
                         ),
                       ),
                     ),
