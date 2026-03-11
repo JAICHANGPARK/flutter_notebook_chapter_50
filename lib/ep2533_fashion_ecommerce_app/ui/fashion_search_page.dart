@@ -110,6 +110,12 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           shape: StadiumBorder(),
                           color: Colors.white,
                         ),
+                        child: Center(
+                          child: Text(
+                            "Both",
+                            style: TextStyle(),
+                          ),
+                        ),
                       ),
                     ),
                     Expanded(
