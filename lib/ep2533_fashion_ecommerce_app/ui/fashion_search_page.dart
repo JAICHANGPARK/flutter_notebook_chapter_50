@@ -199,7 +199,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                                     shape: StadiumBorder(),
                                     color: Colors.grey[300]!,
                                   ),
-                                  padding: EdgeInsets.symmetric(vertical: 16),
+                                  padding: EdgeInsets.symmetric(vertical: 18),
                                   child: Center(
                                     child: Text(
                                       "Shop Now",
