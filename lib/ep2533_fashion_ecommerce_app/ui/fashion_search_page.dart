@@ -161,6 +161,19 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                             ),
                             color: Colors.blue,
                           ),
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: .circular(12,),
+                                  ),
+                                  child: Icon(Icons.favorite_border,),
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                         Expanded(
                           child: Padding(
