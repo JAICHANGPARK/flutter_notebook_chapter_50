@@ -96,6 +96,12 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           shape: StadiumBorder(),
                           color: Colors.black,
                         ),
+                        child: Center(
+                          child: Text(
+                            "Men",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
                       ),
                     ),
                     Expanded(
@@ -108,8 +114,10 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                     ),
                     Expanded(
                       child: Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),
-                          color: Colors.white,),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
                       ),
                     ),
                   ],
@@ -125,9 +133,8 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
-
                       ),
-                    color: Colors.white,
+                      color: Colors.white,
                     ),
                   );
                 },
