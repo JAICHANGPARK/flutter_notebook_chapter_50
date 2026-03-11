@@ -148,13 +148,36 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                       ),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.all(6),
                     child: Row(
                       children: [
                         Container(
                           height: 200,
                           width: 180,
-                          decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
-                        )
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(24),
+                            ),
+                            color: Colors.blue,
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Text("Gradient Style Hoodie"),
+                              Text("Sized in Stock"),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.grey[300]!,
+                                ),
+                                child: Center(
+                                  child: Text("Shop Now"),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   );
