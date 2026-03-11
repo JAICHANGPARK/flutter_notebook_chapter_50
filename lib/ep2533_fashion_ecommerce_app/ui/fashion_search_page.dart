@@ -167,6 +167,7 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                                 right: 12,
                                 top: 12,
                                 child: Container(
+                                  padding: EdgeInsets.all(8),
                                   decoration: BoxDecoration(
                                     color: Colors.white,
                                     borderRadius: .circular(12,),
