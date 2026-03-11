@@ -163,27 +163,38 @@ class _FashionSearchPageState extends State<FashionSearchPage> {
                           ),
                         ),
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            
-                            children: [
-                              Text(
-                                "Gradient Style Hoodie",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Column(
+                              crossAxisAlignment: .start,
+
+                              children: [
+                                Text(
+                                  "Gradient Style Hoodie",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),
                                 ),
-                              ),
-                              Text("Sized in Stock"),
-                              Container(
-                                decoration: ShapeDecoration(
-                                  shape: StadiumBorder(),
-                                  color: Colors.grey[300]!,
+                                Text("Sized in Stock"),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.grey[300]!,
+                                  ),
+                                  padding: EdgeInsets.symmetric(vertical: 16),
+                                  child: Center(
+                                    child: Text(
+                                      "Shop Now",
+                                      style: TextStyle(
+                                        fontSize: 12,
+                                        fontWeight: .bold,
+                                      ),
+                                    ),
+                                  ),
                                 ),
-                                padding: EdgeInsets.symmetric(vertical: 16),
-                                child: Center(child: Text("Shop Now")),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       ],
