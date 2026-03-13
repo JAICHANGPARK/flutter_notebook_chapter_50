@@ -4,8 +4,7 @@
 
 - Daily Mindfulness & Meditation App – Minimal Wellness Mobile UI
 - Sheikh Raihan
-
-- 
+- https://dribbble.com/shots/27173078-Daily-Mindfulness-Meditation-App-Minimal-Wellness-Mobile-UI
 
 <img src="https://cdn.dribbble.com/userupload/46951420/file/e50755da42245c21268326a88435a2ea.png?resize=2048x1536&vertical=center" alt=""/>
 
