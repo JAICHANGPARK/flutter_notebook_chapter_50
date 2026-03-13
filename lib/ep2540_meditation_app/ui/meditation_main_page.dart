@@ -25,15 +25,15 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   ),
                   Expanded(child: Column(children: [])),
                   Container(
-                    height: 52,
-                    width: 52,
+                    height: 54,
+                    width: 54,
                     decoration: BoxDecoration(
                       color: Colors.blue
                     ),
                   ),
                   Container(
-                    height: 52,
-                    width: 52,
+                    height: 54,
+                    width: 54,
                     decoration: BoxDecoration(
                         color: Colors.blue
                     ),
