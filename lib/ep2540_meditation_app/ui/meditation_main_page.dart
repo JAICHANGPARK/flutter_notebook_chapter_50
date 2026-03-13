@@ -41,16 +41,29 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 ],
               ),
               Container(height: 54, child: Placeholder()),
-              Container(height: 160, child: Placeholder()),
-              Container(
-                decoration: BoxDecoration(),
+              Expanded(child: SingleChildScrollView(
                 child: Column(
+crossAxisAlignment: .start,
                   children: [
-                    Text("Morning"),
-                    Text("Start your morning with meditation."),
+                    Container(height: 160, child: Placeholder()),
+                    Container(
+                      decoration: BoxDecoration(),
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Text("Morning"),
+                          Text("Start your morning with meditation."),
+                          ...List.generate(3, (idx){
+                            return Container(child: Placeholder(),
+                              height: 180,);
+                          }).toList()
+                        ],
+                      ),
+                    ),
                   ],
                 ),
-              ),
+              )),
+
             ],
           ),
         ),
