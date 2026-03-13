@@ -1,5 +1,13 @@
 # flutter_notebook_chapter_50
 
+## EP2540
+
+- Fashion Ecommerce Mobile App UI — Clothing Shopping Experience
+- Fazlur Rahman
+- https://dribbble.com/shots/27149654-Fashion-Ecommerce-Mobile-App-UI-Clothing-Shopping-Experience
+
+<img src="https://cdn.dribbble.com/userupload/46951420/file/e50755da42245c21268326a88435a2ea.png?resize=2048x1536&vertical=center" alt=""/>
+
 ## EP2533-2539
 
 - Fashion Ecommerce Mobile App UI — Clothing Shopping Experience
