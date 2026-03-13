@@ -16,6 +16,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 20,
             crossAxisAlignment: .start,
             children: [
               Row(
@@ -43,6 +44,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
               Container(height: 54, child: Placeholder()),
               Expanded(child: SingleChildScrollView(
                 child: Column(
+                  spacing: 20,
 crossAxisAlignment: .start,
                   children: [
                     Container(height: 160, child: Placeholder()),
