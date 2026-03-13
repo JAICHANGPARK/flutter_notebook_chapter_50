@@ -2,7 +2,7 @@
 
 ## EP2540
 
-- Fashion Ecommerce Mobile App UI — Clothing Shopping Experience
+- Daily Mindfulness & Meditation App – Minimal Wellness Mobile UI
 - Fazlur Rahman
 - https://dribbble.com/shots/27149654-Fashion-Ecommerce-Mobile-App-UI-Clothing-Shopping-Experience
 
