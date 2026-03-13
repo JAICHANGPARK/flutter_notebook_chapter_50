@@ -11,6 +11,12 @@ class MeditationMainPage extends StatefulWidget {
 class _MeditationMainPageState extends State<MeditationMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
