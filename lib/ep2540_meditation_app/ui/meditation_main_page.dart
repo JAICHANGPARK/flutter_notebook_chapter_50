@@ -16,6 +16,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            crossAxisAlignment: .start,
             children: [
               Row(
                 spacing: 8,
@@ -39,28 +40,22 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   ),
                 ],
               ),
+              Container(height: 54, child: Placeholder()),
+              Container(height: 160, child: Placeholder()),
               Container(
-                height: 54,
-                child: Placeholder(),
+                decoration: BoxDecoration(),
+                child: Column(
+                  children: [
+                    Text("Morning"),
+                    Text("Start your morning with meditation."),
+                  ],
+                ),
               ),
-              Container(
-                height: 160,
-                child: Placeholder(),
-              ),
-
-
             ],
           ),
         ),
-
       ),
-      bottomNavigationBar: BottomAppBar(
-        child: Row(
-          children: [
-
-          ],
-        ),
-      ),
+      bottomNavigationBar: BottomAppBar(child: Row(children: [])),
     );
   }
 }
