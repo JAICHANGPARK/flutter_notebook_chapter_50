@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MeditationApp extends StatelessWidget {
   const MeditationApp({super.key});
 
