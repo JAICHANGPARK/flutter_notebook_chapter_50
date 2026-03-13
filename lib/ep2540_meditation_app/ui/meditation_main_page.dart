@@ -23,6 +23,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   CircleAvatar(radius: 30),
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [Text("For you"), Text("Good evening Dream!")],
                     ),
                   ),
