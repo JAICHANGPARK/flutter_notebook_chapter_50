@@ -48,8 +48,17 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 child: Placeholder(),
               ),
 
+
             ],
           ),
+        ),
+
+      ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          children: [
+
+          ],
         ),
       ),
     );
