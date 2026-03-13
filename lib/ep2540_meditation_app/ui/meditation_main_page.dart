@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MeditationMainPage extends StatefulWidget {
   const MeditationMainPage({super.key});
 
@@ -12,9 +11,22 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Column(
         children: [
-
+          Row(
+            children: [
+              CircleAvatar(),
+              Expanded(child: Column(children: [])),
+              Container(
+                height: 42,
+                width: 42,
+                decoration: BoxDecoration(
+                  color: Colors.blue
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
