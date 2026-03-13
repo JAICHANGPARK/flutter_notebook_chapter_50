@@ -20,23 +20,21 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
               Row(
                 spacing: 8,
                 children: [
-                  CircleAvatar(
-                    radius: 30,
-                  ),
-                  Expanded(child: Column(children: [])),
-                  Container(
-                    height: 54,
-                    width: 54,
-                    decoration: BoxDecoration(
-                      color: Colors.blue
+                  CircleAvatar(radius: 30),
+                  Expanded(
+                    child: Column(
+                      children: [Text("For you"), Text("Good evening Dream!")],
                     ),
                   ),
                   Container(
                     height: 54,
                     width: 54,
-                    decoration: BoxDecoration(
-                        color: Colors.blue
-                    ),
+                    decoration: BoxDecoration(color: Colors.blue),
+                  ),
+                  Container(
+                    height: 54,
+                    width: 54,
+                    decoration: BoxDecoration(color: Colors.blue),
                   ),
                 ],
               ),
