@@ -39,6 +39,15 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   ),
                 ],
               ),
+              Container(
+                height: 54,
+                child: Placeholder(),
+              ),
+              Container(
+                height: 160,
+                child: Placeholder(),
+              ),
+
             ],
           ),
         ),
