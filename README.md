@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_50
 
-## EP2533-25
+## EP2533-2539
 
 - Fashion Ecommerce Mobile App UI — Clothing Shopping Experience
 - Fazlur Rahman
