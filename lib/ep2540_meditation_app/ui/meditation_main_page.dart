@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class MeditationMainPage extends StatefulWidget {
   const MeditationMainPage({super.key});
@@ -47,7 +48,11 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   Container(
                     height: 54,
                     width: 54,
-                    decoration: BoxDecoration(color: Colors.blue),
+                    decoration: BoxDecoration(
+                      border: .all(color: Colors.grey[200]!),
+                      shape: .circle,
+                    ),
+                    child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
 
                   ),
                 ],
