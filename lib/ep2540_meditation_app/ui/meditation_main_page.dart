@@ -102,6 +102,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           border: .all(color: Colors.grey[300]!),
                           borderRadius: .circular(12),
                         ),
+                        padding: EdgeInsets.all(12),
                         child: Column(
                           spacing: 16,
                           crossAxisAlignment: .start,
