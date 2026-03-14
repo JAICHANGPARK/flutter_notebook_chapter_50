@@ -43,7 +43,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       border: .all(color: Colors.grey[200]!),
                       shape: .circle,
                     ),
-
+                    child: Center(child: HugeIcon(icon: HugeIcons.strokeRoundedCrown)),
                   ),
                   Container(
                     height: 54,
@@ -52,7 +52,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       border: .all(color: Colors.grey[200]!),
                       shape: .circle,
                     ),
-                    child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                    child: Center(child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01)),
 
                   ),
                 ],
