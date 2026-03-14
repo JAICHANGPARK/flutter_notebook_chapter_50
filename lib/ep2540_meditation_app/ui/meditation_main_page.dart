@@ -64,6 +64,9 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   Container(
                     height: 27,
                     width: 27,
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                    ),
                   )
                 ],
               )),
