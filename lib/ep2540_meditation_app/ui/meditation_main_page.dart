@@ -57,7 +57,16 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   ),
                 ],
               ),
-              Container(height: 54, child: Placeholder()),
+              Container(height: 54, child: Row(
+                children: [
+                  Icon(Icons.search),
+                  Expanded(child: TextField()),
+                  Container(
+                    height: 27,
+                    width: 27,
+                  )
+                ],
+              )),
               Expanded(
                 child: SingleChildScrollView(
                   child: Column(
