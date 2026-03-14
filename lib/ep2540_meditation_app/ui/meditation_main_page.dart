@@ -43,7 +43,9 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       border: .all(color: Colors.grey[200]!),
                       shape: .circle,
                     ),
-                    child: Center(child: HugeIcon(icon: HugeIcons.strokeRoundedCrown)),
+                    child: Center(
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedCrown),
+                    ),
                   ),
                   Container(
                     height: 54,
@@ -52,24 +54,36 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       border: .all(color: Colors.grey[200]!),
                       shape: .circle,
                     ),
-                    child: Center(child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01)),
-
+                    child: Center(
+                      child: HugeIcon(
+                        icon: HugeIcons.strokeRoundedNotification01,
+                      ),
+                    ),
                   ),
                 ],
               ),
-              Container(height: 54, child: Row(
-                children: [
-                  Icon(Icons.search),
-                  Expanded(child: TextField()),
-                  Container(
-                    height: 27,
-                    width: 27,
-                    decoration: BoxDecoration(
-                      shape: .circle,
+              Container(
+                height: 54,
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.grey[200]!,
+                ),
+                child: Row(
+                  children: [
+                    Icon(Icons.search),
+                    Expanded(
+                      child: TextField(
+                        decoration: InputDecoration(border: .none),
+                      ),
                     ),
-                  )
-                ],
-              )),
+                    Container(
+                      height: 27,
+                      width: 27,
+                      decoration: BoxDecoration(shape: .circle),
+                    ),
+                  ],
+                ),
+              ),
               Expanded(
                 child: SingleChildScrollView(
                   child: Column(
