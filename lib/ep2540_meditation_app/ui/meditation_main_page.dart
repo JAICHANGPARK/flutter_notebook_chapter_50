@@ -98,11 +98,12 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     children: [
                       Container(
                         // height: 160,
+                        padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
                           borderRadius: .circular(12),
                         ),
-                        padding: EdgeInsets.all(12),
+
                         child: Column(
                           spacing: 16,
                           crossAxisAlignment: .start,
@@ -114,6 +115,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                         ),
                       ),
                       Container(
+                        padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
                           borderRadius: .circular(12),
