@@ -26,7 +26,13 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   Expanded(
                     child: Column(
                       crossAxisAlignment: .start,
-                      children: [Text("For you"), Text("Good evening Dream!")],
+                      children: [
+                        Text(
+                          "For you",
+                          style: TextStyle(fontWeight: .bold, fontSize: 18,),
+                        ),
+                        Text("Good evening Dream!"),
+                      ],
                     ),
                   ),
                   Container(
@@ -42,30 +48,33 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 ],
               ),
               Container(height: 54, child: Placeholder()),
-              Expanded(child: SingleChildScrollView(
-                child: Column(
-                  spacing: 20,
-crossAxisAlignment: .start,
-                  children: [
-                    Container(height: 160, child: Placeholder()),
-                    Container(
-                      decoration: BoxDecoration(),
-                      child: Column(
-                        crossAxisAlignment: .start,
-                        children: [
-                          Text("Morning"),
-                          Text("Start your morning with meditation."),
-                          ...List.generate(3, (idx){
-                            return Container(child: Placeholder(),
-                              height: 180,);
-                          }).toList()
-                        ],
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    spacing: 20,
+                    crossAxisAlignment: .start,
+                    children: [
+                      Container(height: 160, child: Placeholder()),
+                      Container(
+                        decoration: BoxDecoration(),
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [
+                            Text("Morning"),
+                            Text("Start your morning with meditation."),
+                            ...List.generate(3, (idx) {
+                              return Container(
+                                child: Placeholder(),
+                                height: 180,
+                              );
+                            }).toList(),
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              )),
-
+              ),
             ],
           ),
         ),
