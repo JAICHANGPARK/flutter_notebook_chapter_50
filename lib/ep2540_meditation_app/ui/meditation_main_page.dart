@@ -64,11 +64,13 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
               ),
               Container(
                 height: 54,
+                padding: EdgeInsets.only(left: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.grey[200]!,
                 ),
                 child: Row(
+                  spacing: 12,
                   children: [
                     Icon(Icons.search),
                     Expanded(
@@ -77,9 +79,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       ),
                     ),
                     Container(
-                      height: 27,
-                      width: 27,
-                      decoration: BoxDecoration(shape: .circle),
+                      height: 54,
+                      width: 54,
+                      decoration: BoxDecoration(shape: .circle,),
+                      child: Icon(Icons.tune),
                     ),
                   ],
                 ),
