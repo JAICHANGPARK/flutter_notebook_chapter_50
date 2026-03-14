@@ -97,7 +97,6 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     crossAxisAlignment: .start,
                     children: [
                       Container(
-                        // height: 160,
                         padding: EdgeInsets.all(12),
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
@@ -110,7 +109,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           children: [
                             Text("How are you feeling today?"),
                             Container(height: 60, child: Placeholder()),
-                            Text("This is used to curate your daily plan.")
+                            Text("This is used to curate your daily plan."),
                           ],
                         ),
                       ),
