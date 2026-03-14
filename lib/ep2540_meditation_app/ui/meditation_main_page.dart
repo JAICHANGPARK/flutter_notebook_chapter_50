@@ -29,7 +29,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       children: [
                         Text(
                           "For you",
-                          style: TextStyle(fontWeight: .bold, fontSize: 18,),
+                          style: TextStyle(fontWeight: .bold, fontSize: 18),
                         ),
                         Text("Good evening Dream!"),
                       ],
@@ -38,7 +38,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                   Container(
                     height: 54,
                     width: 54,
-                    decoration: BoxDecoration(color: Colors.blue),
+                    decoration: BoxDecoration(
+                      border: .all(color: Colors.grey[200]!,),
+                      shape: .circle
+                    ),
                   ),
                   Container(
                     height: 54,
