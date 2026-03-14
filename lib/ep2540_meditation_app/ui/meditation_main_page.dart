@@ -97,7 +97,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     crossAxisAlignment: .start,
                     children: [
                       Container(
-                        height: 160,
+                        // height: 160,
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[300]!),
                           borderRadius: .circular(12),
@@ -114,7 +114,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                         ),
                       ),
                       Container(
-                        decoration: BoxDecoration(),
+                        decoration: BoxDecoration(
+                          border: .all(color: Colors.grey[300]!),
+                          borderRadius: .circular(12),
+                        ),
                         child: Column(
                           crossAxisAlignment: .start,
                           children: [
