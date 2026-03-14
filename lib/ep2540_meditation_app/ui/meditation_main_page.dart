@@ -39,14 +39,16 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     height: 54,
                     width: 54,
                     decoration: BoxDecoration(
-                      border: .all(color: Colors.grey[200]!,),
-                      shape: .circle
+                      border: .all(color: Colors.grey[200]!),
+                      shape: .circle,
                     ),
+
                   ),
                   Container(
                     height: 54,
                     width: 54,
                     decoration: BoxDecoration(color: Colors.blue),
+
                   ),
                 ],
               ),
