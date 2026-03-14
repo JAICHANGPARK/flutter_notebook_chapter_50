@@ -98,7 +98,13 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     children: [
                       Container(
                         height: 160,
+                        decoration: BoxDecoration(
+                          border: .all(color: Colors.grey[300]!),
+                          borderRadius: .circular(12),
+                        ),
                         child: Column(
+                          spacing: 16,
+                          crossAxisAlignment: .start,
                           children: [
                             Text("How are you feeling today?"),
                             Container(height: 60, child: Placeholder()),
