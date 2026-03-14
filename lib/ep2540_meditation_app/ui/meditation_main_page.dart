@@ -120,14 +120,21 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           borderRadius: .circular(12),
                         ),
                         child: Column(
+                          spacing: 12,
                           crossAxisAlignment: .start,
                           children: [
-                            Text("Morning"),
+                            Text(
+                              "Morning",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
+                            ),
                             Text("Start your morning with meditation."),
                             ...List.generate(3, (idx) {
                               return Container(
                                 child: Placeholder(),
-                                height: 180,
+                                height: 140,
                               );
                             }).toList(),
                           ],
