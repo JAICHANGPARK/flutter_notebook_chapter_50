@@ -75,13 +75,16 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     Icon(Icons.search),
                     Expanded(
                       child: TextField(
-                        decoration: InputDecoration(border: .none),
+                        decoration: InputDecoration(
+                          border: .none,
+                          hintText: "Search",
+                        ),
                       ),
                     ),
                     Container(
                       height: 54,
                       width: 54,
-                      decoration: BoxDecoration(shape: .circle,),
+                      decoration: BoxDecoration(shape: .circle),
                       child: Icon(Icons.tune),
                     ),
                   ],
@@ -93,7 +96,16 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     spacing: 20,
                     crossAxisAlignment: .start,
                     children: [
-                      Container(height: 160, child: Placeholder()),
+                      Container(
+                        height: 160,
+                        child: Column(
+                          children: [
+                            Text("How are you feeling today?"),
+                            Container(height: 60, child: Placeholder()),
+                            Text("This is used to curate your daily plan.")
+                          ],
+                        ),
+                      ),
                       Container(
                         decoration: BoxDecoration(),
                         child: Column(
