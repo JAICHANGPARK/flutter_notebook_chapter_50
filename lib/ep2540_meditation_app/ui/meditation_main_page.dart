@@ -189,33 +189,37 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
       bottomNavigationBar: BottomAppBar(
         child: Row(
           children: [
-            Container(
-              decoration: BoxDecoration(
-                shape: .circle,
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(217, 230, 101, 1),
-                    Color.fromRGBO(227, 220, 165, 1),
-                    Color.fromRGBO(243, 208, 235, 1),
-                  ],
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  shape: .circle,
+                  gradient: LinearGradient(
+                    colors: [
+                      Color.fromRGBO(217, 230, 101, 1),
+                      Color.fromRGBO(227, 220, 165, 1),
+                      Color.fromRGBO(243, 208, 235, 1),
+                    ],
+                  ),
                 ),
+                padding: EdgeInsets.all(16),
+                child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
               ),
-              padding: EdgeInsets.all(16),
-              child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
             ),
-            Container(
-              decoration: BoxDecoration(
-                shape: .circle,
-                // gradient: LinearGradient(
-                //   colors: [
-                //     Color.fromRGBO(217, 230, 101, 1),
-                //     Color.fromRGBO(227, 220, 165, 1),
-                //     Color.fromRGBO(243, 208, 235, 1),
-                //   ],
-                // ),
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  shape: .circle,
+                  // gradient: LinearGradient(
+                  //   colors: [
+                  //     Color.fromRGBO(217, 230, 101, 1),
+                  //     Color.fromRGBO(227, 220, 165, 1),
+                  //     Color.fromRGBO(243, 208, 235, 1),
+                  //   ],
+                  // ),
+                ),
+                padding: EdgeInsets.all(16),
+                child: HugeIcon(icon: HugeIcons.strokeRoundedBulb),
               ),
-              padding: EdgeInsets.all(16),
-              child: HugeIcon(icon: HugeIcons.strokeRoundedBulb),
             ),
             Container(
               decoration: BoxDecoration(
