@@ -84,10 +84,12 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                     Container(
                       height: 54,
                       width: 54,
-                      decoration: BoxDecoration(shape: .circle,
-                      gradient: LinearGradient(colors: [
-                        
-                      ],)),
+                      decoration: BoxDecoration(
+                        shape: .circle,
+                        gradient: LinearGradient(
+                          colors: [Color.fromRGBO(217, 230, 101, 1)],
+                        ),
+                      ),
                       child: Icon(Icons.tune),
                     ),
                   ],
