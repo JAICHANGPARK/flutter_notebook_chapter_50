@@ -158,10 +158,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                             Text("Start your morning with meditation."),
                             ...List.generate(3, (idx) {
                               return Container(
-                                child: Placeholder(),
                                 height: 140,
+                                child: Placeholder(),
                               );
-                            }).toList(),
+                            }),
                           ],
                         ),
                       ),
