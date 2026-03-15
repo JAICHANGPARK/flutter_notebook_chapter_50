@@ -116,7 +116,16 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           crossAxisAlignment: .start,
                           children: [
                             Text("How are you feeling today?"),
-                            Container(height: 60, child: Placeholder()),
+                            Container(height: 60, child: Row(
+                              spacing: 12,
+                              children: [
+                                Expanded(child: CircleAvatar()),
+                                Expanded(child: CircleAvatar()),
+                                Expanded(child: CircleAvatar()),
+                                Expanded(child: CircleAvatar()),
+                                Expanded(child: CircleAvatar()),
+                              ],
+                            )),
                             Text("This is used to curate your daily plan."),
                           ],
                         ),
