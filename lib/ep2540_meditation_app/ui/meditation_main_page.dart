@@ -164,9 +164,17 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                                 decoration: ShapeDecoration(
                                   shape: RoundedSuperellipseBorder(
                                     borderRadius: .circular(24),
+
+                                  ),
+                                  gradient: LinearGradient(
+                                    colors: [
+                                      Color.fromRGBO(217, 230, 101, 1),
+                                      Color.fromRGBO(227, 220, 165, 1),
+                                      Color.fromRGBO(243, 208, 235, 1),
+                                    ],
                                   ),
                                 ),
-                                child: Placeholder(),
+                               
                               );
                             }),
                           ],
