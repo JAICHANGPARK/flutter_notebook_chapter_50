@@ -87,9 +87,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       decoration: BoxDecoration(
                         shape: .circle,
                         gradient: LinearGradient(
-                          colors: [Color.fromRGBO(217, 230, 101, 1),
-                            Color.fromRGBO(227,220,165, 1),
-                            Color.fromRGBO(243,208  ,235, 1),
+                          colors: [
+                            Color.fromRGBO(217, 230, 101, 1),
+                            Color.fromRGBO(227, 220, 165, 1),
+                            Color.fromRGBO(243, 208, 235, 1),
                           ],
                         ),
                       ),
@@ -115,17 +116,24 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           spacing: 16,
                           crossAxisAlignment: .start,
                           children: [
-                            Text("How are you feeling today?"),
-                            Container(height: 60, child: Row(
-                              spacing: 12,
-                              children: [
-                                Expanded(child: CircleAvatar(radius: 32,)),
-                                Expanded(child: CircleAvatar(radius: 32,)),
-                                Expanded(child: CircleAvatar(radius: 32,)),
-                                Expanded(child: CircleAvatar(radius: 32,)),
-                                Expanded(child: CircleAvatar(radius: 32,)),
-                              ],
-                            )),
+                            Text(
+                              "How are you feeling today?",
+                              style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 20),
+                            ),
+                            Container(
+                              height: 60,
+                              child: Row(
+                                spacing: 12,
+                                children: [
+                                  Expanded(child: CircleAvatar(radius: 32)),
+                                  Expanded(child: CircleAvatar(radius: 32)),
+                                  Expanded(child: CircleAvatar(radius: 32)),
+                                  Expanded(child: CircleAvatar(radius: 32)),
+                                  Expanded(child: CircleAvatar(radius: 32)),
+                                ],
+                              ),
+                            ),
                             Text("This is used to curate your daily plan."),
                           ],
                         ),
