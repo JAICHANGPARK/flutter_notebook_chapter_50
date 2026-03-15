@@ -152,7 +152,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                               "Morning",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                                fontSize: 20,
                               ),
                             ),
                             Text("Start your morning with meditation."),
