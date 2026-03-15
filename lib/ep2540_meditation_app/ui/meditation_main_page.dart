@@ -88,7 +88,8 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                         shape: .circle,
                         gradient: LinearGradient(
                           colors: [Color.fromRGBO(217, 230, 101, 1),
-                            Color.fromRGBO(217, 230, 101, 1)
+                            Color.fromRGBO(227,220,165, 1),
+                            Color.fromRGBO(243,208  ,235, 1),
                           ],
                         ),
                       ),
