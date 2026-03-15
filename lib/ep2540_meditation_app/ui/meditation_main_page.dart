@@ -118,8 +118,10 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                           children: [
                             Text(
                               "How are you feeling today?",
-                              style: TextStyle(fontWeight: FontWeight.bold,
-                              fontSize: 20),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 20,
+                              ),
                             ),
                             Container(
                               height: 60,
@@ -159,6 +161,11 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                             ...List.generate(3, (idx) {
                               return Container(
                                 height: 140,
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(24),
+                                  ),
+                                ),
                                 child: Placeholder(),
                               );
                             }),
