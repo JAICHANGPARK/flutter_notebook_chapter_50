@@ -119,11 +119,11 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                             Container(height: 60, child: Row(
                               spacing: 12,
                               children: [
-                                Expanded(child: CircleAvatar()),
-                                Expanded(child: CircleAvatar()),
-                                Expanded(child: CircleAvatar()),
-                                Expanded(child: CircleAvatar()),
-                                Expanded(child: CircleAvatar()),
+                                Expanded(child: CircleAvatar(radius: 32,)),
+                                Expanded(child: CircleAvatar(radius: 32,)),
+                                Expanded(child: CircleAvatar(radius: 32,)),
+                                Expanded(child: CircleAvatar(radius: 32,)),
+                                Expanded(child: CircleAvatar(radius: 32,)),
                               ],
                             )),
                             Text("This is used to curate your daily plan."),
