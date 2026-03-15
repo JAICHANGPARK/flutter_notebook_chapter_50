@@ -67,7 +67,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 padding: EdgeInsets.only(left: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.grey[200]!,
+                  color: Colors.grey[100]!,
                 ),
                 child: Row(
                   spacing: 12,
@@ -187,6 +187,8 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        elevation: 30,
         child: Row(
           children: [
             Expanded(
