@@ -87,7 +87,9 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                       decoration: BoxDecoration(
                         shape: .circle,
                         gradient: LinearGradient(
-                          colors: [Color.fromRGBO(217, 230, 101, 1)],
+                          colors: [Color.fromRGBO(217, 230, 101, 1),
+                            Color.fromRGBO(217, 230, 101, 1)
+                          ],
                         ),
                       ),
                       child: Icon(Icons.tune),
