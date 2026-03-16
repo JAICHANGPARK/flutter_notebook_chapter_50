@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MeditationSearchBar extends StatefulWidget {
   const MeditationSearchBar({super.key});
 
@@ -11,7 +10,7 @@ class MeditationSearchBar extends StatefulWidget {
 class _MeditationSearchBarState extends State<MeditationSearchBar> {
   @override
   Widget build(BuildContext context) {
-    return     Container(
+    return Container(
       height: 54,
       padding: EdgeInsets.only(left: 16),
       decoration: ShapeDecoration(
@@ -24,10 +23,7 @@ class _MeditationSearchBarState extends State<MeditationSearchBar> {
           Icon(Icons.search),
           Expanded(
             child: TextField(
-              decoration: InputDecoration(
-                border: .none,
-                hintText: "Search",
-              ),
+              decoration: InputDecoration(border: .none, hintText: "Search"),
             ),
           ),
           Container(
