@@ -10,9 +10,11 @@ class MeditationMeditatePage extends StatefulWidget {
 class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
-
-    ],);
+    return SafeArea(
+      child: Column(children: [
+      
+      ],),
+    );
 
   }
 }
