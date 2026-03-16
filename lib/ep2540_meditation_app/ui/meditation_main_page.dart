@@ -18,6 +18,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: IndexedStack(
+        index: pageNum,
         children: [MeditationHomePage(), Container(), MeditationMeditatePage()],
       ),
       bottomNavigationBar: BottomAppBar(
@@ -26,19 +27,26 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
         child: Row(
           children: [
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  gradient: LinearGradient(
-                    colors: [
-                      Color.fromRGBO(217, 230, 101, 1),
-                      Color.fromRGBO(227, 220, 165, 1),
-                      Color.fromRGBO(243, 208, 235, 1),
-                    ],
+              child: GestureDetector(
+                onTap: (){
+                  setState(() {
+                    pageNum = 0;
+                  });
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    gradient: LinearGradient(
+                      colors: [
+                        Color.fromRGBO(217, 230, 101, 1),
+                        Color.fromRGBO(227, 220, 165, 1),
+                        Color.fromRGBO(243, 208, 235, 1),
+                      ],
+                    ),
                   ),
+                  padding: EdgeInsets.all(16),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                 ),
-                padding: EdgeInsets.all(16),
-                child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
               ),
             ),
             Expanded(
