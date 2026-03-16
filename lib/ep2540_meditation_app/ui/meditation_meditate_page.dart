@@ -66,7 +66,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
             children: [
               Text("")
             ],
-          )
+          ),
           Container(
             height: 160,
             child: Placeholder(),
