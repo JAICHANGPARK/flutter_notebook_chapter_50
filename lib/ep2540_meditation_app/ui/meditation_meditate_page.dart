@@ -46,7 +46,9 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                     shape: .circle,
                   ),
                   child: Center(
-                    child: HugeIcon(icon: HugeIcons.strokeRoundedNotification01),
+                    child: HugeIcon(
+                      icon: HugeIcons.strokeRoundedNotification01,
+                    ),
                   ),
                 ),
               ],
