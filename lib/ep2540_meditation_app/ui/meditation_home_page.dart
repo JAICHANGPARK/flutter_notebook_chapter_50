@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'widgets/meditation_search_bar.dart';
+
 class MeditationHomePage extends StatefulWidget {
   const MeditationHomePage({super.key});
 
