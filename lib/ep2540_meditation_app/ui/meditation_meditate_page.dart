@@ -54,7 +54,23 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
               ],
             ),
           ),
-          MeditationSearchBar(),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: MeditationSearchBar(),
+          ),
+          Container(
+            height: 52,
+            child: Placeholder(),
+          ),
+          Row(
+            children: [
+              Text("")
+            ],
+          )
+          Container(
+            height: 160,
+            child: Placeholder(),
+          )
         ],
       ),
     );
