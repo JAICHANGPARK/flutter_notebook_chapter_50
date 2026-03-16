@@ -15,6 +15,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
+        spacing: 20,
         children: [
           Padding(
             padding: const EdgeInsets.all(12.0),
