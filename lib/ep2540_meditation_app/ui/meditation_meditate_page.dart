@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'widgets/meditation_search_bar.dart';
+
 class MeditationMeditatePage extends StatefulWidget {
   const MeditationMeditatePage({super.key});
 
@@ -50,6 +52,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
               ],
             ),
           ),
+          MeditationSearchBar(),
         ],
       ),
     );
