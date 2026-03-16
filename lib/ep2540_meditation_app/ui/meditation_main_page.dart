@@ -12,6 +12,7 @@ class MeditationMainPage extends StatefulWidget {
 }
 
 class _MeditationMainPageState extends State<MeditationMainPage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
