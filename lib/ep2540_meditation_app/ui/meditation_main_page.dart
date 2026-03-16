@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_50/ep2540_meditation_app/ui/meditation_home_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class MeditationMainPage extends StatefulWidget {
@@ -15,6 +16,9 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
       backgroundColor: Colors.white,
       body: IndexedStack(
         children: [
+          MeditationHomePage(),
+          Container(),
+          Medi
 
         ],
       ),
