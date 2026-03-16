@@ -64,13 +64,20 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
           ),
           Row(
             children: [
-              Text("")
+              Text("Find a meditation"),
+              TextButton(onPressed: (){}, child: Text("See all"),)
             ],
           ),
           Container(
             height: 160,
             child: Placeholder(),
-          )
+          ),
+          Row(
+            children: [
+              Text("Mindfulness programs"),
+              TextButton(onPressed: (){}, child: Text("See all"),)
+            ],
+          ),
         ],
       ),
     );
