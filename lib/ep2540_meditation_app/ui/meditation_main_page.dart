@@ -87,13 +87,13 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     shape: .circle,
-                    gradient: LinearGradient(
+                    gradient: pageNum == 2 ? LinearGradient(
                       colors: [
                         Color.fromRGBO(217, 230, 101, 1),
                         Color.fromRGBO(227, 220, 165, 1),
                         Color.fromRGBO(243, 208, 235, 1),
                       ],
-                    ),
+                    ) : null,
                   ),
                   padding: EdgeInsets.all(16),
                   child: HugeIcon(icon: HugeIcons.strokeRoundedBrain),
@@ -110,13 +110,13 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     shape: .circle,
-                    gradient: LinearGradient(
+                    gradient: pageNum == 3 ? LinearGradient(
                       colors: [
                         Color.fromRGBO(217, 230, 101, 1),
                         Color.fromRGBO(227, 220, 165, 1),
                         Color.fromRGBO(243, 208, 235, 1),
                       ],
-                    ),
+                    ) :  null,
                   ),
                   padding: EdgeInsets.all(16),
                   child: HugeIcon(icon: HugeIcons.strokeRoundedMoon),
