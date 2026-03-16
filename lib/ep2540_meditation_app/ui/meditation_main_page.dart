@@ -50,51 +50,73 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
               ),
             ),
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  // gradient: LinearGradient(
-                  //   colors: [
-                  //     Color.fromRGBO(217, 230, 101, 1),
-                  //     Color.fromRGBO(227, 220, 165, 1),
-                  //     Color.fromRGBO(243, 208, 235, 1),
-                  //   ],
-                  // ),
+              child: GestureDetector(
+                onTap: (){
+                  setState(() {
+                    pageNum = 1;
+                  });
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    // gradient: LinearGradient(
+                    //   colors: [
+                    //     Color.fromRGBO(217, 230, 101, 1),
+                    //     Color.fromRGBO(227, 220, 165, 1),
+                    //     Color.fromRGBO(243, 208, 235, 1),
+                    //   ],
+                    // ),
+                  ),
+                  padding: EdgeInsets.all(16),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedBulb),
                 ),
-                padding: EdgeInsets.all(16),
-                child: HugeIcon(icon: HugeIcons.strokeRoundedBulb),
               ),
             ),
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  // gradient: LinearGradient(
-                  //   colors: [
-                  //     Color.fromRGBO(217, 230, 101, 1),
-                  //     Color.fromRGBO(227, 220, 165, 1),
-                  //     Color.fromRGBO(243, 208, 235, 1),
-                  //   ],
-                  // ),
+
+              child: GestureDetector(
+                onTap: (){
+                  setState(() {
+                    pageNum = 2;
+                  });
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    // gradient: LinearGradient(
+                    //   colors: [
+                    //     Color.fromRGBO(217, 230, 101, 1),
+                    //     Color.fromRGBO(227, 220, 165, 1),
+                    //     Color.fromRGBO(243, 208, 235, 1),
+                    //   ],
+                    // ),
+                  ),
+                  padding: EdgeInsets.all(16),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedBrain),
                 ),
-                padding: EdgeInsets.all(16),
-                child: HugeIcon(icon: HugeIcons.strokeRoundedBrain),
               ),
             ),
             Expanded(
-              child: Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  // gradient: LinearGradient(
-                  //   colors: [
-                  //     Color.fromRGBO(217, 230, 101, 1),
-                  //     Color.fromRGBO(227, 220, 165, 1),
-                  //     Color.fromRGBO(243, 208, 235, 1),
-                  //   ],
-                  // ),
+              child: GestureDetector(
+                onTap: (){
+                  setState(() {
+                    pageNum = 3;
+                  });
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    // gradient: LinearGradient(
+                    //   colors: [
+                    //     Color.fromRGBO(217, 230, 101, 1),
+                    //     Color.fromRGBO(227, 220, 165, 1),
+                    //     Color.fromRGBO(243, 208, 235, 1),
+                    //   ],
+                    // ),
+                  ),
+                  padding: EdgeInsets.all(16),
+                  child: HugeIcon(icon: HugeIcons.strokeRoundedMoon),
                 ),
-                padding: EdgeInsets.all(16),
-                child: HugeIcon(icon: HugeIcons.strokeRoundedMoon),
               ),
             ),
             Expanded(
