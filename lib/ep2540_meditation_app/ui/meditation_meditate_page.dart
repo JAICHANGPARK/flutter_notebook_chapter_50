@@ -58,26 +58,23 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: MeditationSearchBar(),
           ),
-          Container(
-            height: 52,
-            child: Placeholder(),
-          ),
+          Container(height: 52, child: Placeholder()),
           Row(
+            mainAxisAlignment: .spaceBetween,
             children: [
               Text("Find a meditation"),
-              TextButton(onPressed: (){}, child: Text("See all"),)
+              TextButton(onPressed: () {}, child: Text("See all")),
             ],
           ),
-          Container(
-            height: 160,
-            child: Placeholder(),
-          ),
+          Container(height: 160, child: Placeholder()),
           Row(
+            mainAxisAlignment: .spaceBetween,
             children: [
               Text("Mindfulness programs"),
-              TextButton(onPressed: (){}, child: Text("See all"),)
+              TextButton(onPressed: () {}, child: Text("See all")),
             ],
           ),
+          Column(children: List.generate(4, (idx) => Placeholder())),
         ],
       ),
     );
