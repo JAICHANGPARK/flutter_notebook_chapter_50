@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_50/ep2540_meditation_app/ui/meditation_home_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'meditation_meditate_page.dart';
+
 class MeditationMainPage extends StatefulWidget {
   const MeditationMainPage({super.key});
 
@@ -15,12 +17,7 @@ class _MeditationMainPageState extends State<MeditationMainPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: IndexedStack(
-        children: [
-          MeditationHomePage(),
-          Container(),
-          Medi
-
-        ],
+        children: [MeditationHomePage(), Container(), MeditationMeditatePage()],
       ),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
