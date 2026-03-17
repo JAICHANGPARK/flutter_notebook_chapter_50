@@ -74,6 +74,12 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                       ),
                     ),
                   ),
+                  child: Center(
+                    child: Text(
+                      "Browse",
+                      style: TextStyle(fontWeight: .bold, fontSize: 16),
+                    ),
+                  ),
                 );
               },
             ),
