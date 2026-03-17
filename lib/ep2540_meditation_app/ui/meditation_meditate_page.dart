@@ -75,7 +75,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                     ),
                   ),
                   margin: EdgeInsets.only(left: 12),
-                  padding: EdgeInsets.symmetric(horizontal: 12, ),
+                  padding: EdgeInsets.symmetric(horizontal: 12),
                   child: Center(
                     child: Text(
                       "Browse",
@@ -86,30 +86,31 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
               },
             ),
           ),
-          Expanded(child: SingleChildScrollView(
-            child: Column(
-              crossAxisAlignment: .start,
-              children: [
-                Row(
-                  mainAxisAlignment: .spaceBetween,
-                  children: [
-                    Text("Find a meditation"),
-                    TextButton(onPressed: () {}, child: Text("See all")),
-                  ],
-                ),
-                Container(height: 160, child: Placeholder()),
-                Row(
-                  mainAxisAlignment: .spaceBetween,
-                  children: [
-                    Text("Mindfulness programs"),
-                    TextButton(onPressed: () {}, child: Text("See all")),
-                  ],
-                ),
-                Column(children: List.generate(4, (idx) => Placeholder())),
-              ],
+          Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: .start,
+                children: [
+                  Row(
+                    mainAxisAlignment: .spaceBetween,
+                    children: [
+                      Text("Find a meditation"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
+                  Container(height: 160, child: Placeholder()),
+                  Row(
+                    mainAxisAlignment: .spaceBetween,
+                    children: [
+                      Text("Mindfulness programs"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
+                  Column(children: List.generate(4, (idx) => Placeholder())),
+                ],
+              ),
             ),
-          ),),
-
+          ),
         ],
       ),
     );
