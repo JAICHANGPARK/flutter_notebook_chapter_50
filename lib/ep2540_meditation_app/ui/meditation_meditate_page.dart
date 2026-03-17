@@ -64,11 +64,19 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
-                return Container(decoration: ShapeDecoration(
-                    shape: StadiumBorder(side: BorderSide(
-                      color: index == 0 ? Colors.lightGreen : Colors
-                          .grey[100]!,))),);
-              },),
+                return Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(
+                      side: BorderSide(
+                        color: index == 0
+                            ? Colors.lightGreen
+                            : Colors.grey[100]!,
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
           ),
           Row(
             mainAxisAlignment: .spaceBetween,
