@@ -92,8 +92,10 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Column(
                   crossAxisAlignment: .start,
+                  spacing: 20,
                   children: [
                     Column(
+                      spacing: 8,
                       children: [
                         Row(
                           mainAxisAlignment: .spaceBetween,
