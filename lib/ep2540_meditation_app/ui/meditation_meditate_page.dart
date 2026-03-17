@@ -114,7 +114,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                           ],
                         ),
                         Container(
-                          height: 160,
+                          height: 170,
                           child: Row(
                             spacing: 12,
                             children: [
