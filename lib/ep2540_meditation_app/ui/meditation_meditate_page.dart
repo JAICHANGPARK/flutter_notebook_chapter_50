@@ -118,7 +118,16 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                           child: Row(
                             spacing: 12,
                             children: [
-                              Expanded(child: Column(spacing: 12)),
+                              Expanded(
+                                child: Column(
+                                  spacing: 12,
+                                  children: [
+                                    Expanded(child: Placeholder()),
+                                    Expanded(child: Placeholder()),
+                                  ],
+                                ),
+                              ),
+
                               Expanded(child: Column(spacing: 12)),
                             ],
                           ),
