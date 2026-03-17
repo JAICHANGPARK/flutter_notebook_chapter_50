@@ -187,6 +187,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(
                           borderRadius: .circular(12),
+                          side: BorderSide(color: Colors.grey[100]!),
                         ),
                       ),
                       child: Column(
