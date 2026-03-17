@@ -94,7 +94,10 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Find a meditation"),
+                      Text(
+                        "Find a meditation",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
