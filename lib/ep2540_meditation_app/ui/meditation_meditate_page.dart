@@ -190,7 +190,9 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                           side: BorderSide(color: Colors.grey[100]!),
                         ),
                       ),
+                      padding: EdgeInsets.all(12),
                       child: Column(
+                        spacing: 12,
                         crossAxisAlignment: .start,
                         children: [
                           Row(
@@ -210,7 +212,18 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                             ],
                           ),
                           Column(
-                            children: List.generate(4, (idx) => Placeholder()),
+                            children: List.generate(
+                              4,
+                              (idx) => Container(
+                                height: 120,
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(12)
+                                  ),
+                                  color: Colors.grey[200]!,
+                                ),
+                              ),
+                            ),
                           ),
                         ],
                       ),
