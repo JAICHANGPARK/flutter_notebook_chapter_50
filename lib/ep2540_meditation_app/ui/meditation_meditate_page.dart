@@ -59,7 +59,17 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: MeditationSearchBar(),
           ),
-          Container(height: 52, child: Placeholder()),
+          Container(
+            height: 52,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                return Container(decoration: ShapeDecoration(
+                    shape: StadiumBorder(side: BorderSide(
+                      color: index == 0 ? Colors.lightGreen : Colors
+                          .grey[100]!,))),);
+              },),
+          ),
           Row(
             mainAxisAlignment: .spaceBetween,
             children: [
