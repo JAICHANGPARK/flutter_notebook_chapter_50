@@ -126,9 +126,9 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                            borderRadius: .circular(16)
+                                            borderRadius: .circular(16),
                                           ),
-                                          
+
                                           color: Colors.pink[100],
                                         ),
                                       ),
@@ -137,7 +137,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(16)
+                                            borderRadius: .circular(16),
                                           ),
 
                                           color: Colors.pink[100],
@@ -156,7 +156,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(16)
+                                            borderRadius: .circular(16),
                                           ),
 
                                           color: Colors.pink[100],
@@ -167,7 +167,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                       child: Container(
                                         decoration: ShapeDecoration(
                                           shape: RoundedSuperellipseBorder(
-                                              borderRadius: .circular(16)
+                                            borderRadius: .circular(16),
                                           ),
 
                                           color: Colors.pink[100],
@@ -183,29 +183,36 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                       ],
                     ),
 
-                    Column(
-                      crossAxisAlignment: .start,
-                      children: [
-                        Row(
-                          mainAxisAlignment: .spaceBetween,
-                          children: [
-                            Text(
-                              "Mindfulness programs",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(12),
+                        ),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Row(
+                            mainAxisAlignment: .spaceBetween,
+                            children: [
+                              Text(
+                                "Mindfulness programs",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),
                               ),
-                            ),
-                            TextButton(
-                              onPressed: () {},
-                              child: Text("See all"),
-                            ),
-                          ],
-                        ),
-                        Column(
-                          children: List.generate(4, (idx) => Placeholder()),
-                        ),
-                      ],
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: List.generate(4, (idx) => Placeholder()),
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
