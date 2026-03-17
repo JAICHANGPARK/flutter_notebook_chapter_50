@@ -102,26 +102,54 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                           children: [
                             Text(
                               "Find a meditation",
-                              style: TextStyle(fontWeight: FontWeight.bold,
-                                fontSize: 18,),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
                             ),
-                            TextButton(onPressed: () {}, child: Text("See all")),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
                           ],
                         ),
-                        Container(height: 160, child: Placeholder()),
+                        Container(
+                          height: 160,
+                          child: Row(
+                            spacing: 12,
+                            children: [
+                              Expanded(child: Column(spacing: 12)),
+                              Expanded(child: Column(spacing: 12)),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
 
-                    Row(
-                      mainAxisAlignment: .spaceBetween,
+                    Column(
+                      crossAxisAlignment: .start,
                       children: [
-                        Text("Mindfulness programs",
-                          style: TextStyle(fontWeight: FontWeight.bold,
-                            fontSize: 18,),),
-                        TextButton(onPressed: () {}, child: Text("See all")),
+                        Row(
+                          mainAxisAlignment: .spaceBetween,
+                          children: [
+                            Text(
+                              "Mindfulness programs",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {},
+                              child: Text("See all"),
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: List.generate(4, (idx) => Placeholder()),
+                        ),
                       ],
                     ),
-                    Column(children: List.generate(4, (idx) => Placeholder())),
                   ],
                 ),
               ),
