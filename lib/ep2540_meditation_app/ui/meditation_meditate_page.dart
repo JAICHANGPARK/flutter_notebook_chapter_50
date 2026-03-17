@@ -74,7 +74,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                       ),
                     ),
                   ),
-                  margin: EdgeInsets.only(right: 12),
+                  margin: EdgeInsets.only(left: 12),
                   padding: EdgeInsets.symmetric(horizontal: 12, ),
                   child: Center(
                     child: Text(
