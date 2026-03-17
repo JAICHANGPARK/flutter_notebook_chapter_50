@@ -122,13 +122,61 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                 child: Column(
                                   spacing: 12,
                                   children: [
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                            borderRadius: .circular(16)
+                                          ),
+                                          
+                                          color: Colors.pink[100],
+                                        ),
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(16)
+                                          ),
+
+                                          color: Colors.pink[100],
+                                        ),
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
 
-                              Expanded(child: Column(spacing: 12)),
+                              Expanded(
+                                child: Column(
+                                  spacing: 12,
+                                  children: [
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(16)
+                                          ),
+
+                                          color: Colors.pink[100],
+                                        ),
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Container(
+                                        decoration: ShapeDecoration(
+                                          shape: RoundedSuperellipseBorder(
+                                              borderRadius: .circular(16)
+                                          ),
+
+                                          color: Colors.pink[100],
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
