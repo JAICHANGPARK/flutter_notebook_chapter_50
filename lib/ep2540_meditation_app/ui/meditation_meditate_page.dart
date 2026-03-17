@@ -88,29 +88,33 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
           ),
           Expanded(
             child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: .start,
-                children: [
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [
-                      Text(
-                        "Find a meditation",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                  Container(height: 160, child: Placeholder()),
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [
-                      Text("Mindfulness programs"),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                  Column(children: List.generate(4, (idx) => Placeholder())),
-                ],
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: .start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [
+                        Text(
+                          "Find a meditation",
+                          style: TextStyle(fontWeight: FontWeight.bold,
+                          fontSize: 18,),
+                        ),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
+                    Container(height: 160, child: Placeholder()),
+                    Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [
+                        Text("Mindfulness programs"),
+                        TextButton(onPressed: () {}, child: Text("See all")),
+                      ],
+                    ),
+                    Column(children: List.generate(4, (idx) => Placeholder())),
+                  ],
+                ),
               ),
             ),
           ),
