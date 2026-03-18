@@ -391,6 +391,9 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                     Container(
                                       height: 120,
                                       width: 150,
+                                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(12),
+                                      )),
                                     )
                                   ],
                                 ),
