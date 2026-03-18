@@ -136,8 +136,12 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               decoration: ShapeDecoration(
                                                 shape:
                                                     RoundedSuperellipseBorder(),
+                                                color: Colors.white,
                                               ),
                                             ),
+                                            Expanded(child: Column(children: [
+                                              
+                                            ],))
                                           ],
                                         ),
                                       ),
