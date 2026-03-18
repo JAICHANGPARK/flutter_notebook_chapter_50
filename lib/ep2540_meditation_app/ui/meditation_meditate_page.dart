@@ -130,6 +130,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           ),
                                           color: Colors.pink[100],
                                         ),
+                                        padding: EdgeInsets.all(6),
                                         child: Row(
                                           spacing: 6,
                                           children: [
@@ -138,7 +139,11 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               width: 62,
                                               decoration: ShapeDecoration(
                                                 shape:
-                                                    RoundedSuperellipseBorder(),
+                                                    RoundedSuperellipseBorder(
+                                                      borderRadius: .circular(
+                                                        12,
+                                                      ),
+                                                    ),
                                                 color: Colors.white,
                                               ),
                                             ),
