@@ -383,6 +383,17 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                   ),
                                   color: Colors.grey[200]!,
                                 ),
+                                child: Row(
+                                  children: [
+                                    Expanded(child: Column(children: [
+
+                                    ],)),
+                                    Container(
+                                      height: 120,
+                                      width: 150,
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
