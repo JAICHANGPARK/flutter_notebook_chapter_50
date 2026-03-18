@@ -146,7 +146,12 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               child: Column(
                                                 crossAxisAlignment: .start,
                                                 children: [
-                                                  Text("Pick for me"),
+                                                  Text(
+                                                    "Pick for me",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                    ),
+                                                  ),
                                                   Text("Shuffle"),
                                                 ],
                                               ),
