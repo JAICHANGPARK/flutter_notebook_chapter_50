@@ -134,6 +134,8 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           spacing: 6,
                                           children: [
                                             Container(
+                                              height: 62,
+                                              width: 62,
                                               decoration: ShapeDecoration(
                                                 shape:
                                                     RoundedSuperellipseBorder(),
