@@ -385,7 +385,10 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                 ),
                                 child: Row(
                                   children: [
-                                    Expanded(child: Column(children: [])),
+                                    Expanded(child: Column(children: [
+                                      Text("Emotional resilence in adversity"),
+                                      Text("Course 16 Sessions"),
+                                    ])),
                                     Container(
                                       height: 120,
                                       width: 150,
