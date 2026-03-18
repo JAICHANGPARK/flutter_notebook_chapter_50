@@ -132,7 +132,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                         ),
                                         padding: EdgeInsets.all(6),
                                         child: Row(
-                                          spacing: 6,
+                                          spacing: 8,
                                           children: [
                                             Container(
                                               height: 62,
@@ -157,6 +157,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                                     "Pick for me",
                                                     style: TextStyle(
                                                       fontWeight: .bold,
+                                                      fontSize: 15,
                                                     ),
                                                   ),
                                                   Text(
