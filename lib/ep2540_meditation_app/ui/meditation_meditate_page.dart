@@ -179,8 +179,48 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           shape: RoundedSuperellipseBorder(
                                             borderRadius: .circular(16),
                                           ),
-
                                           color: Colors.pink[100],
+                                        ),
+                                        padding: EdgeInsets.all(6),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Container(
+                                              height: 62,
+                                              width: 62,
+                                              decoration: ShapeDecoration(
+                                                shape:
+                                                RoundedSuperellipseBorder(
+                                                  borderRadius: .circular(
+                                                    12,
+                                                  ),
+                                                ),
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: .start,
+                                                mainAxisAlignment: .center,
+                                                spacing: 4,
+                                                children: [
+                                                  Text(
+                                                    "Pick for me",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                      fontSize: 15,
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "Shuffle",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ),
@@ -198,8 +238,48 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           shape: RoundedSuperellipseBorder(
                                             borderRadius: .circular(16),
                                           ),
-
                                           color: Colors.pink[100],
+                                        ),
+                                        padding: EdgeInsets.all(6),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Container(
+                                              height: 62,
+                                              width: 62,
+                                              decoration: ShapeDecoration(
+                                                shape:
+                                                RoundedSuperellipseBorder(
+                                                  borderRadius: .circular(
+                                                    12,
+                                                  ),
+                                                ),
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: .start,
+                                                mainAxisAlignment: .center,
+                                                spacing: 4,
+                                                children: [
+                                                  Text(
+                                                    "Pick for me",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                      fontSize: 15,
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "Shuffle",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ),
@@ -209,8 +289,48 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           shape: RoundedSuperellipseBorder(
                                             borderRadius: .circular(16),
                                           ),
-
                                           color: Colors.pink[100],
+                                        ),
+                                        padding: EdgeInsets.all(6),
+                                        child: Row(
+                                          spacing: 8,
+                                          children: [
+                                            Container(
+                                              height: 62,
+                                              width: 62,
+                                              decoration: ShapeDecoration(
+                                                shape:
+                                                RoundedSuperellipseBorder(
+                                                  borderRadius: .circular(
+                                                    12,
+                                                  ),
+                                                ),
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: .start,
+                                                mainAxisAlignment: .center,
+                                                spacing: 4,
+                                                children: [
+                                                  Text(
+                                                    "Pick for me",
+                                                    style: TextStyle(
+                                                      fontWeight: .bold,
+                                                      fontSize: 15,
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "Shuffle",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ),
