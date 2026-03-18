@@ -190,11 +190,11 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               width: 62,
                                               decoration: ShapeDecoration(
                                                 shape:
-                                                RoundedSuperellipseBorder(
-                                                  borderRadius: .circular(
-                                                    12,
-                                                  ),
-                                                ),
+                                                    RoundedSuperellipseBorder(
+                                                      borderRadius: .circular(
+                                                        12,
+                                                      ),
+                                                    ),
                                                 color: Colors.white,
                                               ),
                                             ),
@@ -249,11 +249,11 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               width: 62,
                                               decoration: ShapeDecoration(
                                                 shape:
-                                                RoundedSuperellipseBorder(
-                                                  borderRadius: .circular(
-                                                    12,
-                                                  ),
-                                                ),
+                                                    RoundedSuperellipseBorder(
+                                                      borderRadius: .circular(
+                                                        12,
+                                                      ),
+                                                    ),
                                                 color: Colors.white,
                                               ),
                                             ),
@@ -300,11 +300,11 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               width: 62,
                                               decoration: ShapeDecoration(
                                                 shape:
-                                                RoundedSuperellipseBorder(
-                                                  borderRadius: .circular(
-                                                    12,
-                                                  ),
-                                                ),
+                                                    RoundedSuperellipseBorder(
+                                                      borderRadius: .circular(
+                                                        12,
+                                                      ),
+                                                    ),
                                                 color: Colors.white,
                                               ),
                                             ),
@@ -385,16 +385,17 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                 ),
                                 child: Row(
                                   children: [
-                                    Expanded(child: Column(children: [
-
-                                    ],)),
+                                    Expanded(child: Column(children: [])),
                                     Container(
                                       height: 120,
                                       width: 150,
-                                      decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                                        borderRadius: .circular(12),
-                                      )),
-                                    )
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(
+                                          borderRadius: .circular(12),
+                                        ),
+                                        color: Colors.white,
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
