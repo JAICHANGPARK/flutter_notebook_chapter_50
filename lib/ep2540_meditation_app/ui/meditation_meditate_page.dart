@@ -383,9 +383,12 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                   ),
                                   color: Colors.grey[200]!,
                                 ),
+                                padding: EdgeInsets.only(left: 15,),
                                 child: Row(
                                   children: [
-                                    Expanded(child: Column(children: [
+                                    Expanded(child: Column(
+                                        mainAxisAlignment: .center,
+                                        children: [
                                       Text("Emotional resilence in adversity"),
                                       Text("Course 16 Sessions"),
                                     ])),
