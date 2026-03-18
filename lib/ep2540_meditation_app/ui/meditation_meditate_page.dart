@@ -159,7 +159,12 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                                       fontWeight: .bold,
                                                     ),
                                                   ),
-                                                  Text("Shuffle"),
+                                                  Text(
+                                                    "Shuffle",
+                                                    style: TextStyle(
+                                                      color: Colors.grey,
+                                                    ),
+                                                  ),
                                                 ],
                                               ),
                                             ),
