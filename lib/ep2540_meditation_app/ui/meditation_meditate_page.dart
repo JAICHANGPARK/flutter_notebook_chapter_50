@@ -140,9 +140,15 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                                 color: Colors.white,
                                               ),
                                             ),
-                                            Expanded(child: Column(children: [
-
-                                            ],))
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: .start,
+                                                children: [
+                                                  Text("Pick for me"),
+                                                  Text("Shuffle"),
+                                                ],
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
