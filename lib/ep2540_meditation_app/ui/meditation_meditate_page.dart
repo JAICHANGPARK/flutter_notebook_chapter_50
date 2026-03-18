@@ -395,6 +395,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                         children: [
                                           Text(
                                             "Emotional resilence in adversity",
+                                            style: TextStyle(fontWeight: .bold),
                                           ),
                                           Text("Course 16 Sessions"),
                                         ],
@@ -407,7 +408,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                         shape: RoundedSuperellipseBorder(
                                           borderRadius: .circular(12),
                                         ),
-                                        color: Colors.white,
+                                        color: Colors.lightGreenAccent,
                                       ),
                                     ),
                                   ],
