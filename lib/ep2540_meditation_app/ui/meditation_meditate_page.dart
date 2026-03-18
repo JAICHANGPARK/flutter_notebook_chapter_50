@@ -131,6 +131,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                           color: Colors.pink[100],
                                         ),
                                         child: Row(
+                                          spacing: 6,
                                           children: [
                                             Container(
                                               decoration: ShapeDecoration(
@@ -140,7 +141,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                               ),
                                             ),
                                             Expanded(child: Column(children: [
-                                              
+
                                             ],))
                                           ],
                                         ),
