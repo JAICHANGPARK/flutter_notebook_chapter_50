@@ -219,7 +219,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                 margin: EdgeInsets.only(bottom: 12),
                                 decoration: ShapeDecoration(
                                   shape: RoundedSuperellipseBorder(
-                                    borderRadius: .circular(12)
+                                    borderRadius: .circular(12),
                                   ),
                                   color: Colors.grey[200]!,
                                 ),
