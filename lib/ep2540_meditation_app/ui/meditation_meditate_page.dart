@@ -385,6 +385,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                 ),
                                 padding: EdgeInsets.only(left: 15),
                                 child: Row(
+                                  spacing: 16,
                                   children: [
                                     Expanded(
                                       child: Column(
@@ -401,7 +402,7 @@ class _MeditationMeditatePageState extends State<MeditationMeditatePage> {
                                     ),
                                     Container(
                                       height: 120,
-                                      width: 150,
+                                      width: 130,
                                       decoration: ShapeDecoration(
                                         shape: RoundedSuperellipseBorder(
                                           borderRadius: .circular(12),
