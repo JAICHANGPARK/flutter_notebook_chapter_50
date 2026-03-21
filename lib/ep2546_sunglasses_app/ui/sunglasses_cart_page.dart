@@ -59,7 +59,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               ),
               Expanded(child: Placeholder()),
               Container(
-                height: 42,
+                height: 64,
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.indigo,
