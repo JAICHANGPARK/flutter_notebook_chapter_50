@@ -62,10 +62,15 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 height: 64,
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.indigo,
+                  color: Colors.deepPurpleAccent,
                 ),
 
-                child: Center(child: Text("Add to Bag",)),
+                child: Center(
+                  child: Text(
+                    "Add to Bag",
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
               ),
             ],
           ),
