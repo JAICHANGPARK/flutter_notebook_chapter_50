@@ -15,6 +15,14 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
       body: SafeArea(
         child: Column(
           children: [
+            Row(
+              children: [
+                Container(
+                  padding: EdgeInsets.all(8),
+                  child: Icon(Icons.arrow_back, size: 32,),
+                )
+              ],
+            )
         
           ],
         ),
