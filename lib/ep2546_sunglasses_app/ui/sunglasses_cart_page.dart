@@ -40,6 +40,20 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                   ),
                 ],
               ),
+              Row(
+                children: [
+                  Text("CART"),
+                  Container(
+                    child: Row(
+                      children: [
+                        Icon(Icons.delete_outline),
+                        Text("Delete all"),
+                      ],
+                    ),
+                    decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.red),
+                  )
+                ],
+              )
             ],
           ),
         ),
