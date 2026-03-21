@@ -12,10 +12,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+        
+          ],
+        ),
       ),
     );
   }
