@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SunglassesCartPage extends StatefulWidget {
   const SunglassesCartPage({super.key});
 
@@ -20,14 +19,13 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 Container(
                   decoration: BoxDecoration(
                     shape: .circle,
-                    border: .all(color: Colors.grey[100]!),
+                    border: .all(color: Colors.grey[300]!),
                   ),
                   padding: EdgeInsets.all(8),
-                  child: Icon(Icons.arrow_back, size: 32,),
-                )
+                  child: Icon(Icons.arrow_back, size: 32),
+                ),
               ],
-            )
-        
+            ),
           ],
         ),
       ),
