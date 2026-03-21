@@ -12,32 +12,36 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              mainAxisAlignment: .spaceBetween,
-              children: [
-                Container(
-                  decoration: BoxDecoration(
-                    shape: .circle,
-                    border: .all(color: Colors.grey[300]!),
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                mainAxisAlignment: .spaceBetween,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(color: Colors.grey[300]!),
+                    ),
+                    padding: EdgeInsets.all(12),
+                    child: Icon(Icons.arrow_back, size: 32),
                   ),
-                  padding: EdgeInsets.all(12),
-                  child: Icon(Icons.arrow_back, size: 32),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    shape: .circle,
-                    border: .all(color: Colors.grey[300]!),
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(color: Colors.grey[300]!),
+                    ),
+                    padding: EdgeInsets.all(12),
+                    child: Icon(Icons.more_horiz, size: 32),
                   ),
-                  padding: EdgeInsets.all(12),
-                  child: Icon(Icons.more_horiz, size: 32),
-                ),
-              ],
-            ),
-          ],
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
