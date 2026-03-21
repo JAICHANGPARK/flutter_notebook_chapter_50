@@ -18,6 +18,10 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
             Row(
               children: [
                 Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    border: .all(color: Colors.grey[100]!),
+                  ),
                   padding: EdgeInsets.all(8),
                   child: Icon(Icons.arrow_back, size: 32,),
                 )
