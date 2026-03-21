@@ -15,7 +15,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
 
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16),
+          padding: EdgeInsets.symmetric(horizontal: 12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
