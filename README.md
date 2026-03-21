@@ -6,7 +6,7 @@
 - Habibur Rahman
 - https://dribbble.com/shots/27200146-Stylish-Sunglasses-eCommerce-UI
 
-<img src="https://cdn.dribbble.com/userupload/47027262/file/81a32d89282e3143a2eaeb0671222f64.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/47118367/file/80e1e01b8efb73a1ea538688f01fec61.png?resize=1905x1429&vertical=center" alt=""/>
 
 
 ## EP2540-2545
