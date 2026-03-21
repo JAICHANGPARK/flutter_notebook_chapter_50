@@ -23,7 +23,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     shape: .circle,
                     border: .all(color: Colors.grey[300]!),
                   ),
-                  padding: EdgeInsets.all(8),
+                  padding: EdgeInsets.all(12),
                   child: Icon(Icons.arrow_back, size: 32),
                 ),
               ],
