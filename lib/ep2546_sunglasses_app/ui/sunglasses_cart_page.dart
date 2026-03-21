@@ -50,17 +50,23 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                         Text("Delete all"),
                       ],
                     ),
-                    decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.red),
-                  )
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.red,
+                    ),
+                  ),
                 ],
               ),
               Expanded(child: Placeholder()),
               Container(
-                decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.indigo),
-                child: Center(
-                  child: Text("Add to Bag"),
+                height: 42,
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.indigo,
                 ),
-              )
+
+                child: Center(child: Text("Add to Bag",)),
+              ),
             ],
           ),
         ),
