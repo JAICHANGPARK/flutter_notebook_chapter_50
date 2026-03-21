@@ -53,6 +53,10 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.red),
                   )
                 ],
+              ),
+              Expanded(child: Placeholder()),
+              Container(
+                decoration: ShapeDecoration(shape: StadiumBorder()),
               )
             ],
           ),
