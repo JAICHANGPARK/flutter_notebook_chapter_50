@@ -58,6 +58,9 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 ],
               ),
               ListView.builder(
+                shrinkWrap: true,
+                itemCount: 2
+                ,
                 itemBuilder: (context, index) {
                   return Placeholder();
                 },
