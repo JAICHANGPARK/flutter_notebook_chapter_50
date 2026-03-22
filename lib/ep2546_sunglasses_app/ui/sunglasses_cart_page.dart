@@ -58,7 +58,19 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 ],
               ),
 
-              Column(children: []),
+              Column(
+                children: [
+                  Container(
+                    height: 180,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                    child: Placeholder(),
+                  ),
+                ],
+              ),
               Divider(),
               Row(
                 mainAxisAlignment: .spaceBetween,
