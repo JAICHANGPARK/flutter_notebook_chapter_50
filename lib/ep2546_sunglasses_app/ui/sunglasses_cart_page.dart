@@ -57,7 +57,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                   ),
                 ],
               ),
-              Expanded(child: Placeholder()),
+              Expanded(child: SingleChildScrollView()),
               Container(
                 height: 58,
                 decoration: ShapeDecoration(
