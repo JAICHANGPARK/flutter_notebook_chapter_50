@@ -17,6 +17,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 12),
           child: Column(
+            spacing: 20,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
