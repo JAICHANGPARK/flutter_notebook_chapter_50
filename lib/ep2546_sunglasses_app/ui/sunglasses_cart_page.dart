@@ -57,6 +57,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                   ),
                 ],
               ),
+              
               ListView.builder(
                 shrinkWrap: true,
                 itemCount: 2
@@ -67,6 +68,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               ),
               Divider(),
               Row(
+                mainAxisAlignment: .spaceBetween,
                 children: [
                   Text("Subtotal:"),
                   Text("\$2,100"),
