@@ -64,14 +64,26 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               ),
 
               Column(
+                spacing: 12,
                 children: [
                   Container(
                     height: 200,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
-                        side: BorderSide(color: Colors.grey[300]!,
+                        side: BorderSide(color: Colors.grey[400]!,
                         width: 1.2),
+                      ),
+                    ),
+                    // child: Placeholder(),
+                  ),
+                  Container(
+                    height: 200,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(24),
+                        side: BorderSide(color: Colors.grey[400]!,
+                            width: 1.2),
                       ),
                     ),
                     // child: Placeholder(),
@@ -83,6 +95,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [Text("Subtotal:"), Text("\$2,100")],
               ),
+              Spacer(),
               Container(
                 height: 58,
                 decoration: ShapeDecoration(
