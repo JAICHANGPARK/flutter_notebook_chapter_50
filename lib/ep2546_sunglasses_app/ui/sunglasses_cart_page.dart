@@ -66,6 +66,11 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 },
               ),
               Divider(),
+              Row(
+                children: [
+                  Text("Subtotal:"),
+                ],
+              ),
               Container(
                 height: 58,
                 decoration: ShapeDecoration(
