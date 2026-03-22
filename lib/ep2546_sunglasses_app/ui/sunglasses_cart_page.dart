@@ -48,7 +48,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                   fontSize: 24,
                   )),
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 14, vertical: 7),
+                    padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.red[50],
@@ -69,6 +69,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     height: 200,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
+                        borderRadius: .circular(24),
                         side: BorderSide(color: Colors.grey),
                       ),
                     ),
