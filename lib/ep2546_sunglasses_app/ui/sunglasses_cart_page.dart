@@ -41,6 +41,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 ],
               ),
               Row(
+                mainAxisAlignment: .spaceBetween,
                 children: [
                   Text("CART"),
                   Container(
@@ -61,13 +62,13 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Column(
                 children: [
                   Container(
-                    height: 180,
+                    height: 200,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         side: BorderSide(color: Colors.grey),
                       ),
                     ),
-                    child: Placeholder(),
+                    // child: Placeholder(),
                   ),
                 ],
               ),
