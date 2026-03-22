@@ -51,7 +51,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     padding: EdgeInsets.symmetric(horizontal: 14, vertical: 7),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.red,
+                      color: Colors.red[50],
                     ),
                     child: Row(
                       children: [
