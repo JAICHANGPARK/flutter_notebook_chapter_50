@@ -57,22 +57,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                   ),
                 ],
               ),
-              
-              ListView.builder(
-                shrinkWrap: true,
-                itemCount: 2
-                ,
-                itemBuilder: (context, index) {
-                  return Placeholder();
-                },
-              ),
+
+              Column(children: []),
               Divider(),
               Row(
                 mainAxisAlignment: .spaceBetween,
-                children: [
-                  Text("Subtotal:"),
-                  Text("\$2,100"),
-                ],
+                children: [Text("Subtotal:"), Text("\$2,100")],
               ),
               Container(
                 height: 58,
