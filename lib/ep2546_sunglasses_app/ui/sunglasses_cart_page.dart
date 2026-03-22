@@ -56,8 +56,8 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     ),
                     child: Row(
                       children: [
-                        Icon(Icons.delete_outline),
-                        Text("Delete all"),
+                        Icon(Icons.delete_outline, color: Colors.red),
+                        Text("Delete all", style: TextStyle(color: Colors.red)),
                       ],
                     ),
                   ),
@@ -94,8 +94,10 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [
                   Text("Subtotal:", style: TextStyle(fontSize: 24)),
-                  Text("\$2,100", style: TextStyle(fontWeight: .bold,
-                  fontSize: 24)),
+                  Text(
+                    "\$2,100",
+                    style: TextStyle(fontWeight: .bold, fontSize: 24),
+                  ),
                 ],
               ),
               Spacer(),
