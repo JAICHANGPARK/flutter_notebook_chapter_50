@@ -93,7 +93,9 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Divider(),
               Row(
                 mainAxisAlignment: .spaceBetween,
-                children: [Text("Subtotal:"), Text("\$2,100")],
+                children: [Text("Subtotal:",style: TextStyle(
+                  fontSize: 24
+                ),), Text("\$2,100")],
               ),
               Spacer(),
               Container(
