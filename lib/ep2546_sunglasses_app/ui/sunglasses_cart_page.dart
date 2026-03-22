@@ -70,7 +70,8 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
-                        side: BorderSide(color: Colors.grey),
+                        side: BorderSide(color: Colors.grey[600]!,
+                        width: 1.2),
                       ),
                     ),
                     // child: Placeholder(),
