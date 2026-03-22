@@ -44,7 +44,9 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
-                  Text("CART"),
+                  Text("CART", style: TextStyle(fontWeight: .bold,
+                  fontSize: 24,
+                  )),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 14, vertical: 7),
                     decoration: ShapeDecoration(
