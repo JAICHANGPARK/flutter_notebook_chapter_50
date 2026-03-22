@@ -46,6 +46,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 children: [
                   Text("CART"),
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 14, vertical: 7),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.red,
