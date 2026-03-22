@@ -44,15 +44,15 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 children: [
                   Text("CART"),
                   Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.red,
+                    ),
                     child: Row(
                       children: [
                         Icon(Icons.delete_outline),
                         Text("Delete all"),
                       ],
-                    ),
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Colors.red,
                     ),
                   ),
                 ],
