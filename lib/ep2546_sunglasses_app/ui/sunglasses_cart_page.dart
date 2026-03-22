@@ -44,9 +44,10 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
-                  Text("CART", style: TextStyle(fontWeight: .bold,
-                  fontSize: 24,
-                  )),
+                  Text(
+                    "CART",
+                    style: TextStyle(fontWeight: .bold, fontSize: 24),
+                  ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                     decoration: ShapeDecoration(
@@ -71,8 +72,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
-                        side: BorderSide(color: Colors.grey[400]!,
-                        width: 1.2),
+                        side: BorderSide(color: Colors.grey[400]!, width: 1.2),
                       ),
                     ),
                     // child: Placeholder(),
@@ -82,8 +82,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
-                        side: BorderSide(color: Colors.grey[400]!,
-                            width: 1.2),
+                        side: BorderSide(color: Colors.grey[400]!, width: 1.2),
                       ),
                     ),
                     // child: Placeholder(),
@@ -93,9 +92,11 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Divider(),
               Row(
                 mainAxisAlignment: .spaceBetween,
-                children: [Text("Subtotal:",style: TextStyle(
-                  fontSize: 24
-                ),), Text("\$2,100")],
+                children: [
+                  Text("Subtotal:", style: TextStyle(fontSize: 24)),
+                  Text("\$2,100", style: TextStyle(fontWeight: .bold,
+                  fontSize: 24)),
+                ],
               ),
               Spacer(),
               Container(
