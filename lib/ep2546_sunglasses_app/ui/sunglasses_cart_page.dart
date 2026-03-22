@@ -69,6 +69,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
               Row(
                 children: [
                   Text("Subtotal:"),
+                  Text("\$2,100"),
                 ],
               ),
               Container(
