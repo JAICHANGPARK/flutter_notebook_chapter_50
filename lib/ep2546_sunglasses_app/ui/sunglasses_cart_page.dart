@@ -90,10 +90,18 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                         Container(
                           width: 140,
                           decoration: ShapeDecoration(
-                            shape: RoundedSuperellipseBorder(),
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(24),
+                            ),
                             color: Color.fromRGBO(242, 240, 254, 1),
                           ),
-                          child: Placeholder(),
+                          // child: Placeholder(),
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: .start,
+                            children: [],
+                          ),
                         ),
                       ],
                     ),
@@ -126,7 +134,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 height: 58,
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.deepPurpleAccent,
+                  color: Color.fromRGBO(116, 98, 236, 1),
                 ),
                 child: Center(
                   child: Text(
