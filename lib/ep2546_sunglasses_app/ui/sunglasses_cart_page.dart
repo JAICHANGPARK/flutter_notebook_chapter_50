@@ -61,7 +61,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                           Icons.delete_outline,
                           color: Color.fromRGBO(132, 23, 55, 1),
                         ),
-                        Text("Delete all", style: TextStyle(color: Color.fromRGBO(132, 23, 55, 1),)),
+                        Text(
+                          "Delete all",
+                          style: TextStyle(
+                            color: Color.fromRGBO(132, 23, 55, 1),
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -72,7 +77,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                 spacing: 12,
                 children: [
                   Container(
-                    height: 200,
+                    height: 230,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
@@ -84,8 +89,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                       children: [
                         Container(
                           width: 140,
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(),
+                            color: Color.fromRGBO(242, 240, 254, 1),
+                          ),
                           child: Placeholder(),
-                        )
+                        ),
                       ],
                     ),
                   ),
