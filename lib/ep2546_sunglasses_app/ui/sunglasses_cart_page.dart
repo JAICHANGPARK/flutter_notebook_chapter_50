@@ -102,7 +102,15 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                             crossAxisAlignment: .start,
                             children: [
                               Text("Dream Walker "),
-                              Text('Color: ')
+                              Row(
+                                children: [
+                                  Text('Color: '),
+                                  CircleAvatar(
+                                    radius: 12,
+                                    backgroundColor: Colors.black,
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                         ),
