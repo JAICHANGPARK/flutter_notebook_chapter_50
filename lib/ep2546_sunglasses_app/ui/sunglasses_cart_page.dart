@@ -79,7 +79,15 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                         side: BorderSide(color: Colors.grey[400]!, width: 1.2),
                       ),
                     ),
-                    // child: Placeholder(),
+                    padding: EdgeInsets.all(12),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 140,
+                          child: Placeholder(),
+                        )
+                      ],
+                    ),
                   ),
                   Container(
                     height: 200,
