@@ -112,11 +112,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                 ],
                               ),
                               Row(children: [Text("Gander: "), Text("Male")]),
+                              Spacer(),
                               Row(
                                 children: [
                                   Text("\$300"),
                                   Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                                     decoration: BoxDecoration(
                                       borderRadius: .circular(16),
                                       color: Colors.grey,
