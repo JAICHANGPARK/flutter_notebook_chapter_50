@@ -55,12 +55,13 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                       color: Color.fromRGBO(255, 242, 242, 1),
                     ),
                     child: Row(
+                      spacing: 5,
                       children: [
                         Icon(
                           Icons.delete_outline,
                           color: Color.fromRGBO(132, 23, 55, 1),
                         ),
-                        Text("Delete all", style: TextStyle(color: Colors.red)),
+                        Text("Delete all", style: TextStyle(color: Color.fromRGBO(132, 23, 55, 1),)),
                       ],
                     ),
                   ),
