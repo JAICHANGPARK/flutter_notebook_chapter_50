@@ -100,7 +100,10 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: .start,
-                            children: [],
+                            children: [
+                              Text("Dream Walker "),
+                              Text('Color: ')
+                            ],
                           ),
                         ),
                       ],
