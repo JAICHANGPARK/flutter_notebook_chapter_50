@@ -111,12 +111,26 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                   ),
                                 ],
                               ),
+                              Row(children: [Text("Gander: "), Text("Male")]),
                               Row(
                                 children: [
-                                  Text("Gander: "),
-                                  Text("Male"),
+                                  Text("\$300"),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: .circular(16),
+                                      color: Colors.grey,
+                                    ),
+                                    child: Text("5 +"),
+                                  ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: .circular(16),
+                                      color: Color.fromRGBO(255, 242, 242, 1),
+                                    ),
+                                    child: Text("5 +"),
+                                  ),
                                 ],
-                              )
+                              ),
                             ],
                           ),
                         ),
