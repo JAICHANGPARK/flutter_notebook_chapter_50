@@ -98,43 +98,47 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                           // child: Placeholder(),
                         ),
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: .start,
-                            children: [
-                              Text("Dream Walker "),
-                              Row(
-                                children: [
-                                  Text('Color: '),
-                                  CircleAvatar(
-                                    radius: 12,
-                                    backgroundColor: Colors.black,
-                                  ),
-                                ],
-                              ),
-                              Row(children: [Text("Gander: "), Text("Male")]),
-                              Spacer(),
-                              Row(
-                                children: [
-                                  Text("\$300"),
-                                  Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
-                                    decoration: BoxDecoration(
-                                      borderRadius: .circular(16),
-                                      color: Colors.grey,
+                          child: Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              children: [
+                                Text("Dream Walker "),
+                                Row(
+                                  children: [
+                                    Text('Color: '),
+                                    CircleAvatar(
+                                      radius: 12,
+                                      backgroundColor: Colors.black,
                                     ),
-                                    child: Text("5 +"),
-                                  ),
-                                  Container(
-                                    padding: EdgeInsets.all(12),
-                                    decoration: BoxDecoration(
-                                      borderRadius: .circular(16),
-                                      color: Color.fromRGBO(255, 242, 242, 1),
+                                  ],
+                                ),
+                                Row(children: [Text("Gander: "), Text("Male")]),
+                                Spacer(),
+                                Row(
+                                  children: [
+                                    Text("\$300"),
+                                    Spacer(),
+                                    Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                      decoration: BoxDecoration(
+                                        borderRadius: .circular(16),
+                                        color: Colors.grey,
+                                      ),
+                                      child: Text("5 +"),
                                     ),
-                                    child: Icon(Icons.delete_outline),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                    Container(
+                                      padding: EdgeInsets.all(12),
+                                      decoration: BoxDecoration(
+                                        borderRadius: .circular(16),
+                                        color: Color.fromRGBO(255, 242, 242, 1),
+                                      ),
+                                      child: Icon(Icons.delete_outline),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
