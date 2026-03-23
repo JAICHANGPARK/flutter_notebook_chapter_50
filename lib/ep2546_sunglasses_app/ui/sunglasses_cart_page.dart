@@ -150,14 +150,77 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     ),
                   ),
                   Container(
-                    height: 200,
+                    height: 230,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: .circular(24),
                         side: BorderSide(color: Colors.grey[400]!, width: 1.2),
                       ),
                     ),
-                    // child: Placeholder(),
+                    padding: EdgeInsets.all(12),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 140,
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(24),
+                            ),
+                            color: Color.fromRGBO(242, 240, 254, 1),
+                          ),
+                          // child: Placeholder(),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(16.0),
+                            child: Column(
+                              spacing: 8,
+                              crossAxisAlignment: .start,
+                              children: [
+                                Text("Dream Walker ",style: TextStyle(
+                                  // fontWeight: .bold,
+                                    fontSize: 24
+                                ),),
+                                Row(
+                                  children: [
+                                    Text('Color: '),
+                                    CircleAvatar(
+                                      radius: 12,
+                                      backgroundColor: Colors.black,
+                                    ),
+                                  ],
+                                ),
+                                Row(children: [Text("Gander: "), Text("Male")]),
+                                Spacer(),
+                                Row(
+                                  spacing: 12,
+                                  children: [
+                                    Text("\$300"),
+                                    Spacer(),
+                                    Container(
+                                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                                      decoration: BoxDecoration(
+                                        borderRadius: .circular(16),
+                                        color: Colors.grey,
+                                      ),
+                                      child: Text("5 +"),
+                                    ),
+                                    Container(
+                                      padding: EdgeInsets.all(12),
+                                      decoration: BoxDecoration(
+                                        borderRadius: .circular(16),
+                                        color: Color.fromRGBO(255, 242, 242, 1),
+                                      ),
+                                      child: Icon(Icons.delete_outline),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
