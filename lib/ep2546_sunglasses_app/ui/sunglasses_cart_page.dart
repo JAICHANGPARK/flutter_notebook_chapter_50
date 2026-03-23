@@ -127,7 +127,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                       borderRadius: .circular(16),
                                       color: Color.fromRGBO(255, 242, 242, 1),
                                     ),
-                                    child: Text("5 +"),
+                                    child: Icon(Icons.delete_outline),
                                   ),
                                 ],
                               ),
