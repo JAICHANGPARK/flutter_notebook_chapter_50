@@ -101,9 +101,13 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                           child: Padding(
                             padding: const EdgeInsets.all(16.0),
                             child: Column(
+                              spacing: 8,
                               crossAxisAlignment: .start,
                               children: [
-                                Text("Dream Walker "),
+                                Text("Dream Walker ",style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 24
+                                ),),
                                 Row(
                                   children: [
                                     Text('Color: '),
@@ -116,6 +120,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                 Row(children: [Text("Gander: "), Text("Male")]),
                                 Spacer(),
                                 Row(
+                                  spacing: 12,
                                   children: [
                                     Text("\$300"),
                                     Spacer(),
