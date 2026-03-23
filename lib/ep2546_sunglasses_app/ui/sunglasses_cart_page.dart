@@ -116,6 +116,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                 children: [
                                   Text("\$300"),
                                   Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                                     decoration: BoxDecoration(
                                       borderRadius: .circular(16),
                                       color: Colors.grey,
@@ -123,6 +124,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                     child: Text("5 +"),
                                   ),
                                   Container(
+                                    padding: EdgeInsets.all(12),
                                     decoration: BoxDecoration(
                                       borderRadius: .circular(16),
                                       color: Color.fromRGBO(255, 242, 242, 1),
