@@ -105,7 +105,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                               crossAxisAlignment: .start,
                               children: [
                                 Text("Dream Walker ",style: TextStyle(
-                                  fontWeight: .bold,
+                                  // fontWeight: .bold,
                                   fontSize: 24
                                 ),),
                                 Row(
