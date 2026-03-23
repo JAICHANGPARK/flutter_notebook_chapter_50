@@ -52,7 +52,7 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                     padding: EdgeInsets.symmetric(horizontal: 14, vertical: 8),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.red[50],
+                      color: Color.fromRGBO(255, 242, 242, 1),
                     ),
                     child: Row(
                       children: [
