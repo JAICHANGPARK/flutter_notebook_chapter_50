@@ -111,6 +111,12 @@ class _SunglassesCartPageState extends State<SunglassesCartPage> {
                                   ),
                                 ],
                               ),
+                              Row(
+                                children: [
+                                  Text("Gander: "),
+                                  Text("Male"),
+                                ],
+                              )
                             ],
                           ),
                         ),
