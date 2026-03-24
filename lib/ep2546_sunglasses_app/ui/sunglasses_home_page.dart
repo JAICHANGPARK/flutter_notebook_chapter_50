@@ -12,20 +12,23 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        children: [
-          Row(
-            children: [
-              Text("GLASSED"),
-              Container(
-                decoration: BoxDecoration(
-                  shape: .circle,
-                  border: .all(color: Colors.grey[400]!),
+      body: SafeArea(
+        
+        child: Column(
+          children: [
+            Row(
+              children: [
+                Text("GLASSED"),
+                Container(
+                  decoration: BoxDecoration(
+                    shape: .circle,
+                    border: .all(color: Colors.grey[400]!),
+                  ),
                 ),
-              ),
-            ],
-          ),
-        ],
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
