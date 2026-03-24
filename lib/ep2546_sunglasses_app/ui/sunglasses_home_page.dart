@@ -36,37 +36,39 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 ],
               ),
             ),
-            Container(height: 180,
-                margin: .symmetric(horizontal: 16),
-                child: Placeholder()),
-            Container(height: 52,
-                margin: .only(left: 16),
-                child: Placeholder()),
+            Container(
+              height: 180,
+              margin: .symmetric(horizontal: 16),
+              child: Placeholder(),
+            ),
+            Container(
+              height: 52,
+              margin: .only(left: 16),
+              child: Placeholder(),
+            ),
             Container(
               margin: .only(left: 16),
               height: 240,
               child: ListView.builder(
-                  scrollDirection: .horizontal,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: 160,
-                      child: Placeholder(),
-                    );
-                  }),
-
+                scrollDirection: .horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: .only(right: 16),
+                    width: 160,
+                    child: Placeholder(),
+                  );
+                },
+              ),
             ),
             Container(
               height: 240,
               margin: .only(left: 16),
               child: ListView.builder(
-                  scrollDirection: .horizontal,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: 160,
-                      child: Placeholder(),
-                    );
-                  }),
-
+                scrollDirection: .horizontal,
+                itemBuilder: (context, index) {
+                  return Container(width: 160, child: Placeholder());
+                },
+              ),
             ),
           ],
         ),
