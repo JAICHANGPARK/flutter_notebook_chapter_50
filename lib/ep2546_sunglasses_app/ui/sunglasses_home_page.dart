@@ -44,6 +44,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                   itemBuilder: (context, index) {
                     return Container(
                       width: 160,
+                      child: Placeholder(),
                     );
                   }),
             ),
