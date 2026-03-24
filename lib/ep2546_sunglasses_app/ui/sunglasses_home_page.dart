@@ -47,6 +47,19 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                       child: Placeholder(),
                     );
                   }),
+
+            ),
+            Container(
+              height: 240,
+              child: ListView.builder(
+                  scrollDirection: .horizontal,
+                  itemBuilder: (context, index) {
+                    return Container(
+                      width: 160,
+                      child: Placeholder(),
+                    );
+                  }),
+
             ),
           ],
         ),
