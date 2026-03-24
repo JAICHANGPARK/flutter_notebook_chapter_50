@@ -17,15 +17,17 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
           children: [
             Row(
               children: [
-                Text("GLASSED"),
+                Text(
+                  "GLASSED",
+                  style: TextStyle(fontSize: 24, fontWeight: .bold),
+                ),
                 Container(
                   decoration: BoxDecoration(
                     shape: .circle,
                     border: .all(color: Colors.grey[400]!),
-
                   ),
                   padding: EdgeInsets.all(12),
-                  child: Icon(Icons.search,size: 24,),
+                  child: Icon(Icons.search, size: 24),
                 ),
               ],
             ),
