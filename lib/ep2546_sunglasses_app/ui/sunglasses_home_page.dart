@@ -40,7 +40,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 margin: .symmetric(horizontal: 16),
                 child: Placeholder()),
             Container(height: 52,
-                
+                margin: .only(left: 16),
                 child: Placeholder()),
             Container(
               height: 240,
