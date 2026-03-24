@@ -43,6 +43,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 margin: .only(left: 16),
                 child: Placeholder()),
             Container(
+              margin: .only(left: 16),
               height: 240,
               child: ListView.builder(
                   scrollDirection: .horizontal,
