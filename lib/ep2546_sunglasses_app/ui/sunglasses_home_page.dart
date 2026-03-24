@@ -14,7 +14,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          spacing: 16,
+          spacing: 20,
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
