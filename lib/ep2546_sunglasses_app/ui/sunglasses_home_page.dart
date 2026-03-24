@@ -36,7 +36,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               ),
             ),
             Container(
-              height: 160,
+              height: 180,
               child: Placeholder(),
             )
           ],
