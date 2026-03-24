@@ -15,21 +15,25 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                Text(
-                  "GLASSED",
-                  style: TextStyle(fontSize: 24, fontWeight: .bold),
-                ),
-                Container(
-                  decoration: BoxDecoration(
-                    shape: .circle,
-                    border: .all(color: Colors.grey[400]!),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                mainAxisAlignment: .spaceBetween,
+                children: [
+                  Text(
+                    "GLASSED",
+                    style: TextStyle(fontSize: 24, fontWeight: .bold),
                   ),
-                  padding: EdgeInsets.all(12),
-                  child: Icon(Icons.search, size: 24),
-                ),
-              ],
+                  Container(
+                    decoration: BoxDecoration(
+                      shape: .circle,
+                      border: .all(color: Colors.grey[400]!),
+                    ),
+                    padding: EdgeInsets.all(12),
+                    child: Icon(Icons.search, size: 24),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
