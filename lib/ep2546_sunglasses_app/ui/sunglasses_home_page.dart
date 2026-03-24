@@ -14,6 +14,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
+          spacing: 16,
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
@@ -35,8 +36,12 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 ],
               ),
             ),
-            Container(height: 180, child: Placeholder()),
-            Container(height: 52, child: Placeholder()),
+            Container(height: 180,
+                margin: .symmetric(horizontal: 16),
+                child: Placeholder()),
+            Container(height: 52,
+                
+                child: Placeholder()),
             Container(
               height: 240,
               child: ListView.builder(
