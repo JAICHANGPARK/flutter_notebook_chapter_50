@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class SunglassesHomePage extends StatefulWidget {
   const SunglassesHomePage({super.key});
 
@@ -15,10 +14,19 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          
+          Row(
+            children: [
+              Text("GLASSED"),
+              Container(
+                decoration: BoxDecoration(
+                  shape: .circle,
+                  border: .all(color: Colors.grey[400]!),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
-
     );
   }
 }
