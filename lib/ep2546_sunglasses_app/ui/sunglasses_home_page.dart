@@ -13,7 +13,6 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        
         child: Column(
           children: [
             Row(
@@ -23,7 +22,10 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                   decoration: BoxDecoration(
                     shape: .circle,
                     border: .all(color: Colors.grey[400]!),
+
                   ),
+                  padding: EdgeInsets.all(12),
+                  child: Icon(Icons.search,size: 24,),
                 ),
               ],
             ),
