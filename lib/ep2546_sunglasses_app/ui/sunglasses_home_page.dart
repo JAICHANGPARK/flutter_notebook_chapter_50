@@ -42,7 +42,9 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               child: ListView.builder(
                   scrollDirection: .horizontal,
                   itemBuilder: (context, index) {
-                    
+                    return Container(
+                      width: 160,
+                    );
                   }),
             ),
           ],
