@@ -83,7 +83,8 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 scrollDirection: .horizontal,
                 children: [
                   Container(
-                    padding: .symmetric(horizontal: 16),
+                    padding: .symmetric(horizontal: 20),
+                    margin: .only(left: 16),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(116, 98, 236, 1),
