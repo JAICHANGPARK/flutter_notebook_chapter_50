@@ -39,7 +39,10 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
             Container(
               height: 180,
               margin: .symmetric(horizontal: 16),
-              child: Placeholder(),
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+              ),
+              child: Column(children: []),
             ),
             Container(
               height: 52,
@@ -67,8 +70,10 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 scrollDirection: .horizontal,
                 itemBuilder: (context, index) {
                   return Container(
-                      margin: .only(right: 16),
-                      width: 160, child: Placeholder());
+                    margin: .only(right: 16),
+                    width: 160,
+                    child: Placeholder(),
+                  );
                 },
               ),
             ),
