@@ -41,8 +41,18 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               margin: .symmetric(horizontal: 16),
               decoration: ShapeDecoration(
                 shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                color: Colors.purple[50],
               ),
-              child: Column(children: []),
+              padding: EdgeInsets.all(12),
+              child: Column(
+                children: [
+                  Text(
+                    "Find Your Perfect Shades",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  Text('Latest collection, crafted every style')
+                ],
+              ),
             ),
             Container(
               height: 52,
