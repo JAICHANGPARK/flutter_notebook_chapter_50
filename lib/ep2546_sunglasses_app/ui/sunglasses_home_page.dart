@@ -163,6 +163,8 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                     margin: .only(right: 16),
                     width: 160,
                     child: Column(
+                      spacing: 8,
+                      crossAxisAlignment: .start,
                       children: [
                         Expanded(
                           child: Container(
@@ -175,8 +177,13 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
 
                           ),
                         ),
-                        Text("Dream"),
-                        Text("360\$")
+                        Column(
+                          children: [
+                            Text("Dream"),
+                            Text("360\$")
+                          ],
+                        )
+
                       ],
                     ),
                   );
