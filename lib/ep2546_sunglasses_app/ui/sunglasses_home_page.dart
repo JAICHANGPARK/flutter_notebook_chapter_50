@@ -161,7 +161,11 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                   return Container(
                     margin: .only(right: 16),
                     width: 160,
-                    child: Placeholder(),
+                    child: Column(
+                      children: [
+                        Expanded(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),color: Colors.blue[50]),))
+                      ],
+                    )
                   );
                 },
               ),
