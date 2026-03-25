@@ -170,20 +170,18 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
-                                borderRadius: .circular(24)
+                                borderRadius: .circular(24),
                               ),
                               color: Colors.blue[50],
                             ),
-
                           ),
                         ),
                         Column(
                           children: [
                             Text("Dream"),
-                            Text("360\$")
+                            Text("360\$", style: TextStyle(fontWeight: .bold)),
                           ],
-                        )
-
+                        ),
                       ],
                     ),
                   );
