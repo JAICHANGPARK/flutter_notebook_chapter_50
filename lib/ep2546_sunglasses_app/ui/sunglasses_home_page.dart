@@ -76,13 +76,18 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               ),
             ),
             Container(
-              height: 52,
+              height: 48,
+
               margin: .only(left: 16),
               child: ListView(
                 scrollDirection: .horizontal,
                 children: [
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    padding: .symmetric(horizontal: 16),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(116, 98, 236, 1),
+                    ),
                     child: Center(
                       child: Text(
                         "Aviators",
