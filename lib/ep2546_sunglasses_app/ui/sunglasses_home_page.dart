@@ -49,7 +49,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                   Expanded(
                     child: Column(
                       crossAxisAlignment: .start,
-                      spacing: 20,
+                      spacing: 12,
                       children: [
                         Text(
                           "Find Your Perfect Shades",
@@ -70,7 +70,10 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
             Container(
               height: 52,
               margin: .only(left: 16),
-              child: Placeholder(),
+              child: ListView(
+                scrollDirection: .horizontal,
+                children: [],
+              ),
             ),
             Container(
               margin: .only(left: 16),
