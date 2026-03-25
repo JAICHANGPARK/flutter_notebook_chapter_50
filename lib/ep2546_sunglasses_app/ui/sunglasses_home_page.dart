@@ -172,8 +172,11 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                               ),
                               color: Colors.blue[50],
                             ),
+
                           ),
                         ),
+                        Text("Dream"),
+                        Text("360\$")
                       ],
                     ),
                   );
