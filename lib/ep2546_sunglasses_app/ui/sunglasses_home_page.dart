@@ -43,21 +43,20 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
                 color: Colors.purple[50],
               ),
-              padding: EdgeInsets.all(12),
+              padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: .start,
+                spacing: 20,
                 children: [
                   Text(
                     "Find Your Perfect Shades",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
-                  Text('Latest collection, crafted every style'),
-                  Row(
-                    children: [
-                      Text("Shop Now"),
-                      Icon(Icons.arrow_forward)
-                    ],
-                  )
+                  Text(
+                    'Latest collection, crafted every style',
+                    style: TextStyle(fontSize: 16),
+                  ),
+                  Row(children: [Text("Shop Now"), Icon(Icons.arrow_forward)]),
                 ],
               ),
             ),
