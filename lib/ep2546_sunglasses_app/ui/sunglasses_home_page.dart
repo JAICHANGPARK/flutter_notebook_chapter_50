@@ -153,55 +153,62 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 ],
               ),
             ),
-            Container(
-              margin: .only(left: 16),
-              height: 240,
-              child: ListView.builder(
-                scrollDirection: .horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    margin: .only(right: 16),
-                    width: 160,
-                    child: Column(
-                      spacing: 8,
-                      crossAxisAlignment: .start,
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder(
-                                borderRadius: .circular(24),
+            Expanded(child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  Container(
+                    margin: .only(left: 16),
+                    height: 240,
+                    child: ListView.builder(
+                      scrollDirection: .horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          margin: .only(right: 16),
+                          width: 160,
+                          child: Column(
+                            spacing: 8,
+                            crossAxisAlignment: .start,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                    ),
+                                    color: Colors.blue[50],
+                                  ),
+                                ),
                               ),
-                              color: Colors.blue[50],
-                            ),
+                              Column(
+                                children: [
+                                  Text("Dream"),
+                                  Text("360\$", style: TextStyle(fontWeight: .bold)),
+                                ],
+                              ),
+                            ],
                           ),
-                        ),
-                        Column(
-                          children: [
-                            Text("Dream"),
-                            Text("360\$", style: TextStyle(fontWeight: .bold)),
-                          ],
-                        ),
-                      ],
+                        );
+                      },
                     ),
-                  );
-                },
+                  ),
+                  Container(
+                    height: 240,
+                    margin: .only(left: 16),
+                    child: ListView.builder(
+                      scrollDirection: .horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          margin: .only(right: 16),
+                          width: 160,
+                          child: Placeholder(),
+                        );
+                      },
+                    ),
+                  ),
+                ],
               ),
-            ),
-            Container(
-              height: 240,
-              margin: .only(left: 16),
-              child: ListView.builder(
-                scrollDirection: .horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    margin: .only(right: 16),
-                    width: 160,
-                    child: Placeholder(),
-                  );
-                },
-              ),
-            ),
+            )),
+
           ],
         ),
       ),
