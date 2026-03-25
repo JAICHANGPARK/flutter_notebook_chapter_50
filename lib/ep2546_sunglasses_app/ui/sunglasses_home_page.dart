@@ -53,13 +53,21 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                       children: [
                         Text(
                           "Find Your Perfect Shades",
-                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                          ),
                         ),
                         Text(
                           'Latest collection, crafted every style',
                           style: TextStyle(fontSize: 15),
                         ),
-                        Row(children: [Text("Shop Now"), Icon(Icons.arrow_forward)]),
+                        Row(
+                          children: [
+                            Text("Shop Now"),
+                            Icon(Icons.arrow_forward),
+                          ],
+                        ),
                       ],
                     ),
                   ),
@@ -72,7 +80,20 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               margin: .only(left: 16),
               child: ListView(
                 scrollDirection: .horizontal,
-                children: [],
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Center(
+                      child: Text(
+                        "Aviators",
+                        style: TextStyle(
+                          fontWeight: .bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
             Container(
