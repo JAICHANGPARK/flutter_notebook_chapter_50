@@ -44,19 +44,26 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 color: Colors.purple[50],
               ),
               padding: EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: .start,
-                spacing: 20,
+              child: Row(
                 children: [
-                  Text(
-                    "Find Your Perfect Shades",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: .start,
+                      spacing: 20,
+                      children: [
+                        Text(
+                          "Find Your Perfect Shades",
+                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                        ),
+                        Text(
+                          'Latest collection, crafted every style',
+                          style: TextStyle(fontSize: 15),
+                        ),
+                        Row(children: [Text("Shop Now"), Icon(Icons.arrow_forward)]),
+                      ],
+                    ),
                   ),
-                  Text(
-                    'Latest collection, crafted every style',
-                    style: TextStyle(fontSize: 16),
-                  ),
-                  Row(children: [Text("Shop Now"), Icon(Icons.arrow_forward)]),
+                  Expanded(child: Container()),
                 ],
               ),
             ),
