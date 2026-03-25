@@ -132,7 +132,8 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                         ),
                       ),
                     ),
-                  ),Container(
+                  ),
+                  Container(
                     padding: .symmetric(horizontal: 20),
                     margin: .only(right: 16),
                     decoration: ShapeDecoration(
@@ -163,9 +164,18 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                     width: 160,
                     child: Column(
                       children: [
-                        Expanded(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),color: Colors.blue[50]),))
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24)
+                              ),
+                              color: Colors.blue[50],
+                            ),
+                          ),
+                        ),
                       ],
-                    )
+                    ),
                   );
                 },
               ),
