@@ -84,7 +84,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                 children: [
                   Container(
                     padding: .symmetric(horizontal: 20),
-                    margin: .only(left: 16),
+                    margin: .only(right: 16),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(116, 98, 236, 1),
@@ -95,6 +95,23 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                         style: TextStyle(
                           fontWeight: .bold,
                           color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    padding: .symmetric(horizontal: 20),
+                    margin: .only(right: 16),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Color.fromRGBO(116, 98, 236, 1),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "Wayfarers",
+                        style: TextStyle(
+                          fontWeight: .bold,
+                          // color: Colors.white,
                         ),
                       ),
                     ),
