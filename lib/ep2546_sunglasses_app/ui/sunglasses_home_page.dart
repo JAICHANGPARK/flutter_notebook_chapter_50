@@ -50,7 +50,13 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
                     "Find Your Perfect Shades",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  Text('Latest collection, crafted every style')
+                  Text('Latest collection, crafted every style'),
+                  Row(
+                    children: [
+                      Text("Shop Now"),
+                      Icon(Icons.arrow_forward)
+                    ],
+                  )
                 ],
               ),
             ),
