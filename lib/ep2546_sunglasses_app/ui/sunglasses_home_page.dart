@@ -45,6 +45,7 @@ class _SunglassesHomePageState extends State<SunglassesHomePage> {
               ),
               padding: EdgeInsets.all(12),
               child: Column(
+                crossAxisAlignment: .start,
                 children: [
                   Text(
                     "Find Your Perfect Shades",
