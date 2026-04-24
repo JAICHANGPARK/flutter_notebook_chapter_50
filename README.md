@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/47118367/file/80e1e01b8efb73a1ea538688f01fec61.png?resize=1905x1429&vertical=center" alt=""/>
 
-
 ## EP2540-2545
 
 - Daily Mindfulness & Meditation App – Minimal Wellness Mobile UI
